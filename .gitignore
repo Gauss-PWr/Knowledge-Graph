@@ -3,3 +3,6 @@
 .env
 *.sqlite-shm
 *.sqlite-wal
+.venv
+.idea
+test_marker
