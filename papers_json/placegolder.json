@@ -1,0 +1,13 @@
+{
+  "user_id": 1042,
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "is_active": true,
+  "roles": ["admin", "user"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Techville",
+    "zip_code": "94107"
+  },
+  "preferences": null
+}
