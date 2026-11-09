@@ -38,7 +38,9 @@ VLLM_PORT="${VLLM_PORT:-8765}"
 VLLM_GPUS="${VLLM_GPUS:-0}"
 VLLM_GPU_TYPE="${VLLM_GPU_TYPE:-4090}"        # 4090=24GB, a100=40GB, h100=80GB, l40s, t4 ...
 VLLM_DTYPE="${VLLM_DTYPE:-bfloat16}"          # float16 on T4 / V100
-VLLM_GPU_MEM="${VLLM_GPU_MEM:-0.85}"          # lower if the GPU is shared
+VLLM_GPU_MEM="${VLLM_GPU_MEM:-0.85}"          # fraction of the whole GPU; ignored when VLLM_GPU_GB is set
+VLLM_GPU_GB="${VLLM_GPU_GB:-5}"               # GB for vLLM (model 1.3 GB + cache); empty = use VLLM_GPU_MEM
+MARKER_GPU_GB="${MARKER_GPU_GB:-4}"           # GB Marker's own models need next to vLLM
 VLLM_MAX_NUM_SEQS="${VLLM_MAX_NUM_SEQS:-32}"
 VLLM_MAX_BATCHED_TOKENS="${VLLM_MAX_BATCHED_TOKENS:-8192}"
 VLLM_MAX_MODEL_LEN="${VLLM_MAX_MODEL_LEN:-24576}"
@@ -96,6 +98,17 @@ start_vllm() {
         return
     fi
     [ -x "$VLLM_ENV_DIR/bin/vllm" ] || die "vLLM not found in $VLLM_ENV_DIR - do the one-time setup first"
+
+    # Shared GPU: size vLLM in GB and check that vLLM + Marker fit into what is free right now
+    local total free need
+    read -r total free < <(nvidia-smi --id="${VLLM_GPUS%%,*}" --query-gpu=memory.total,memory.free \
+                           --format=csv,noheader,nounits 2>/dev/null | tr -d ',') || true
+    if [ -n "${total:-}" ]; then
+        [ -n "$VLLM_GPU_GB" ] && VLLM_GPU_MEM=$(awk -v g="$VLLM_GPU_GB" -v t="$total" 'BEGIN{printf "%.3f", g*1024/t}')
+        need=$(awk -v u="$VLLM_GPU_MEM" -v t="$total" -v m="$MARKER_GPU_GB" 'BEGIN{printf "%d", u*t + m*1024}')
+        info "GPU $VLLM_GPUS: $((free/1024)) of $((total/1024)) GB free; vLLM gets $VLLM_GPU_MEM of it, run needs ~$((need/1024)) GB"
+        [ "$free" -ge "$need" ] || die "Not enough free GPU memory ($((free/1024)) GB free, ~$((need/1024)) GB needed) - someone else is using the GPU. Try later or lower VLLM_GPU_GB / MARKER_GPU_GB"
+    fi
 
     local args=(
         serve "$SURYA_MODEL"
