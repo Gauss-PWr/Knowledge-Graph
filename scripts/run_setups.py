@@ -63,7 +63,7 @@ SETUPS = [
     # Needs the LLM server running - remove the # to include it:
     # {"name": "config5_force_ocr_llm", "add_config": {"mode": "balanced", "force_ocr": True,
     #                                                  "use_llm": True, "redo_inline_math": True, **LLM}},
-    {"name": "config2_force_ocr", "add_config": {"mode": "balanced", "force_ocr": True, "keep_pageheader_in_output": True}}
+    {"name": "config6_force_ocr", "add_config": {"mode": "balanced", "force_ocr": True, "keep_pageheader_in_output": True}}
 ]
 
 if __name__ == "__main__":
