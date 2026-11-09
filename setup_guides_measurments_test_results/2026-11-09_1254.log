@@ -1,0 +1,16 @@
+2026-11-09 12:54:49,538 INFO === config4_force_ocr_strip
+2026-11-09 12:54:51,485 INFO Marker models loaded in 1.9 s
+2026-11-09 12:54:51,508 INFO Spawning ocr_error server on port 37285
+2026-11-09 12:54:51,508 INFO Spawning ocr_error server: /home/jovyan/envs/marker/bin/python -m surya.ocr_error.server --host 127.0.0.1 --port 37285 --checkpoint s3://ocr_error_detection/2025_02_18
+2026-11-09 12:54:51,509 INFO keep-alive: ocr_error server on port 37285 will stay up after exit (cleanup_id='194943')
+2026-11-09 12:54:54,526 INFO HTTP Request: GET http://127.0.0.1:37285/health "HTTP/1.1 200 OK"
+2026-11-09 12:54:54,530 INFO HTTP Request: GET http://127.0.0.1:37285/v1/models "HTTP/1.1 200 OK"
+2026-11-09 12:54:54,530 INFO ocr_error server ready on port 37285 (model=s3://ocr_error_detection/2025_02_18)
+2026-11-09 12:54:54,795 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 12:54:54,814 INFO HTTP Request: GET http://127.0.0.1:8765/health "HTTP/1.1 200 OK"
+2026-11-09 12:54:54,817 INFO HTTP Request: GET http://127.0.0.1:8765/v1/models "HTTP/1.1 200 OK"
+2026-11-09 12:55:03,058 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 12:55:03,104 INFO [1/1] Boyd_Vandenberghe_Convex_Optimization.pdf: 1 pages [166] -> markdown+json in 11.6 s (11.62 s/page)
+2026-11-09 12:55:03,104 INFO Done: 1 converted, 0 skipped, 0 failed, 1 pages, 0.2 min
+2026-11-09 12:55:03,104 INFO === config4_force_ocr_strip: 1 converted, 0 failed, 11.62 s/page
+2026-11-09 12:55:03,104 INFO Results: /home/jovyan/Knowledge-Graph/setup_guides_measurments_test_results
