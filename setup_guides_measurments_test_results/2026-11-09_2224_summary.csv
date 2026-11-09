@@ -1,0 +1,2 @@
+setup,converted,skipped,failed,total_pages,total_seconds,avg_sec_per_page,model_load_seconds,marker_config
+config6_force_ocr,1,0,0,8,15.7,1.96,1.94,"{'mode': 'balanced', 'force_ocr': True, 'keep_pageheader_in_output': True}"

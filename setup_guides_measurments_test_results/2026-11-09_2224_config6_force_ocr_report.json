@@ -1,0 +1,51 @@
+{
+  "finished_at": "2026-11-09T22:25:17+00:00",
+  "settings": {
+    "input_dir": "/home/jovyan/Knowledge-Graph/papers",
+    "output_dir": "/home/jovyan/Knowledge-Graph/papers_md/config6_force_ocr",
+    "json_output_dir": "/home/jovyan/Knowledge-Graph/papers_json/config6_force_ocr",
+    "output_formats": [
+      "markdown",
+      "json"
+    ],
+    "backend": "vllm",
+    "parallel": null,
+    "keep_alive": false,
+    "page_range": "all",
+    "marker_config": {
+      "mode": "balanced",
+      "extract_images": false,
+      "force_ocr": true,
+      "keep_pageheader_in_output": true
+    },
+    "versions": {
+      "marker-pdf": "2.1.0",
+      "surya-ocr": "0.23.0"
+    }
+  },
+  "summary": {
+    "converted": 1,
+    "skipped": 0,
+    "failed": 0,
+    "total_pages": 8,
+    "total_seconds": 15.7,
+    "avg_sec_per_page": 1.96,
+    "model_load_seconds": 1.94
+  },
+  "files": [
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Strogatz_Nonlinear_Dynamics_and_Chaos.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config6_force_ocr/Strogatz_Nonlinear_Dynamics_and_Chaos.p60-61_71_147_163_194_281_332.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config6_force_ocr/Strogatz_Nonlinear_Dynamics_and_Chaos.p60-61_71_147_163_194_281_332.json"
+      },
+      "status": "converted",
+      "pages": 8,
+      "page_range": "60-61,71,147,163,194,281,332",
+      "seconds": 15.7,
+      "sec_per_page": 1.96,
+      "started_at": "2026-11-09T22:25:01+00:00",
+      "error": null
+    }
+  ]
+}

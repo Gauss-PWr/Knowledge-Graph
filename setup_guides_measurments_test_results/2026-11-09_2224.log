@@ -1,0 +1,25 @@
+2026-11-09 22:24:59,518 INFO === config6_force_ocr
+2026-11-09 22:25:01,476 INFO Marker models loaded in 1.9 s
+2026-11-09 22:25:01,591 INFO Spawning ocr_error server on port 51133
+2026-11-09 22:25:01,591 INFO Spawning ocr_error server: /home/jovyan/envs/marker/bin/python -m surya.ocr_error.server --host 127.0.0.1 --port 51133 --checkpoint s3://ocr_error_detection/2025_02_18
+2026-11-09 22:25:01,591 INFO keep-alive: ocr_error server on port 51133 will stay up after exit (cleanup_id='274631')
+2026-11-09 22:25:04,609 INFO HTTP Request: GET http://127.0.0.1:51133/health "HTTP/1.1 200 OK"
+2026-11-09 22:25:04,616 INFO HTTP Request: GET http://127.0.0.1:51133/v1/models "HTTP/1.1 200 OK"
+2026-11-09 22:25:04,616 INFO ocr_error server ready on port 51133 (model=s3://ocr_error_detection/2025_02_18)
+2026-11-09 22:25:04,845 INFO HTTP Request: POST http://127.0.0.1:51133/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 22:25:04,994 INFO HTTP Request: GET http://127.0.0.1:8765/health "HTTP/1.1 200 OK"
+2026-11-09 22:25:04,997 INFO HTTP Request: GET http://127.0.0.1:8765/v1/models "HTTP/1.1 200 OK"
+2026-11-09 22:25:13,575 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:14,199 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:15,033 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:15,363 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:15,691 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:15,962 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:16,295 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:16,915 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 22:25:17,051 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 22:25:17,161 INFO Table processing stats: {'tables_ocr': 1, 'tables_total': 1}
+2026-11-09 22:25:17,181 INFO [1/1] Strogatz_Nonlinear_Dynamics_and_Chaos.pdf: 8 pages [60-61,71,147,163,194,281,332] -> markdown+json in 15.7 s (1.96 s/page)
+2026-11-09 22:25:17,181 INFO Done: 1 converted, 0 skipped, 0 failed, 8 pages, 0.3 min
+2026-11-09 22:25:17,181 INFO === config6_force_ocr: 1 converted, 0 failed, 1.96 s/page
+2026-11-09 22:25:17,181 INFO Results: /home/jovyan/Knowledge-Graph/setup_guides_measurments_test_results
