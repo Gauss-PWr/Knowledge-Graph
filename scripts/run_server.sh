@@ -43,6 +43,7 @@ VLLM_MAX_NUM_SEQS="${VLLM_MAX_NUM_SEQS:-32}"
 VLLM_MAX_BATCHED_TOKENS="${VLLM_MAX_BATCHED_TOKENS:-8192}"
 VLLM_MAX_MODEL_LEN="${VLLM_MAX_MODEL_LEN:-24576}"
 VLLM_MTP="${VLLM_MTP:-1}"                     # set 0 if vLLM refuses to start
+VLLM_EXTRA_ARGS="${VLLM_EXTRA_ARGS:-}"         # extra vllm serve flags, e.g. --enforce-eager
 VLLM_STARTUP_TIMEOUT="${VLLM_STARTUP_TIMEOUT:-900}"
 
 LLAMA_CPP_BIN="${LLAMA_CPP_BIN:-$HOME/llama.cpp/build/bin/llama-server}"
@@ -109,6 +110,7 @@ start_vllm() {
         --mm-processor-kwargs '{"min_pixels": 3136, "max_pixels": 6291456}'
     )
     [ "$VLLM_MTP" = 1 ] && args+=(--speculative-config '{"method": "mtp", "num_speculative_tokens": 2}')
+    [ -n "$VLLM_EXTRA_ARGS" ] && args+=($VLLM_EXTRA_ARGS)
 
     local vlog pid waited=0
     vlog="$LOG_DIR/vllm_$(date +%F_%H%M).log"
