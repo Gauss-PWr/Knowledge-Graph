@@ -7,8 +7,7 @@
 .idea
 test_marker
 papers_json
-papers_md
 papers_samples
-all_papers
+papers_all
 papers
 .DS_Store
