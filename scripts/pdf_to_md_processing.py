@@ -46,7 +46,7 @@ KNOWN_MARKER_KEYS = {
     "mode", "force_ocr", "strip_existing_ocr", "disable_ocr", "ocr_inline_math",
     "use_llm", "redo_inline_math", "llm_service",
     "openai_base_url", "openai_model", "openai_api_key", "ollama_base_url", "ollama_model",
-    "extract_images", "paginate_output",
+    "extract_images", "paginate_output", "keep_pageheader_in_output", "keep_pagefooter_in_output",
 }
 
 
