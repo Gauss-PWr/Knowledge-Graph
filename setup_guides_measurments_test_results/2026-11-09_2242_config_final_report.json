@@ -1,0 +1,93 @@
+{
+  "finished_at": "2026-11-09T23:07:45+00:00",
+  "settings": {
+    "input_dir": "/home/jovyan/Knowledge-Graph/papers",
+    "output_dir": "/home/jovyan/Knowledge-Graph/papers_md/config_final",
+    "json_output_dir": "/home/jovyan/Knowledge-Graph/papers_json/config_final",
+    "output_formats": [
+      "markdown",
+      "json"
+    ],
+    "backend": "vllm",
+    "parallel": null,
+    "keep_alive": false,
+    "page_range": "all",
+    "marker_config": {
+      "mode": "balanced",
+      "extract_images": false,
+      "force_ocr": true,
+      "keep_pageheader_in_output": true
+    },
+    "versions": {
+      "marker-pdf": "2.1.0",
+      "surya-ocr": "0.23.0"
+    }
+  },
+  "summary": {
+    "converted": 4,
+    "skipped": 0,
+    "failed": 0,
+    "total_pages": 2139,
+    "total_seconds": 1515.86,
+    "avg_sec_per_page": 0.71,
+    "model_load_seconds": 1.93
+  },
+  "files": [
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Boyd_Vandenberghe_Convex_Optimization.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config_final/Boyd_Vandenberghe_Convex_Optimization.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config_final/Boyd_Vandenberghe_Convex_Optimization.json"
+      },
+      "status": "converted",
+      "pages": 714,
+      "page_range": "all",
+      "seconds": 538.57,
+      "sec_per_page": 0.75,
+      "started_at": "2026-11-09T22:42:30+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Prince_Understanding_Deep_Learning.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config_final/Prince_Understanding_Deep_Learning.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config_final/Prince_Understanding_Deep_Learning.json"
+      },
+      "status": "converted",
+      "pages": 541,
+      "page_range": "all",
+      "seconds": 434.67,
+      "sec_per_page": 0.8,
+      "started_at": "2026-11-09T22:51:28+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Sutton_Barto_Reinforcement_Learning_2nd.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config_final/Sutton_Barto_Reinforcement_Learning_2nd.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config_final/Sutton_Barto_Reinforcement_Learning_2nd.json"
+      },
+      "status": "converted",
+      "pages": 352,
+      "page_range": "all",
+      "seconds": 249.49,
+      "sec_per_page": 0.71,
+      "started_at": "2026-11-09T22:58:43+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Strogatz_Nonlinear_Dynamics_and_Chaos.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config_final/Strogatz_Nonlinear_Dynamics_and_Chaos.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config_final/Strogatz_Nonlinear_Dynamics_and_Chaos.json"
+      },
+      "status": "converted",
+      "pages": 532,
+      "page_range": "all",
+      "seconds": 293.13,
+      "sec_per_page": 0.55,
+      "started_at": "2026-11-09T23:02:52+00:00",
+      "error": null
+    }
+  ]
+}
