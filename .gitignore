@@ -1,0 +1,14 @@
+*.sqlite
+.vscode
+.env
+*.sqlite-shm
+*.sqlite-wal
+.venv
+.idea
+test_marker
+papers_json
+papers_md
+papers_samples
+all_papers
+papers
+.DS_Store
