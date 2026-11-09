@@ -34,8 +34,12 @@ TEST_PAGES = {
     # "Prince_Understanding_Deep_Learning.pdf": "101-102,115,221,224,375,377",
     # "Sutton_Barto_Reinforcement_Learning_2nd.pdf": "81,84,138,158,170,191",
     # "L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf": "103-104,106,197-198,240",
-    "Strogatz_Nonlinear_Dynamics_and_Chaos.pdf": "60-61,71,147,163,194,281,332",
+    #"Strogatz_Nonlinear_Dynamics_and_Chaos.pdf": "60-61,71,147,163,194,281,332",
     # "Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf": "51,168,185,224,346",
+    "Boyd_Vandenberghe_Convex_Optimization.pdf": "all",
+    "Prince_Understanding_Deep_Learning.pdf": "all",         
+    "Sutton_Barto_Reinforcement_Learning_2nd.pdf": "all",    
+    "Strogatz_Nonlinear_Dynamics_and_Chaos.pdf": "all",  
 }
 
 # Settings shared by every setup.
@@ -63,7 +67,7 @@ SETUPS = [
     # Needs the LLM server running - remove the # to include it:
     # {"name": "config5_force_ocr_llm", "add_config": {"mode": "balanced", "force_ocr": True,
     #                                                  "use_llm": True, "redo_inline_math": True, **LLM}},
-    {"name": "config6_force_ocr", "add_config": {"mode": "balanced", "force_ocr": True, "keep_pageheader_in_output": True}}
+    {"name": "config_final", "add_config": {"mode": "balanced", "force_ocr": True, "keep_pageheader_in_output": True}}
 ]
 
 if __name__ == "__main__":
