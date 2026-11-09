@@ -1,0 +1,4766 @@
+{
+  "children": [
+    {
+      "id": "/page/154/Page/523",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/154/PageHeader/0'></content-ref><content-ref src='/page/154/PageHeader/1'></content-ref><content-ref src='/page/154/ListGroup/2'></content-ref><content-ref src='/page/154/Text/3'></content-ref><content-ref src='/page/154/Equation/4'></content-ref><content-ref src='/page/154/Text/5'></content-ref><content-ref src='/page/154/Equation/6'></content-ref><content-ref src='/page/154/Text/7'></content-ref><content-ref src='/page/154/ListGroup/8'></content-ref><content-ref src='/page/154/SectionHeader/9'></content-ref><content-ref src='/page/154/Text/10'></content-ref><content-ref src='/page/154/Equation/11'></content-ref><content-ref src='/page/154/Text/12'></content-ref><content-ref src='/page/154/Equation/13'></content-ref><content-ref src='/page/154/Text/14'></content-ref><content-ref src='/page/154/Equation/15'></content-ref><content-ref src='/page/154/Text/16'></content-ref><content-ref src='/page/154/Equation/17'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/154/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              103.428,
+              91.08000000000001
+            ],
+            [
+              507.27471923828125,
+              91.08000000000001
+            ],
+            [
+              507.27471923828125,
+              104.775634765625
+            ],
+            [
+              103.428,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            103.428,
+            91.08000000000001,
+            507.27471923828125,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              487.76400000000007,
+              91.08000000000001
+            ],
+            [
+              506.124,
+              91.08000000000001
+            ],
+            [
+              506.124,
+              102.96000000000001
+            ],
+            [
+              487.76400000000007,
+              102.96000000000001
+            ]
+          ],
+          "bbox": [
+            487.76400000000007,
+            91.08000000000001,
+            506.124,
+            102.96000000000001
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/ListGroup/2",
+          "block_type": "ListGroup",
+          "html": "<p block-type='ListGroup'><ul><content-ref src='/page/154/ListItem/519'></content-ref></ul></p>",
+          "polygon": [
+            [
+              133.416,
+              121.96799999999999
+            ],
+            [
+              464.02667236328125,
+              121.96799999999999
+            ],
+            [
+              464.02667236328125,
+              153.3814697265625
+            ],
+            [
+              133.416,
+              153.3814697265625
+            ]
+          ],
+          "bbox": [
+            133.416,
+            121.96799999999999,
+            464.02667236328125,
+            153.3814697265625
+          ],
+          "children": [
+            {
+              "id": "/page/154/ListItem/519",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"0 0 977 151\" data-label=\"List-Group\"><ul>• If <math>P</math> is singular, but <math>q \\in \\mathcal{R}(P)</math>, then the set of optimal points is the (affine) set <math>X_{\\text{opt}} = -P^\\dagger q + \\mathcal{N}(P)</math>, where <math>P^\\dagger</math> denotes the pseudo-inverse of <math>P</math> (see �A.5.4).</ul></div></li>",
+              "polygon": [
+                [
+                  137.06100463867188,
+                  126.87213134765625
+                ],
+                [
+                  464.02667236328125,
+                  126.87213134765625
+                ],
+                [
+                  464.02667236328125,
+                  153.3814697265625
+                ],
+                [
+                  137.06100463867188,
+                  153.3814697265625
+                ]
+              ],
+              "bbox": [
+                137.06100463867188,
+                126.87213134765625,
+                464.02667236328125,
+                153.3814697265625
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {},
+          "images": null
+        },
+        {
+          "id": "/page/154/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 900 40\" data-label=\"Text\"><p><b>Example 4.6</b> <i>Analytic centering.</i> Consider the (unconstrained) problem of minimizing the (convex) function <math>f_0 : \\mathbf{R}^n \\rightarrow \\mathbf{R}</math>, defined as</p></div>",
+          "polygon": [
+            [
+              120.56400000000001,
+              183.74400000000003
+            ],
+            [
+              464.0105285644531,
+              183.74400000000003
+            ],
+            [
+              464.0105285644531,
+              214.572509765625
+            ],
+            [
+              120.56400000000001,
+              214.572509765625
+            ]
+          ],
+          "bbox": [
+            120.56400000000001,
+            183.74400000000003,
+            464.0105285644531,
+            214.572509765625
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 250\" data-label=\"Equation-Block\"><math display=\"block\">f_0(x) = - \\sum_{i=1}^m \\log(b_i - a_i^T x), \\quad \\mathbf{dom} f_0 = \\{x \\mid Ax \\prec b\\},</math></div></p>",
+          "polygon": [
+            [
+              175.64399999999998,
+              214.63200000000003
+            ],
+            [
+              409.06695556640625,
+              214.63200000000003
+            ],
+            [
+              409.06695556640625,
+              254.2813720703125
+            ],
+            [
+              175.64399999999998,
+              254.2813720703125
+            ]
+          ],
+          "bbox": [
+            175.64399999999998,
+            214.63200000000003,
+            409.06695556640625,
+            254.2813720703125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where a T <sup>1</sup> , . . . , a<sup>T</sup> <sup>m</sup> are the rows of A. The function f<sup>0</sup> is differentiable, so the necessary and sufficient conditions for x to be optimal are</p>",
+          "polygon": [
+            [
+              120.56400000000001,
+              253.44
+            ],
+            [
+              464.0304870605469,
+              253.44
+            ],
+            [
+              464.0304870605469,
+              277.839599609375
+            ],
+            [
+              120.56400000000001,
+              277.839599609375
+            ]
+          ],
+          "bbox": [
+            120.56400000000001,
+            253.44,
+            464.0304870605469,
+            277.839599609375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><span id=\"page-154-0\"></span>Ax <sup>≺</sup> b, <sup>∇</sup><sup>f</sup>0(x) = X<sup>m</sup> i=1 1 <sup>b</sup><sup>i</sup> − <sup>a</sup> T <sup>i</sup> x a<sup>i</sup> = 0. (4.23)</p>",
+          "polygon": [
+            [
+              203.18400000000003,
+              283.536
+            ],
+            [
+              464.0265197753906,
+              283.536
+            ],
+            [
+              464.0265197753906,
+              323.3923645019531
+            ],
+            [
+              203.18400000000003,
+              323.3923645019531
+            ]
+          ],
+          "bbox": [
+            203.18400000000003,
+            283.536,
+            464.0265197753906,
+            323.3923645019531
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 1000 550\" data-label=\"Text\"><p>(The condition <math>Ax \\prec b</math> is just <math>x \\in \\mathbf{dom} f_0</math>.) If <math>Ax \\prec b</math> is infeasible, then the domain of <math>f_0</math> is empty. Assuming <math>Ax \\prec b</math> is feasible, there are still several possible cases (see exercise 4.2):</p></div>",
+          "polygon": [
+            [
+              120.56400000000001,
+              322.344
+            ],
+            [
+              464.02496337890625,
+              322.344
+            ],
+            [
+              464.02496337890625,
+              356.7336120605469
+            ],
+            [
+              120.56400000000001,
+              356.7336120605469
+            ]
+          ],
+          "bbox": [
+            120.56400000000001,
+            322.344,
+            464.02496337890625,
+            356.7336120605469
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/154/ListGroup/8",
+          "block_type": "ListGroup",
+          "html": "<p block-type='ListGroup'><ul><content-ref src='/page/154/ListItem/520'></content-ref><content-ref src='/page/154/ListItem/521'></content-ref><content-ref src='/page/154/ListItem/522'></content-ref></ul></p>",
+          "polygon": [
+            [
+              133.416,
+              363.528
+            ],
+            [
+              464.0353088378906,
+              363.528
+            ],
+            [
+              464.0353088378906,
+              446.2508850097656
+            ],
+            [
+              133.416,
+              446.2508850097656
+            ]
+          ],
+          "bbox": [
+            133.416,
+            363.528,
+            464.0353088378906,
+            446.2508850097656
+          ],
+          "children": [
+            {
+              "id": "/page/154/ListItem/520",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"0 0 1000 1000\" data-label=\"List-Group\"><ul>• There are no solutions of (4.23), and hence no optimal points for the problem. This occurs if and only if <math>f_0</math> is unbounded below.</ul></div></li>",
+              "polygon": [
+                [
+                  137.06109619140625,
+                  367.2261962890625
+                ],
+                [
+                  464.0299072265625,
+                  367.2261962890625
+                ],
+                [
+                  464.0299072265625,
+                  387.6123352050781
+                ],
+                [
+                  137.06109619140625,
+                  387.6123352050781
+                ]
+              ],
+              "bbox": [
+                137.06109619140625,
+                367.2261962890625,
+                464.0299072265625,
+                387.6123352050781
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            },
+            {
+              "id": "/page/154/ListItem/521",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"> There are many solutions of <a href=\"#page-154-0\">(4.23)</a>. In this case it can be shown that the solutions form an affine set.</li>",
+              "polygon": [
+                [
+                  137.06121826171875,
+                  393.4971008300781
+                ],
+                [
+                  464.033203125,
+                  393.4971008300781
+                ],
+                [
+                  464.033203125,
+                  413.6313171386719
+                ],
+                [
+                  137.06121826171875,
+                  413.6313171386719
+                ]
+              ],
+              "bbox": [
+                137.06121826171875,
+                393.4971008300781,
+                464.033203125,
+                413.6313171386719
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            },
+            {
+              "id": "/page/154/ListItem/522",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"0 0 1000 1000\" data-label=\"List-Group\"><ul>• There is a unique solution of (4.23), <i>i.e.</i>, a unique minimizer of <math>f_0</math>. This occurs if and only if the open polyhedron <math>\\{x \\mid Ax \\prec b\\}</math> is nonempty and bounded.</ul></div></li>",
+              "polygon": [
+                [
+                  137.0608367919922,
+                  419.7767028808594
+                ],
+                [
+                  464.0353088378906,
+                  419.7767028808594
+                ],
+                [
+                  464.0353088378906,
+                  446.2508850097656
+                ],
+                [
+                  137.0608367919922,
+                  446.2508850097656
+                ]
+              ],
+              "bbox": [
+                137.0608367919922,
+                419.7767028808594,
+                464.0353088378906,
+                446.2508850097656
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {},
+          "images": null
+        },
+        {
+          "id": "/page/154/SectionHeader/9",
+          "block_type": "SectionHeader",
+          "html": "<h4>Problems with equality constraints only</h4>",
+          "polygon": [
+            [
+              103.428,
+              462.52799999999996
+            ],
+            [
+              286.6814270019531,
+              462.52799999999996
+            ],
+            [
+              286.6814270019531,
+              475.99199999999996
+            ],
+            [
+              103.428,
+              475.99199999999996
+            ]
+          ],
+          "bbox": [
+            103.428,
+            462.52799999999996,
+            286.6814270019531,
+            475.99199999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Consider the case where there are equality constraints but no inequality constraints, i.e.,</p>",
+          "polygon": [
+            [
+              103.428,
+              480.74399999999997
+            ],
+            [
+              464.0094909667969,
+              480.74399999999997
+            ],
+            [
+              464.0094909667969,
+              505.7708740234375
+            ],
+            [
+              103.428,
+              505.7708740234375
+            ]
+          ],
+          "bbox": [
+            103.428,
+            480.74399999999997,
+            464.0094909667969,
+            505.7708740234375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Equation/11",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">minimize f0(x) subject to Ax = b.</p>",
+          "polygon": [
+            [
+              237.45600000000002,
+              504.504
+            ],
+            [
+              328.919921875,
+              504.504
+            ],
+            [
+              328.919921875,
+              529.5848693847656
+            ],
+            [
+              237.45600000000002,
+              529.5848693847656
+            ]
+          ],
+          "bbox": [
+            237.45600000000002,
+            504.504,
+            328.919921875,
+            529.5848693847656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Text/12",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Here the feasible set is affine. We assume that it is nonempty; otherwise the problem is infeasible. The optimality condition for a feasible x is that</p>",
+          "polygon": [
+            [
+              103.428,
+              533.808
+            ],
+            [
+              464.0265808105469,
+              533.808
+            ],
+            [
+              464.0265808105469,
+              559.944
+            ],
+            [
+              103.428,
+              559.944
+            ]
+          ],
+          "bbox": [
+            103.428,
+            533.808,
+            464.0265808105469,
+            559.944
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Equation/13",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 975 41\" data-label=\"Equation-Block\"><math display=\"block\">\\nabla f_0(x)^T (y - x) \\geq 0</math></div></p>",
+          "polygon": [
+            [
+              238.68,
+              567.8639999999999
+            ],
+            [
+              328.701904296875,
+              567.8639999999999
+            ],
+            [
+              328.701904296875,
+              588.9302215576172
+            ],
+            [
+              238.68,
+              588.9302215576172
+            ]
+          ],
+          "bbox": [
+            238.68,
+            567.8639999999999,
+            328.701904296875,
+            588.9302215576172
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Text/14",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">must hold for all y satisfying Ay = b. Since x is feasible, every feasible y has the form <sup>y</sup> <sup>=</sup> <sup>x</sup> <sup>+</sup> <sup>v</sup> for some <sup>v</sup> ∈ N (A). The optimality condition can therefore be expressed as:</p>",
+          "polygon": [
+            [
+              103.428,
+              590.832
+            ],
+            [
+              464.035400390625,
+              590.832
+            ],
+            [
+              464.035400390625,
+              628.0537414550781
+            ],
+            [
+              103.428,
+              628.0537414550781
+            ]
+          ],
+          "bbox": [
+            103.428,
+            590.832,
+            464.035400390625,
+            628.0537414550781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Equation/15",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"145 0 854 46\" data-label=\"Equation-Block\"><math display=\"block\">\\nabla f_0(x)^T v \\geq 0 \\text{ for all } v \\in \\mathcal{N}(A).</math></div></p>",
+          "polygon": [
+            [
+              212.36399999999998,
+              625.6800000000001
+            ],
+            [
+              354.5415954589844,
+              625.6800000000001
+            ],
+            [
+              354.5415954589844,
+              647.6374053955078
+            ],
+            [
+              212.36399999999998,
+              647.6374053955078
+            ]
+          ],
+          "bbox": [
+            212.36399999999998,
+            625.6800000000001,
+            354.5415954589844,
+            647.6374053955078
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Text/16",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">If a linear function is nonnegative on a subspace, then it must be zero on the subspace, so it follows that ∇<sup>f</sup>0(x) <sup>T</sup> <sup>v</sup> = 0 for all <sup>v</sup> ∈ N (A). In other words,</p>",
+          "polygon": [
+            [
+              103.428,
+              645.48
+            ],
+            [
+              464.025634765625,
+              645.48
+            ],
+            [
+              464.025634765625,
+              678.0753021240234
+            ],
+            [
+              103.428,
+              678.0753021240234
+            ]
+          ],
+          "bbox": [
+            103.428,
+            645.48,
+            464.025634765625,
+            678.0753021240234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/154/Equation/17",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 874 41\" data-label=\"Equation-Block\"><math display=\"block\">\\nabla f_0(x) \\perp \\mathcal{N}(A).</math></div></p>",
+          "polygon": [
+            [
+              245.412,
+              677.952
+            ],
+            [
+              321.43084716796875,
+              677.952
+            ],
+            [
+              321.43084716796875,
+              700.3683013916016
+            ],
+            [
+              245.412,
+              700.3683013916016
+            ]
+          ],
+          "bbox": [
+            245.412,
+            677.952,
+            321.43084716796875,
+            700.3683013916016
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "4": "/page/154/SectionHeader/9"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/166/Page/299",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/166/PageHeader/0'></content-ref><content-ref src='/page/166/PageHeader/1'></content-ref><content-ref src='/page/166/PictureGroup/299'></content-ref><content-ref src='/page/166/Text/4'></content-ref><content-ref src='/page/166/Text/5'></content-ref><content-ref src='/page/166/SectionHeader/6'></content-ref><content-ref src='/page/166/SectionHeader/7'></content-ref><content-ref src='/page/166/Text/8'></content-ref><content-ref src='/page/166/Equation/9'></content-ref><content-ref src='/page/166/Text/10'></content-ref><content-ref src='/page/166/Text/11'></content-ref><content-ref src='/page/166/Equation/12'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/166/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              102.81600000000002,
+              91.08000000000001
+            ],
+            [
+              507.27423095703125,
+              91.08000000000001
+            ],
+            [
+              507.27423095703125,
+              104.775634765625
+            ],
+            [
+              102.81600000000002,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            91.08000000000001,
+            507.27423095703125,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              487.15200000000004,
+              91.08000000000001
+            ],
+            [
+              506.73599999999993,
+              91.08000000000001
+            ],
+            [
+              506.73599999999993,
+              103.75200000000001
+            ],
+            [
+              487.15200000000004,
+              103.75200000000001
+            ]
+          ],
+          "bbox": [
+            487.15200000000004,
+            91.08000000000001,
+            506.73599999999993,
+            103.75200000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/PictureGroup/299",
+          "block_type": "PictureGroup",
+          "html": "<content-ref src='/page/166/Picture/2'></content-ref><content-ref src='/page/166/Caption/3'></content-ref>",
+          "polygon": [
+            [
+              129.744,
+              112.89959999999999
+            ],
+            [
+              437.2457275390625,
+              112.89959999999999
+            ],
+            [
+              437.2457275390625,
+              328.0150451660156
+            ],
+            [
+              129.744,
+              328.0150451660156
+            ]
+          ],
+          "bbox": [
+            129.744,
+            112.89959999999999,
+            437.2457275390625,
+            328.0150451660156
+          ],
+          "children": [
+            {
+              "id": "/page/166/Picture/2",
+              "block_type": "Picture",
+              "html": "",
+              "polygon": [
+                [
+                  182.844,
+                  112.89959999999999
+                ],
+                [
+                  383.86799999999994,
+                  112.89959999999999
+                ],
+                [
+                  383.86799999999994,
+                  294.98040000000003
+                ],
+                [
+                  182.844,
+                  294.98040000000003
+                ]
+              ],
+              "bbox": [
+                182.844,
+                112.89959999999999,
+                383.86799999999994,
+                294.98040000000003
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "4": "/page/154/SectionHeader/9"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/166/Caption/3",
+              "block_type": "Caption",
+              "html": "<p></p><div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>Figure 4.5</b> Geometric illustration of QP. The feasible set <math>\\mathcal{P}</math>, which is a polyhedron, is shown shaded. The contour lines of the objective function, which is convex quadratic, are shown as dashed curves. The point <math>x^*</math> is optimal.</p></div>",
+              "polygon": [
+                [
+                  129.744,
+                  295.416
+                ],
+                [
+                  437.2457275390625,
+                  295.416
+                ],
+                [
+                  437.2457275390625,
+                  328.0150451660156
+                ],
+                [
+                  129.744,
+                  328.0150451660156
+                ]
+              ],
+              "bbox": [
+                129.744,
+                295.416,
+                437.2457275390625,
+                328.0150451660156
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "4": "/page/154/SectionHeader/9"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/166/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>where <math>P_i \\in \\mathbf{S}_+^n</math>, <math>i = 0, 1, \\dots, m</math>, the problem is called a <i>quadratically constrained quadratic program</i> (QCQP). In a QCPQ, we minimize a convex quadratic function over a feasible region that is the intersection of ellipsoids (when <math>P_i \\succ 0</math>).</p><p>Quadratic programs include linear programs as a special case, by taking <math>P = 0</math></p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              365.904
+            ],
+            [
+              464.50665283203125,
+              365.904
+            ],
+            [
+              464.50665283203125,
+              411.2165832519531
+            ],
+            [
+              102.81600000000002,
+              411.2165832519531
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            365.904,
+            464.50665283203125,
+            411.2165832519531
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 10 900 145\" data-label=\"Text\"><p>Quadratic programs include linear programs as a special case, by taking <math>P = 0</math> in (4.34). Quadratically constrained quadratic programs include quadratic programs (and therefore also linear programs) as a special case, by taking <math>P_i = 0</math> in (4.35), for <math>i = 1, \\dots, m</math>.</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              403.9200000000001
+            ],
+            [
+              464.0348205566406,
+              403.9200000000001
+            ],
+            [
+              464.0348205566406,
+              452.17596435546875
+            ],
+            [
+              102.81600000000002,
+              452.17596435546875
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            403.9200000000001,
+            464.0348205566406,
+            452.17596435546875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "4": "/page/154/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/SectionHeader/6",
+          "block_type": "SectionHeader",
+          "html": "<h1>4.4.1 Examples</h1>",
+          "polygon": [
+            [
+              63.647999999999996,
+              475.99199999999996
+            ],
+            [
+              158.04183959960938,
+              475.99199999999996
+            ],
+            [
+              158.04183959960938,
+              490.73468017578125
+            ],
+            [
+              63.647999999999996,
+              490.73468017578125
+            ]
+          ],
+          "bbox": [
+            63.647999999999996,
+            475.99199999999996,
+            158.04183959960938,
+            490.73468017578125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/SectionHeader/7",
+          "block_type": "SectionHeader",
+          "html": "<h4>Least-squares and regression</h4>",
+          "polygon": [
+            [
+              102.81600000000002,
+              501.336
+            ],
+            [
+              236.9884033203125,
+              501.336
+            ],
+            [
+              236.9884033203125,
+              514.3564453125
+            ],
+            [
+              102.81600000000002,
+              514.3564453125
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            501.336,
+            236.9884033203125,
+            514.3564453125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The problem of minimizing the convex quadratic function</p>",
+          "polygon": [
+            [
+              102.81600000000002,
+              518.76
+            ],
+            [
+              359.24399999999997,
+              518.76
+            ],
+            [
+              359.24399999999997,
+              532.4912719726562
+            ],
+            [
+              102.81600000000002,
+              532.4912719726562
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            518.76,
+            359.24399999999997,
+            532.4912719726562
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\|Ax - b\\|_2^2 = x^T A^T Ax - 2b^T Ax + b^T b</math></div></p>",
+          "polygon": [
+            [
+              198.288,
+              539.3520000000001
+            ],
+            [
+              367.812,
+              539.3520000000001
+            ],
+            [
+              367.812,
+              561.9030303955078
+            ],
+            [
+              198.288,
+              561.9030303955078
+            ]
+          ],
+          "bbox": [
+            198.288,
+            539.3520000000001,
+            367.812,
+            561.9030303955078
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">is an (unconstrained) QP. It arises in many fields and has many names, e.g., regression analysis or least-squares approximation. This problem is simple enough to have the well known analytical solution x = A† b, where A† is the pseudo-inverse of A (see §<a href=\"#page-662-0\">A.5.4)</a>.</p>",
+          "polygon": [
+            [
+              102.81600000000002,
+              564.696
+            ],
+            [
+              464.02752685546875,
+              564.696
+            ],
+            [
+              464.02752685546875,
+              613.0236663818359
+            ],
+            [
+              102.81600000000002,
+              613.0236663818359
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            564.696,
+            464.02752685546875,
+            613.0236663818359
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">When linear inequality constraints are added, the problem is called constrained regression or constrained least-squares, and there is no longer a simple analytical solution. As an example we can consider regression with lower and upper bounds on the variables, i.e.,</p>",
+          "polygon": [
+            [
+              102.81600000000002,
+              610.6320000000001
+            ],
+            [
+              464.50677490234375,
+              610.6320000000001
+            ],
+            [
+              464.50677490234375,
+              661.0568695068359
+            ],
+            [
+              102.81600000000002,
+              661.0568695068359
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            610.6320000000001,
+            464.50677490234375,
+            661.0568695068359
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">minimize kAx − <sup>b</sup>k 2 2 subject to <sup>l</sup><sup>i</sup> ≤ <sup>x</sup><sup>i</sup> ≤ <sup>u</sup><sup>i</sup> , i = 1, . . . , n,</p>",
+          "polygon": [
+            [
+              194.00400000000002,
+              668.448
+            ],
+            [
+              371.0941467285156,
+              668.448
+            ],
+            [
+              371.0941467285156,
+              701.7631759643555
+            ],
+            [
+              194.00400000000002,
+              701.7631759643555
+            ]
+          ],
+          "bbox": [
+            194.00400000000002,
+            668.448,
+            371.0941467285156,
+            701.7631759643555
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/166/SectionHeader/6",
+        "4": "/page/166/SectionHeader/7"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/169/Page/487",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/169/PageHeader/0'></content-ref><content-ref src='/page/169/PageHeader/1'></content-ref><content-ref src='/page/169/Text/2'></content-ref><content-ref src='/page/169/Text/3'></content-ref><content-ref src='/page/169/Equation/4'></content-ref><content-ref src='/page/169/Text/5'></content-ref><content-ref src='/page/169/Text/6'></content-ref><content-ref src='/page/169/Equation/7'></content-ref><content-ref src='/page/169/Text/8'></content-ref><content-ref src='/page/169/Equation/9'></content-ref><content-ref src='/page/169/Text/10'></content-ref><content-ref src='/page/169/Text/11'></content-ref><content-ref src='/page/169/SectionHeader/12'></content-ref><content-ref src='/page/169/Text/13'></content-ref><content-ref src='/page/169/Equation/14'></content-ref><content-ref src='/page/169/Text/15'></content-ref><content-ref src='/page/169/Equation/16'></content-ref><content-ref src='/page/169/Text/17'></content-ref><content-ref src='/page/169/Text/18'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/169/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              114.44400000000002,
+              91.87200000000001
+            ],
+            [
+              133.416,
+              91.87200000000001
+            ],
+            [
+              133.416,
+              103.75200000000001
+            ],
+            [
+              114.44400000000002,
+              103.75200000000001
+            ]
+          ],
+          "bbox": [
+            114.44400000000002,
+            91.87200000000001,
+            133.416,
+            103.75200000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              117.43199920654297,
+              91.87200000000001
+            ],
+            [
+              518.3639999999999,
+              91.87200000000001
+            ],
+            [
+              518.3639999999999,
+              104.775634765625
+            ],
+            [
+              117.43199920654297,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            117.43199920654297,
+            91.87200000000001,
+            518.3639999999999,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">achieving a minimum acceptable mean return rmin, and satisfying the portfolio budget and no-shorting constraints.</p>",
+          "polygon": [
+            [
+              156.06,
+              121.96799999999999
+            ],
+            [
+              518.3639999999999,
+              121.96799999999999
+            ],
+            [
+              518.3639999999999,
+              148.28167724609375
+            ],
+            [
+              156.06,
+              148.28167724609375
+            ]
+          ],
+          "bbox": [
+            156.06,
+            121.96799999999999,
+            518.3639999999999,
+            148.28167724609375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Many extensions are possible. One standard extension, for example, is to allow short positions, i.e., x<sup>i</sup> &lt; 0. To do this we introduce variables xlong and xshort, with</p>",
+          "polygon": [
+            [
+              156.06,
+              147.312
+            ],
+            [
+              518.3639999999999,
+              147.312
+            ],
+            [
+              518.3639999999999,
+              184.14654541015625
+            ],
+            [
+              156.06,
+              184.14654541015625
+            ]
+          ],
+          "bbox": [
+            156.06,
+            147.312,
+            518.3639999999999,
+            184.14654541015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">x_{\\text{long}} \\succeq 0, \\quad x_{\\text{short}} \\succeq 0, \\quad x = x_{\\text{long}} - x_{\\text{short}}, \\quad \\mathbf{1}^T x_{\\text{short}} \\leq \\eta \\mathbf{1}^T x_{\\text{long}}.</math></div></p>",
+          "polygon": [
+            [
+              174.42,
+              187.704
+            ],
+            [
+              499.5598449707031,
+              187.704
+            ],
+            [
+              499.5598449707031,
+              209.17510986328125
+            ],
+            [
+              174.42,
+              209.17510986328125
+            ]
+          ],
+          "bbox": [
+            174.42,
+            187.704,
+            499.5598449707031,
+            209.17510986328125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>The last constraint limits the total short position at the beginning of the period to some fraction <math>\\eta</math> of the total long position at the beginning of the period.</p></div>",
+          "polygon": [
+            [
+              156.06,
+              205.92000000000002
+            ],
+            [
+              518.3639999999999,
+              205.92000000000002
+            ],
+            [
+              518.3639999999999,
+              232.01763916015625
+            ],
+            [
+              156.06,
+              232.01763916015625
+            ]
+          ],
+          "bbox": [
+            156.06,
+            205.92000000000002,
+            518.3639999999999,
+            232.01763916015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>As another extension we can include linear transaction costs in the portfolio optimization problem. Starting from a given initial portfolio <math>x_{\\text{init}}</math> we buy and sell assets to achieve the portfolio <math>x</math>, which we then hold over the period as described above. We are charged a transaction fee for buying and selling assets, which is proportional to the amount bought or sold. To handle this, we introduce variables <math>u_{\\text{buy}}</math> and <math>u_{\\text{sell}}</math>, which determine the amount of each asset we buy and sell before the holding period. We have the constraints</p></div>",
+          "polygon": [
+            [
+              156.06,
+              231.26399999999998
+            ],
+            [
+              518.3639999999999,
+              231.26399999999998
+            ],
+            [
+              518.3639999999999,
+              315.69976806640625
+            ],
+            [
+              156.06,
+              315.69976806640625
+            ]
+          ],
+          "bbox": [
+            156.06,
+            231.26399999999998,
+            518.3639999999999,
+            315.69976806640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">x = x_{\\text{init}} + u_{\\text{buy}} - u_{\\text{sell}}, \\quad u_{\\text{buy}} \\succeq 0, \\quad u_{\\text{sell}} \\succeq 0.</math></div></p>",
+          "polygon": [
+            [
+              222.768,
+              322.344
+            ],
+            [
+              450.71734619140625,
+              322.344
+            ],
+            [
+              450.71734619140625,
+              340.72833251953125
+            ],
+            [
+              222.768,
+              340.72833251953125
+            ]
+          ],
+          "bbox": [
+            222.768,
+            322.344,
+            450.71734619140625,
+            340.72833251953125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 1000 1000\" data-label=\"Text\"><p>We replace the simple budget constraint <math>\\mathbf{1}^T x = 1</math> with the condition that the initial buying and selling, including transaction fees, involves zero net cash:</p></div>",
+          "polygon": [
+            [
+              156.06,
+              338.976
+            ],
+            [
+              518.3639999999999,
+              338.976
+            ],
+            [
+              518.3639999999999,
+              363.5709228515625
+            ],
+            [
+              156.06,
+              363.5709228515625
+            ]
+          ],
+          "bbox": [
+            156.06,
+            338.976,
+            518.3639999999999,
+            363.5709228515625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 875 51\" data-label=\"Equation-Block\"><math display=\"block\">(1 - f_{\\text{sell}}) \\mathbf{1}^T u_{\\text{sell}} = (1 + f_{\\text{buy}}) \\mathbf{1}^T u_{\\text{buy}}</math></div></p>",
+          "polygon": [
+            [
+              255.204,
+              367.48800000000006
+            ],
+            [
+              418.0766906738281,
+              367.48800000000006
+            ],
+            [
+              418.0766906738281,
+              388.59912109375
+            ],
+            [
+              255.204,
+              388.59912109375
+            ]
+          ],
+          "bbox": [
+            255.204,
+            367.48800000000006,
+            418.0766906738281,
+            388.59912109375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Here the lefthand side is the total proceeds from selling assets, less the selling transaction fee, and the righthand side is the total cost, including transaction fee, of buying assets. The constants <sup>f</sup>buy ≥ 0 and <sup>f</sup>sell ≥ 0 are the transaction fee rates for buying and selling (assumed the same across assets, for simplicity).</p>",
+          "polygon": [
+            [
+              156.06,
+              385.70399999999995
+            ],
+            [
+              518.3639999999999,
+              385.70399999999995
+            ],
+            [
+              518.3639999999999,
+              435.6
+            ],
+            [
+              156.06,
+              435.6
+            ]
+          ],
+          "bbox": [
+            156.06,
+            385.70399999999995,
+            518.3639999999999,
+            435.6
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The problem of minimizing return variance, subject to a minimum mean return, and the budget and trading constraints, is a QP with variables x, ubuy, usell.</p>",
+          "polygon": [
+            [
+              156.06,
+              434.808
+            ],
+            [
+              518.3639999999999,
+              434.808
+            ],
+            [
+              518.3639999999999,
+              459.9987487792969
+            ],
+            [
+              156.06,
+              459.9987487792969
+            ]
+          ],
+          "bbox": [
+            156.06,
+            434.808,
+            518.3639999999999,
+            459.9987487792969
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "4": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/SectionHeader/12",
+          "block_type": "SectionHeader",
+          "html": "<h2>4.4.2 Second-order cone programming</h2>",
+          "polygon": [
+            [
+              116.892,
+              483.12
+            ],
+            [
+              337.9459228515625,
+              483.12
+            ],
+            [
+              337.9459228515625,
+              497.61981201171875
+            ],
+            [
+              116.892,
+              497.61981201171875
+            ]
+          ],
+          "bbox": [
+            116.892,
+            483.12,
+            337.9459228515625,
+            497.61981201171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/13",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">A problem that is closely related to quadratic programming is the second-order cone program (SOCP):</p>",
+          "polygon": [
+            [
+              156.06,
+              507.67199999999997
+            ],
+            [
+              518.492919921875,
+              507.67199999999997
+            ],
+            [
+              518.492919921875,
+              532.9869079589844
+            ],
+            [
+              156.06,
+              532.9869079589844
+            ]
+          ],
+          "bbox": [
+            156.06,
+            507.67199999999997,
+            518.492919921875,
+            532.9869079589844
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Equation/14",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><span id=\"page-169-0\"></span>minimize f <sup>T</sup> x subject to k<sup>A</sup>i<sup>x</sup> <sup>+</sup> <sup>b</sup>ik<sup>2</sup> ≤ <sup>c</sup> T <sup>i</sup> x + d<sup>i</sup> , i = 1, . . . , m F x = g, (4.36)</p>",
+          "polygon": [
+            [
+              222.768,
+              536.184
+            ],
+            [
+              518.3639999999999,
+              536.184
+            ],
+            [
+              518.3639999999999,
+              574.992
+            ],
+            [
+              222.768,
+              574.992
+            ]
+          ],
+          "bbox": [
+            222.768,
+            536.184,
+            518.3639999999999,
+            574.992
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/15",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where <sup>x</sup> ∈ <sup>R</sup> n is the optimization variable, <sup>A</sup><sup>i</sup> ∈ <sup>R</sup> ni×n , and <sup>F</sup> ∈ <sup>R</sup> p×n . We call a constraint of the form</p>",
+          "polygon": [
+            [
+              156.06,
+              578.952
+            ],
+            [
+              518.3639999999999,
+              578.952
+            ],
+            [
+              518.3639999999999,
+              606.0037231445312
+            ],
+            [
+              156.06,
+              606.0037231445312
+            ]
+          ],
+          "bbox": [
+            156.06,
+            578.952,
+            518.3639999999999,
+            606.0037231445312
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Equation/16",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"145 0 855 60\" data-label=\"Equation-Block\"><math display=\"block\">\\|Ax + b\\|_2 \\leq c^T x + d,</math></div></p>",
+          "polygon": [
+            [
+              288.25199999999995,
+              603.504
+            ],
+            [
+              386.11553955078125,
+              603.504
+            ],
+            [
+              386.11553955078125,
+              625.0381011962891
+            ],
+            [
+              288.25199999999995,
+              625.0381011962891
+            ]
+          ],
+          "bbox": [
+            288.25199999999995,
+            603.504,
+            386.11553955078125,
+            625.0381011962891
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/17",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>where <math>A \\in \\mathbf{R}^{k \\times n}</math>, a <i>second-order cone constraint</i>, since it is the same as requiring the affine function <math>(Ax + b, c^T x + d)</math> to lie in the second-order cone in <math>\\mathbf{R}^{k+1}</math>.</p></div>",
+          "polygon": [
+            [
+              156.06,
+              618.552
+            ],
+            [
+              518.3639999999999,
+              618.552
+            ],
+            [
+              518.3639999999999,
+              645.4689331054688
+            ],
+            [
+              156.06,
+              645.4689331054688
+            ]
+          ],
+          "bbox": [
+            156.06,
+            618.552,
+            518.3639999999999,
+            645.4689331054688
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/169/Text/18",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">When c<sup>i</sup> = 0, i = 1, . . . , m, the SOCP <a href=\"#page-169-0\">(4.36)</a> is equivalent to a QCQP (which is obtained by squaring each of the constraints). Similarly, if A<sup>i</sup> = 0, i = 1, . . . , m, then the SOCP <a href=\"#page-169-0\">(4.36)</a> reduces to a (general) LP. Second-order cone programs are, however, more general than QCQPs (and of course, LPs).</p>",
+          "polygon": [
+            [
+              156.06,
+              643.896
+            ],
+            [
+              518.3639999999999,
+              643.896
+            ],
+            [
+              518.3639999999999,
+              693.294563293457
+            ],
+            [
+              156.06,
+              693.294563293457
+            ]
+          ],
+          "bbox": [
+            156.06,
+            643.896,
+            518.3639999999999,
+            693.294563293457
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/166/SectionHeader/6",
+        "2": "/page/169/SectionHeader/12"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/239/Page/377",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/239/PageHeader/0'></content-ref><content-ref src='/page/239/PageHeader/1'></content-ref><content-ref src='/page/239/Text/2'></content-ref><content-ref src='/page/239/Text/3'></content-ref><content-ref src='/page/239/Equation/4'></content-ref><content-ref src='/page/239/Text/5'></content-ref><content-ref src='/page/239/SectionHeader/6'></content-ref><content-ref src='/page/239/Text/7'></content-ref><content-ref src='/page/239/Equation/8'></content-ref><content-ref src='/page/239/Text/9'></content-ref><content-ref src='/page/239/Text/10'></content-ref><content-ref src='/page/239/Equation/11'></content-ref><content-ref src='/page/239/Text/12'></content-ref><content-ref src='/page/239/Text/13'></content-ref><content-ref src='/page/239/Equation/14'></content-ref><content-ref src='/page/239/Text/15'></content-ref><content-ref src='/page/239/Text/16'></content-ref><content-ref src='/page/239/Equation/17'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/239/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              114.44400000000002,
+              91.87200000000001
+            ],
+            [
+              133.416,
+              91.87200000000001
+            ],
+            [
+              133.416,
+              103.75200000000001
+            ],
+            [
+              114.44400000000002,
+              103.75200000000001
+            ]
+          ],
+          "bbox": [
+            114.44400000000002,
+            91.87200000000001,
+            133.416,
+            103.75200000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              117.43199920654297,
+              91.87200000000001
+            ],
+            [
+              517.8193969726562,
+              91.87200000000001
+            ],
+            [
+              517.8193969726562,
+              104.775634765625
+            ],
+            [
+              117.43199920654297,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            117.43199920654297,
+            91.87200000000001,
+            517.8193969726562,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"71 14 997 990\" data-label=\"Text\"><p>We refer to the difference <math>p^* - d^*</math> as the <i>optimal duality gap</i> of the original problem, since it gives the gap between the optimal value of the primal problem and the best (<i>i.e., greatest</i>) lower bound on it that can be obtained from the Lagrange dual function. The optimal duality gap is always nonnegative.</p></div>",
+          "polygon": [
+            [
+              156.06,
+              121.17599999999999
+            ],
+            [
+              517.8291625976562,
+              121.17599999999999
+            ],
+            [
+              517.8291625976562,
+              172.656
+            ],
+            [
+              156.06,
+              172.656
+            ]
+          ],
+          "bbox": [
+            156.06,
+            121.17599999999999,
+            517.8291625976562,
+            172.656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The bound <a href=\"#page-238-0\">(5.23)</a> can sometimes be used to find a lower bound on the optimal value of a problem that is difficult to solve, since the dual problem is always convex, and in many cases can be solved efficiently, to find d ⋆ . As an example, consider the two-way partitioning problem <a href=\"#page-232-0\">(5.7)</a> described on page <a href=\"#page-232-1\">219.</a> The dual problem is an SDP,</p>",
+          "polygon": [
+            [
+              156.06,
+              171.86399999999998
+            ],
+            [
+              517.824951171875,
+              171.86399999999998
+            ],
+            [
+              517.824951171875,
+              231.96368408203125
+            ],
+            [
+              156.06,
+              231.96368408203125
+            ]
+          ],
+          "bbox": [
+            156.06,
+            171.86399999999998,
+            517.824951171875,
+            231.96368408203125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">maximize −<sup>1</sup> <sup>T</sup> ν subject to <sup>W</sup> <sup>+</sup> diag(ν)  <sup>0</sup>,</p>",
+          "polygon": [
+            [
+              268.05600000000004,
+              229.67999999999995
+            ],
+            [
+              405.1230773925781,
+              229.67999999999995
+            ],
+            [
+              405.1230773925781,
+              262.31103515625
+            ],
+            [
+              268.05600000000004,
+              262.31103515625
+            ]
+          ],
+          "bbox": [
+            268.05600000000004,
+            229.67999999999995,
+            405.1230773925781,
+            262.31103515625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>with variable <math>\\nu \\in \\mathbf{R}^n</math>. This problem can be solved efficiently, even for relatively large values of <math>n</math>, such as <math>n = 1000</math>. Its optimal value is a lower bound on the optimal value of the two-way partitioning problem, and is always at least as good as the lower bound (5.8) based on <math>\\lambda_{\\min}(W)</math>.</p></div>",
+          "polygon": [
+            [
+              156.06,
+              258.192
+            ],
+            [
+              517.8297729492188,
+              258.192
+            ],
+            [
+              517.8297729492188,
+              309.0326232910156
+            ],
+            [
+              156.06,
+              309.0326232910156
+            ]
+          ],
+          "bbox": [
+            156.06,
+            258.192,
+            517.8297729492188,
+            309.0326232910156
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/166/SectionHeader/6",
+            "2": "/page/169/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/SectionHeader/6",
+          "block_type": "SectionHeader",
+          "html": "<h1>5.2.3 Strong duality and Slater's constraint qualification</h1>",
+          "polygon": [
+            [
+              116.892,
+              331.848
+            ],
+            [
+              436.0948791503906,
+              331.848
+            ],
+            [
+              436.0948791503906,
+              346.6446838378906
+            ],
+            [
+              116.892,
+              346.6446838378906
+            ]
+          ],
+          "bbox": [
+            116.892,
+            331.848,
+            436.0948791503906,
+            346.6446838378906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/7",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">If the equality</p>",
+          "polygon": [
+            [
+              156.06,
+              356.4
+            ],
+            [
+              222.347900390625,
+              356.4
+            ],
+            [
+              222.347900390625,
+              370.05987548828125
+            ],
+            [
+              156.06,
+              370.05987548828125
+            ]
+          ],
+          "bbox": [
+            156.06,
+            356.4,
+            222.347900390625,
+            370.05987548828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Equation/8",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 884 41\" data-label=\"Equation-Block\"><math display=\"block\">d^\\star = p^\\star \\quad (5.24)</math></div></p>",
+          "polygon": [
+            [
+              318.24,
+              367.48800000000006
+            ],
+            [
+              517.8014526367188,
+              367.48800000000006
+            ],
+            [
+              517.8014526367188,
+              382.0118713378906
+            ],
+            [
+              318.24,
+              382.0118713378906
+            ]
+          ],
+          "bbox": [
+            318.24,
+            367.48800000000006,
+            517.8014526367188,
+            382.0118713378906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">holds, i.e., the optimal duality gap is zero, then we say that strong duality holds. This means that the best bound that can be obtained from the Lagrange dual function is tight.</p>",
+          "polygon": [
+            [
+              156.06,
+              385.70399999999995
+            ],
+            [
+              517.8206787109375,
+              385.70399999999995
+            ],
+            [
+              517.8206787109375,
+              423.11456298828125
+            ],
+            [
+              156.06,
+              423.11456298828125
+            ]
+          ],
+          "bbox": [
+            156.06,
+            385.70399999999995,
+            517.8206787109375,
+            423.11456298828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Strong duality does not, in general, hold. But if the primal problem <a href=\"#page-228-0\">(5.1)</a> is convex, i.e., of the form</p>",
+          "polygon": [
+            [
+              156.06,
+              422.1360000000001
+            ],
+            [
+              517.8250732421875,
+              422.1360000000001
+            ],
+            [
+              517.8250732421875,
+              447.0189514160156
+            ],
+            [
+              156.06,
+              447.0189514160156
+            ]
+          ],
+          "bbox": [
+            156.06,
+            422.1360000000001,
+            517.8250732421875,
+            447.0189514160156
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Equation/11",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">minimize f0(x) subject to <sup>f</sup>i(x) ≤ <sup>0</sup>, i = 1, . . . , m, Ax = b, (5.25)</p>",
+          "polygon": [
+            [
+              252.75599999999997,
+              452.23199999999997
+            ],
+            [
+              517.8017578125,
+              452.23199999999997
+            ],
+            [
+              517.8017578125,
+              490.94793701171875
+            ],
+            [
+              252.75599999999997,
+              490.94793701171875
+            ]
+          ],
+          "bbox": [
+            252.75599999999997,
+            452.23199999999997,
+            517.8017578125,
+            490.94793701171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/12",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 145 1000 1000\" data-label=\"Text\"><p>with <math>f_0, \\dots, f_m</math> convex, we usually (but not always) have strong duality. There are many results that establish conditions on the problem, beyond convexity, under which strong duality holds. These conditions are called <i>constraint qualifications</i>.</p></div>",
+          "polygon": [
+            [
+              156.06,
+              498.168
+            ],
+            [
+              517.83154296875,
+              498.168
+            ],
+            [
+              517.83154296875,
+              535.6327514648438
+            ],
+            [
+              156.06,
+              535.6327514648438
+            ]
+          ],
+          "bbox": [
+            156.06,
+            498.168,
+            517.83154296875,
+            535.6327514648438
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/13",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">One simple constraint qualification is Slater's condition: There exists an <sup>x</sup> ∈ relint D such that</p>",
+          "polygon": [
+            [
+              156.06,
+              533.808
+            ],
+            [
+              517.8272705078125,
+              533.808
+            ],
+            [
+              517.8272705078125,
+              566.6194305419922
+            ],
+            [
+              156.06,
+              566.6194305419922
+            ]
+          ],
+          "bbox": [
+            156.06,
+            533.808,
+            517.8272705078125,
+            566.6194305419922
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Equation/14",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"100 94 837 134\" data-label=\"Equation-Block\"><math display=\"block\">f_i(x) &lt; 0, \\quad i = 1, \\dots, m, \\quad Ax = b. \\quad (5.26)</math></div></p>",
+          "polygon": [
+            [
+              252.75599999999997,
+              567.072
+            ],
+            [
+              517.8025512695312,
+              567.072
+            ],
+            [
+              517.8025512695312,
+              580.9654998779297
+            ],
+            [
+              252.75599999999997,
+              580.9654998779297
+            ]
+          ],
+          "bbox": [
+            252.75599999999997,
+            567.072,
+            517.8025512695312,
+            580.9654998779297
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/15",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Such a point is sometimes called strictly feasible, since the inequality constraints hold with strict inequalities. Slater's theorem states that strong duality holds, if Slater's condition holds (and the problem is convex).</p>",
+          "polygon": [
+            [
+              156.06,
+              587.664
+            ],
+            [
+              518.33984375,
+              587.664
+            ],
+            [
+              518.33984375,
+              624.7959442138672
+            ],
+            [
+              156.06,
+              624.7959442138672
+            ]
+          ],
+          "bbox": [
+            156.06,
+            587.664,
+            518.33984375,
+            624.7959442138672
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Text/16",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Slater's condition can be refined when some of the inequality constraint functions f<sup>i</sup> are affine. If the first k constraint functions f1, . . . , f<sup>k</sup> are affine, then strong duality holds provided the following weaker condition holds: There exists an <sup>x</sup> ∈ relint D with</p>",
+          "polygon": [
+            [
+              156.06,
+              623.304
+            ],
+            [
+              517.8305053710938,
+              623.304
+            ],
+            [
+              517.8305053710938,
+              679.6952209472656
+            ],
+            [
+              156.06,
+              679.6952209472656
+            ]
+          ],
+          "bbox": [
+            156.06,
+            623.304,
+            517.8305053710938,
+            679.6952209472656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/239/Equation/17",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">f_i(x) \\leq 0, \\quad i = 1, \\dots, k, \\quad f_i(x) &lt; 0, \\quad i = k+1, \\dots, m, \\quad Ax = b. \\quad (5.27)</math></div></p>",
+          "polygon": [
+            [
+              167.688,
+              677.952
+            ],
+            [
+              517.8020629882812,
+              677.952
+            ],
+            [
+              517.8020629882812,
+              700.3682098388672
+            ],
+            [
+              167.688,
+              700.3682098388672
+            ]
+          ],
+          "bbox": [
+            167.688,
+            677.952,
+            517.8020629882812,
+            700.3682098388672
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/239/SectionHeader/6"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/256/Page/569",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/256/PageHeader/0'></content-ref><content-ref src='/page/256/PageHeader/1'></content-ref><content-ref src='/page/256/Text/2'></content-ref><content-ref src='/page/256/Text/3'></content-ref><content-ref src='/page/256/Equation/4'></content-ref><content-ref src='/page/256/Text/5'></content-ref><content-ref src='/page/256/Equation/6'></content-ref><content-ref src='/page/256/Text/7'></content-ref><content-ref src='/page/256/Equation/8'></content-ref><content-ref src='/page/256/Text/9'></content-ref><content-ref src='/page/256/Equation/10'></content-ref><content-ref src='/page/256/Text/11'></content-ref><content-ref src='/page/256/SectionHeader/12'></content-ref><content-ref src='/page/256/Text/13'></content-ref><content-ref src='/page/256/SectionHeader/14'></content-ref><content-ref src='/page/256/Text/15'></content-ref><content-ref src='/page/256/Equation/16'></content-ref><content-ref src='/page/256/Text/17'></content-ref><content-ref src='/page/256/Equation/18'></content-ref><content-ref src='/page/256/Text/19'></content-ref><content-ref src='/page/256/Text/20'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/256/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              102.20400000000001,
+              91.08000000000001
+            ],
+            [
+              507.2744140625,
+              91.08000000000001
+            ],
+            [
+              507.2744140625,
+              104.775634765625
+            ],
+            [
+              102.20400000000001,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            91.08000000000001,
+            507.2744140625,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              485.928,
+              91.08000000000001
+            ],
+            [
+              507.34799999999996,
+              91.08000000000001
+            ],
+            [
+              507.34799999999996,
+              103.75200000000001
+            ],
+            [
+              485.928,
+              103.75200000000001
+            ]
+          ],
+          "bbox": [
+            485.928,
+            91.08000000000001,
+            507.34799999999996,
+            103.75200000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 14 990 550\" data-label=\"Text\"><p>We can draw several interesting conclusions from this. For example, since the inequality in the third line is an equality, we conclude that <math>x^*</math> minimizes <math>L(x, \\lambda^*, \\nu^*)</math> over <math>x</math>. (The Lagrangian <math>L(x, \\lambda^*, \\nu^*)</math> can have other minimizers; <math>x^*</math> is simply <math>a</math> minimizer.)</p></div>",
+          "polygon": [
+            [
+              102.20400000000001,
+              121.96799999999999
+            ],
+            [
+              464.2762145996094,
+              121.96799999999999
+            ],
+            [
+              464.2762145996094,
+              172.19451904296875
+            ],
+            [
+              102.20400000000001,
+              172.19451904296875
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            121.96799999999999,
+            464.2762145996094,
+            172.19451904296875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Another important conclusion is that</p>",
+          "polygon": [
+            [
+              117.50399999999999,
+              171.86399999999998
+            ],
+            [
+              284.4047546386719,
+              171.86399999999998
+            ],
+            [
+              284.4047546386719,
+              184.14654541015625
+            ],
+            [
+              117.50399999999999,
+              184.14654541015625
+            ]
+          ],
+          "bbox": [
+            117.50399999999999,
+            171.86399999999998,
+            284.4047546386719,
+            184.14654541015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">Xm i=1 λ ⋆ i fi(x ⋆ ) = 0.</p>",
+          "polygon": [
+            [
+              242.964,
+              190.07999999999998
+            ],
+            [
+              322.28704833984375,
+              190.07999999999998
+            ],
+            [
+              322.28704833984375,
+              228.2623291015625
+            ],
+            [
+              242.964,
+              228.2623291015625
+            ]
+          ],
+          "bbox": [
+            242.964,
+            190.07999999999998,
+            322.28704833984375,
+            228.2623291015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Since each term in this sum is nonpositive, we conclude that</p></div>",
+          "polygon": [
+            [
+              102.20400000000001,
+              225.71999999999997
+            ],
+            [
+              370.83197021484375,
+              225.71999999999997
+            ],
+            [
+              370.83197021484375,
+              239.18399999999997
+            ],
+            [
+              102.20400000000001,
+              239.18399999999997
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            225.71999999999997,
+            370.83197021484375,
+            239.18399999999997
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\lambda_i^* f_i(x^*) = 0, \\quad i = 1, \\dots, m. \\quad (5.48)</math></div></p>",
+          "polygon": [
+            [
+              217.87199999999999,
+              243.93599999999998
+            ],
+            [
+              464.0003356933594,
+              243.93599999999998
+            ],
+            [
+              464.0003356933594,
+              259.48529052734375
+            ],
+            [
+              217.87199999999999,
+              259.48529052734375
+            ]
+          ],
+          "bbox": [
+            217.87199999999999,
+            243.93599999999998,
+            464.0003356933594,
+            259.48529052734375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>This condition is known as <i>complementary slackness</i>; it holds for any primal optimal <math>x^*</math> and any dual optimal <math>(\\lambda^*, \\nu^*)</math> (when strong duality holds). We can express the complementary slackness condition as</p></div>",
+          "polygon": [
+            [
+              102.20400000000001,
+              262.944
+            ],
+            [
+              464.0338134765625,
+              262.944
+            ],
+            [
+              464.0338134765625,
+              300.8496398925781
+            ],
+            [
+              102.20400000000001,
+              300.8496398925781
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            262.944,
+            464.0338134765625,
+            300.8496398925781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Equation/8",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">λ ⋆ <sup>i</sup> <sup>&amp;</sup>gt; 0 =⇒ <sup>f</sup>i(<sup>x</sup> ⋆ ) = 0,</p>",
+          "polygon": [
+            [
+              227.052,
+              306.504
+            ],
+            [
+              337.5069580078125,
+              306.504
+            ],
+            [
+              337.5069580078125,
+              327.08404541015625
+            ],
+            [
+              227.052,
+              327.08404541015625
+            ]
+          ],
+          "bbox": [
+            227.052,
+            306.504,
+            337.5069580078125,
+            327.08404541015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">or, equivalently,</p>",
+          "polygon": [
+            [
+              102.20400000000001,
+              327.096
+            ],
+            [
+              175.7769775390625,
+              327.096
+            ],
+            [
+              175.7769775390625,
+              339.76800000000003
+            ],
+            [
+              102.20400000000001,
+              339.76800000000003
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            327.096,
+            175.7769775390625,
+            339.76800000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">fi(x ⋆ ) <sup>&amp;</sup>lt; 0 =⇒ <sup>λ</sup> ⋆ <sup>i</sup> = 0.</p>",
+          "polygon": [
+            [
+              227.052,
+              337.392
+            ],
+            [
+              337.50726318359375,
+              337.392
+            ],
+            [
+              337.50726318359375,
+              358.1969299316406
+            ],
+            [
+              227.052,
+              358.1969299316406
+            ]
+          ],
+          "bbox": [
+            227.052,
+            337.392,
+            337.50726318359375,
+            358.1969299316406
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Roughly speaking, this means the ith optimal Lagrange multiplier is zero unless the ith constraint is active at the optimum.</p>",
+          "polygon": [
+            [
+              102.20400000000001,
+              354.024
+            ],
+            [
+              464.03436279296875,
+              354.024
+            ],
+            [
+              464.03436279296875,
+              379.35675048828125
+            ],
+            [
+              102.20400000000001,
+              379.35675048828125
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            354.024,
+            464.03436279296875,
+            379.35675048828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/SectionHeader/12",
+          "block_type": "SectionHeader",
+          "html": "<h2>5.5.3 KKT optimality conditions</h2>",
+          "polygon": [
+            [
+              62.424,
+              403.9200000000001
+            ],
+            [
+              252.11105346679688,
+              403.9200000000001
+            ],
+            [
+              252.11105346679688,
+              417.7177429199219
+            ],
+            [
+              62.424,
+              417.7177429199219
+            ]
+          ],
+          "bbox": [
+            62.424,
+            403.9200000000001,
+            252.11105346679688,
+            417.7177429199219
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/13",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"114 0 1000 1000\" data-label=\"Text\"><p>We now assume that the functions <math>f_0, \\dots, f_m, h_1, \\dots, h_p</math> are differentiable (and therefore have open domains), but we make no assumptions yet about convexity.</p></div>",
+          "polygon": [
+            [
+              102.20400000000001,
+              427.68
+            ],
+            [
+              464.0180969238281,
+              427.68
+            ],
+            [
+              464.0180969238281,
+              453.0848388671875
+            ],
+            [
+              102.20400000000001,
+              453.0848388671875
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            427.68,
+            464.0180969238281,
+            453.0848388671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/SectionHeader/14",
+          "block_type": "SectionHeader",
+          "html": "<h4>KKT conditions for nonconvex problems</h4>",
+          "polygon": [
+            [
+              102.20400000000001,
+              464.11199999999997
+            ],
+            [
+              290.342041015625,
+              464.11199999999997
+            ],
+            [
+              290.342041015625,
+              477.576
+            ],
+            [
+              102.20400000000001,
+              477.576
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            464.11199999999997,
+            290.342041015625,
+            477.576
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/15",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>As above, let <math>x^*</math> and <math>(\\lambda^*, \\nu^*)</math> be any primal and dual optimal points with zero duality gap. Since <math>x^*</math> minimizes <math>L(x, \\lambda^*, \\nu^*)</math> over <math>x</math>, it follows that its gradient must vanish at <math>x^*,</math> i.e.,</p></div>",
+          "polygon": [
+            [
+              102.20400000000001,
+              481.536
+            ],
+            [
+              464.036865234375,
+              481.536
+            ],
+            [
+              464.036865234375,
+              518.8387451171875
+            ],
+            [
+              102.20400000000001,
+              518.8387451171875
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            481.536,
+            464.036865234375,
+            518.8387451171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Equation/16",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\nabla f_0(x^*) + \\sum_{i=1}^m \\lambda_i^* \\nabla f_i(x^*) + \\sum_{i=1}^p \\nu_i^* \\nabla h_i(x^*) = 0.</math></div></p>",
+          "polygon": [
+            [
+              178.704,
+              523.5120000000001
+            ],
+            [
+              387.2326354980469,
+              523.5120000000001
+            ],
+            [
+              387.2326354980469,
+              563.4224700927734
+            ],
+            [
+              178.704,
+              563.4224700927734
+            ]
+          ],
+          "bbox": [
+            178.704,
+            523.5120000000001,
+            387.2326354980469,
+            563.4224700927734
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/17",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Thus we have</p>",
+          "polygon": [
+            [
+              102.20400000000001,
+              561.528
+            ],
+            [
+              166.4070281982422,
+              561.528
+            ],
+            [
+              166.4070281982422,
+              573.774658203125
+            ],
+            [
+              102.20400000000001,
+              573.774658203125
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            561.528,
+            166.4070281982422,
+            573.774658203125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Equation/18",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><span id=\"page-256-0\"></span>fi(x ⋆ ) ≤ <sup>0</sup>, i = 1, . . . , m hi(x ⋆ ) = 0, i = 1, . . . , p λ ⋆ <sup>i</sup> ≥ <sup>0</sup>, i = 1, . . . , m λ ⋆ i fi(x ⋆ ) = 0, i = 1, . . . , m ∇<sup>f</sup>0(<sup>x</sup> ⋆ ) + Pm <sup>i</sup>=1 λ ⋆ <sup>i</sup> ∇<sup>f</sup>i(<sup>x</sup> ⋆ ) + Pp <sup>i</sup>=1 ν ⋆ <sup>i</sup> ∇<sup>h</sup>i(<sup>x</sup> ⋆ ) = 0, (5.49)</p>",
+          "polygon": [
+            [
+              117.50399999999999,
+              575.784
+            ],
+            [
+              464.0019226074219,
+              575.784
+            ],
+            [
+              464.0019226074219,
+              657.6794586181641
+            ],
+            [
+              117.50399999999999,
+              657.6794586181641
+            ]
+          ],
+          "bbox": [
+            117.50399999999999,
+            575.784,
+            464.0019226074219,
+            657.6794586181641
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/19",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">which are called the Karush-Kuhn-Tucker (KKT) conditions.</p>",
+          "polygon": [
+            [
+              102.20400000000001,
+              643.104
+            ],
+            [
+              374.57843017578125,
+              643.104
+            ],
+            [
+              374.57843017578125,
+              657.4297485351562
+            ],
+            [
+              102.20400000000001,
+              657.4297485351562
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            643.104,
+            374.57843017578125,
+            657.4297485351562
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/256/Text/20",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 850 40\" data-label=\"Text\"><p>when are called the <i>Harshah-Rathm-Fucker</i> (KRF) conditions.</p></div>\n<div data-bbox=\"0 140 950 950\" data-label=\"Text\"><p>To summarize, for <i>any</i> optimization problem with differentiable objective and constraint functions for which strong duality obtains, any pair of primal and dual optimal points must satisfy the KKT conditions (5.49).</p></div>",
+          "polygon": [
+            [
+              102.20400000000001,
+              655.776
+            ],
+            [
+              464.0269775390625,
+              655.776
+            ],
+            [
+              464.0269775390625,
+              693.294677734375
+            ],
+            [
+              102.20400000000001,
+              693.294677734375
+            ]
+          ],
+          "bbox": [
+            102.20400000000001,
+            655.776,
+            464.0269775390625,
+            693.294677734375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/239/SectionHeader/6",
+        "2": "/page/256/SectionHeader/12",
+        "4": "/page/256/SectionHeader/14"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/272/Page/514",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/272/PageHeader/0'></content-ref><content-ref src='/page/272/PageHeader/1'></content-ref><content-ref src='/page/272/Text/2'></content-ref><content-ref src='/page/272/Equation/3'></content-ref><content-ref src='/page/272/Text/4'></content-ref><content-ref src='/page/272/Equation/5'></content-ref><content-ref src='/page/272/Text/6'></content-ref><content-ref src='/page/272/Text/7'></content-ref><content-ref src='/page/272/Text/8'></content-ref><content-ref src='/page/272/SectionHeader/9'></content-ref><content-ref src='/page/272/Text/10'></content-ref><content-ref src='/page/272/Equation/11'></content-ref><content-ref src='/page/272/Text/12'></content-ref><content-ref src='/page/272/Equation/13'></content-ref><content-ref src='/page/272/Text/14'></content-ref><content-ref src='/page/272/Equation/15'></content-ref><content-ref src='/page/272/Text/16'></content-ref><content-ref src='/page/272/Equation/17'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/272/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              102.81600000000002,
+              91.08000000000001
+            ],
+            [
+              507.27471923828125,
+              91.08000000000001
+            ],
+            [
+              507.27471923828125,
+              104.775634765625
+            ],
+            [
+              102.81600000000002,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            91.08000000000001,
+            507.27471923828125,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              486.54,
+              91.08000000000001
+            ],
+            [
+              506.73599999999993,
+              91.08000000000001
+            ],
+            [
+              506.73599999999993,
+              103.75200000000001
+            ],
+            [
+              486.54,
+              103.75200000000001
+            ]
+          ],
+          "bbox": [
+            486.54,
+            91.08000000000001,
+            506.73599999999993,
+            103.75200000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 580\" data-label=\"Text\"><p>which is the same as the dual function for the optimization problem (5.73). Since <math>f_0 = 0</math>, the dual function is positive homogeneous in <math>(\\lambda, \\nu)</math>: For <math>\\alpha &gt; 0</math>, <math>g(\\alpha\\lambda, \\alpha\\nu) = \\alpha g(\\lambda, \\nu)</math>. The dual problem associated with (5.73) is to maximize <math>g(\\lambda, \\nu)</math> subject to <math>\\lambda \\succeq 0</math>. Since <math>g</math> is homogeneous, the optimal value of this dual problem is given by</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              121.17599999999999
+            ],
+            [
+              464.0269775390625,
+              121.17599999999999
+            ],
+            [
+              464.0269775390625,
+              184.14654541015625
+            ],
+            [
+              102.81600000000002,
+              184.14654541015625
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            121.17599999999999,
+            464.0269775390625,
+            184.14654541015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Equation/3",
+          "block_type": "Equation",
+          "html": "<span id=\"page-272-0\"></span><p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">d^* = \\begin{cases} \\infty &amp; \\lambda \\succeq 0, g(\\lambda, \\nu) &gt; 0 \\text{ is feasible} \\\\ 0 &amp; \\lambda \\succeq 0, g(\\lambda, \\nu) &gt; 0 \\text{ is infeasible.} \\end{cases} \\quad (5.75)</math></div></p>",
+          "polygon": [
+            [
+              181.76399999999998,
+              178.74365234375
+            ],
+            [
+              463.9983215332031,
+              178.74365234375
+            ],
+            [
+              463.9983215332031,
+              215.64617919921875
+            ],
+            [
+              181.76399999999998,
+              215.64617919921875
+            ]
+          ],
+          "bbox": [
+            181.76399999999998,
+            178.74365234375,
+            463.9983215332031,
+            215.64617919921875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 1000 1000\" data-label=\"Text\"><p>Weak duality tells us that <math>d^* \\leq p^*</math>. Combining this fact with (5.74) and (5.75) yields the following: If the inequality system</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              213.84
+            ],
+            [
+              464.0265197753906,
+              213.84
+            ],
+            [
+              464.0265197753906,
+              240.768
+            ],
+            [
+              102.81600000000002,
+              240.768
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            213.84,
+            464.0265197753906,
+            240.768
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Equation/5",
+          "block_type": "Equation",
+          "html": "<span id=\"page-272-1\"></span><p block-type=\"Equation\"><div data-bbox=\"125 0 875 61\" data-label=\"Equation-Block\"><math display=\"block\">\\lambda \\succeq 0, \\quad g(\\lambda, \\nu) &gt; 0 \\quad (5.76)</math></div></p>",
+          "polygon": [
+            [
+              233.784,
+              249.48
+            ],
+            [
+              463.99951171875,
+              249.48
+            ],
+            [
+              463.99951171875,
+              269.88018798828125
+            ],
+            [
+              233.784,
+              269.88018798828125
+            ]
+          ],
+          "bbox": [
+            233.784,
+            249.48,
+            463.99951171875,
+            269.88018798828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>is feasible (which means <math>d^* = \\infty</math>), then the inequality system (5.72) is infeasible (since we then have <math>p^* = \\infty</math>). Indeed, we can interpret any solution <math>(\\lambda, \\nu)</math> of the inequalities (5.76) as a <i>proof</i> or <i>certificate</i> of infeasibility of the system (5.72).</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              271.656
+            ],
+            [
+              464.026123046875,
+              271.656
+            ],
+            [
+              464.026123046875,
+              309.672
+            ],
+            [
+              102.81600000000002,
+              309.672
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            271.656,
+            464.026123046875,
+            309.672
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 10 1000 986\" data-label=\"Text\"><p>We can restate this implication in terms of feasibility of the original system: If the original inequality system (5.72) is feasible, then the inequality system (5.76) must be infeasible. We can interpret an <math>x</math> which satisfies (5.72) as a certificate establishing infeasibility of the inequality system (5.76).</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              309.672
+            ],
+            [
+              464.5459899902344,
+              309.672
+            ],
+            [
+              464.5459899902344,
+              357.98400000000004
+            ],
+            [
+              102.81600000000002,
+              357.98400000000004
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            309.672,
+            464.5459899902344,
+            357.98400000000004
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"17 41 994 852\" data-label=\"Text\"><p>Two systems of inequalities (and equalities) are called <i>weak alternatives</i> if at most one of the two is feasible. Thus, the systems (5.72) and (5.76) are weak alternatives. This is true whether or not the inequalities (5.72) are convex (<i>i.e.</i>, <math>f_i</math> convex, <math>h_i</math> affine); moreover, the alternative inequality system (5.76) is always convex (<i>i.e.</i>, <math>g</math> is concave and the constraints <math>\\lambda_i \\geq 0</math> are convex).</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              356.4
+            ],
+            [
+              464.01751708984375,
+              356.4
+            ],
+            [
+              464.01751708984375,
+              424.86004638671875
+            ],
+            [
+              102.81600000000002,
+              424.86004638671875
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            356.4,
+            464.01751708984375,
+            424.86004638671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "4": "/page/256/SectionHeader/14"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/SectionHeader/9",
+          "block_type": "SectionHeader",
+          "html": "<h3>Strict inequalities</h3>",
+          "polygon": [
+            [
+              102.81600000000002,
+              428.47200000000004
+            ],
+            [
+              186.66,
+              428.47200000000004
+            ],
+            [
+              186.66,
+              442.0775451660156
+            ],
+            [
+              102.81600000000002,
+              442.0775451660156
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            428.47200000000004,
+            186.66,
+            442.0775451660156
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/10",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>We can also study feasibility of the <i>strict</i> inequality system</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              446.688
+            ],
+            [
+              366.1289367675781,
+              446.688
+            ],
+            [
+              366.1289367675781,
+              460.4013671875
+            ],
+            [
+              102.81600000000002,
+              460.4013671875
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            446.688,
+            366.1289367675781,
+            460.4013671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Equation/11",
+          "block_type": "Equation",
+          "html": "<span id=\"page-272-2\"></span><p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">f_i(x) &lt; 0, \\quad i = 1, \\dots, m, \\quad h_i(x) = 0, \\quad i = 1, \\dots, p. \\quad (5.77)</math></div></p>",
+          "polygon": [
+            [
+              162.18,
+              469.65599999999995
+            ],
+            [
+              463.9997253417969,
+              469.65599999999995
+            ],
+            [
+              463.9997253417969,
+              483.91200000000003
+            ],
+            [
+              162.18,
+              483.91200000000003
+            ]
+          ],
+          "bbox": [
+            162.18,
+            469.65599999999995,
+            463.9997253417969,
+            483.91200000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/12",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">With g defined as for the nonstrict inequality system, we have the alternative inequality system</p>",
+          "polygon": [
+            [
+              102.81600000000002,
+              492.624
+            ],
+            [
+              463.99853515625,
+              492.624
+            ],
+            [
+              463.99853515625,
+              517.7493591308594
+            ],
+            [
+              102.81600000000002,
+              517.7493591308594
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            492.624,
+            463.99853515625,
+            517.7493591308594
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Equation/13",
+          "block_type": "Equation",
+          "html": "<span id=\"page-272-3\"></span><p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\lambda \\succeq 0, \\quad \\lambda \\neq 0, \\quad g(\\lambda, \\nu) \\geq 0. \\quad (5.78)</math></div></p>",
+          "polygon": [
+            [
+              206.856,
+              516.384
+            ],
+            [
+              463.9994812011719,
+              516.384
+            ],
+            [
+              463.9994812011719,
+              537.9357147216797
+            ],
+            [
+              206.856,
+              537.9357147216797
+            ]
+          ],
+          "bbox": [
+            206.856,
+            516.384,
+            463.9994812011719,
+            537.9357147216797
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/14",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>We can show directly that (5.77) and (5.78) are weak alternatives. Suppose there exists an <math>\\tilde{x}</math> with <math>f_i(\\tilde{x}) &lt; 0</math>, <math>h_i(\\tilde{x}) = 0</math>. Then for any <math>\\lambda \\succeq 0</math>, <math>\\lambda \\neq 0</math>, and <math>\\nu</math>,</p></div>",
+          "polygon": [
+            [
+              102.81600000000002,
+              536.184
+            ],
+            [
+              464.0274658203125,
+              536.184
+            ],
+            [
+              464.0274658203125,
+              568.9950408935547
+            ],
+            [
+              102.81600000000002,
+              568.9950408935547
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            536.184,
+            464.0274658203125,
+            568.9950408935547
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Equation/15",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 882 61\" data-label=\"Equation-Block\"><math display=\"block\">\\lambda_1 f_1(\\tilde{x}) + \\cdots + \\lambda_m f_m(\\tilde{x}) + \\nu_1 h_1(\\tilde{x}) + \\cdots + \\nu_p h_p(\\tilde{x}) &lt; 0.</math></div></p>",
+          "polygon": [
+            [
+              159.12,
+              570.24
+            ],
+            [
+              407.3634338378906,
+              570.24
+            ],
+            [
+              407.3634338378906,
+              591.6841278076172
+            ],
+            [
+              159.12,
+              591.6841278076172
+            ]
+          ],
+          "bbox": [
+            159.12,
+            570.24,
+            407.3634338378906,
+            591.6841278076172
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Text/16",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">It follows that</p>",
+          "polygon": [
+            [
+              102.81600000000002,
+              594.0
+            ],
+            [
+              168.619140625,
+              594.0
+            ],
+            [
+              168.619140625,
+              607.3086547851562
+            ],
+            [
+              102.81600000000002,
+              607.3086547851562
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            594.0,
+            168.619140625,
+            607.3086547851562
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/272/Equation/17",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"14 41 986 951\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned} g(\\lambda, \\nu) &amp;= \\inf_{x \\in \\mathcal{D}} \\left( \\sum_{i=1}^m \\lambda_i f_i(x) + \\sum_{i=1}^p \\nu_i h_i(x) \\right) \\\\ &amp;\\leq \\sum_{i=1}^m \\lambda_i f_i(\\tilde{x}) + \\sum_{i=1}^p \\nu_i h_i(\\tilde{x}) \\\\ &amp;&lt; 0. \\end{aligned}</math></div></p>",
+          "polygon": [
+            [
+              180.54,
+              609.5377807617188
+            ],
+            [
+              382.5322265625,
+              609.5377807617188
+            ],
+            [
+              382.5322265625,
+              693.2946929931641
+            ],
+            [
+              180.54,
+              693.2946929931641
+            ]
+          ],
+          "bbox": [
+            180.54,
+            609.5377807617188,
+            382.5322265625,
+            693.2946929931641
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/239/SectionHeader/6",
+        "2": "/page/256/SectionHeader/12",
+        "3": "/page/272/SectionHeader/9"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/670/Page/632",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/670/PageHeader/0'></content-ref><content-ref src='/page/670/PageHeader/1'></content-ref><content-ref src='/page/670/Text/2'></content-ref><content-ref src='/page/670/Text/3'></content-ref><content-ref src='/page/670/Equation/4'></content-ref><content-ref src='/page/670/Text/5'></content-ref><content-ref src='/page/670/Equation/6'></content-ref><content-ref src='/page/670/Text/7'></content-ref><content-ref src='/page/670/Equation/8'></content-ref><content-ref src='/page/670/Text/9'></content-ref><content-ref src='/page/670/Equation/10'></content-ref><content-ref src='/page/670/Text/11'></content-ref><content-ref src='/page/670/Equation/12'></content-ref><content-ref src='/page/670/Text/13'></content-ref><content-ref src='/page/670/Text/14'></content-ref><content-ref src='/page/670/SectionHeader/15'></content-ref><content-ref src='/page/670/Text/16'></content-ref><content-ref src='/page/670/Equation/17'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/670/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              103.428,
+              91.87200000000001
+            ],
+            [
+              507.2747802734375,
+              91.87200000000001
+            ],
+            [
+              507.2747802734375,
+              104.775634765625
+            ],
+            [
+              103.428,
+              104.775634765625
+            ]
+          ],
+          "bbox": [
+            103.428,
+            91.87200000000001,
+            507.2747802734375,
+            104.775634765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              486.54,
+              91.87200000000001
+            ],
+            [
+              506.124,
+              91.87200000000001
+            ],
+            [
+              506.124,
+              103.75200000000001
+            ],
+            [
+              486.54,
+              103.75200000000001
+            ]
+          ],
+          "bbox": [
+            486.54,
+            91.87200000000001,
+            506.124,
+            103.75200000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We need to show that w = (x <sup>T</sup> Ax, x<sup>T</sup> Bx) for some x.</p>",
+          "polygon": [
+            [
+              103.428,
+              121.96799999999999
+            ],
+            [
+              341.42950439453125,
+              121.96799999999999
+            ],
+            [
+              341.42950439453125,
+              136.32965087890625
+            ],
+            [
+              103.428,
+              136.32965087890625
+            ]
+          ],
+          "bbox": [
+            103.428,
+            121.96799999999999,
+            341.42950439453125,
+            136.32965087890625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We distinguish two cases. First, assume (0, γ) is a linear combination of the vectors (λ1, σ1) and (λ2, σ2):</p>",
+          "polygon": [
+            [
+              103.428,
+              134.64000000000001
+            ],
+            [
+              464.02618408203125,
+              134.64000000000001
+            ],
+            [
+              464.02618408203125,
+              160.9736328125
+            ],
+            [
+              103.428,
+              160.9736328125
+            ]
+          ],
+          "bbox": [
+            103.428,
+            134.64000000000001,
+            464.02618408203125,
+            160.9736328125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">0 = z_1\\lambda_1 + z_2\\lambda_2, \\quad \\gamma = z_1\\sigma_1 + z_2\\sigma_2,</math></div></p>",
+          "polygon": [
+            [
+              197.06400000000002,
+              168.696
+            ],
+            [
+              368.45635986328125,
+              168.696
+            ],
+            [
+              368.45635986328125,
+              182.02447509765625
+            ],
+            [
+              197.06400000000002,
+              182.02447509765625
+            ]
+          ],
+          "bbox": [
+            197.06400000000002,
+            168.696,
+            368.45635986328125,
+            182.02447509765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>for some <math>z_1, z_2</math>. In this case we choose <math>x = \\alpha v_1 + \\beta v_2</math>, where <math>\\alpha</math> and <math>\\beta</math> are determined by solving two quadratic equations in two variables</p></div>",
+          "polygon": [
+            [
+              103.428,
+              188.49599999999998
+            ],
+            [
+              464.0244445800781,
+              188.49599999999998
+            ],
+            [
+              464.0244445800781,
+              214.28765869140625
+            ],
+            [
+              103.428,
+              214.28765869140625
+            ]
+          ],
+          "bbox": [
+            103.428,
+            188.49599999999998,
+            464.0244445800781,
+            214.28765869140625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Equation/6",
+          "block_type": "Equation",
+          "html": "<span id=\"page-670-0\"></span><p block-type=\"Equation\"><div data-bbox=\"117 94 877 140\" data-label=\"Equation-Block\"><math display=\"block\">\\alpha^2 + 2\\alpha\\beta z_1 = 1, \\quad \\beta^2 + 2\\alpha\\beta z_2 = 1. \\quad (\\text{B.9})</math></div></p>",
+          "polygon": [
+            [
+              198.89999999999998,
+              220.17600000000004
+            ],
+            [
+              464.0073547363281,
+              220.17600000000004
+            ],
+            [
+              464.0073547363281,
+              236.07843017578125
+            ],
+            [
+              198.89999999999998,
+              236.07843017578125
+            ]
+          ],
+          "bbox": [
+            198.89999999999998,
+            220.17600000000004,
+            464.0073547363281,
+            236.07843017578125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/7",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">This will give the desired result, since</p>",
+          "polygon": [
+            [
+              103.428,
+              244.72799999999998
+            ],
+            [
+              271.52423095703125,
+              244.72799999999998
+            ],
+            [
+              271.52423095703125,
+              257.4
+            ],
+            [
+              103.428,
+              257.4
+            ]
+          ],
+          "bbox": [
+            103.428,
+            244.72799999999998,
+            271.52423095703125,
+            257.4
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Equation/8",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"> (αv<sup>1</sup> + βv2) <sup>T</sup> A(αv<sup>1</sup> + βv2) (αv<sup>1</sup> + βv2) <sup>T</sup> B(αv<sup>1</sup> + βv2)  = α 2  λ1 σ1  + 2αβ  0 γ  + β 2  λ2 σ2  = (α <sup>2</sup> + 2αβz1)  λ1 σ1  + (β <sup>2</sup> + 2αβz2)  λ2 σ2  =  λ<sup>1</sup> + λ<sup>2</sup> σ<sup>1</sup> + σ<sup>2</sup>  .</p>",
+          "polygon": [
+            [
+              170.74800000000002,
+              258.92498779296875
+            ],
+            [
+              394.2917175292969,
+              258.92498779296875
+            ],
+            [
+              394.2917175292969,
+              379.5165710449219
+            ],
+            [
+              170.74800000000002,
+              379.5165710449219
+            ]
+          ],
+          "bbox": [
+            170.74800000000002,
+            258.92498779296875,
+            394.2917175292969,
+            379.5165710449219
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>It remains to show that the equations (B.9) are solvable. To see this, we first note that <math>\\alpha</math> and <math>\\beta</math> must be nonzero, so we can write the equations equivalently as</p></div>",
+          "polygon": [
+            [
+              103.428,
+              380.15999999999997
+            ],
+            [
+              464.017333984375,
+              380.15999999999997
+            ],
+            [
+              464.017333984375,
+              406.29600000000005
+            ],
+            [
+              103.428,
+              406.29600000000005
+            ]
+          ],
+          "bbox": [
+            103.428,
+            380.15999999999997,
+            464.017333984375,
+            406.29600000000005
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\alpha^2(1 + 2(\\beta/\\alpha)z_1) = 1, \\quad (\\beta/\\alpha)^2 + 2(\\beta/\\alpha)(z_2 - z_1) = 1.</math></div></p>",
+          "polygon": [
+            [
+              156.06,
+              411.84000000000003
+            ],
+            [
+              410.02789306640625,
+              411.84000000000003
+            ],
+            [
+              410.02789306640625,
+              433.68023681640625
+            ],
+            [
+              156.06,
+              433.68023681640625
+            ]
+          ],
+          "bbox": [
+            156.06,
+            411.84000000000003,
+            410.02789306640625,
+            433.68023681640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The equation t <sup>2</sup> + 2t(z<sup>2</sup> − <sup>z</sup>1) = 1 has a positive and a negative root. At least one of these roots (the root with the same sign as z1) satisfies 1 + 2tz<sup>1</sup> &gt; 0, so we can choose</p>",
+          "polygon": [
+            [
+              103.428,
+              435.6
+            ],
+            [
+              464.02667236328125,
+              435.6
+            ],
+            [
+              464.02667236328125,
+              471.5618591308594
+            ],
+            [
+              103.428,
+              471.5618591308594
+            ]
+          ],
+          "bbox": [
+            103.428,
+            435.6,
+            464.02667236328125,
+            471.5618591308594
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 975 160\" data-label=\"Equation-Block\"><math display=\"block\">\\alpha = \\pm 1/\\sqrt{1 + 2tz_1}, \\quad \\beta = t\\alpha.</math></div></p>",
+          "polygon": [
+            [
+              212.36399999999998,
+              465.32794189453125
+            ],
+            [
+              354.0026550292969,
+              465.32794189453125
+            ],
+            [
+              354.0026550292969,
+              490.58734130859375
+            ],
+            [
+              212.36399999999998,
+              490.58734130859375
+            ]
+          ],
+          "bbox": [
+            212.36399999999998,
+            465.32794189453125,
+            354.0026550292969,
+            490.58734130859375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/13",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"117 0 883 47\" data-label=\"Text\"><p>This yields two solutions <math>(\\alpha, \\beta)</math> that satisfy (B.9). (If both roots of <math>t^2 + 2t(z_2 - z_1) = 1</math> satisfy <math>1 + 2tz_1 &gt; 0</math>, we obtain four solutions.)</p></div>",
+          "polygon": [
+            [
+              103.428,
+              487.87199999999996
+            ],
+            [
+              464.02313232421875,
+              487.87199999999996
+            ],
+            [
+              464.02313232421875,
+              513.62060546875
+            ],
+            [
+              103.428,
+              513.62060546875
+            ]
+          ],
+          "bbox": [
+            103.428,
+            487.87199999999996,
+            464.02313232421875,
+            513.62060546875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/14",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 980 250\" data-label=\"Text\"><p><b>Lemma 4.7</b> (Complement). <i>The sum <math>w</math> of <math>(\\lambda_1, \\sigma_1)</math> and <math>(\\lambda_2, \\sigma_2)</math> is a linear combination of <math>(\\lambda_1, \\sigma_1)</math> and <math>(\\lambda_2, \\sigma_2)</math>. In particular, this means that <math>(\\lambda_1, \\sigma_1)</math> and <math>(\\lambda_2, \\sigma_2)</math> are linearly dependent. Therefore their sum <math>w = (\\lambda_1 + \\lambda_2, \\sigma_1 + \\sigma_2)</math> is a nonnegative multiple of <math>(\\lambda_1, \\sigma_1)</math>, or <math>(\\lambda_2, \\sigma_2)</math>, or both. If <math>w = \\alpha^2(\\lambda_1, \\sigma_1)</math> for some <math>\\alpha</math>, we can choose <math>x = \\alpha v_1</math>. If <math>w = \\beta^2(\\lambda_2, \\sigma_2)</math> for some <math>\\beta</math>, we can choose <math>x = \\beta v_2</math>.</i></p></div>",
+          "polygon": [
+            [
+              103.428,
+              511.63200000000006
+            ],
+            [
+              464.0342102050781,
+              511.63200000000006
+            ],
+            [
+              464.0342102050781,
+              573.3987274169922
+            ],
+            [
+              103.428,
+              573.3987274169922
+            ]
+          ],
+          "bbox": [
+            103.428,
+            511.63200000000006,
+            464.0342102050781,
+            573.3987274169922
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/239/SectionHeader/6",
+            "2": "/page/256/SectionHeader/12",
+            "3": "/page/272/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/SectionHeader/15",
+          "block_type": "SectionHeader",
+          "html": "<h1>B.4 Proofs of the strong duality results</h1>",
+          "polygon": [
+            [
+              65.484,
+              609.048
+            ],
+            [
+              336.3560485839844,
+              609.048
+            ],
+            [
+              336.3560485839844,
+              627.556640625
+            ],
+            [
+              65.484,
+              627.556640625
+            ]
+          ],
+          "bbox": [
+            65.484,
+            609.048,
+            336.3560485839844,
+            627.556640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/670/SectionHeader/15"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Text/16",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>We first prove the S-procedure result given in �B.2. The assumption of strict feasibility of <math>\\hat{x}</math> implies that the matrix</p></div>",
+          "polygon": [
+            [
+              103.428,
+              637.5600000000001
+            ],
+            [
+              464.0265197753906,
+              637.5600000000001
+            ],
+            [
+              464.0265197753906,
+              662.3255615234375
+            ],
+            [
+              103.428,
+              662.3255615234375
+            ]
+          ],
+          "bbox": [
+            103.428,
+            637.5600000000001,
+            464.0265197753906,
+            662.3255615234375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/670/SectionHeader/15"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/670/Equation/17",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 125 877 714\" data-label=\"Equation-Block\"><math display=\"block\">\\left[ \\begin{array}{cc} A_2 &amp; b_2 \\\\ b_2^T &amp; c_2 \\end{array} \\right]</math></div></p>",
+          "polygon": [
+            [
+              256.428,
+              664.8519897460938
+            ],
+            [
+              311.0252380371094,
+              664.8519897460938
+            ],
+            [
+              311.0252380371094,
+              701.7436676025391
+            ],
+            [
+              256.428,
+              701.7436676025391
+            ]
+          ],
+          "bbox": [
+            256.428,
+            664.8519897460938,
+            311.0252380371094,
+            701.7436676025391
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/670/SectionHeader/15"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/670/SectionHeader/15"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}

@@ -1,0 +1,4636 @@
+{
+  "children": [
+    {
+      "id": "/page/60/Page/159",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/60/PageFooter/14'></content-ref><content-ref src='/page/60/Text/0'></content-ref><content-ref src='/page/60/Text/1'></content-ref><content-ref src='/page/60/SectionHeader/2'></content-ref><content-ref src='/page/60/Text/3'></content-ref><content-ref src='/page/60/Text/4'></content-ref><content-ref src='/page/60/Equation/5'></content-ref><content-ref src='/page/60/Text/6'></content-ref><content-ref src='/page/60/FigureGroup/159'></content-ref><content-ref src='/page/60/Text/9'></content-ref><content-ref src='/page/60/Text/10'></content-ref><content-ref src='/page/60/SectionHeader/11'></content-ref><content-ref src='/page/60/Text/12'></content-ref><content-ref src='/page/60/PageFooter/13'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/60/PageFooter/14",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              49.52400207519531,
+              607.824
+            ],
+            [
+              153.40237426757812,
+              607.824
+            ],
+            [
+              153.40237426757812,
+              620.0879974365234
+            ],
+            [
+              49.52400207519531,
+              620.0879974365234
+            ]
+          ],
+          "bbox": [
+            49.52400207519531,
+            607.824,
+            153.40237426757812,
+            620.0879974365234
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/0",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">One of the main goals of this book is to help you develop a solid and practical understanding of bifurcations. This chapter introduces the simplest examples:  bifurcations of fixed points for flows on the line. We'll use these bifurcations to  model such dramatic phenomena as the onset of coherent radiation in a laser and  the outbreak of an insect population. (In later chapters, when we step up to twoand three-dimensional phase spaces, we'll explore additional types of bifurcations  and their scientific applications.)</p>",
+          "polygon": [
+            [
+              46.656,
+              26.567999999999998
+            ],
+            [
+              388.03369140625,
+              26.567999999999998
+            ],
+            [
+              388.03369140625,
+              117.2559814453125
+            ],
+            [
+              46.656,
+              117.2559814453125
+            ]
+          ],
+          "bbox": [
+            46.656,
+            26.567999999999998,
+            388.03369140625,
+            117.2559814453125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/1",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We begin with the most fundamental bifurcation of all.</p>",
+          "polygon": [
+            [
+              58.32000000000001,
+              117.28799999999998
+            ],
+            [
+              288.97906494140625,
+              117.28799999999998
+            ],
+            [
+              288.97906494140625,
+              130.2559814453125
+            ],
+            [
+              58.32000000000001,
+              130.2559814453125
+            ]
+          ],
+          "bbox": [
+            58.32000000000001,
+            117.28799999999998,
+            288.97906494140625,
+            130.2559814453125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/60/SectionHeader/2",
+          "block_type": "SectionHeader",
+          "html": "<h1><b>3.1 Saddle-Node</b> <b>Bifurcation</b></h1>",
+          "polygon": [
+            [
+              46.656,
+              152.28
+            ],
+            [
+              232.81201171875,
+              152.28
+            ],
+            [
+              232.81201171875,
+              169.71401977539062
+            ],
+            [
+              46.656,
+              169.71401977539062
+            ]
+          ],
+          "bbox": [
+            46.656,
+            152.28,
+            232.81201171875,
+            169.71401977539062
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The saddle-node bifurcation is the basic mechanism by which fixed points are  <i>created</i> <i>and</i> <i>destroyed</i>. As a parameter is varied, two fixed points move toward each  other, collide, and mutually annihilate.</p>",
+          "polygon": [
+            [
+              46.656,
+              176.256
+            ],
+            [
+              388.01678466796875,
+              176.256
+            ],
+            [
+              388.01678466796875,
+              216.656005859375
+            ],
+            [
+              46.656,
+              216.656005859375
+            ]
+          ],
+          "bbox": [
+            46.656,
+            176.256,
+            388.01678466796875,
+            216.656005859375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/4",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The prototypical example of a saddle-node bifurcation is given by the first-order  system</p>",
+          "polygon": [
+            [
+              46.656,
+              216.43200000000002
+            ],
+            [
+              388.11138916015625,
+              216.43200000000002
+            ],
+            [
+              388.11138916015625,
+              242.656005859375
+            ],
+            [
+              46.656,
+              242.656005859375
+            ]
+          ],
+          "bbox": [
+            46.656,
+            216.43200000000002,
+            388.11138916015625,
+            242.656005859375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 875 41\" data-label=\"Equation-Block\"><math display=\"block\">\\dot{x} = r + x^2 \\quad (1)</math></div></p>",
+          "polygon": [
+            [
+              83.80799999999999,
+              254.016
+            ],
+            [
+              350.176025390625,
+              254.016
+            ],
+            [
+              350.176025390625,
+              268.272
+            ],
+            [
+              83.80799999999999,
+              268.272
+            ]
+          ],
+          "bbox": [
+            83.80799999999999,
+            254.016,
+            350.176025390625,
+            268.272
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where <i>r</i> is a parameter, which may be positive, negative, or zero. When <i>r</i> is negative, there are two fixed points, one stable and one unstable (Figure 3.1.1a).</p>",
+          "polygon": [
+            [
+              46.656,
+              273.456
+            ],
+            [
+              385.5240173339844,
+              273.456
+            ],
+            [
+              385.5240173339844,
+              299.6560974121094
+            ],
+            [
+              46.656,
+              299.6560974121094
+            ]
+          ],
+          "bbox": [
+            46.656,
+            273.456,
+            385.5240173339844,
+            299.6560974121094
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/FigureGroup/159",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/60/Figure/7'></content-ref><content-ref src='/page/60/Caption/8'></content-ref>",
+          "polygon": [
+            [
+              49.24800000000006,
+              302.61599999999993
+            ],
+            [
+              378.8639999999999,
+              302.61599999999993
+            ],
+            [
+              378.8639999999999,
+              435.93101501464844
+            ],
+            [
+              49.24800000000006,
+              435.93101501464844
+            ]
+          ],
+          "bbox": [
+            49.24800000000006,
+            302.61599999999993,
+            378.8639999999999,
+            435.93101501464844
+          ],
+          "children": [
+            {
+              "id": "/page/60/Figure/7",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  49.24800000000006,
+                  302.61599999999993
+                ],
+                [
+                  378.8639999999999,
+                  302.61599999999993
+                ],
+                [
+                  378.8639999999999,
+                  416.66400000000004
+                ],
+                [
+                  49.24800000000006,
+                  416.66400000000004
+                ]
+              ],
+              "bbox": [
+                49.24800000000006,
+                302.61599999999993,
+                378.8639999999999,
+                416.66400000000004
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/60/Caption/8",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 3.1.1</b></p>",
+              "polygon": [
+                [
+                  58.32000000000001,
+                  424.44000000000005
+                ],
+                [
+                  104.50599670410156,
+                  424.44000000000005
+                ],
+                [
+                  104.50599670410156,
+                  435.93101501464844
+                ],
+                [
+                  58.32000000000001,
+                  435.93101501464844
+                ]
+              ],
+              "bbox": [
+                58.32000000000001,
+                424.44000000000005,
+                104.50599670410156,
+                435.93101501464844
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/60/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">As <i>r</i> approaches 0 from below, the parabola moves up and the two fixed points  move toward each other. When <i>r</i> = 0, the fixed points coalesce into a half-stable  fixed point at <i>x</i>* = 0 (Figure 3.1.1b). This type of fixed point is extremely delicate—it vanishes as soon as <i>r</i>  0, and now there are no fixed points at all  (Figure 3.1.1c).</p>",
+          "polygon": [
+            [
+              46.656,
+              447.76800000000003
+            ],
+            [
+              388.007080078125,
+              447.76800000000003
+            ],
+            [
+              388.007080078125,
+              513.1949920654297
+            ],
+            [
+              46.656,
+              513.1949920654297
+            ]
+          ],
+          "bbox": [
+            46.656,
+            447.76800000000003,
+            388.007080078125,
+            513.1949920654297
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">In this example, we say that a <i>bifurcation</i> occurred at <i>r</i> = 0, since the vector  fields for <i>r</i>  0 and <i>r</i>  0 are qualitatively different.</p>",
+          "polygon": [
+            [
+              46.656,
+              513.216
+            ],
+            [
+              388.0159912109375,
+              513.216
+            ],
+            [
+              388.0159912109375,
+              539.6050033569336
+            ],
+            [
+              46.656,
+              539.6050033569336
+            ]
+          ],
+          "bbox": [
+            46.656,
+            513.216,
+            388.0159912109375,
+            539.6050033569336
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/SectionHeader/11",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>Graphical Conventions</b></h2>",
+          "polygon": [
+            [
+              82.512,
+              546.264
+            ],
+            [
+              192.36300659179688,
+              546.264
+            ],
+            [
+              192.36300659179688,
+              560.4610061645508
+            ],
+            [
+              82.512,
+              560.4610061645508
+            ]
+          ],
+          "bbox": [
+            82.512,
+            546.264,
+            192.36300659179688,
+            560.4610061645508
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/Text/12",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">There are several other ways to depict a saddle-node bifurcation. We can show  a stack of vector fields for discrete values of <i>r</i> (Figure 3.1.2).</p>",
+          "polygon": [
+            [
+              46.656,
+              561.816
+            ],
+            [
+              388.03924560546875,
+              561.816
+            ],
+            [
+              388.03924560546875,
+              589.6800000000001
+            ],
+            [
+              46.656,
+              589.6800000000001
+            ]
+          ],
+          "bbox": [
+            46.656,
+            561.816,
+            388.03924560546875,
+            589.6800000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/60/PageFooter/13",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              46.656,
+              607.824
+            ],
+            [
+              60.91199999999999,
+              607.824
+            ],
+            [
+              60.91199999999999,
+              618.84
+            ],
+            [
+              46.656,
+              618.84
+            ]
+          ],
+          "bbox": [
+            46.656,
+            607.824,
+            60.91199999999999,
+            618.84
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/60/SectionHeader/2",
+        "2": "/page/60/SectionHeader/11"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/61/Page/171",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/61/PageFooter/12'></content-ref><content-ref src='/page/61/PageFooter/13'></content-ref><content-ref src='/page/61/Text/2'></content-ref><content-ref src='/page/61/Text/3'></content-ref><content-ref src='/page/61/Text/6'></content-ref><content-ref src='/page/61/Text/7'></content-ref><content-ref src='/page/61/SectionHeader/10'></content-ref><content-ref src='/page/61/Text/11'></content-ref><content-ref src='/page/61/Text/14'></content-ref><content-ref src='/page/61/Text/15'></content-ref><content-ref src='/page/61/Text/16'></content-ref><content-ref src='/page/61/PictureGroup/169'></content-ref><content-ref src='/page/61/FigureGroup/170'></content-ref><content-ref src='/page/61/FigureGroup/171'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/61/PageFooter/12",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              195.696,
+              607.176
+            ],
+            [
+              382.5589904785156,
+              607.176
+            ],
+            [
+              382.5589904785156,
+              620.0879974365234
+            ],
+            [
+              195.696,
+              620.0879974365234
+            ]
+          ],
+          "bbox": [
+            195.696,
+            607.176,
+            382.5589904785156,
+            620.0879974365234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/PageFooter/13",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              368.064,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              618.192
+            ],
+            [
+              368.064,
+              618.192
+            ]
+          ],
+          "bbox": [
+            368.064,
+            607.176,
+            381.88800000000003,
+            618.192
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">This representation emphasizes the  dependence of the fixed points on <i>r</i>. In  the limit of a <i>continuous</i> stack of vector fields, we have a picture like  Figure  3.1.3. The curve shown is  <i>r</i> = <i>x </i><sup>2</sup> , i.e., <i>x</i>  0, which gives the  fixed points for different <i>r</i>. To distinguish between stable and unstable  fixed points, we use a solid line for stable points and a broken line for unstable ones.</p>",
+          "polygon": [
+            [
+              222.048,
+              26.567999999999998
+            ],
+            [
+              385.0240173339844,
+              26.567999999999998
+            ],
+            [
+              385.0240173339844,
+              170.22616577148438
+            ],
+            [
+              222.048,
+              170.22616577148438
+            ]
+          ],
+          "bbox": [
+            222.048,
+            26.567999999999998,
+            385.0240173339844,
+            170.22616577148438
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">However, the most common way to depict the bifurcation is to invert the axes  of Figure 3.1.3. The rationale is that <i>r</i> plays the role of an independent variable,</p>",
+          "polygon": [
+            [
+              43.632000000000005,
+              169.12800000000001
+            ],
+            [
+              385.04498291015625,
+              169.12800000000001
+            ],
+            [
+              385.04498291015625,
+              196.344
+            ],
+            [
+              43.632000000000005,
+              196.344
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            169.12800000000001,
+            385.04498291015625,
+            196.344
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">and so should be plotted horizontally (Figure 3.1.4). The drawback is that now  the <i>x</i>-axis has to be plotted vertically, which looks strange at first. Arrows are  sometimes included in the picture, but not always. This picture is called the <i>bifur-</i></p>",
+          "polygon": [
+            [
+              43.632000000000005,
+              390.74399999999997
+            ],
+            [
+              385.005859375,
+              390.74399999999997
+            ],
+            [
+              385.005859375,
+              430.27200000000005
+            ],
+            [
+              43.632000000000005,
+              430.27200000000005
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            390.74399999999997,
+            385.005859375,
+            430.27200000000005
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/7",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>cation diagram</i> for the saddle-node  bifurcation.</p>",
+          "polygon": [
+            [
+              231.984,
+              429.624
+            ],
+            [
+              385.0270690917969,
+              429.624
+            ],
+            [
+              385.0270690917969,
+              456.22608947753906
+            ],
+            [
+              231.984,
+              456.22608947753906
+            ]
+          ],
+          "bbox": [
+            231.984,
+            429.624,
+            385.0270690917969,
+            456.22608947753906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/SectionHeader/10",
+          "block_type": "SectionHeader",
+          "html": "<h3><b>Terminology</b></h3>",
+          "polygon": [
+            [
+              231.984,
+              465.264
+            ],
+            [
+              296.2920227050781,
+              465.264
+            ],
+            [
+              296.2920227050781,
+              477.576
+            ],
+            [
+              231.984,
+              477.576
+            ]
+          ],
+          "bbox": [
+            231.984,
+            465.264,
+            296.2920227050781,
+            477.576
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Bifurcation theory is rife with  conflicting terminology. The subject really hasn't settled down yet,  and different people use different  words for the same thing. For example, the saddle-node bifurcation is  sometimes called <i>a fold bifurcation</i> (because the curve in Figure  3.1.4</p>",
+          "polygon": [
+            [
+              231.984,
+              479.52
+            ],
+            [
+              385.0240783691406,
+              479.52
+            ],
+            [
+              385.0240783691406,
+              584.2559967041016
+            ],
+            [
+              231.984,
+              584.2559967041016
+            ]
+          ],
+          "bbox": [
+            231.984,
+            479.52,
+            385.0240783691406,
+            584.2559967041016
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/14",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i> r</i>&gt;0</p>",
+          "polygon": [
+            [
+              192.75201416015625,
+              48.2374267578125
+            ],
+            [
+              212.21798706054688,
+              48.2374267578125
+            ],
+            [
+              212.21798706054688,
+              59.06439208984375
+            ],
+            [
+              192.75201416015625,
+              59.06439208984375
+            ]
+          ],
+          "bbox": [
+            192.75201416015625,
+            48.2374267578125,
+            212.21798706054688,
+            59.06439208984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/15",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i> r</i>=0</p>",
+          "polygon": [
+            [
+              192.7509765625,
+              68.57037353515625
+            ],
+            [
+              212.21798706054688,
+              68.57037353515625
+            ],
+            [
+              212.21798706054688,
+              79.3973388671875
+            ],
+            [
+              192.7509765625,
+              79.3973388671875
+            ]
+          ],
+          "bbox": [
+            192.7509765625,
+            68.57037353515625,
+            212.21798706054688,
+            79.3973388671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/Text/16",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i> r</i>&lt;0</p>",
+          "polygon": [
+            [
+              192.7509765625,
+              89.90338134765625
+            ],
+            [
+              212.21798706054688,
+              89.90338134765625
+            ],
+            [
+              212.21798706054688,
+              100.73040771484375
+            ],
+            [
+              192.7509765625,
+              100.73040771484375
+            ]
+          ],
+          "bbox": [
+            192.7509765625,
+            89.90338134765625,
+            212.21798706054688,
+            100.73040771484375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/61/PictureGroup/169",
+          "block_type": "PictureGroup",
+          "html": "<content-ref src='/page/61/Picture/0'></content-ref><content-ref src='/page/61/Caption/1'></content-ref>",
+          "polygon": [
+            [
+              36.18000000000001,
+              21.059999999999995
+            ],
+            [
+              190.62,
+              21.059999999999995
+            ],
+            [
+              190.62,
+              160.22393798828125
+            ],
+            [
+              36.18000000000001,
+              160.22393798828125
+            ]
+          ],
+          "bbox": [
+            36.18000000000001,
+            21.059999999999995,
+            190.62,
+            160.22393798828125
+          ],
+          "children": [
+            {
+              "id": "/page/61/Picture/0",
+              "block_type": "Picture",
+              "html": "",
+              "polygon": [
+                [
+                  36.18000000000001,
+                  21.059999999999995
+                ],
+                [
+                  190.62,
+                  21.059999999999995
+                ],
+                [
+                  190.62,
+                  142.23600000000002
+                ],
+                [
+                  36.18000000000001,
+                  142.23600000000002
+                ]
+              ],
+              "bbox": [
+                36.18000000000001,
+                21.059999999999995,
+                190.62,
+                142.23600000000002
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/61/Caption/1",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 3.1.2</b></p>",
+              "polygon": [
+                [
+                  43.632000000000005,
+                  147.74400000000003
+                ],
+                [
+                  90.30059814453125,
+                  147.74400000000003
+                ],
+                [
+                  90.30059814453125,
+                  160.22393798828125
+                ],
+                [
+                  43.632000000000005,
+                  160.22393798828125
+                ]
+              ],
+              "bbox": [
+                43.632000000000005,
+                147.74400000000003,
+                90.30059814453125,
+                160.22393798828125
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/61/FigureGroup/170",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/61/Figure/4'></content-ref><content-ref src='/page/61/Caption/5'></content-ref>",
+          "polygon": [
+            [
+              116.63999999999999,
+              196.344
+            ],
+            [
+              301.10400000000004,
+              196.344
+            ],
+            [
+              301.10400000000004,
+              388.8240051269531
+            ],
+            [
+              116.63999999999999,
+              388.8240051269531
+            ]
+          ],
+          "bbox": [
+            116.63999999999999,
+            196.344,
+            301.10400000000004,
+            388.8240051269531
+          ],
+          "children": [
+            {
+              "id": "/page/61/Figure/4",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  116.63999999999999,
+                  196.344
+                ],
+                [
+                  301.10400000000004,
+                  196.344
+                ],
+                [
+                  301.10400000000004,
+                  369.36
+                ],
+                [
+                  116.63999999999999,
+                  369.36
+                ]
+              ],
+              "bbox": [
+                116.63999999999999,
+                196.344,
+                301.10400000000004,
+                369.36
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/61/Caption/5",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 3.1.3</b></p>",
+              "polygon": [
+                [
+                  124.41599999999998,
+                  377.784
+                ],
+                [
+                  170.46461486816406,
+                  377.784
+                ],
+                [
+                  170.46461486816406,
+                  388.8240051269531
+                ],
+                [
+                  124.41599999999998,
+                  388.8240051269531
+                ]
+              ],
+              "bbox": [
+                124.41599999999998,
+                377.784,
+                170.46461486816406,
+                388.8240051269531
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/61/FigureGroup/171",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/61/Figure/8'></content-ref><content-ref src='/page/61/Caption/9'></content-ref>",
+          "polygon": [
+            [
+              42.33600000000007,
+              430.27200000000005
+            ],
+            [
+              222.91199999999992,
+              430.27200000000005
+            ],
+            [
+              222.91199999999992,
+              590.328
+            ],
+            [
+              42.33600000000007,
+              590.328
+            ]
+          ],
+          "bbox": [
+            42.33600000000007,
+            430.27200000000005,
+            222.91199999999992,
+            590.328
+          ],
+          "children": [
+            {
+              "id": "/page/61/Figure/8",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  42.33600000000007,
+                  430.27200000000005
+                ],
+                [
+                  222.91199999999992,
+                  430.27200000000005
+                ],
+                [
+                  222.91199999999992,
+                  567.0
+                ],
+                [
+                  42.33600000000007,
+                  567.0
+                ]
+              ],
+              "bbox": [
+                42.33600000000007,
+                430.27200000000005,
+                222.91199999999992,
+                567.0
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/61/Caption/9",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 3.1.4</b></p>",
+              "polygon": [
+                [
+                  43.632000000000005,
+                  578.664
+                ],
+                [
+                  90.48258972167969,
+                  578.664
+                ],
+                [
+                  90.48258972167969,
+                  590.328
+                ],
+                [
+                  43.632000000000005,
+                  590.328
+                ]
+              ],
+              "bbox": [
+                43.632000000000005,
+                578.664,
+                90.48258972167969,
+                590.328
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/60/SectionHeader/2",
+        "2": "/page/60/SectionHeader/11",
+        "3": "/page/61/SectionHeader/10"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/71/Page/138",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/71/PageFooter/8'></content-ref><content-ref src='/page/71/PageFooter/9'></content-ref><content-ref src='/page/71/Text/0'></content-ref><content-ref src='/page/71/Text/1'></content-ref><content-ref src='/page/71/FigureGroup/137'></content-ref><content-ref src='/page/71/Text/4'></content-ref><content-ref src='/page/71/Text/5'></content-ref><content-ref src='/page/71/FigureGroup/138'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/71/PageFooter/8",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              208.65599999999998,
+              607.176
+            ],
+            [
+              382.55499267578125,
+              607.176
+            ],
+            [
+              382.55499267578125,
+              620.0879974365234
+            ],
+            [
+              208.65599999999998,
+              620.0879974365234
+            ]
+          ],
+          "bbox": [
+            208.65599999999998,
+            607.176,
+            382.55499267578125,
+            620.0879974365234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/71/PageFooter/9",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              368.064,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              618.192
+            ],
+            [
+              368.064,
+              618.192
+            ]
+          ],
+          "bbox": [
+            368.064,
+            607.176,
+            381.88800000000003,
+            618.192
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/71/Text/0",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Note that this equation is <i>invariant</i> under the change of variables <math>x \\rightarrow -x</math>. That is, if we replace <math>x</math> by <math>-x</math> and then cancel the resulting minus signs on both sides of the equation, we get (1) back again. This invariance is the mathematical expression of the left-right symmetry mentioned earlier. (More technically, one says that the vector field is <i>equivariant</i>, but we'll use the more familiar language.)</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              29.159999999999997
+            ],
+            [
+              385.12225341796875,
+              29.159999999999997
+            ],
+            [
+              385.12225341796875,
+              93.5860595703125
+            ],
+            [
+              43.632000000000005,
+              93.5860595703125
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            29.159999999999997,
+            385.12225341796875,
+            93.5860595703125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/71/Text/1",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Figure 3.4.1 shows the vector field for different values of <i>r.</i></p>",
+          "polygon": [
+            [
+              55.29600000000001,
+              92.01599999999999
+            ],
+            [
+              296.114013671875,
+              92.01599999999999
+            ],
+            [
+              296.114013671875,
+              106.5860595703125
+            ],
+            [
+              55.29600000000001,
+              106.5860595703125
+            ]
+          ],
+          "bbox": [
+            55.29600000000001,
+            92.01599999999999,
+            296.114013671875,
+            106.5860595703125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/71/FigureGroup/137",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/71/Figure/2'></content-ref><content-ref src='/page/71/Caption/3'></content-ref>",
+          "polygon": [
+            [
+              33.264000000000024,
+              111.61799999999998
+            ],
+            [
+              391.82399999999996,
+              111.61799999999998
+            ],
+            [
+              391.82399999999996,
+              240.408
+            ],
+            [
+              33.264000000000024,
+              240.408
+            ]
+          ],
+          "bbox": [
+            33.264000000000024,
+            111.61799999999998,
+            391.82399999999996,
+            240.408
+          ],
+          "children": [
+            {
+              "id": "/page/71/Figure/2",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  33.264000000000024,
+                  111.61799999999998
+                ],
+                [
+                  391.82399999999996,
+                  111.61799999999998
+                ],
+                [
+                  391.82399999999996,
+                  222.10199999999998
+                ],
+                [
+                  33.264000000000024,
+                  222.10199999999998
+                ]
+              ],
+              "bbox": [
+                33.264000000000024,
+                111.61799999999998,
+                391.82399999999996,
+                222.10199999999998
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/71/Caption/3",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 3.4.1</b></p>",
+              "polygon": [
+                [
+                  45.792,
+                  228.74399999999997
+                ],
+                [
+                  93.05259704589844,
+                  228.74399999999997
+                ],
+                [
+                  93.05259704589844,
+                  240.408
+                ],
+                [
+                  45.792,
+                  240.408
+                ]
+              ],
+              "bbox": [
+                45.792,
+                228.74399999999997,
+                93.05259704589844,
+                240.408
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/71/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 990 970\" data-label=\"Text\"><p>When <math>r &lt; 0</math>, the origin is the only fixed point, and it is stable. When <math>r = 0</math>, the origin is still stable, but much more weakly so, since the linearization vanishes. Now solutions no longer decay exponentially fast—instead the decay is a much slower algebraic function of time (recall Exercise 2.4.9). This lethargic decay is called <b>critical slowing down</b> in the physics literature. Finally, when <math>r &gt; 0</math>, the origin has become unstable. Two new stable fixed points appear on either side of the origin, symmetrically located at <math>x^* = \\pm\\sqrt{r}</math>.</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              252.72000000000003
+            ],
+            [
+              385.00396728515625,
+              252.72000000000003
+            ],
+            [
+              385.00396728515625,
+              344.6260070800781
+            ],
+            [
+              43.632000000000005,
+              344.6260070800781
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            252.72000000000003,
+            385.00396728515625,
+            344.6260070800781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/71/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 0 990 1000\" data-label=\"Text\"><p>The reason for the term “pitchfork” becomes clear when we plot the bifurcation diagram (Figure 3.4.2). Actually, pitchfork trifurcation might be a better word!</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              344.736
+            ],
+            [
+              385.0088806152344,
+              344.736
+            ],
+            [
+              385.0088806152344,
+              371.2159729003906
+            ],
+            [
+              43.632000000000005,
+              371.2159729003906
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            344.736,
+            385.0088806152344,
+            371.2159729003906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/71/FigureGroup/138",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/71/Figure/6'></content-ref><content-ref src='/page/71/Caption/7'></content-ref>",
+          "polygon": [
+            [
+              88.12799999999996,
+              372.8268
+            ],
+            [
+              336.528,
+              372.8268
+            ],
+            [
+              336.528,
+              555.3540954589844
+            ],
+            [
+              88.12799999999996,
+              555.3540954589844
+            ]
+          ],
+          "bbox": [
+            88.12799999999996,
+            372.8268,
+            336.528,
+            555.3540954589844
+          ],
+          "children": [
+            {
+              "id": "/page/71/Figure/6",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  88.12799999999996,
+                  372.8268
+                ],
+                [
+                  336.528,
+                  372.8268
+                ],
+                [
+                  336.528,
+                  538.9091999999999
+                ],
+                [
+                  88.12799999999996,
+                  538.9091999999999
+                ]
+              ],
+              "bbox": [
+                88.12799999999996,
+                372.8268,
+                336.528,
+                538.9091999999999
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/71/Caption/7",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 3.4.2</b></p>",
+              "polygon": [
+                [
+                  98.49600000000001,
+                  544.3199999999999
+                ],
+                [
+                  146.93460083007812,
+                  544.3199999999999
+                ],
+                [
+                  146.93460083007812,
+                  555.3540954589844
+                ],
+                [
+                  98.49600000000001,
+                  555.3540954589844
+                ]
+              ],
+              "bbox": [
+                98.49600000000001,
+                544.3199999999999,
+                146.93460083007812,
+                555.3540954589844
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/60/SectionHeader/2",
+        "2": "/page/60/SectionHeader/11",
+        "3": "/page/61/SectionHeader/10"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/147/Page/31",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/147/PageHeader/17'></content-ref><content-ref src='/page/147/SectionHeader/18'></content-ref><content-ref src='/page/147/Text/19'></content-ref><content-ref src='/page/147/Text/20'></content-ref><content-ref src='/page/147/Equation/21'></content-ref><content-ref src='/page/147/Text/22'></content-ref><content-ref src='/page/147/Equation/23'></content-ref><content-ref src='/page/147/Text/24'></content-ref><content-ref src='/page/147/Equation/25'></content-ref><content-ref src='/page/147/Text/26'></content-ref><content-ref src='/page/147/Equation/27'></content-ref><content-ref src='/page/147/Text/28'></content-ref><content-ref src='/page/147/Equation/29'></content-ref><content-ref src='/page/147/Text/30'></content-ref><content-ref src='/page/147/PageFooter/31'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/147/PageHeader/17",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              45.36,
+              30.455999999999996
+            ],
+            [
+              383.184,
+              30.455999999999996
+            ],
+            [
+              383.184,
+              69.336
+            ],
+            [
+              45.36,
+              69.336
+            ]
+          ],
+          "bbox": [
+            45.36,
+            30.455999999999996,
+            383.184,
+            69.336
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/SectionHeader/18",
+          "block_type": "SectionHeader",
+          "html": "<p><b>EXAMPLE 5.2.1:</b></p>",
+          "polygon": [
+            [
+              45.36,
+              88.77600000000001
+            ],
+            [
+              120.096,
+              88.77600000000001
+            ],
+            [
+              120.096,
+              100.44
+            ],
+            [
+              45.36,
+              100.44
+            ]
+          ],
+          "bbox": [
+            45.36,
+            88.77600000000001,
+            120.096,
+            100.44
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/19",
+          "block_type": "Text",
+          "html": "<p>Solve the initial value problem <math>\\dot{x} = x + y</math>, <math>\\dot{y} = 4x - 2y</math>, subject to the initial condition <math>(x_0, y_0) = (2, -3)</math>.</p>",
+          "polygon": [
+            [
+              45.36,
+              106.92
+            ],
+            [
+              383.184,
+              106.92
+            ],
+            [
+              383.184,
+              136.07999999999998
+            ],
+            [
+              45.36,
+              136.07999999999998
+            ]
+          ],
+          "bbox": [
+            45.36,
+            106.92,
+            383.184,
+            136.07999999999998
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/20",
+          "block_type": "Text",
+          "html": "<p><i>Solution:</i> The corresponding matrix equation is</p>",
+          "polygon": [
+            [
+              56.592,
+              135.432
+            ],
+            [
+              254.448,
+              135.432
+            ],
+            [
+              254.448,
+              147.74400000000003
+            ],
+            [
+              56.592,
+              147.74400000000003
+            ]
+          ],
+          "bbox": [
+            56.592,
+            135.432,
+            254.448,
+            147.74400000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Equation/21",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\begin{pmatrix} \\dot{x} \\\\ \\dot{y} \\end{pmatrix} = \\begin{pmatrix} 1 &amp; 1 \\\\ 4 &amp; -2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix}.</math></p>",
+          "polygon": [
+            [
+              80.784,
+              158.76
+            ],
+            [
+              159.408,
+              158.76
+            ],
+            [
+              159.408,
+              187.92
+            ],
+            [
+              80.784,
+              187.92
+            ]
+          ],
+          "bbox": [
+            80.784,
+            158.76,
+            159.408,
+            187.92
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/22",
+          "block_type": "Text",
+          "html": "<p>First we find the eigenvalues of the matrix <math>A</math>. The matrix has <math>\\tau = -1</math> and <math>\\Delta = -6</math>, so the characteristic equation is <math>\\lambda^2 + \\lambda - 6 = 0</math>. Hence</p>",
+          "polygon": [
+            [
+              45.36,
+              198.93599999999998
+            ],
+            [
+              383.184,
+              198.93599999999998
+            ],
+            [
+              383.184,
+              224.856
+            ],
+            [
+              45.36,
+              224.856
+            ]
+          ],
+          "bbox": [
+            45.36,
+            198.93599999999998,
+            383.184,
+            224.856
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Equation/23",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\lambda_1 = 2, \\lambda_2 = -3.</math></p>",
+          "polygon": [
+            [
+              80.784,
+              235.87199999999999
+            ],
+            [
+              146.88,
+              235.87199999999999
+            ],
+            [
+              146.88,
+              249.48
+            ],
+            [
+              80.784,
+              249.48
+            ]
+          ],
+          "bbox": [
+            80.784,
+            235.87199999999999,
+            146.88,
+            249.48
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/24",
+          "block_type": "Text",
+          "html": "<p>Next we find the eigenvectors. Given an eigenvalue <math>\\lambda</math>, the corresponding eigenvector <math>\\mathbf{v} = (v_1, v_2)</math> satisfies</p>",
+          "polygon": [
+            [
+              45.36,
+              255.312
+            ],
+            [
+              383.184,
+              255.312
+            ],
+            [
+              383.184,
+              281.23199999999997
+            ],
+            [
+              45.36,
+              281.23199999999997
+            ]
+          ],
+          "bbox": [
+            45.36,
+            255.312,
+            383.184,
+            281.23199999999997
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Equation/25",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\begin{pmatrix} 1-\\lambda &amp; 1 \\\\ 4 &amp; -2-\\lambda \\end{pmatrix} \\begin{pmatrix} v_1 \\\\ v_2 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}.</math></p>",
+          "polygon": [
+            [
+              80.784,
+              291.6
+            ],
+            [
+              190.07999999999998,
+              291.6
+            ],
+            [
+              190.07999999999998,
+              320.76
+            ],
+            [
+              80.784,
+              320.76
+            ]
+          ],
+          "bbox": [
+            80.784,
+            291.6,
+            190.07999999999998,
+            320.76
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/26",
+          "block_type": "Text",
+          "html": "<p>For <math>\\lambda_1 = 2</math>, this yield <math>\\begin{pmatrix} -1 &amp; 1 \\\\ 4 &amp; -4 \\end{pmatrix} \\begin{pmatrix} v_1 \\\\ v_2 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}</math>, which has a nontrivial solution <math>(v_1, v_2) = (1, 1)</math>, or any scalar multiple thereof. (Of course, any multiple of an eigenvector is always an eigenvector; we try to pick the simplest multiple, but any one will do.) Similarly, for <math>\\lambda_2 = -3</math>, the eigenvector equation becomes <math>\\begin{pmatrix} 4 &amp; 1 \\\\ 4 &amp; 1 \\end{pmatrix} \\begin{pmatrix} v_1 \\\\ v_2 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}</math>, which has a nontrivial solution <math>(v_1, v_2) = (1, -4)</math>. In summary,</p>",
+          "polygon": [
+            [
+              45.36,
+              334.368
+            ],
+            [
+              383.184,
+              334.368
+            ],
+            [
+              383.184,
+              436.752
+            ],
+            [
+              45.36,
+              436.752
+            ]
+          ],
+          "bbox": [
+            45.36,
+            334.368,
+            383.184,
+            436.752
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Equation/27",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\mathbf{v}_1 = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}, \\quad \\mathbf{v}_2 = \\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}.</math></p>",
+          "polygon": [
+            [
+              80.784,
+              447.12
+            ],
+            [
+              180.14399999999998,
+              447.12
+            ],
+            [
+              180.14399999999998,
+              475.63199999999995
+            ],
+            [
+              80.784,
+              475.63199999999995
+            ]
+          ],
+          "bbox": [
+            80.784,
+            447.12,
+            180.14399999999998,
+            475.63199999999995
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/28",
+          "block_type": "Text",
+          "html": "<p>Next we write the general solution as a linear combination of eigensolutions. From (6), the general solution is</p>",
+          "polygon": [
+            [
+              45.36,
+              487.29599999999994
+            ],
+            [
+              383.184,
+              487.29599999999994
+            ],
+            [
+              383.184,
+              512.568
+            ],
+            [
+              45.36,
+              512.568
+            ]
+          ],
+          "bbox": [
+            45.36,
+            487.29599999999994,
+            383.184,
+            512.568
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Equation/29",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\mathbf{x}(t) = c_1 \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} e^{2t} + c_2 \\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix} e^{-3t}. \\tag{7}</math></p>",
+          "polygon": [
+            [
+              80.784,
+              524.88
+            ],
+            [
+              346.896,
+              524.88
+            ],
+            [
+              346.896,
+              552.096
+            ],
+            [
+              80.784,
+              552.096
+            ]
+          ],
+          "bbox": [
+            80.784,
+            524.88,
+            346.896,
+            552.096
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/Text/30",
+          "block_type": "Text",
+          "html": "<p>Finally, we compute <math>c_1</math> and <math>c_2</math> to satisfy the initial condition <math>(x_0, y_0) = (2, -3)</math>. At <math>t = 0</math>, (7) becomes</p>",
+          "polygon": [
+            [
+              45.36,
+              563.1120000000001
+            ],
+            [
+              383.184,
+              563.1120000000001
+            ],
+            [
+              383.184,
+              590.328
+            ],
+            [
+              45.36,
+              590.328
+            ]
+          ],
+          "bbox": [
+            45.36,
+            563.1120000000001,
+            383.184,
+            590.328
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/147/PageFooter/31",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              160.704,
+              607.176
+            ],
+            [
+              384.48,
+              607.176
+            ],
+            [
+              384.48,
+              618.84
+            ],
+            [
+              160.704,
+              618.84
+            ]
+          ],
+          "bbox": [
+            160.704,
+            607.176,
+            384.48,
+            618.84
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/60/SectionHeader/2",
+        "2": "/page/60/SectionHeader/11",
+        "3": "/page/61/SectionHeader/10"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/163/Page/203",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/163/PageFooter/9'></content-ref><content-ref src='/page/163/PageFooter/10'></content-ref><content-ref src='/page/163/FigureGroup/202'></content-ref><content-ref src='/page/163/Text/2'></content-ref><content-ref src='/page/163/Text/3'></content-ref><content-ref src='/page/163/FigureGroup/203'></content-ref><content-ref src='/page/163/Text/6'></content-ref><content-ref src='/page/163/SectionHeader/7'></content-ref><content-ref src='/page/163/Text/8'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/163/PageFooter/9",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              49.68000000000001,
+              607.176
+            ],
+            [
+              382.52099609375,
+              607.176
+            ],
+            [
+              382.52099609375,
+              620.0879974365234
+            ],
+            [
+              49.68000000000001,
+              620.0879974365234
+            ]
+          ],
+          "bbox": [
+            49.68000000000001,
+            607.176,
+            382.52099609375,
+            620.0879974365234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/163/PageFooter/10",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              363.312,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              618.192
+            ],
+            [
+              363.312,
+              618.192
+            ]
+          ],
+          "bbox": [
+            363.312,
+            607.176,
+            381.88800000000003,
+            618.192
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/163/FigureGroup/202",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/163/Figure/0'></content-ref><content-ref src='/page/163/Caption/1'></content-ref>",
+          "polygon": [
+            [
+              95.364,
+              23.0364
+            ],
+            [
+              325.836,
+              23.0364
+            ],
+            [
+              325.836,
+              190.28997802734375
+            ],
+            [
+              95.364,
+              190.28997802734375
+            ]
+          ],
+          "bbox": [
+            95.364,
+            23.0364,
+            325.836,
+            190.28997802734375
+          ],
+          "children": [
+            {
+              "id": "/page/163/Figure/0",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  95.364,
+                  23.0364
+                ],
+                [
+                  325.836,
+                  23.0364
+                ],
+                [
+                  325.836,
+                  172.01160000000002
+                ],
+                [
+                  95.364,
+                  172.01160000000002
+                ]
+              ],
+              "bbox": [
+                95.364,
+                23.0364,
+                325.836,
+                172.01160000000002
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/163/Caption/1",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 6.1.3</b></p>",
+              "polygon": [
+                [
+                  108.0,
+                  178.20000000000002
+                ],
+                [
+                  154.57260131835938,
+                  178.20000000000002
+                ],
+                [
+                  154.57260131835938,
+                  190.28997802734375
+                ],
+                [
+                  108.0,
+                  190.28997802734375
+                ]
+              ],
+              "bbox": [
+                108.0,
+                178.20000000000002,
+                154.57260131835938,
+                190.28997802734375
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/163/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The nullclines also partition the plane into regions where <i>x</i> and <i>y</i> have various  signs. Some of the typical vectors are sketched above in Figure 6.1.3. Even with the  limited information obtained so far, Figure 6.1.3 gives a good sense of the overall  flow pattern.</p>",
+          "polygon": [
+            [
+              44.06399999999999,
+              202.824
+            ],
+            [
+              385.0734558105469,
+              202.824
+            ],
+            [
+              385.0734558105469,
+              255.55197143554688
+            ],
+            [
+              44.06399999999999,
+              255.55197143554688
+            ]
+          ],
+          "bbox": [
+            44.06399999999999,
+            202.824,
+            385.0734558105469,
+            255.55197143554688
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/163/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Now we use the computer to finish the problem. The direction field is indicated  by the line segments in Figure 6.1.4, and several trajectories are shown. Note how  the trajectories always follow the local slope.</p>",
+          "polygon": [
+            [
+              44.06399999999999,
+              255.312
+            ],
+            [
+              384.95184326171875,
+              255.312
+            ],
+            [
+              384.95184326171875,
+              294.5519714355469
+            ],
+            [
+              44.06399999999999,
+              294.5519714355469
+            ]
+          ],
+          "bbox": [
+            44.06399999999999,
+            255.312,
+            384.95184326171875,
+            294.5519714355469
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/163/FigureGroup/203",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/163/Figure/4'></content-ref><content-ref src='/page/163/Caption/5'></content-ref>",
+          "polygon": [
+            [
+              117.59039999999997,
+              300.5748
+            ],
+            [
+              305.76959999999997,
+              300.5748
+            ],
+            [
+              305.76959999999997,
+              462.02399999999994
+            ],
+            [
+              117.59039999999997,
+              462.02399999999994
+            ]
+          ],
+          "bbox": [
+            117.59039999999997,
+            300.5748,
+            305.76959999999997,
+            462.02399999999994
+          ],
+          "children": [
+            {
+              "id": "/page/163/Figure/4",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  117.59039999999997,
+                  300.5748
+                ],
+                [
+                  305.76959999999997,
+                  300.5748
+                ],
+                [
+                  305.76959999999997,
+                  445.27320000000003
+                ],
+                [
+                  117.59039999999997,
+                  445.27320000000003
+                ]
+              ],
+              "bbox": [
+                117.59039999999997,
+                300.5748,
+                305.76959999999997,
+                445.27320000000003
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/163/Caption/5",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 6.1.4</b></p>",
+              "polygon": [
+                [
+                  127.44,
+                  451.0079999999999
+                ],
+                [
+                  173.95458984375,
+                  451.0079999999999
+                ],
+                [
+                  173.95458984375,
+                  462.02399999999994
+                ],
+                [
+                  127.44,
+                  462.02399999999994
+                ]
+              ],
+              "bbox": [
+                127.44,
+                451.0079999999999,
+                173.95458984375,
+                462.02399999999994
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/60/SectionHeader/2",
+                "2": "/page/60/SectionHeader/11",
+                "3": "/page/61/SectionHeader/10"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/163/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The fixed point is now seen to be a nonlinear version of a saddle point. ■</p>",
+          "polygon": [
+            [
+              44.06399999999999,
+              473.688
+            ],
+            [
+              345.168,
+              473.688
+            ],
+            [
+              345.168,
+              487.1520080566406
+            ],
+            [
+              44.06399999999999,
+              487.1520080566406
+            ]
+          ],
+          "bbox": [
+            44.06399999999999,
+            473.688,
+            345.168,
+            487.1520080566406
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/60/SectionHeader/2",
+            "2": "/page/60/SectionHeader/11",
+            "3": "/page/61/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/163/SectionHeader/7",
+          "block_type": "SectionHeader",
+          "html": "<h1><b>6.2 Existence,</b> <b>Uniqueness,</b> <b>and</b> <b>Topological</b> <b>Consequences</b></h1>",
+          "polygon": [
+            [
+              44.06399999999999,
+              509.32800000000003
+            ],
+            [
+              317.77197265625,
+              509.32800000000003
+            ],
+            [
+              317.77197265625,
+              541.0099868774414
+            ],
+            [
+              44.06399999999999,
+              541.0099868774414
+            ]
+          ],
+          "bbox": [
+            44.06399999999999,
+            509.32800000000003,
+            317.77197265625,
+            541.0099868774414
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/163/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We have been a bit optimistic so far—at this stage, we have no guarantee that the  general nonlinear system <b>xf</b>   () <b>x</b> even <i>has</i> solutions! Fortunately the existence  and uniqueness theorem given in Section 2.5 can be generalized to two-dimensional</p>",
+          "polygon": [
+            [
+              44.06399999999999,
+              547.56
+            ],
+            [
+              385.0380554199219,
+              547.56
+            ],
+            [
+              385.0380554199219,
+              589.0319999999999
+            ],
+            [
+              44.06399999999999,
+              589.0319999999999
+            ]
+          ],
+          "bbox": [
+            44.06399999999999,
+            547.56,
+            385.0380554199219,
+            589.0319999999999
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/163/SectionHeader/7"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/194/Page/278",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/194/PageFooter/15'></content-ref><content-ref src='/page/194/Text/0'></content-ref><content-ref src='/page/194/Text/1'></content-ref><content-ref src='/page/194/Text/2'></content-ref><content-ref src='/page/194/Text/3'></content-ref><content-ref src='/page/194/SectionHeader/4'></content-ref><content-ref src='/page/194/Text/5'></content-ref><content-ref src='/page/194/Equation/6'></content-ref><content-ref src='/page/194/Equation/7'></content-ref><content-ref src='/page/194/Text/8'></content-ref><content-ref src='/page/194/Text/9'></content-ref><content-ref src='/page/194/Text/10'></content-ref><content-ref src='/page/194/Text/11'></content-ref><content-ref src='/page/194/FigureGroup/278'></content-ref><content-ref src='/page/194/PageFooter/14'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/194/PageFooter/15",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              49.52400207519531,
+              607.824
+            ],
+            [
+              149.40402221679688,
+              607.824
+            ],
+            [
+              149.40402221679688,
+              620.0879974365234
+            ],
+            [
+              49.52400207519531,
+              620.0879974365234
+            ]
+          ],
+          "bbox": [
+            49.52400207519531,
+            607.824,
+            149.40402221679688,
+            620.0879974365234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/0",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>This theorem is reminiscent of Gauss's law in electrostatics, namely that the electric flux through a surface is proportional to the total charge enclosed. See Exercise 6.8.12 for a further exploration of this analogy between index and charge.</p></div>",
+          "polygon": [
+            [
+              46.656,
+              27.216
+            ],
+            [
+              387.98614501953125,
+              27.216
+            ],
+            [
+              387.98614501953125,
+              66.096
+            ],
+            [
+              46.656,
+              66.096
+            ]
+          ],
+          "bbox": [
+            46.656,
+            27.216,
+            387.98614501953125,
+            66.096
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/1",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>Theorem 6.8.2:</b> Any closed orbit in the phase plane must enclose fixed points whose indices sum to +1.</p></div>",
+          "polygon": [
+            [
+              46.656,
+              77.112
+            ],
+            [
+              387.98388671875,
+              77.112
+            ],
+            [
+              387.98388671875,
+              103.666015625
+            ],
+            [
+              46.656,
+              103.666015625
+            ]
+          ],
+          "bbox": [
+            46.656,
+            77.112,
+            387.98388671875,
+            103.666015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 41 990 1000\" data-label=\"Text\"><p><b>Proof:</b> Let <math>C</math> denote the closed orbit. From property (4) above, <math>I_C = +1</math>. Then Theorem 6.8.1 implies <math>\\sum_{k=1}^n I_k = +1</math>. ■</p></div>",
+          "polygon": [
+            [
+              46.656,
+              114.048
+            ],
+            [
+              388.0190124511719,
+              114.048
+            ],
+            [
+              388.0190124511719,
+              156.32192993164062
+            ],
+            [
+              46.656,
+              156.32192993164062
+            ]
+          ],
+          "bbox": [
+            46.656,
+            114.048,
+            388.0190124511719,
+            156.32192993164062
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 61 990 951\" data-label=\"Text\"><p>Theorem 6.8.2 has many practical consequences. For instance, it implies that there is always at least one fixed point inside any closed orbit in the phase plane (as you may have noticed on your own). If there is <i>only</i> one fixed point inside, it cannot be a saddle point. Furthermore, Theorem 6.8.2 can sometimes be used to rule out the possible occurrence of closed trajectories, as seen in the following examples.</p></div>",
+          "polygon": [
+            [
+              46.656,
+              164.592
+            ],
+            [
+              388.0380859375,
+              164.592
+            ],
+            [
+              388.0380859375,
+              243.256103515625
+            ],
+            [
+              46.656,
+              243.256103515625
+            ]
+          ],
+          "bbox": [
+            46.656,
+            164.592,
+            388.0380859375,
+            243.256103515625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/SectionHeader/4",
+          "block_type": "SectionHeader",
+          "html": "<h3><b>EXAMPLE 6.8.5:</b></h3>",
+          "polygon": [
+            [
+              46.656,
+              264.384
+            ],
+            [
+              124.48140716552734,
+              264.384
+            ],
+            [
+              124.48140716552734,
+              276.696
+            ],
+            [
+              46.656,
+              276.696
+            ]
+          ],
+          "bbox": [
+            46.656,
+            264.384,
+            124.48140716552734,
+            276.696
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Show that closed orbits are impossible for the “rabbit vs. sheep” system</p></div>",
+          "polygon": [
+            [
+              46.656,
+              282.528
+            ],
+            [
+              342.144,
+              282.528
+            ],
+            [
+              342.144,
+              295.2559814453125
+            ],
+            [
+              46.656,
+              295.2559814453125
+            ]
+          ],
+          "bbox": [
+            46.656,
+            282.528,
+            342.144,
+            295.2559814453125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 875 46\" data-label=\"Equation-Block\"><math display=\"block\">\\dot{x} = x(3 - x - 2y) \\quad (1.1)</math></div></p>",
+          "polygon": [
+            [
+              83.80799999999999,
+              305.856
+            ],
+            [
+              159.12527465820312,
+              305.856
+            ],
+            [
+              159.12527465820312,
+              319.1609802246094
+            ],
+            [
+              83.80799999999999,
+              319.1609802246094
+            ]
+          ],
+          "bbox": [
+            83.80799999999999,
+            305.856,
+            159.12527465820312,
+            319.1609802246094
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"123 0 877 46\" data-label=\"Equation-Block\"><math display=\"block\">\\dot{y} = y(2 - x - y) \\quad (2)</math></div></p>",
+          "polygon": [
+            [
+              83.80799999999999,
+              321.408
+            ],
+            [
+              154.28530883789062,
+              321.408
+            ],
+            [
+              154.28530883789062,
+              335.01599999999996
+            ],
+            [
+              83.80799999999999,
+              335.01599999999996
+            ]
+          ],
+          "bbox": [
+            83.80799999999999,
+            321.408,
+            154.28530883789062,
+            335.01599999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/8",
+          "block_type": "Text",
+          "html": "<p>studied in Section 6.4. Here <math>x, y \\geq 0</math>.</p>",
+          "polygon": [
+            [
+              46.656,
+              346.03200000000004
+            ],
+            [
+              199.31533813476562,
+              346.03200000000004
+            ],
+            [
+              199.31533813476562,
+              358.6609802246094
+            ],
+            [
+              46.656,
+              358.6609802246094
+            ]
+          ],
+          "bbox": [
+            46.656,
+            346.03200000000004,
+            199.31533813476562,
+            358.6609802246094
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"114 0 1000 100\" data-label=\"Text\"><p><i>Solution:</i> As shown previously, the system has four fixed points: <math>(0, 0) =</math> unstable node; <math>(0, 2)</math> and <math>(3, 0) =</math> stable nodes; and <math>(1, 1) =</math> saddle point. The index at each of these points is shown in Figure 6.8.9.</p></div>",
+          "polygon": [
+            [
+              46.656,
+              358.34400000000005
+            ],
+            [
+              387.9889221191406,
+              358.34400000000005
+            ],
+            [
+              387.9889221191406,
+              397.2560729980469
+            ],
+            [
+              46.656,
+              397.2560729980469
+            ]
+          ],
+          "bbox": [
+            46.656,
+            358.34400000000005,
+            387.9889221191406,
+            397.2560729980469
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/10",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Now suppose that the system had a closed trajectory. Where could it lie? There are three qualitatively different locations, indicated by the dotted curves <math>C_1</math>, <math>C_2</math>,</p></div>",
+          "polygon": [
+            [
+              46.656,
+              397.22399999999993
+            ],
+            [
+              388.02398681640625,
+              397.22399999999993
+            ],
+            [
+              388.02398681640625,
+              425.6886749267578
+            ],
+            [
+              46.656,
+              425.6886749267578
+            ]
+          ],
+          "bbox": [
+            46.656,
+            397.22399999999993,
+            388.02398681640625,
+            425.6886749267578
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/Text/11",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 980\" data-label=\"Text\"><p><math>C_3</math>. They can be ruled out as follows: orbits like <math>C_1</math> are impossible because they don't enclose any fixed points, and orbits like <math>C_2</math> violate the requirement that the indices inside must sum to +1. But what is wrong with orbits like <math>C_3</math>, which satisfy the index requirement? The trouble is that such orbits always cross the <math>x</math>-axis or the <math>y</math>-axis, and these axes contain straight-line trajectories. Hence <math>C_3</math> violates the rule that trajectories can't cross (recall Section 6.2). ■</p></div>",
+          "polygon": [
+            [
+              202.17600000000004,
+              425.08799999999997
+            ],
+            [
+              388.0440979003906,
+              425.08799999999997
+            ],
+            [
+              388.0440979003906,
+              566.2559967041016
+            ],
+            [
+              202.17600000000004,
+              566.2559967041016
+            ]
+          ],
+          "bbox": [
+            202.17600000000004,
+            425.08799999999997,
+            388.0440979003906,
+            566.2559967041016
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/194/FigureGroup/278",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/194/Figure/12'></content-ref><content-ref src='/page/194/Caption/13'></content-ref>",
+          "polygon": [
+            [
+              41.903999999999954,
+              425.08799999999997
+            ],
+            [
+              194.40000000000003,
+              425.08799999999997
+            ],
+            [
+              194.40000000000003,
+              565.8209991455078
+            ],
+            [
+              41.903999999999954,
+              565.8209991455078
+            ]
+          ],
+          "bbox": [
+            41.903999999999954,
+            425.08799999999997,
+            194.40000000000003,
+            565.8209991455078
+          ],
+          "children": [
+            {
+              "id": "/page/194/Figure/12",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  41.903999999999954,
+                  425.08799999999997
+                ],
+                [
+                  194.40000000000003,
+                  425.08799999999997
+                ],
+                [
+                  194.40000000000003,
+                  543.024
+                ],
+                [
+                  41.903999999999954,
+                  543.024
+                ]
+              ],
+              "bbox": [
+                41.903999999999954,
+                425.08799999999997,
+                194.40000000000003,
+                543.024
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/163/SectionHeader/7",
+                "3": "/page/194/SectionHeader/4"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/194/Caption/13",
+              "block_type": "Caption",
+              "html": "<p><b>Figure 6.8.9</b></p>",
+              "polygon": [
+                [
+                  44.06399999999999,
+                  554.04
+                ],
+                [
+                  90.48359680175781,
+                  554.04
+                ],
+                [
+                  90.48359680175781,
+                  565.8209991455078
+                ],
+                [
+                  44.06399999999999,
+                  565.8209991455078
+                ]
+              ],
+              "bbox": [
+                44.06399999999999,
+                554.04,
+                90.48359680175781,
+                565.8209991455078
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/163/SectionHeader/7",
+                "3": "/page/194/SectionHeader/4"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/194/PageFooter/14",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              47.952,
+              607.824
+            ],
+            [
+              62.20799999999999,
+              607.824
+            ],
+            [
+              62.20799999999999,
+              618.192
+            ],
+            [
+              47.952,
+              618.192
+            ]
+          ],
+          "bbox": [
+            47.952,
+            607.824,
+            62.20799999999999,
+            618.192
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/163/SectionHeader/7",
+        "3": "/page/194/SectionHeader/4"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/281/Page/258",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/281/PageHeader/0'></content-ref><content-ref src='/page/281/PageFooter/12'></content-ref><content-ref src='/page/281/PageFooter/13'></content-ref><content-ref src='/page/281/SectionHeader/1'></content-ref><content-ref src='/page/281/Text/2'></content-ref><content-ref src='/page/281/TableGroup/258'></content-ref><content-ref src='/page/281/Text/5'></content-ref><content-ref src='/page/281/Text/6'></content-ref><content-ref src='/page/281/SectionHeader/7'></content-ref><content-ref src='/page/281/Text/8'></content-ref><content-ref src='/page/281/Text/9'></content-ref><content-ref src='/page/281/Text/10'></content-ref><content-ref src='/page/281/Equation/11'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/281/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              43.632000000000005,
+              26.567999999999998
+            ],
+            [
+              384.98382568359375,
+              26.567999999999998
+            ],
+            [
+              384.98382568359375,
+              52.2559814453125
+            ],
+            [
+              43.632000000000005,
+              52.2559814453125
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            26.567999999999998,
+            384.98382568359375,
+            52.2559814453125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/PageFooter/12",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              170.20800000000003,
+              607.176
+            ],
+            [
+              382.55938720703125,
+              607.176
+            ],
+            [
+              382.55938720703125,
+              620.0879974365234
+            ],
+            [
+              170.20800000000003,
+              620.0879974365234
+            ]
+          ],
+          "bbox": [
+            170.20800000000003,
+            607.176,
+            382.55938720703125,
+            620.0879974365234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/PageFooter/13",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              362.448,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              607.176
+            ],
+            [
+              381.88800000000003,
+              618.192
+            ],
+            [
+              362.448,
+              618.192
+            ]
+          ],
+          "bbox": [
+            362.448,
+            607.176,
+            381.88800000000003,
+            618.192
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "3": "/page/194/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/SectionHeader/1",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>Scaling Laws</b></h2>",
+          "polygon": [
+            [
+              79.488,
+              61.56
+            ],
+            [
+              143.64300537109375,
+              61.56
+            ],
+            [
+              143.64300537109375,
+              74.52
+            ],
+            [
+              79.488,
+              74.52
+            ]
+          ],
+          "bbox": [
+            79.488,
+            61.56,
+            143.64300537109375,
+            74.52
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/1"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 61 990 901\" data-label=\"Text\"><p>For each of the bifurcations given here, there are characteristic <i>scaling laws</i> that govern the amplitude and period of the limit cycle as the bifurcation is approached. Let <math>\\mu</math> denote some dimensionless measure of the distance from the bifurcation, and assume that <math>\\mu \\ll 1</math>. The generic scaling laws for bifurcations of cycles in two-dimensional systems are given in Table 7.4.1.</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              75.816
+            ],
+            [
+              385.01373291015625,
+              75.816
+            ],
+            [
+              385.01373291015625,
+              141.912
+            ],
+            [
+              43.632000000000005,
+              141.912
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            75.816,
+            385.01373291015625,
+            141.912
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/1"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/TableGroup/258",
+          "block_type": "TableGroup",
+          "html": "<content-ref src='/page/281/Table/3'></content-ref><content-ref src='/page/281/Caption/4'></content-ref>",
+          "polygon": [
+            [
+              43.632000000000005,
+              151.632
+            ],
+            [
+              379.296,
+              151.632
+            ],
+            [
+              379.296,
+              259.6669921875
+            ],
+            [
+              43.632000000000005,
+              259.6669921875
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            151.632,
+            379.296,
+            259.6669921875
+          ],
+          "children": [
+            {
+              "id": "/page/281/Table/3",
+              "block_type": "Table",
+              "html": "<div data-bbox=\"10 10 990 990\" data-label=\"Table\"><table><tr><th></th><th>Amplitude of stable limit cycle</th><th>Period of cycle</th></tr><tr><td>Supercritical Hopf</td><td><math>O(\\mu^{1/2})</math></td><td><math>O(1)</math></td></tr><tr><td>Saddle-node bifurcation of cycles</td><td><math>O(1)</math></td><td><math>O(1)</math></td></tr><tr><td>Infinite-period</td><td><math>O(1)</math></td><td><math>O(\\mu^{-1/2})</math></td></tr><tr><td>Homoclinic</td><td><math>O(1)</math></td><td><math>O(\\ln \\mu)</math></td></tr></table>&lt;|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&gt;\n|im_end|&lt;|47|&gt;|im_end|&gt;\n|im_end|&lt;|47|&gt;|im_end|&lt;|47|&gt;|im_end|&lt;|47|&gt;&lt;|460|&gt;</div>",
+              "polygon": [
+                [
+                  43.632000000000005,
+                  151.632
+                ],
+                [
+                  379.296,
+                  151.632
+                ],
+                [
+                  379.296,
+                  245.35897827148438
+                ],
+                [
+                  43.632000000000005,
+                  245.35897827148438
+                ]
+              ],
+              "bbox": [
+                43.632000000000005,
+                151.632,
+                379.296,
+                245.35897827148438
+              ],
+              "children": [],
+              "section_hierarchy": {
+                "1": "/page/163/SectionHeader/7",
+                "2": "/page/281/SectionHeader/1"
+              },
+              "images": null
+            },
+            {
+              "id": "/page/281/Caption/4",
+              "block_type": "Caption",
+              "html": "<p></p><div data-bbox=\"0 0 1000 1000\" data-label=\"Table\"><table><tr><td><b>Table 8.4.1</b></td></tr></table></div>",
+              "polygon": [
+                [
+                  43.632000000000005,
+                  248.832
+                ],
+                [
+                  87.58049011230469,
+                  248.832
+                ],
+                [
+                  87.58049011230469,
+                  259.6669921875
+                ],
+                [
+                  43.632000000000005,
+                  259.6669921875
+                ]
+              ],
+              "bbox": [
+                43.632000000000005,
+                248.832,
+                87.58049011230469,
+                259.6669921875
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/163/SectionHeader/7",
+                "2": "/page/281/SectionHeader/1"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/1"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/281/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>All of these laws have been explained previously, except those for the homoclinic bifurcation. The scaling of the period in that case is obtained by estimating the time required for a trajectory to pass by a saddle point (see Exercise 8.4.12 and Gaspard 1990).</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              272.15999999999997
+            ],
+            [
+              385.06011962890625,
+              272.15999999999997
+            ],
+            [
+              385.06011962890625,
+              324.0
+            ],
+            [
+              43.632000000000005,
+              324.0
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            272.15999999999997,
+            385.06011962890625,
+            324.0
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/1"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Exceptions to these rules can occur, but only if there is some symmetry or other special feature that renders the problem nongeneric, as in the following example.</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              324.0
+            ],
+            [
+              385.0357666015625,
+              324.0
+            ],
+            [
+              385.0357666015625,
+              349.9289855957031
+            ],
+            [
+              43.632000000000005,
+              349.9289855957031
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            324.0,
+            385.0357666015625,
+            349.9289855957031
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/1"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/SectionHeader/7",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>EXAMPLE 8.4.1:</b></h2>",
+          "polygon": [
+            [
+              43.632000000000005,
+              369.35999999999996
+            ],
+            [
+              120.2611083984375,
+              369.35999999999996
+            ],
+            [
+              120.2611083984375,
+              383.1950988769531
+            ],
+            [
+              43.632000000000005,
+              383.1950988769531
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            369.35999999999996,
+            120.2611083984375,
+            383.1950988769531
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 990 1000\" data-label=\"Text\"><p>The van der Pol oscillator <math>\\ddot{x} + \\varepsilon \\dot{x}(x^2 - 1) + x = 0</math> does not seem to fit anywhere in Table 7.4.1. At <math>\\varepsilon = 0</math>, the eigenvalues at the origin are pure imaginary (<math>\\lambda = \\pm i</math>), suggesting that a Hopf bifurcation occurs at <math>\\varepsilon = 0</math>. But we know from Section 7.6 that for <math>0 &lt; \\varepsilon \\ll 1</math>, the system has a limit cycle of amplitude <math>r \\approx 2</math>. Thus the cycle is born “full grown,” not with size <math>O(\\varepsilon^{1/2})</math> as predicted by the scaling law. What’s the explanation?</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              388.79999999999995
+            ],
+            [
+              385.008056640625,
+              388.79999999999995
+            ],
+            [
+              385.008056640625,
+              467.92909240722656
+            ],
+            [
+              43.632000000000005,
+              467.92909240722656
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            388.79999999999995,
+            385.008056640625,
+            467.92909240722656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/Text/9",
+          "block_type": "Text",
+          "html": "<p><i>Solution:</i> The bifurcation at <math>\\epsilon = 0</math> is degenerate. The nonlinear term <math>\\epsilon i x^2</math> vanishes at precisely the same parameter value as the eigenvalues cross the imaginary axis. That's a nongeneric coincidence if there ever was one!</p>",
+          "polygon": [
+            [
+              43.632000000000005,
+              467.20799999999997
+            ],
+            [
+              385.0386657714844,
+              467.20799999999997
+            ],
+            [
+              385.0386657714844,
+              507.9290008544922
+            ],
+            [
+              43.632000000000005,
+              507.9290008544922
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            467.20799999999997,
+            385.0386657714844,
+            507.9290008544922
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/Text/10",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>We can rescale <math>x</math> to remove this degeneracy. Write the equation as <math>\\ddot{x} + x + \\varepsilon x^2 \\dot{x} - \\varepsilon \\dot{x} = 0</math>. Let <math>u^2 = \\varepsilon x^2</math> to remove the <math>\\varepsilon</math>-dependence of the nonlinear term. Then <math>u = \\varepsilon^{1/2}x</math> and the equation becomes</p></div>",
+          "polygon": [
+            [
+              43.632000000000005,
+              507.384
+            ],
+            [
+              385.0619812011719,
+              507.384
+            ],
+            [
+              385.0619812011719,
+              548.5291061401367
+            ],
+            [
+              43.632000000000005,
+              548.5291061401367
+            ]
+          ],
+          "bbox": [
+            43.632000000000005,
+            507.384,
+            385.0619812011719,
+            548.5291061401367
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/281/Equation/11",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 875 46\" data-label=\"Equation-Block\"><math display=\"block\">\\ddot{u} + u + u^2\\dot{u} - \\varepsilon\\dot{u} = 0.</math></div></p>",
+          "polygon": [
+            [
+              83.80799999999999,
+              559.2239999999999
+            ],
+            [
+              172.25291442871094,
+              559.2239999999999
+            ],
+            [
+              172.25291442871094,
+              574.6170959472656
+            ],
+            [
+              83.80799999999999,
+              574.6170959472656
+            ]
+          ],
+          "bbox": [
+            83.80799999999999,
+            559.2239999999999,
+            172.25291442871094,
+            574.6170959472656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/163/SectionHeader/7",
+        "2": "/page/281/SectionHeader/7"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/332/Page/28",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/332/PageHeader/14'></content-ref><content-ref src='/page/332/Text/15'></content-ref><content-ref src='/page/332/ListGroup/16'></content-ref><content-ref src='/page/332/Text/17'></content-ref><content-ref src='/page/332/Equation/18'></content-ref><content-ref src='/page/332/Text/19'></content-ref><content-ref src='/page/332/Equation/20'></content-ref><content-ref src='/page/332/Text/21'></content-ref><content-ref src='/page/332/Equation/22'></content-ref><content-ref src='/page/332/Text/23'></content-ref><content-ref src='/page/332/Equation/24'></content-ref><content-ref src='/page/332/Text/25'></content-ref><content-ref src='/page/332/Equation/26'></content-ref><content-ref src='/page/332/Text/27'></content-ref><content-ref src='/page/332/PageFooter/28'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/332/PageHeader/14",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              47.519999999999996,
+              599.4000000000001
+            ],
+            [
+              177.12,
+              599.4000000000001
+            ],
+            [
+              177.12,
+              618.84
+            ],
+            [
+              47.519999999999996,
+              618.84
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            599.4000000000001,
+            177.12,
+            618.84
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Text/15",
+          "block_type": "Text",
+          "html": "<p>head and therefore faster leakage. Although this is plausible physically, the fluid mechanics of leakage is complicated, and other rules are conceivable as well. The real justification for the rule above is that it agrees with direct measurements on the waterwheel itself, to a good approximation. (For experts on fluids: to achieve this linear relation between outflow and pressure head, Malkus attached thin tubes to the holes at the bottom of each chamber. Then the outflow is essentially Poiseuille flow in a pipe.)</p>",
+          "polygon": [
+            [
+              95.03999999999999,
+              25.92
+            ],
+            [
+              386.20799999999997,
+              25.92
+            ],
+            [
+              386.20799999999997,
+              130.89600000000002
+            ],
+            [
+              95.03999999999999,
+              130.89600000000002
+            ]
+          ],
+          "bbox": [
+            95.03999999999999,
+            25.92,
+            386.20799999999997,
+            130.89600000000002
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/ListGroup/16",
+          "block_type": "ListGroup",
+          "html": "<ol style=\"list-style-type: none;\"><li>3. As the wheel rotates, it carries a new block of water into our observation sector. That block has mass <math>m(\\theta_1) \\omega \\Delta t</math>, because it has angular width <math>\\omega \\Delta t</math> (Figure 9.1.5), and <math>m(\\theta_1)</math> is its mass per unit angle.</li><li>4. Similarly, the mass carried out of the sector is <math>-m(\\theta_2) \\omega \\Delta t</math>.</li></ol>",
+          "polygon": [
+            [
+              83.376,
+              130.89600000000002
+            ],
+            [
+              386.20799999999997,
+              130.89600000000002
+            ],
+            [
+              386.20799999999997,
+              184.67999999999998
+            ],
+            [
+              83.376,
+              184.67999999999998
+            ]
+          ],
+          "bbox": [
+            83.376,
+            130.89600000000002,
+            386.20799999999997,
+            184.67999999999998
+          ],
+          "children": [],
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/332/Text/17",
+          "block_type": "Text",
+          "html": "<p>Hence,</p>",
+          "polygon": [
+            [
+              47.519999999999996,
+              196.99200000000002
+            ],
+            [
+              79.056,
+              196.99200000000002
+            ],
+            [
+              79.056,
+              209.304
+            ],
+            [
+              47.519999999999996,
+              209.304
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            196.99200000000002,
+            79.056,
+            209.304
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Equation/18",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\Delta M = \\Delta t \\left[ \\int_{\\theta_1}^{\\theta_2} Q d\\theta - \\int_{\\theta_1}^{\\theta_2} Km d\\theta \\right] + m(\\theta_1) \\omega \\Delta t - m(\\theta_2) \\omega \\Delta t. \\quad (1)</math></p>",
+          "polygon": [
+            [
+              84.24000000000001,
+              208.656
+            ],
+            [
+              349.48800000000006,
+              208.656
+            ],
+            [
+              349.48800000000006,
+              231.984
+            ],
+            [
+              84.24000000000001,
+              231.984
+            ]
+          ],
+          "bbox": [
+            84.24000000000001,
+            208.656,
+            349.48800000000006,
+            231.984
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Text/19",
+          "block_type": "Text",
+          "html": "<p>To convert (1) to a differential equation, we put the transport terms inside the integral, using <math>m(\\theta_1) - m(\\theta_2) = - \\int_{\\theta_1}^{\\theta_2} \\frac{\\partial m}{\\partial \\theta} d\\theta</math>. Then we divide by <math>\\Delta t</math> and let <math>\\Delta t \\rightarrow 0</math>. The result is</p>",
+          "polygon": [
+            [
+              47.519999999999996,
+              246.24
+            ],
+            [
+              385.77600000000007,
+              246.24
+            ],
+            [
+              385.77600000000007,
+              292.248
+            ],
+            [
+              47.519999999999996,
+              292.248
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            246.24,
+            385.77600000000007,
+            292.248
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Equation/20",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\frac{dM}{dt} = \\int_{\\theta_1}^{\\theta_2} (Q - Km - \\omega \\frac{\\partial m}{\\partial \\theta}) d\\theta.</math></p>",
+          "polygon": [
+            [
+              84.24000000000001,
+              305.856
+            ],
+            [
+              214.27200000000002,
+              305.856
+            ],
+            [
+              214.27200000000002,
+              330.48
+            ],
+            [
+              84.24000000000001,
+              330.48
+            ]
+          ],
+          "bbox": [
+            84.24000000000001,
+            305.856,
+            214.27200000000002,
+            330.48
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Text/21",
+          "block_type": "Text",
+          "html": "<p>But by definition of <math>M</math>,</p>",
+          "polygon": [
+            [
+              47.519999999999996,
+              343.44
+            ],
+            [
+              142.99200000000002,
+              343.44
+            ],
+            [
+              142.99200000000002,
+              356.40000000000003
+            ],
+            [
+              47.519999999999996,
+              356.40000000000003
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            343.44,
+            142.99200000000002,
+            356.40000000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Equation/22",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\frac{dM}{dt} = \\int_{\\theta_1}^{\\theta_2} \\frac{\\partial m}{\\partial t} d\\theta.</math></p>",
+          "polygon": [
+            [
+              84.24000000000001,
+              368.06399999999996
+            ],
+            [
+              162.432,
+              368.06399999999996
+            ],
+            [
+              162.432,
+              393.336
+            ],
+            [
+              84.24000000000001,
+              393.336
+            ]
+          ],
+          "bbox": [
+            84.24000000000001,
+            368.06399999999996,
+            162.432,
+            393.336
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Text/23",
+          "block_type": "Text",
+          "html": "<p>Hence</p>",
+          "polygon": [
+            [
+              47.519999999999996,
+              406.29599999999994
+            ],
+            [
+              76.89599999999999,
+              406.29599999999994
+            ],
+            [
+              76.89599999999999,
+              418.608
+            ],
+            [
+              47.519999999999996,
+              418.608
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            406.29599999999994,
+            76.89599999999999,
+            418.608
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Equation/24",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\int_{\\theta_1}^{\\theta_2} \\frac{\\partial m}{dt} d\\theta = \\int_{\\theta_1}^{\\theta_2} (Q - Km - \\omega \\frac{\\partial m}{\\partial \\theta}) d\\theta.</math></p>",
+          "polygon": [
+            [
+              84.24000000000001,
+              420.552
+            ],
+            [
+              239.32800000000003,
+              420.552
+            ],
+            [
+              239.32800000000003,
+              443.88
+            ],
+            [
+              84.24000000000001,
+              443.88
+            ]
+          ],
+          "bbox": [
+            84.24000000000001,
+            420.552,
+            239.32800000000003,
+            443.88
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Text/25",
+          "block_type": "Text",
+          "html": "<p>Since this holds for <i>all</i> <math>\\theta_1</math> and <math>\\theta_2</math>, we must have</p>",
+          "polygon": [
+            [
+              47.519999999999996,
+              457.48799999999994
+            ],
+            [
+              237.16800000000003,
+              457.48799999999994
+            ],
+            [
+              237.16800000000003,
+              471.09599999999995
+            ],
+            [
+              47.519999999999996,
+              471.09599999999995
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            457.48799999999994,
+            237.16800000000003,
+            471.09599999999995
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Equation/26",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><math display=\"block\">\\frac{\\partial m}{\\partial t} = Q - Km - \\omega \\frac{\\partial m}{\\partial \\theta}. \\quad (2)</math></p>",
+          "polygon": [
+            [
+              84.24000000000001,
+              482.112
+            ],
+            [
+              349.48800000000006,
+              482.112
+            ],
+            [
+              349.48800000000006,
+              506.08799999999997
+            ],
+            [
+              84.24000000000001,
+              506.08799999999997
+            ]
+          ],
+          "bbox": [
+            84.24000000000001,
+            482.112,
+            349.48800000000006,
+            506.08799999999997
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/Text/27",
+          "block_type": "Text",
+          "html": "<p>Equation (2) is often called the <i>continuity equation</i>. Notice that it is <i>a partial</i> differential equation, unlike all the others considered so far in this book. We'll worry about how to analyze it later; we still need an equation that tells us how <math>\\omega(t)</math> evolves.</p>",
+          "polygon": [
+            [
+              47.519999999999996,
+              520.344
+            ],
+            [
+              386.20799999999997,
+              520.344
+            ],
+            [
+              386.20799999999997,
+              570.8879999999999
+            ],
+            [
+              47.519999999999996,
+              570.8879999999999
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            520.344,
+            386.20799999999997,
+            570.8879999999999
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/332/PageFooter/28",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              47.519999999999996,
+              607.176
+            ],
+            [
+              177.98399999999998,
+              607.176
+            ],
+            [
+              177.98399999999998,
+              618.84
+            ],
+            [
+              47.519999999999996,
+              618.84
+            ]
+          ],
+          "bbox": [
+            47.519999999999996,
+            607.176,
+            177.98399999999998,
+            618.84
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/163/SectionHeader/7",
+            "2": "/page/281/SectionHeader/7"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/163/SectionHeader/7",
+        "2": "/page/281/SectionHeader/7"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}

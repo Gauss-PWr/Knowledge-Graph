@@ -1,0 +1,642 @@
+2026-11-09 13:06:02,650 INFO === config1_balanced
+2026-11-09 13:06:04,638 INFO Marker models loaded in 2.0 s
+2026-11-09 13:06:04,949 INFO HTTP Request: GET http://127.0.0.1:8765/health "HTTP/1.1 200 OK"
+2026-11-09 13:06:04,952 INFO HTTP Request: GET http://127.0.0.1:8765/v1/models "HTTP/1.1 200 OK"
+2026-11-09 13:06:07,979 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:08,830 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:08,831 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:08,832 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:08,834 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,010 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,343 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,404 INFO HTTP Request: GET http://127.0.0.1:37285/health "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,407 INFO HTTP Request: GET http://127.0.0.1:37285/v1/models "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,408 INFO Attaching to existing ocr_error server on port 37285
+2026-11-09 13:06:09,465 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,702 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,739 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,824 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,825 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,826 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,827 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,827 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,828 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,881 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,882 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,884 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,886 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,886 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,886 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:09,904 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,869 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,870 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,871 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,871 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,916 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,917 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,918 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,919 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,962 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,962 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,963 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:10,984 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,006 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,007 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,029 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,050 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,183 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,241 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,301 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,302 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,327 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,371 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,371 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,396 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,430 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,475 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,475 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,488 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,501 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,591 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,603 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,685 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,741 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,812 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,825 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,838 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,860 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,903 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:11,951 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,065 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,079 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,080 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,126 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,138 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,185 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,198 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,212 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,234 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,278 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,292 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,306 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,306 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,330 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,373 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,374 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,386 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,401 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,447 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,448 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,482 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,578 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,591 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,591 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,593 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,675 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,782 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,807 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,819 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,820 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,843 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,878 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,936 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,937 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:12,959 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,028 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,028 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,040 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,063 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,097 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,108 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,242 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,287 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,364 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,446 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,702 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:13,746 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:15,550 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:15,662 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Text/5
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Equation/6
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/ListItem/521
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Text/10
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Equation/11
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Text/12
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Text/14
+2026-11-09 13:06:15,669 WARNING Equation recognition failed for /page/154/Text/16
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/166/Text/8
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/166/Text/10
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/166/Text/11
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/166/Equation/12
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/2
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/3
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/10
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/11
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/13
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Equation/14
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/15
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/169/Text/18
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/239/Text/3
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/239/Equation/4
+2026-11-09 13:06:15,670 WARNING Equation recognition failed for /page/239/Text/7
+2026-11-09 13:06:15,671 WARNING Equation recognition failed for /page/239/Text/9
+2026-11-09 13:06:15,671 WARNING Equation recognition failed for /page/239/Text/10
+2026-11-09 13:06:15,671 WARNING Equation recognition failed for /page/239/Equation/11
+2026-11-09 13:06:15,671 WARNING Equation recognition failed for /page/239/Text/13
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/239/Text/15
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/239/Text/16
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Text/3
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Equation/4
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Equation/8
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Text/9
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Equation/10
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Text/11
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Text/17
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Equation/18
+2026-11-09 13:06:15,677 WARNING Equation recognition failed for /page/256/Text/19
+2026-11-09 13:06:15,678 WARNING Equation recognition failed for /page/272/Text/12
+2026-11-09 13:06:15,678 WARNING Equation recognition failed for /page/272/Text/16
+2026-11-09 13:06:15,678 WARNING Equation recognition failed for /page/670/Text/2
+2026-11-09 13:06:15,678 WARNING Equation recognition failed for /page/670/Text/3
+2026-11-09 13:06:15,678 WARNING Equation recognition failed for /page/670/Text/7
+2026-11-09 13:06:15,678 WARNING Equation recognition failed for /page/670/Equation/8
+2026-11-09 13:06:15,679 WARNING Equation recognition failed for /page/670/Text/11
+2026-11-09 13:06:15,797 INFO [1/6] Boyd_Vandenberghe_Convex_Optimization.pdf: 7 pages [154,166,169,239,256,272,670] -> markdown+json in 11.2 s (1.59 s/page)
+2026-11-09 13:06:17,457 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:18,113 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:18,629 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:18,798 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:18,952 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:18,964 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,433 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,504 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,815 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,815 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,817 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,899 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,966 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,968 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:19,970 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,068 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,115 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,159 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,169 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,309 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,475 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,499 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,542 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,578 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,632 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,681 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,715 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,758 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,783 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,794 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,795 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,892 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,892 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,892 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,902 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,976 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,977 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,999 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:20,999 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,059 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,094 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,105 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,330 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,448 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,461 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,536 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,583 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,617 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,742 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,856 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:21,902 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:22,163 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:22,763 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:22,854 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:23,129 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:24,366 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:24,387 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:25,073 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:25,821 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:25,829 WARNING Equation recognition failed for /page/101/Text/3
+2026-11-09 13:06:25,829 WARNING Equation recognition failed for /page/115/Caption/3
+2026-11-09 13:06:25,829 WARNING Equation recognition failed for /page/115/Text/4
+2026-11-09 13:06:25,829 WARNING Equation recognition failed for /page/115/Text/5
+2026-11-09 13:06:25,829 WARNING Equation recognition failed for /page/115/Equation/6
+2026-11-09 13:06:25,830 WARNING Equation recognition failed for /page/221/Text/2
+2026-11-09 13:06:25,830 WARNING Equation recognition failed for /page/221/Text/3
+2026-11-09 13:06:25,830 WARNING Equation recognition failed for /page/221/Text/8
+2026-11-09 13:06:25,830 WARNING Equation recognition failed for /page/375/Equation/5
+2026-11-09 13:06:25,831 WARNING Equation recognition failed for /page/375/Text/6
+2026-11-09 13:06:25,831 WARNING Equation recognition failed for /page/375/Text/11
+2026-11-09 13:06:25,831 WARNING Equation recognition failed for /page/377/Text/8
+2026-11-09 13:06:25,931 INFO [2/6] Prince_Understanding_Deep_Learning.pdf: 7 pages [101-102,115,221,224,375,377] -> markdown+json in 10.1 s (1.45 s/page)
+2026-11-09 13:06:27,649 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:27,823 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:27,833 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:27,844 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,000 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,313 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,408 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,632 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,663 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,747 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:28,962 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,473 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,484 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,554 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,579 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,580 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,711 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,748 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,773 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,820 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,966 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:29,990 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,255 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,255 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,398 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,409 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,470 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,471 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,528 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,596 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,829 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:30,974 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,295 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,420 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,442 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,443 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,499 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,544 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:31,735 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:32,223 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:32,235 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:32,485 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:32,961 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:33,191 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:34,042 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:34,047 WARNING Equation recognition failed for /page/84/Text/2
+2026-11-09 13:06:34,048 WARNING Equation recognition failed for /page/138/Text/5
+2026-11-09 13:06:34,048 WARNING Equation recognition failed for /page/138/Equation/6
+2026-11-09 13:06:34,048 WARNING Equation recognition failed for /page/158/Caption/5
+2026-11-09 13:06:34,048 WARNING Equation recognition failed for /page/191/Caption/10
+2026-11-09 13:06:34,217 INFO [3/6] Sutton_Barto_Reinforcement_Learning_2nd.pdf: 6 pages [81,84,138,158,170,191] -> markdown+json in 8.3 s (1.38 s/page)
+2026-11-09 13:06:36,500 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:36,501 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:36,670 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:36,671 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,175 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,327 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,393 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,758 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,759 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,760 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,761 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,762 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,761 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,817 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,898 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:37,954 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,001 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,207 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,233 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,358 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,416 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,498 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,524 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,573 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,619 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,632 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,646 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,689 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,690 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,702 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,749 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,750 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,787 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,824 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,836 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,910 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,922 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:38,947 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,020 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,227 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,252 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,288 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,301 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,313 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,360 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,628 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,653 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,654 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:39,906 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,043 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,066 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,270 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,378 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,554 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,575 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,807 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:40,861 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:41,048 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:41,286 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:42,539 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:42,777 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/104/Text/9
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/104/Text/10
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/106/Text/3
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/106/Text/10
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/197/Text/4
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/197/ListItem/455
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/197/ListItem/457
+2026-11-09 13:06:42,784 WARNING Equation recognition failed for /page/197/Text/6
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/198/Footnote/11
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/240/Text/2
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/240/Text/10
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/240/Text/12
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/240/Text/13
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/240/Text/14
+2026-11-09 13:06:42,785 WARNING Equation recognition failed for /page/240/Text/15
+2026-11-09 13:06:42,857 INFO [4/6] L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf: 6 pages [103-104,106,197-198,240] -> markdown+json in 8.6 s (1.44 s/page)
+2026-11-09 13:06:45,110 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:45,283 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:45,797 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:45,798 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:45,808 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:45,979 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:46,143 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:46,281 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:46,481 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:06:46,572 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:06:55,781 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,654 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,845 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,869 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,907 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,907 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,907 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,908 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:56,985 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,237 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,272 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,322 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,358 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,359 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,407 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,430 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,475 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,576 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,609 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,743 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,821 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,854 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,952 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:57,985 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,138 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,215 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,312 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,322 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,333 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,819 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:58,971 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:59,223 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:06:59,229 WARNING Equation recognition failed for /page/61/Text/14
+2026-11-09 13:06:59,230 WARNING Equation recognition failed for /page/61/Text/15
+2026-11-09 13:06:59,230 WARNING Equation recognition failed for /page/61/Text/16
+2026-11-09 13:06:59,230 WARNING Equation recognition failed for /page/71/Text/1
+2026-11-09 13:06:59,230 WARNING Equation recognition failed for /page/71/Caption/3
+2026-11-09 13:06:59,230 WARNING Equation recognition failed for /page/71/Caption/7
+2026-11-09 13:06:59,230 WARNING Equation recognition failed for /page/194/Caption/13
+2026-11-09 13:07:02,565 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:02,568 INFO Table processing stats: {'tables_ocr': 1, 'tables_total': 1}
+2026-11-09 13:07:02,604 INFO [5/6] Strogatz_Nonlinear_Dynamics_and_Chaos.pdf: 8 pages [60-61,71,147,163,194,281,332] -> markdown+json in 19.7 s (2.47 s/page)
+2026-11-09 13:07:05,125 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:05,824 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:06,160 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:06,328 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:06,477 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:06,537 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,059 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,548 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,548 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,561 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,561 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,572 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,584 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,710 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,722 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,745 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,791 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,836 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,871 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,871 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,970 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:07,971 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,014 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,172 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,262 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,285 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,307 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,519 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,823 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:08,828 WARNING Equation recognition failed for /page/224/Equation/17
+2026-11-09 13:07:08,958 INFO [6/6] Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf: 5 pages [51,168,185,224,346] -> markdown+json in 6.3 s (1.27 s/page)
+2026-11-09 13:07:08,958 INFO Done: 6 converted, 0 skipped, 0 failed, 39 pages, 1.1 min
+2026-11-09 13:07:08,958 INFO === config1_balanced: 6 converted, 0 failed, 1.65 s/page
+2026-11-09 13:07:08,958 INFO === config2_force_ocr
+2026-11-09 13:07:08,959 INFO Marker models loaded in 0.0 s
+2026-11-09 13:07:09,016 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:07:19,534 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:21,952 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:22,317 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:22,663 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:24,644 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:24,711 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:24,894 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:25,171 INFO [1/6] Boyd_Vandenberghe_Convex_Optimization.pdf: 7 pages [154,166,169,239,256,272,670] -> markdown+json in 16.2 s (2.32 s/page)
+2026-11-09 13:07:25,278 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:07:36,789 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:37,959 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:37,993 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:39,513 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:39,558 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:43,808 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:44,025 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:44,262 INFO [2/6] Prince_Understanding_Deep_Learning.pdf: 7 pages [101-102,115,221,224,375,377] -> markdown+json in 19.1 s (2.73 s/page)
+2026-11-09 13:07:44,311 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:07:54,992 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:55,672 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:56,339 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:56,347 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:56,549 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:57,656 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:07:57,993 INFO [3/6] Sutton_Barto_Reinforcement_Learning_2nd.pdf: 6 pages [81,84,138,158,170,191] -> markdown+json in 13.7 s (2.29 s/page)
+2026-11-09 13:07:58,042 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:08:08,420 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:08,930 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:09,915 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:10,434 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:10,620 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:13,295 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:13,520 INFO [4/6] L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf: 6 pages [103-104,106,197-198,240] -> markdown+json in 15.5 s (2.59 s/page)
+2026-11-09 13:08:13,633 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:08:22,307 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:22,800 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:23,965 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:24,419 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:24,549 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:24,560 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:24,929 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:25,539 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:25,598 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 13:08:25,667 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 13:08:25,778 INFO Table processing stats: {'tables_ocr': 1, 'tables_total': 1}
+2026-11-09 13:08:25,796 INFO [5/6] Strogatz_Nonlinear_Dynamics_and_Chaos.pdf: 8 pages [60-61,71,147,163,194,281,332] -> markdown+json in 12.3 s (1.53 s/page)
+2026-11-09 13:08:26,027 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:08:40,107 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:40,249 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:41,136 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:41,933 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:42,307 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:08:42,510 INFO [6/6] Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf: 5 pages [51,168,185,224,346] -> markdown+json in 16.7 s (3.34 s/page)
+2026-11-09 13:08:42,510 INFO Done: 6 converted, 0 skipped, 0 failed, 39 pages, 1.6 min
+2026-11-09 13:08:42,510 INFO === config2_force_ocr: 6 converted, 0 failed, 2.4 s/page
+2026-11-09 13:08:42,510 INFO === config3_fast_force_ocr
+2026-11-09 13:08:42,511 INFO Marker models loaded in 0.0 s
+2026-11-09 13:08:42,664 INFO Spawning fast_layout server on port 33355
+2026-11-09 13:08:42,664 INFO Spawning fast_layout server: /home/jovyan/envs/marker/bin/python -m surya.fast_layout.server --host 127.0.0.1 --port 33355 --checkpoint hf://datalab-to/surya_layout2
+2026-11-09 13:08:42,665 INFO keep-alive: fast_layout server on port 33355 will stay up after exit (cleanup_id='197621')
+2026-11-09 13:08:49,704 INFO HTTP Request: GET http://127.0.0.1:33355/health "HTTP/1.1 200 OK"
+2026-11-09 13:08:49,709 INFO HTTP Request: GET http://127.0.0.1:33355/v1/models "HTTP/1.1 200 OK"
+2026-11-09 13:08:49,709 INFO fast_layout server ready on port 33355 (model=hf://datalab-to/surya_layout2)
+2026-11-09 13:08:54,212 INFO HTTP Request: POST http://127.0.0.1:33355/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:08:54,228 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:08:54,336 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:09:03,938 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:06,405 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:06,778 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:07,116 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:09,138 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:09,172 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:09,360 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:09,643 INFO [1/6] Boyd_Vandenberghe_Convex_Optimization.pdf: 7 pages [154,166,169,239,256,272,670] -> markdown+json in 27.1 s (3.88 s/page)
+2026-11-09 13:09:10,180 INFO HTTP Request: POST http://127.0.0.1:33355/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:10,193 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:10,314 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:09:19,358 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:20,938 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:22,113 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:23,694 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:23,739 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:28,009 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:28,234 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:28,474 INFO [2/6] Prince_Understanding_Deep_Learning.pdf: 7 pages [101-102,115,221,224,375,377] -> markdown+json in 18.8 s (2.69 s/page)
+2026-11-09 13:09:28,761 INFO HTTP Request: POST http://127.0.0.1:33355/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:28,773 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:28,837 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:09:38,857 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:39,529 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:40,191 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:40,203 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:40,405 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:41,486 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:41,830 INFO [3/6] Sutton_Barto_Reinforcement_Learning_2nd.pdf: 6 pages [81,84,138,158,170,191] -> markdown+json in 13.3 s (2.23 s/page)
+2026-11-09 13:09:42,078 INFO HTTP Request: POST http://127.0.0.1:33355/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:42,088 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:42,143 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:09:52,057 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:52,555 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:53,539 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:54,040 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:54,232 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:56,889 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:09:57,115 INFO [4/6] L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf: 6 pages [103-104,106,197-198,240] -> markdown+json in 15.3 s (2.55 s/page)
+2026-11-09 13:09:57,550 INFO HTTP Request: POST http://127.0.0.1:33355/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:57,569 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:09:57,702 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:10:06,045 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:06,446 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:07,583 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:07,648 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:08,025 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:08,155 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:08,563 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:09,157 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:09,216 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 13:10:09,286 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 13:10:09,398 INFO Table processing stats: {'tables_ocr': 1, 'tables_total': 1}
+2026-11-09 13:10:09,417 INFO [5/6] Strogatz_Nonlinear_Dynamics_and_Chaos.pdf: 8 pages [60-61,71,147,163,194,281,332] -> markdown+json in 12.3 s (1.54 s/page)
+2026-11-09 13:10:09,846 INFO HTTP Request: POST http://127.0.0.1:33355/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:10:09,857 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:10:10,151 INFO RecognitionPredictor called with full_page=True and layout_results; layout will be used as fallback if the full-page output devolves into a repetition loop.
+2026-11-09 13:10:23,659 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:23,804 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:24,701 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:25,476 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:25,866 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:26,178 INFO [6/6] Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf: 5 pages [51,168,185,224,346] -> markdown+json in 16.8 s (3.35 s/page)
+2026-11-09 13:10:26,178 INFO Done: 6 converted, 0 skipped, 0 failed, 39 pages, 1.7 min
+2026-11-09 13:10:26,179 INFO === config3_fast_force_ocr: 6 converted, 0 failed, 2.66 s/page
+2026-11-09 13:10:26,179 INFO === config4_force_ocr_strip
+2026-11-09 13:10:26,180 INFO Marker models loaded in 0.0 s
+2026-11-09 13:10:26,238 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:10:36,003 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:38,408 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:38,784 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:39,142 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:41,113 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:41,156 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:41,208 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:41,496 INFO [1/6] Boyd_Vandenberghe_Convex_Optimization.pdf: 7 pages [154,166,169,239,256,272,670] -> markdown+json in 15.3 s (2.19 s/page)
+2026-11-09 13:10:41,602 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:10:50,789 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:52,316 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:53,497 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:55,082 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:55,115 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:59,343 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:59,619 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:10:59,857 INFO [2/6] Prince_Understanding_Deep_Learning.pdf: 7 pages [101-102,115,221,224,375,377] -> markdown+json in 18.4 s (2.62 s/page)
+2026-11-09 13:10:59,909 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:11:09,994 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:10,628 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:11,341 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:11,344 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:11,555 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:12,626 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:12,967 INFO [3/6] Sutton_Barto_Reinforcement_Learning_2nd.pdf: 6 pages [81,84,138,158,170,191] -> markdown+json in 13.1 s (2.18 s/page)
+2026-11-09 13:11:13,017 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:11:23,024 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:23,530 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:24,514 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:25,016 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:25,224 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:27,864 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:28,091 INFO [4/6] L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf: 6 pages [103-104,106,197-198,240] -> markdown+json in 15.1 s (2.52 s/page)
+2026-11-09 13:11:28,202 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:11:36,426 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:36,897 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:38,230 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:38,297 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:38,677 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:38,808 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:39,140 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:39,814 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:39,872 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 13:11:39,941 INFO dropped 1 blank text block(s) from full-page OCR
+2026-11-09 13:11:40,052 INFO Table processing stats: {'tables_ocr': 1, 'tables_total': 1}
+2026-11-09 13:11:40,071 INFO [5/6] Strogatz_Nonlinear_Dynamics_and_Chaos.pdf: 8 pages [60-61,71,147,163,194,281,332] -> markdown+json in 12.0 s (1.50 s/page)
+2026-11-09 13:11:40,302 INFO HTTP Request: POST http://127.0.0.1:37285/v1/v1/infer "HTTP/1.1 200 OK"
+2026-11-09 13:11:54,037 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:54,180 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:55,068 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:55,853 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:56,228 INFO HTTP Request: POST http://127.0.0.1:8765/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 13:11:56,430 INFO [6/6] Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf: 5 pages [51,168,185,224,346] -> markdown+json in 16.4 s (3.27 s/page)
+2026-11-09 13:11:56,430 INFO Done: 6 converted, 0 skipped, 0 failed, 39 pages, 1.5 min
+2026-11-09 13:11:56,430 INFO === config4_force_ocr_strip: 6 converted, 0 failed, 2.31 s/page
+2026-11-09 13:11:56,431 INFO Results: /home/jovyan/Knowledge-Graph/setup_guides_measurments_test_results

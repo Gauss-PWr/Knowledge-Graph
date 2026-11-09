@@ -1,0 +1,120 @@
+{
+  "finished_at": "2026-11-09T13:10:26+00:00",
+  "settings": {
+    "input_dir": "/home/jovyan/Knowledge-Graph/papers",
+    "output_dir": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr",
+    "json_output_dir": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr",
+    "output_formats": [
+      "markdown",
+      "json"
+    ],
+    "backend": "vllm",
+    "parallel": null,
+    "keep_alive": false,
+    "page_range": "all",
+    "marker_config": {
+      "mode": "fast",
+      "extract_images": false,
+      "force_ocr": true
+    },
+    "versions": {
+      "marker-pdf": "2.1.0",
+      "surya-ocr": "0.23.0"
+    }
+  },
+  "summary": {
+    "converted": 6,
+    "skipped": 0,
+    "failed": 0,
+    "total_pages": 39,
+    "total_seconds": 103.65,
+    "avg_sec_per_page": 2.66,
+    "model_load_seconds": 0.0
+  },
+  "files": [
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Boyd_Vandenberghe_Convex_Optimization.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr/Boyd_Vandenberghe_Convex_Optimization.p154_166_169_239_256_272_670.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr/Boyd_Vandenberghe_Convex_Optimization.p154_166_169_239_256_272_670.json"
+      },
+      "status": "converted",
+      "pages": 7,
+      "page_range": "154,166,169,239,256,272,670",
+      "seconds": 27.13,
+      "sec_per_page": 3.88,
+      "started_at": "2026-11-09T13:08:42+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Prince_Understanding_Deep_Learning.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr/Prince_Understanding_Deep_Learning.p101-102_115_221_224_375_377.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr/Prince_Understanding_Deep_Learning.p101-102_115_221_224_375_377.json"
+      },
+      "status": "converted",
+      "pages": 7,
+      "page_range": "101-102,115,221,224,375,377",
+      "seconds": 18.83,
+      "sec_per_page": 2.69,
+      "started_at": "2026-11-09T13:09:09+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Sutton_Barto_Reinforcement_Learning_2nd.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr/Sutton_Barto_Reinforcement_Learning_2nd.p81_84_138_158_170_191.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr/Sutton_Barto_Reinforcement_Learning_2nd.p81_84_138_158_170_191.json"
+      },
+      "status": "converted",
+      "pages": 6,
+      "page_range": "81,84,138,158,170,191",
+      "seconds": 13.35,
+      "sec_per_page": 2.23,
+      "started_at": "2026-11-09T13:09:28+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr/L_pez_de_Prado_Advances_in_Financial_Machine_Learning.p103-104_106_197-198_240.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr/L_pez_de_Prado_Advances_in_Financial_Machine_Learning.p103-104_106_197-198_240.json"
+      },
+      "status": "converted",
+      "pages": 6,
+      "page_range": "103-104,106,197-198,240",
+      "seconds": 15.28,
+      "sec_per_page": 2.55,
+      "started_at": "2026-11-09T13:09:41+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Strogatz_Nonlinear_Dynamics_and_Chaos.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr/Strogatz_Nonlinear_Dynamics_and_Chaos.p60-61_71_147_163_194_281_332.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr/Strogatz_Nonlinear_Dynamics_and_Chaos.p60-61_71_147_163_194_281_332.json"
+      },
+      "status": "converted",
+      "pages": 8,
+      "page_range": "60-61,71,147,163,194,281,332",
+      "seconds": 12.3,
+      "sec_per_page": 1.54,
+      "started_at": "2026-11-09T13:09:57+00:00",
+      "error": null
+    },
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config3_fast_force_ocr/Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.p51_168_185_224_346.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config3_fast_force_ocr/Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.p51_168_185_224_346.json"
+      },
+      "status": "converted",
+      "pages": 5,
+      "page_range": "51,168,185,224,346",
+      "seconds": 16.76,
+      "sec_per_page": 3.35,
+      "started_at": "2026-11-09T13:10:09+00:00",
+      "error": null
+    }
+  ]
+}

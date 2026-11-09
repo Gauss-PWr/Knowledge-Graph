@@ -1,0 +1,3089 @@
+{
+  "children": [
+    {
+      "id": "/page/103/Page/588",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/103/PageHeader/0'></content-ref><content-ref src='/page/103/PageHeader/1'></content-ref><content-ref src='/page/103/Text/2'></content-ref><content-ref src='/page/103/Text/3'></content-ref><content-ref src='/page/103/SectionHeader/4'></content-ref><content-ref src='/page/103/Text/5'></content-ref><content-ref src='/page/103/Text/6'></content-ref><content-ref src='/page/103/Equation/7'></content-ref><content-ref src='/page/103/SectionHeader/8'></content-ref><content-ref src='/page/103/Text/9'></content-ref><content-ref src='/page/103/Equation/10'></content-ref><content-ref src='/page/103/Text/11'></content-ref><content-ref src='/page/103/Equation/12'></content-ref><content-ref src='/page/103/Text/13'></content-ref><content-ref src='/page/103/Equation/14'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/103/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              50.97599999999999,
+              43.416000000000004
+            ],
+            [
+              388.4214859008789,
+              43.416000000000004
+            ],
+            [
+              388.4214859008789,
+              54.06317138671875
+            ],
+            [
+              50.97599999999999,
+              54.06317138671875
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            43.416000000000004,
+            388.4214859008789,
+            54.06317138671875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/103/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              374.976,
+              43.416000000000004
+            ],
+            [
+              388.79999999999995,
+              43.416000000000004
+            ],
+            [
+              388.79999999999995,
+              53.784000000000006
+            ],
+            [
+              374.976,
+              53.784000000000006
+            ]
+          ],
+          "bbox": [
+            374.976,
+            43.416000000000004,
+            388.79999999999995,
+            53.784000000000006
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">the calculation of fractional differentiation in continuous stochastic processes (e.g., Jensen and Nielsen [2014]).</p>",
+          "polygon": [
+            [
+              50.97599999999999,
+              66.744
+            ],
+            [
+              388.79999999999995,
+              66.744
+            ],
+            [
+              388.79999999999995,
+              90.72
+            ],
+            [
+              50.97599999999999,
+              90.72
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            66.744,
+            388.79999999999995,
+            90.72
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Differentiating the stochastic process is a computationally expensive operation. In this chapter we will take a practical, alternative, and novel approach to recover stationarity: We will generalize the difference operator to non-integer steps.</p>",
+          "polygon": [
+            [
+              50.97599999999999,
+              90.72
+            ],
+            [
+              388.79999999999995,
+              90.72
+            ],
+            [
+              388.79999999999995,
+              125.78387451171875
+            ],
+            [
+              50.97599999999999,
+              125.78387451171875
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            90.72,
+            388.79999999999995,
+            125.78387451171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/103/SectionHeader/4",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>5.4 THE METHOD</b></h2>",
+          "polygon": [
+            [
+              50.97599999999999,
+              151.632
+            ],
+            [
+              145.0082778930664,
+              151.632
+            ],
+            [
+              145.0082778930664,
+              163.64678955078125
+            ],
+            [
+              50.97599999999999,
+              163.64678955078125
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            151.632,
+            145.0082778930664,
+            163.64678955078125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Consider the backshift operator, <math>B</math>, applied to a matrix of real-valued features <math>\\{X_t\\}</math>, where <math>B^k X_t = X_{t-k}</math> for any integer <math>k \\geq 0</math>. For example, <math>(1 - B)^2 = 1 - 2B + B^2</math>, where <math>B^2 X_t = X_{t-2}</math>, so that <math>(1 - B)^2 X_t = X_t - 2X_{t-1} + X_{t-2}</math>. Note that <math>(x + y)^n = \\sum_{k=0}^n \\binom{n}{k} x^k y^{n-k} = \\sum_{k=0}^n \\binom{n}{k} x^{n-k} y^k</math>, for <math>n</math> a positive integer. For a real number <math>d</math>, <math>(1 + x)^d = \\sum_{k=0}^{\\infty} \\binom{d}{k} x^k</math>, the binomial series.</p></div>",
+          "polygon": [
+            [
+              50.97599999999999,
+              174.96000000000004
+            ],
+            [
+              388.79999999999995,
+              174.96000000000004
+            ],
+            [
+              388.79999999999995,
+              262.9404296875
+            ],
+            [
+              50.97599999999999,
+              262.9404296875
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            174.96000000000004,
+            388.79999999999995,
+            262.9404296875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">In a fractional model, the exponent <i>d</i> is allowed to be a real number, with the following formal binomial series expansion:</p>",
+          "polygon": [
+            [
+              50.97599999999999,
+              261.144
+            ],
+            [
+              388.79999999999995,
+              261.144
+            ],
+            [
+              388.79999999999995,
+              285.76800000000003
+            ],
+            [
+              50.97599999999999,
+              285.76800000000003
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            261.144,
+            388.79999999999995,
+            285.76800000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"7 145 993 925\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned}(1-B)^d &amp;= \\sum_{k=0}^{\\infty} \\binom{d}{k} (-B)^k = \\sum_{k=0}^{\\infty} \\frac{\\prod_{i=0}^{k-1} (d-i)}{k!} (-B)^k \\\\&amp;= \\sum_{k=0}^{\\infty} (-B)^k \\prod_{i=0}^{k-1} \\frac{d-i}{k-i} \\\\&amp;= 1 - dB + \\frac{d(d-1)}{2!} B^2 - \\frac{d(d-1)(d-2)}{3!} B^3 + \\dots\\end{aligned}</math></div></p>",
+          "polygon": [
+            [
+              55.728,
+              293.1849060058594
+            ],
+            [
+              382.6084671020508,
+              293.1849060058594
+            ],
+            [
+              382.6084671020508,
+              393.3926086425781
+            ],
+            [
+              55.728,
+              393.3926086425781
+            ]
+          ],
+          "bbox": [
+            55.728,
+            293.1849060058594,
+            382.6084671020508,
+            393.3926086425781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/SectionHeader/8",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>5.4.1 Long Memory</b></h2>",
+          "polygon": [
+            [
+              50.97599999999999,
+              409.536
+            ],
+            [
+              144.70056915283203,
+              409.536
+            ],
+            [
+              144.70056915283203,
+              421.84800000000007
+            ],
+            [
+              50.97599999999999,
+              421.84800000000007
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            409.536,
+            144.70056915283203,
+            421.84800000000007
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Let us see how a real (non-integer) positive <i>d</i> preserves memory. This arithmetic series consists of a dot product</p>",
+          "polygon": [
+            [
+              50.97599999999999,
+              425.736
+            ],
+            [
+              388.79999999999995,
+              425.736
+            ],
+            [
+              388.79999999999995,
+              451.65599999999995
+            ],
+            [
+              50.97599999999999,
+              451.65599999999995
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            425.736,
+            388.79999999999995,
+            451.65599999999995
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 977 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\tilde{X}_t = \\sum_{k=0}^{\\infty} \\omega_k X_{t-k}</math></div></p>",
+          "polygon": [
+            [
+              184.464,
+              464.6078643798828
+            ],
+            [
+              252.71999999999997,
+              464.6078643798828
+            ],
+            [
+              252.71999999999997,
+              496.1981964111328
+            ],
+            [
+              184.464,
+              496.1981964111328
+            ]
+          ],
+          "bbox": [
+            184.464,
+            464.6078643798828,
+            252.71999999999997,
+            496.1981964111328
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/11",
+          "block_type": "Text",
+          "html": "<p>with weights <math>\\omega</math></p>",
+          "polygon": [
+            [
+              50.97599999999999,
+              507.384
+            ],
+            [
+              114.15496063232422,
+              507.384
+            ],
+            [
+              114.15496063232422,
+              519.696
+            ],
+            [
+              50.97599999999999,
+              519.696
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            507.384,
+            114.15496063232422,
+            519.696
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\omega = \\left\\{ 1, -d, \\frac{d(d-1)}{2!}, -\\frac{d(d-1)(d-2)}{3!}, \\dots, (-1)^k \\prod_{i=0}^{k-1} \\frac{d-i}{k!}, \\dots \\right\\}</math></div></p>",
+          "polygon": [
+            [
+              78.19200000000001,
+              526.6721801757812
+            ],
+            [
+              359.68595123291016,
+              526.6721801757812
+            ],
+            [
+              359.68595123291016,
+              566.3262023925781
+            ],
+            [
+              78.19200000000001,
+              566.3262023925781
+            ]
+          ],
+          "bbox": [
+            78.19200000000001,
+            526.6721801757812,
+            359.68595123291016,
+            566.3262023925781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Text/13",
+          "block_type": "Text",
+          "html": "",
+          "polygon": [
+            [
+              50.97599999999999,
+              578.016
+            ],
+            [
+              104.78083038330078,
+              578.016
+            ],
+            [
+              104.78083038330078,
+              590.1390838623047
+            ],
+            [
+              50.97599999999999,
+              590.1390838623047
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            578.016,
+            104.78083038330078,
+            590.1390838623047
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/103/Equation/14",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 875 51\" data-label=\"Equation-Block\"><math display=\"block\">X = \\{X_t, X_{t-1}, X_{t-2}, X_{t-3}, \\dots, X_{t-k}, \\dots\\}</math></div></p>",
+          "polygon": [
+            [
+              135.648,
+              596.4487762451172
+            ],
+            [
+              301.92813873291016,
+              596.4487762451172
+            ],
+            [
+              301.92813873291016,
+              618.1123046875
+            ],
+            [
+              135.648,
+              618.1123046875
+            ]
+          ],
+          "bbox": [
+            135.648,
+            596.4487762451172,
+            301.92813873291016,
+            618.1123046875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/103/SectionHeader/8"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/104/Page/346",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/104/PageHeader/0'></content-ref><content-ref src='/page/104/PageHeader/1'></content-ref><content-ref src='/page/104/FigureGroup/346'></content-ref><content-ref src='/page/104/Text/4'></content-ref><content-ref src='/page/104/SectionHeader/5'></content-ref><content-ref src='/page/104/Text/6'></content-ref><content-ref src='/page/104/Equation/7'></content-ref><content-ref src='/page/104/Text/8'></content-ref><content-ref src='/page/104/Text/9'></content-ref><content-ref src='/page/104/Text/10'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/104/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              41.04,
+              43.416000000000004
+            ],
+            [
+              54.0,
+              43.416000000000004
+            ],
+            [
+              54.0,
+              53.784000000000006
+            ],
+            [
+              41.04,
+              53.784000000000006
+            ]
+          ],
+          "bbox": [
+            41.04,
+            43.416000000000004,
+            54.0,
+            53.784000000000006
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              42.939002990722656,
+              43.416000000000004
+            ],
+            [
+              378.432,
+              43.416000000000004
+            ],
+            [
+              378.432,
+              54.06317138671875
+            ],
+            [
+              42.939002990722656,
+              54.06317138671875
+            ]
+          ],
+          "bbox": [
+            42.939002990722656,
+            43.416000000000004,
+            378.432,
+            54.06317138671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/FigureGroup/346",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/104/Figure/2'></content-ref><content-ref src='/page/104/Caption/3'></content-ref>",
+          "polygon": [
+            [
+              41.04,
+              59.615999999999985
+            ],
+            [
+              378.432,
+              59.615999999999985
+            ],
+            [
+              378.432,
+              304.04412841796875
+            ],
+            [
+              41.04,
+              304.04412841796875
+            ]
+          ],
+          "bbox": [
+            41.04,
+            59.615999999999985,
+            378.432,
+            304.04412841796875
+          ],
+          "children": [
+            {
+              "id": "/page/104/Figure/2",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  44.49599999999999,
+                  59.615999999999985
+                ],
+                [
+                  375.84000000000003,
+                  59.615999999999985
+                ],
+                [
+                  375.84000000000003,
+                  283.176
+                ],
+                [
+                  44.49599999999999,
+                  283.176
+                ]
+              ],
+              "bbox": [
+                44.49599999999999,
+                59.615999999999985,
+                375.84000000000003,
+                283.176
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "2": "/page/103/SectionHeader/8"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/104/Caption/3",
+              "block_type": "Caption",
+              "html": "<p></p><div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>FIGURE 5.1</b> <math>\\omega_k</math> (y-axis) as <math>k</math> increases (x-axis). Each line is associated with a particular value of <math>d \\in [0,1]</math>, in 0.1 increments.</p></div>",
+              "polygon": [
+                [
+                  41.04,
+                  283.176
+                ],
+                [
+                  378.432,
+                  283.176
+                ],
+                [
+                  378.432,
+                  304.04412841796875
+                ],
+                [
+                  41.04,
+                  304.04412841796875
+                ]
+              ],
+              "bbox": [
+                41.04,
+                283.176,
+                378.432,
+                304.04412841796875
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "2": "/page/103/SectionHeader/8"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/104/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"80 80 980 850\" data-label=\"Text\"><p>When <math>d</math> is a positive integer number, <math>\\prod_{i=0}^{k-1} \\frac{d-i}{k!} = 0, \\forall k &gt; d</math>, and memory beyond that point is cancelled. For example, <math>d = 1</math> is used to compute returns, where <math>\\prod_{i=0}^{k-1} \\frac{d-i}{k!} = 0, \\forall k &gt; 1</math>, and <math>\\omega = \\{1, -1, 0, 0, \\dots\\}</math>.</p></div>",
+          "polygon": [
+            [
+              41.04,
+              318.0968017578125
+            ],
+            [
+              378.432,
+              318.0968017578125
+            ],
+            [
+              378.432,
+              365.9682922363281
+            ],
+            [
+              41.04,
+              365.9682922363281
+            ]
+          ],
+          "bbox": [
+            41.04,
+            318.0968017578125,
+            378.432,
+            365.9682922363281
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/103/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/SectionHeader/5",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>5.4.2 Iterative Estimation</b></h2>",
+          "polygon": [
+            [
+              41.04,
+              382.32
+            ],
+            [
+              158.13036346435547,
+              382.32
+            ],
+            [
+              158.13036346435547,
+              394.2994689941406
+            ],
+            [
+              41.04,
+              394.2994689941406
+            ]
+          ],
+          "bbox": [
+            41.04,
+            382.32,
+            158.13036346435547,
+            394.2994689941406
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"114 0 1000 100\" data-label=\"Text\"><p>Looking at the sequence of weights, <math>\\omega</math>, we can appreciate that for <math>k = 0, \\dots, \\infty</math>, with <math>\\omega_0 = 1</math>, the weights can be generated iteratively as:</p></div>",
+          "polygon": [
+            [
+              41.04,
+              399.816
+            ],
+            [
+              378.432,
+              399.816
+            ],
+            [
+              378.432,
+              426.227783203125
+            ],
+            [
+              41.04,
+              426.227783203125
+            ]
+          ],
+          "bbox": [
+            41.04,
+            399.816,
+            378.432,
+            426.227783203125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 945 52\" data-label=\"Equation-Block\"><math display=\"block\">\\omega_k = -\\omega_{k-1} \\frac{d-k+1}{k}</math></div></p>",
+          "polygon": [
+            [
+              160.272,
+              436.752
+            ],
+            [
+              255.312,
+              436.752
+            ],
+            [
+              255.312,
+              461.98809814453125
+            ],
+            [
+              160.272,
+              461.98809814453125
+            ]
+          ],
+          "bbox": [
+            160.272,
+            436.752,
+            255.312,
+            461.98809814453125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 10 997 970\" data-label=\"Text\"><p>Figure 5.1 plots the sequence of weights used to compute each value of the fractionally differentiated series. The legend reports the value of <math>d</math> used to generate each sequence, the x-axis indicates the value of <math>k</math>, and the y-axis shows the value of <math>\\omega_k</math>. For example, for <math>d = 0</math>, all weights are 0 except for <math>\\omega_0 = 1</math>. That is the case where the differentiated series coincides with the original one. For <math>d = 1</math>, all weights are 0 except for <math>\\omega_0 = 1</math> and <math>\\omega_1 = -1</math>. That is the standard first-order integer differentiation, which is used to derive log-price returns. Anywhere in between these two cases, all weights after <math>\\omega_0 = 1</math> are negative and greater than <math>-1</math>.</p></div>",
+          "polygon": [
+            [
+              41.04,
+              472.392
+            ],
+            [
+              378.432,
+              472.392
+            ],
+            [
+              378.432,
+              570.2728881835938
+            ],
+            [
+              41.04,
+              570.2728881835938
+            ]
+          ],
+          "bbox": [
+            41.04,
+            472.392,
+            378.432,
+            570.2728881835938
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Figure 5.2 plots the sequence of weights where <i>d</i> ∈ [1, 2], at increments of 0.1. For <i>d</i> <i><sup>&amp;</sup>gt;</i> 1, we observe <i>��</i><sup>1</sup> <i><sup>&amp;</sup>lt;</i> −1 and <i>��</i><i><sup>k</sup></i> <i><sup>&amp;</sup>gt;</i> 0, ∀<i>k</i> <sup>≥</sup> 2<i>.</i></p>",
+          "polygon": [
+            [
+              41.04,
+              567.648
+            ],
+            [
+              378.432,
+              567.648
+            ],
+            [
+              378.432,
+              594.1768951416016
+            ],
+            [
+              41.04,
+              594.1768951416016
+            ]
+          ],
+          "bbox": [
+            41.04,
+            567.648,
+            378.432,
+            594.1768951416016
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/104/Text/10",
+          "block_type": "Text",
+          "html": "",
+          "polygon": [
+            [
+              52.272,
+              591.624
+            ],
+            [
+              269.3617935180664,
+              591.624
+            ],
+            [
+              269.3617935180664,
+              604.1878890991211
+            ],
+            [
+              52.272,
+              604.1878890991211
+            ]
+          ],
+          "bbox": [
+            52.272,
+            591.624,
+            269.3617935180664,
+            604.1878890991211
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/104/SectionHeader/5"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/106/Page/628",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/106/PageHeader/0'></content-ref><content-ref src='/page/106/PageHeader/1'></content-ref><content-ref src='/page/106/SectionHeader/2'></content-ref><content-ref src='/page/106/Text/3'></content-ref><content-ref src='/page/106/SectionHeader/4'></content-ref><content-ref src='/page/106/Text/5'></content-ref><content-ref src='/page/106/SectionHeader/6'></content-ref><content-ref src='/page/106/Text/7'></content-ref><content-ref src='/page/106/Text/8'></content-ref><content-ref src='/page/106/Text/9'></content-ref><content-ref src='/page/106/Text/10'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/106/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              41.04,
+              42.120000000000005
+            ],
+            [
+              53.135999999999996,
+              42.120000000000005
+            ],
+            [
+              53.135999999999996,
+              53.784000000000006
+            ],
+            [
+              41.04,
+              53.784000000000006
+            ]
+          ],
+          "bbox": [
+            41.04,
+            42.120000000000005,
+            53.135999999999996,
+            53.784000000000006
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              42.939002990722656,
+              42.120000000000005
+            ],
+            [
+              378.432,
+              42.120000000000005
+            ],
+            [
+              378.432,
+              54.06317138671875
+            ],
+            [
+              42.939002990722656,
+              54.06317138671875
+            ]
+          ],
+          "bbox": [
+            42.939002990722656,
+            42.120000000000005,
+            378.432,
+            54.06317138671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/SectionHeader/2",
+          "block_type": "SectionHeader",
+          "html": "<h4><b>5.4.3 Convergence</b></h4>",
+          "polygon": [
+            [
+              41.04,
+              66.744
+            ],
+            [
+              128.736,
+              66.744
+            ],
+            [
+              128.736,
+              78.408
+            ],
+            [
+              41.04,
+              78.408
+            ]
+          ],
+          "bbox": [
+            41.04,
+            66.744,
+            128.736,
+            78.408
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5",
+            "4": "/page/106/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Let us consider the convergence of the weights. From the above result, we can see that for <i>k</i> <i><sup>&amp;</sup>gt;</i> <i>d</i>, if <i>��</i><i>k</i>−<sup>1</sup> ≠ 0, then | <i>��</i><i>k</i> <i>��</i><i>k</i>−1 | = | <i>d</i>−<i>k</i>+1 <i>k</i> | <i><sup>&amp;</sup>lt;</i> 1, and <i>��</i><i><sup>k</sup></i> = 0 otherwise. Consequently, the weights converge asymptotically to zero, as an infinite product of factors within the unit circle. Also, for a positive <i>d</i> and <i>k</i> <i><sup>&amp;</sup>lt;</i> <i>d</i> + 1, we have <i><sup>d</sup></i>−<i>k</i>+<sup>1</sup> <i><sup>k</sup></i> <sup>≥</sup> 0, which makes the initial weights alternate in sign. For a non-integer <i>d</i>, once <i>k</i> <sup>≥</sup> <i>d</i> + 1, <i>��</i><i><sup>k</sup></i> will be negative if int[<i>d</i>] is even, and positive otherwise. Summarizing, lim <i><sup>k</sup></i>→<sup>∞</sup> <i>��</i><i><sup>k</sup></i> <sup>=</sup> <sup>0</sup><sup>−</sup> (converges to zero from the left) when int[<i>d</i>] is even, and lim <i><sup>k</sup></i>→<sup>∞</sup> <i>��</i><i><sup>k</sup></i> <sup>=</sup> <sup>0</sup><sup>+</sup> (converges to zero from the right) when Int[<i>d</i>] is odd. In the special case <i>d</i> ∈ (0, 1), this means that −1 <i>&lt;��</i><i><sup>k</sup></i> <i><sup>&amp;</sup>lt;</i> 0, ∀<i>k</i> <i><sup>&amp;</sup>gt;</i> 0<i>.</i> This alternation of weight signs is necessary to make {<i>X</i><i>̃</i> <i><sup>t</sup></i>}<i>t</i>=1,<i>.</i>…,<i><sup>T</sup></i> stationary, as memory wanes or is offset over the long run.</p>",
+          "polygon": [
+            [
+              41.04,
+              84.888
+            ],
+            [
+              378.432,
+              84.888
+            ],
+            [
+              378.432,
+              222.904296875
+            ],
+            [
+              41.04,
+              222.904296875
+            ]
+          ],
+          "bbox": [
+            41.04,
+            84.888,
+            378.432,
+            222.904296875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/104/SectionHeader/5",
+            "4": "/page/106/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/SectionHeader/4",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>5.5 IMPLEMENTATION</b></h2>",
+          "polygon": [
+            [
+              41.04,
+              244.944
+            ],
+            [
+              158.69695281982422,
+              244.944
+            ],
+            [
+              158.69695281982422,
+              257.6877746582031
+            ],
+            [
+              41.04,
+              257.6877746582031
+            ]
+          ],
+          "bbox": [
+            41.04,
+            244.944,
+            158.69695281982422,
+            257.6877746582031
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/106/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 41 990 91\" data-label=\"Text\"><p>In this section we will explore two alternative implementations of fractional differentiation: the standard “expanding window” method, and a new method that I call “fixed-width window fracdiff” (FFD).</p></div>",
+          "polygon": [
+            [
+              41.04,
+              270.216
+            ],
+            [
+              378.432,
+              270.216
+            ],
+            [
+              378.432,
+              305.59490966796875
+            ],
+            [
+              41.04,
+              305.59490966796875
+            ]
+          ],
+          "bbox": [
+            41.04,
+            270.216,
+            378.432,
+            305.59490966796875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/106/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/SectionHeader/6",
+          "block_type": "SectionHeader",
+          "html": "<h1><b>5.5.1 Expanding Window</b></h1>",
+          "polygon": [
+            [
+              41.04,
+              325.296
+            ],
+            [
+              157.52533721923828,
+              325.296
+            ],
+            [
+              157.52533721923828,
+              338.25600000000003
+            ],
+            [
+              41.04,
+              338.25600000000003
+            ]
+          ],
+          "bbox": [
+            41.04,
+            325.296,
+            157.52533721923828,
+            338.25600000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Let us discuss how to fractionally differentiate a (finite) time series in practice. Suppose a time series with <math>T</math> real observations, <math>\\{X_t\\}</math>, <math>t = 1, \\dots, T</math>. Because of data limitations, the fractionally differentiated value <math>\\tilde{X}_T</math> cannot be computed on an infinite series of weights. For instance, the last point <math>\\tilde{X}_T</math> will use weights <math>\\{\\omega_k\\}</math>, <math>k = 0, \\dots, T-1</math>, and <math>\\tilde{X}_{T-l}</math> will use weights <math>\\{\\omega_k\\}</math>, <math>k = 0, \\dots, T-l-1</math>. This means that the initial points will have a different amount of memory compared to the final points. For each <math>l</math>, we can determine the relative weight-loss, <math>\\lambda_l = \\frac{\\sum_{j=T-l}^T |\\omega_j|}{\\sum_{j=1}^T |\\omega_j|}</math>. Given a tolerance level</p></div>",
+          "polygon": [
+            [
+              41.04,
+              342.79200000000003
+            ],
+            [
+              378.432,
+              342.79200000000003
+            ],
+            [
+              378.432,
+              434.15999999999997
+            ],
+            [
+              41.04,
+              434.15999999999997
+            ]
+          ],
+          "bbox": [
+            41.04,
+            342.79200000000003,
+            378.432,
+            434.15999999999997
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 986\" data-label=\"Text\"><p><math>l</math>, we can determine the relative weight-loss, <math>\\lambda_l = \\frac{\\sum_{j=T-l}^T |\\omega_j|}{\\sum_{i=0}^{T-1} |\\omega_i|}</math>. Given a tolerance level <math>\\tau \\in [0, 1]</math>, we can determine the value <math>l^*</math> such that <math>\\lambda_{l^*} \\leq \\tau</math> and <math>\\lambda_{l^*+1} &gt; \\tau</math>. This value <math>l^*</math> corresponds to the first results <math>\\{\\tilde{X}_l\\}_{l=1, \\dots, l^*}</math> where the weight-loss is beyond the acceptable threshold, <math>\\lambda_l &gt; \\tau</math> (e.g., <math>\\tau = 0.01</math>).</p></div>",
+          "polygon": [
+            [
+              41.04,
+              414.72
+            ],
+            [
+              378.432,
+              414.72
+            ],
+            [
+              378.432,
+              474.5626525878906
+            ],
+            [
+              41.04,
+              474.5626525878906
+            ]
+          ],
+          "bbox": [
+            41.04,
+            414.72,
+            378.432,
+            474.5626525878906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>From our earlier discussion, it is clear that <math>\\lambda_{l^*}</math> depends on the convergence speed of <math>\\{\\omega_k\\}</math>, which in turn depends on <math>d \\in [0, 1]</math>. For <math>d = 1</math>, <math>\\omega_k = 0</math>, <math>\\forall k &gt; 1</math>, and <math>\\lambda_l = 0</math>, <math>\\forall l &gt; 1</math>, hence it suffices to drop <math>\\tilde{X}_1</math>. As <math>d \\rightarrow 0^+</math>, <math>l^*</math> increases, and a larger portion of the initial <math>\\{\\tilde{X}_t\\}_{t=1, \\dots, l^*}</math> needs to be dropped in order to keep the weight-loss <math>\\lambda_{l^*} \\leq \\tau</math>. Figure 5.3 plots the E-mini S&amp;P 500 futures trade bars of size 1E4, rolled forward, fractionally differentiated, with parameters (<math>d = .4</math>, <math>\\tau = 1</math>) on the top and parameters (<math>d = .4</math>, <math>\\tau = 1E - 2</math>) on the bottom.</p></div>",
+          "polygon": [
+            [
+              41.04,
+              473.04
+            ],
+            [
+              378.432,
+              473.04
+            ],
+            [
+              378.432,
+              556.4009704589844
+            ],
+            [
+              41.04,
+              556.4009704589844
+            ]
+          ],
+          "bbox": [
+            41.04,
+            473.04,
+            378.432,
+            556.4009704589844
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/106/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The negative drift in both plots is caused by the negative weights that are added to the initial observations as the window is expanded. When we do not control for weight loss, the negative drift is extreme, to the point that only that trend is visible. The negative drift is somewhat more moderate in the right plot, after controlling</p>",
+          "polygon": [
+            [
+              41.04,
+              554.688
+            ],
+            [
+              378.432,
+              554.688
+            ],
+            [
+              378.432,
+              604.1885681152344
+            ],
+            [
+              41.04,
+              604.1885681152344
+            ]
+          ],
+          "bbox": [
+            41.04,
+            554.688,
+            378.432,
+            604.1885681152344
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/106/SectionHeader/6"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/197/Page/457",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/197/PageHeader/0'></content-ref><content-ref src='/page/197/PageHeader/1'></content-ref><content-ref src='/page/197/Text/2'></content-ref><content-ref src='/page/197/Text/3'></content-ref><content-ref src='/page/197/Text/4'></content-ref><content-ref src='/page/197/ListGroup/5'></content-ref><content-ref src='/page/197/Text/6'></content-ref><content-ref src='/page/197/Equation/7'></content-ref><content-ref src='/page/197/Text/8'></content-ref><content-ref src='/page/197/Text/9'></content-ref><content-ref src='/page/197/Equation/10'></content-ref><content-ref src='/page/197/Text/11'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/197/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              50.97599999999999,
+              43.416000000000004
+            ],
+            [
+              388.42105865478516,
+              43.416000000000004
+            ],
+            [
+              388.42105865478516,
+              54.06317138671875
+            ],
+            [
+              50.97599999999999,
+              54.06317138671875
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            43.416000000000004,
+            388.42105865478516,
+            54.06317138671875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              369.36,
+              43.416000000000004
+            ],
+            [
+              389.664,
+              43.416000000000004
+            ],
+            [
+              389.664,
+              53.784000000000006
+            ],
+            [
+              369.36,
+              53.784000000000006
+            ]
+          ],
+          "bbox": [
+            369.36,
+            43.416000000000004,
+            389.664,
+            53.784000000000006
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>be exited at <math>T_i</math>, its final profit/loss is <math>\\pi_{i,T_i}</math>. At the onset of each opportunity, the goal is to realize an expected profit <math>E_0[\\pi_{i,T_i}] = m_i(E_0[P_{i,T_i}] - P_{i,0})</math>, where <math>E_0[P_{i,T_i}]</math> is the forecasted price and <math>P_{i,0}</math> is the entry level of opportunity <math>i</math>.</p></div>",
+          "polygon": [
+            [
+              50.97599999999999,
+              66.744
+            ],
+            [
+              389.664,
+              66.744
+            ],
+            [
+              389.664,
+              103.82086181640625
+            ],
+            [
+              50.97599999999999,
+              103.82086181640625
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            66.744,
+            389.664,
+            103.82086181640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>Definition 1: Trading Rule:</b> A trading rule for strategy <math>S</math> is defined by the set of parameters <math>R := \\{\\underline{\\pi}, \\bar{\\pi}\\}</math>.</p></div>",
+          "polygon": [
+            [
+              57.888,
+              120.528
+            ],
+            [
+              384.048,
+              120.528
+            ],
+            [
+              384.048,
+              145.8
+            ],
+            [
+              57.888,
+              145.8
+            ]
+          ],
+          "bbox": [
+            57.888,
+            120.528,
+            384.048,
+            145.8
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Text/4",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">One way to calibrate (by brute force) the trading rule is to:</p>",
+          "polygon": [
+            [
+              63.504,
+              165.888
+            ],
+            [
+              298.7638931274414,
+              165.888
+            ],
+            [
+              298.7638931274414,
+              178.35284423828125
+            ],
+            [
+              63.504,
+              178.35284423828125
+            ]
+          ],
+          "bbox": [
+            63.504,
+            165.888,
+            298.7638931274414,
+            178.35284423828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/ListGroup/5",
+          "block_type": "ListGroup",
+          "html": "<p block-type='ListGroup'><ul><content-ref src='/page/197/ListItem/455'></content-ref><content-ref src='/page/197/ListItem/456'></content-ref><content-ref src='/page/197/ListItem/457'></content-ref></ul></p>",
+          "polygon": [
+            [
+              63.504,
+              191.808
+            ],
+            [
+              389.664,
+              191.808
+            ],
+            [
+              389.664,
+              242.8828125
+            ],
+            [
+              63.504,
+              242.8828125
+            ]
+          ],
+          "bbox": [
+            63.504,
+            191.808,
+            389.664,
+            242.8828125
+          ],
+          "children": [
+            {
+              "id": "/page/197/ListItem/455",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><b>1.</b> Define a set of alternative values of <i>R</i>, Ω := {<i>R</i>}.</li>",
+              "polygon": [
+                [
+                  65.63700103759766,
+                  193.9453125
+                ],
+                [
+                  272.28324127197266,
+                  193.9453125
+                ],
+                [
+                  272.28324127197266,
+                  203.1328125
+                ],
+                [
+                  65.63700103759766,
+                  203.1328125
+                ]
+              ],
+              "bbox": [
+                65.63700103759766,
+                193.9453125,
+                272.28324127197266,
+                203.1328125
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/106/SectionHeader/6"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/197/ListItem/456",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>2. Simulate historically (backtest) the performance of <math>S</math> under alternative values of <math>R \\in \\Omega</math>.</p></div></li>",
+              "polygon": [
+                [
+                  65.63700103759766,
+                  207.89495849609375
+                ],
+                [
+                  388.41431427001953,
+                  207.89495849609375
+                ],
+                [
+                  388.41431427001953,
+                  228.96282958984375
+                ],
+                [
+                  65.63700103759766,
+                  228.96282958984375
+                ]
+              ],
+              "bbox": [
+                65.63700103759766,
+                207.89495849609375,
+                388.41431427001953,
+                228.96282958984375
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/106/SectionHeader/6"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/197/ListItem/457",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><b>3.</b> Select the optimal <i>R</i>∗.</li>",
+              "polygon": [
+                [
+                  65.63700103759766,
+                  232.0333251953125
+                ],
+                [
+                  165.01264190673828,
+                  232.0333251953125
+                ],
+                [
+                  165.01264190673828,
+                  242.8828125
+                ],
+                [
+                  65.63700103759766,
+                  242.8828125
+                ]
+              ],
+              "bbox": [
+                65.63700103759766,
+                232.0333251953125,
+                165.01264190673828,
+                242.8828125
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/106/SectionHeader/6"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/197/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">More formally:</p>",
+          "polygon": [
+            [
+              63.504,
+              255.96000000000004
+            ],
+            [
+              127.008,
+              255.96000000000004
+            ],
+            [
+              127.008,
+              268.272
+            ],
+            [
+              63.504,
+              268.272
+            ]
+          ],
+          "bbox": [
+            63.504,
+            255.96000000000004,
+            127.008,
+            268.272
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">R^* = \\arg \\max_{R \\in \\Omega} \\{SR_R\\}</math><math display=\"block\">SR_R = \\frac{E[\\pi_{i,T_i} | R]}{\\sigma[\\pi_{i,T_i} | R]} \\quad (13.1)</math></div></p>",
+          "polygon": [
+            [
+              172.8,
+              280.584
+            ],
+            [
+              389.664,
+              280.584
+            ],
+            [
+              389.664,
+              330.6913146972656
+            ],
+            [
+              172.8,
+              330.6913146972656
+            ]
+          ],
+          "bbox": [
+            172.8,
+            280.584,
+            389.664,
+            330.6913146972656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 600\" data-label=\"Text\"><p>where <math>E[.]</math> and <math>\\sigma[.]</math> are respectively the expected value and standard deviation of <math>\\pi_{i,T_i}</math>, conditional on trading rule <math>R</math>, over <math>i = 1, \\dots, I</math>. In other words, equation (13.1) maximizes the Sharpe ratio of <math>S</math> on <math>I</math> opportunities over the space of alternative trading rules <math>R</math> (see Bailey and L�pez de Prado [2012] for a definition and analysis of the Sharpe ratio). Because we count with two variables to maximize <math>SR_R</math> over a sample of size <math>I</math>, it is easy to overfit <math>R</math>. A trivial overfit occurs when a pair <math>(\\pi, \\bar{\\pi})</math> targets a few outliers. Bailey et al. [2017] provide a rigorous definition of backtest overfitting, which can be applied to our study of trading rules as follows.</p></div>",
+          "polygon": [
+            [
+              50.97599999999999,
+              333.072
+            ],
+            [
+              389.664,
+              333.072
+            ],
+            [
+              389.664,
+              427.8150939941406
+            ],
+            [
+              50.97599999999999,
+              427.8150939941406
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            333.072,
+            389.664,
+            427.8150939941406
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 140 1000 1000\" data-label=\"Text\"><p><b>Definition 2: Overfit Trading Rule:</b> <math>R^*</math> is overfit if <math>E \\left[ \\frac{E[\\pi_{j,T_j} | R^*]}{\\sigma[\\pi_{j,T_j} | R^*]} \\right] &lt; 1</math></p></div>",
+          "polygon": [
+            [
+              57.888,
+              439.92974853515625
+            ],
+            [
+              382.752,
+              439.92974853515625
+            ],
+            [
+              382.752,
+              479.4517517089844
+            ],
+            [
+              57.888,
+              479.4517517089844
+            ]
+          ],
+          "bbox": [
+            57.888,
+            439.92974853515625,
+            382.752,
+            479.4517517089844
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\text{Me}_\\Omega \\left[ \\text{E} \\left[ \\frac{E[\\pi_{j,T_j} | R]}{\\sigma[\\pi_{j,T_j} | R]} \\right] \\right], \\text{ where } j = I + 1, \\dots, J \\text{ and } \\text{Me}_\\Omega [\\cdot] \\text{ is the median.} \\quad \\left] \\sigma[\\pi_{j,I} \\right]</math></div></p>",
+          "polygon": [
+            [
+              56.16,
+              471.55584716796875
+            ],
+            [
+              346.03200000000004,
+              471.55584716796875
+            ],
+            [
+              346.03200000000004,
+              511.07749938964844
+            ],
+            [
+              56.16,
+              511.07749938964844
+            ]
+          ],
+          "bbox": [
+            56.16,
+            471.55584716796875,
+            346.03200000000004,
+            511.07749938964844
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/197/Text/11",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 14 990 1000\" data-label=\"Text\"><p>Intuitively, an optimal in-sample (IS, <math>i \\in [1, I]</math>) trading rule <math>R^*</math> is overfit when it is expected to underperform the median of alternative trading rules <math>R \\in \\Omega</math> out-of-sample (OOS, <math>j \\in [I + 1, J]</math>). This is essentially the same definition we used in chapter 11 to derive PBO. Bailey et al. [2014] argue that it is hard not to overfit a backtest, particularly when there are free variables able to target specific observations IS, or the number of elements in <math>\\Omega</math> is large. A trading rule introduces such free variables,</p></div>",
+          "polygon": [
+            [
+              50.97599999999999,
+              532.0079999999999
+            ],
+            [
+              389.664,
+              532.0079999999999
+            ],
+            [
+              389.664,
+              604.2183074951172
+            ],
+            [
+              50.97599999999999,
+              604.2183074951172
+            ]
+          ],
+          "bbox": [
+            50.97599999999999,
+            532.0079999999999,
+            389.664,
+            604.2183074951172
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/106/SectionHeader/6"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/198/Page/448",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/198/PageHeader/0'></content-ref><content-ref src='/page/198/PageHeader/1'></content-ref><content-ref src='/page/198/Text/2'></content-ref><content-ref src='/page/198/SectionHeader/3'></content-ref><content-ref src='/page/198/Text/4'></content-ref><content-ref src='/page/198/Equation/5'></content-ref><content-ref src='/page/198/Text/6'></content-ref><content-ref src='/page/198/Equation/7'></content-ref><content-ref src='/page/198/Text/8'></content-ref><content-ref src='/page/198/Equation/9'></content-ref><content-ref src='/page/198/Text/10'></content-ref><content-ref src='/page/198/Footnote/11'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/198/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              41.903999999999996,
+              43.416000000000004
+            ],
+            [
+              58.75200000000001,
+              43.416000000000004
+            ],
+            [
+              58.75200000000001,
+              54.432
+            ],
+            [
+              41.903999999999996,
+              54.432
+            ]
+          ],
+          "bbox": [
+            41.903999999999996,
+            43.416000000000004,
+            58.75200000000001,
+            54.432
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              42.939002990722656,
+              43.416000000000004
+            ],
+            [
+              378.432,
+              43.416000000000004
+            ],
+            [
+              378.432,
+              54.432
+            ],
+            [
+              42.939002990722656,
+              54.432
+            ]
+          ],
+          "bbox": [
+            42.939002990722656,
+            43.416000000000004,
+            378.432,
+            54.432
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 660\" data-label=\"Text\"><p>because <math>R^*</math> can be determined independently from <math>S</math>. The outcome is that the backtest profits from random noise IS, making <math>R^*</math> unfit for OOS opportunities. Those same authors show that overfitting leads to negative performance OOS when <math>\\Delta\\pi_{i,t}</math> exhibits serial dependence. While PBO provides a useful method to evaluate to what extent a backtest has been overfit, it would be convenient to avoid this problem in the first place.<sup>2</sup> To that aim we dedicate the following section.</p></div>",
+          "polygon": [
+            [
+              41.04,
+              66.744
+            ],
+            [
+              378.432,
+              66.744
+            ],
+            [
+              378.432,
+              139.32
+            ],
+            [
+              41.04,
+              139.32
+            ]
+          ],
+          "bbox": [
+            41.04,
+            66.744,
+            378.432,
+            139.32
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/SectionHeader/3",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>13.4 OUR FRAMEWORK</b></h2>",
+          "polygon": [
+            [
+              41.04,
+              162.0
+            ],
+            [
+              164.02690887451172,
+              162.0
+            ],
+            [
+              164.02690887451172,
+              174.4918212890625
+            ],
+            [
+              41.04,
+              174.4918212890625
+            ]
+          ],
+          "bbox": [
+            41.04,
+            162.0,
+            164.02690887451172,
+            174.4918212890625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 450\" data-label=\"Text\"><p>Until now we have not characterized the stochastic process from which observations <math>\\pi_{i,t}</math> are drawn. We are interested in finding an optimal trading rule (OTR) for those scenarios where overfitting would be most damaging, such as when <math>\\pi_{i,t}</math> exhibits serial correlation. In particular, suppose a discrete Ornstein-Uhlenbeck (O-U) process on prices</p></div>",
+          "polygon": [
+            [
+              41.04,
+              187.272
+            ],
+            [
+              378.432,
+              187.272
+            ],
+            [
+              378.432,
+              246.31204223632812
+            ],
+            [
+              41.04,
+              246.31204223632812
+            ]
+          ],
+          "bbox": [
+            41.04,
+            187.272,
+            378.432,
+            246.31204223632812
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 41\" data-label=\"Equation-Block\"><math display=\"block\">P_{i,t} = (1 - \\varphi) \\mathbf{E}_0[P_{i,T_i}] + \\varphi P_{i,t-1} + \\sigma \\epsilon_{i,t} \\quad (13.2)</math></div></p>",
+          "polygon": [
+            [
+              127.008,
+              259.20000000000005
+            ],
+            [
+              378.432,
+              259.20000000000005
+            ],
+            [
+              378.432,
+              274.63934326171875
+            ],
+            [
+              127.008,
+              274.63934326171875
+            ]
+          ],
+          "bbox": [
+            127.008,
+            259.20000000000005,
+            378.432,
+            274.63934326171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 541\" data-label=\"Text\"><p>such that the random shocks are IID distributed <math>\\epsilon_{i,t} \\sim N(0, 1)</math>. The seed value for this process is <math>P_{i,0}</math>, the level targeted by opportunity <math>i</math> is <math>E_0[P_{i,T_i}]</math>, and <math>\\varphi</math> determines the speed at which <math>P_{i,0}</math> converges towards <math>E_0[P_{i,T_i}]</math>. Because <math>\\pi_{i,t} = m_i(P_{i,t} - P_{i,0})</math>, equation (13.2) implies that the performance of opportunity <math>i</math> is characterized by the process</p></div>",
+          "polygon": [
+            [
+              41.04,
+              283.176
+            ],
+            [
+              378.432,
+              283.176
+            ],
+            [
+              378.432,
+              343.9080810546875
+            ],
+            [
+              41.04,
+              343.9080810546875
+            ]
+          ],
+          "bbox": [
+            41.04,
+            283.176,
+            378.432,
+            343.9080810546875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\frac{1}{m_i} \\pi_{i,t} = (1 - \\varphi) \\mathbf{E}_0[P_{i,T_i}] - P_{i,0} + \\varphi P_{i,t-1} + \\sigma \\epsilon_{i,t} \\quad (13.3)</math></div></p>",
+          "polygon": [
+            [
+              109.72800000000001,
+              356.40000000000003
+            ],
+            [
+              378.432,
+              356.40000000000003
+            ],
+            [
+              378.432,
+              381.3496398925781
+            ],
+            [
+              109.72800000000001,
+              381.3496398925781
+            ]
+          ],
+          "bbox": [
+            109.72800000000001,
+            356.40000000000003,
+            378.432,
+            381.3496398925781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>From the proof to Proposition 4 in Bailey and L�pez de Prado [2013], it can be shown that the distribution of the process specified in equation (13.2) is Gaussian with parameters</p></div>",
+          "polygon": [
+            [
+              41.04,
+              390.74399999999997
+            ],
+            [
+              378.432,
+              390.74399999999997
+            ],
+            [
+              378.432,
+              426.6723327636719
+            ],
+            [
+              41.04,
+              426.6723327636719
+            ]
+          ],
+          "bbox": [
+            41.04,
+            390.74399999999997,
+            378.432,
+            426.6723327636719
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\pi_{i,t} \\sim N \\left[ m_i \\left( (1 - \\varphi) \\text{E}_0[P_{i,T_i}] \\sum_{j=0}^{t-1} \\varphi^j - P_{i,0} \\right), m_i^2 \\sigma^2 \\sum_{j=0}^{t-1} \\varphi^{2j} \\right] \\quad (13.4)</math></div></p>",
+          "polygon": [
+            [
+              81.216,
+              432.6397705078125
+            ],
+            [
+              378.432,
+              432.6397705078125
+            ],
+            [
+              378.432,
+              472.392
+            ],
+            [
+              81.216,
+              472.392
+            ]
+          ],
+          "bbox": [
+            81.216,
+            432.6397705078125,
+            378.432,
+            472.392
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Text/10",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>and a necessary and sufficient condition for its stationarity is that <math>\\varphi \\in (-1, 1)</math>. Given a set of input parameters <math>\\{\\sigma, \\varphi\\}</math> and initial conditions <math>\\{P_{i,0}, E_0[P_{i,T_i}]\\}</math> associated with opportunity <math>i</math>, is there an OTR <math>R^* := (\\underline{\\pi}, \\bar{\\pi})</math>? Similarly, should strategy <math>S</math> predict a profit target <math>\\bar{\\pi}</math>, can we compute the optimal stop-loss <math>\\underline{\\pi}</math> given the input values <math>\\{\\sigma, \\varphi\\}</math>? If the answer to these questions is affirmative, no backtest would be needed in order to determine <math>R^*</math>, thus avoiding the problem of overfitting the trading rule. In the next section we will show how to answer these questions experimentally.</p></div>",
+          "polygon": [
+            [
+              41.04,
+              482.76
+            ],
+            [
+              378.432,
+              482.76
+            ],
+            [
+              378.432,
+              567.7648620605469
+            ],
+            [
+              41.04,
+              567.7648620605469
+            ]
+          ],
+          "bbox": [
+            41.04,
+            482.76,
+            378.432,
+            567.7648620605469
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/198/Footnote/11",
+          "block_type": "Footnote",
+          "html": "<p><sup>2</sup> The strategy may still be the result of backtest overfitting, but at least the trading rule would not have contributed to that problem.</p>",
+          "polygon": [
+            [
+              41.04,
+              581.2560000000001
+            ],
+            [
+              378.432,
+              581.2560000000001
+            ],
+            [
+              378.432,
+              603.7530975341797
+            ],
+            [
+              41.04,
+              603.7530975341797
+            ]
+          ],
+          "bbox": [
+            41.04,
+            581.2560000000001,
+            378.432,
+            603.7530975341797
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/106/SectionHeader/6",
+        "2": "/page/198/SectionHeader/3"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/240/Page/375",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/240/PageHeader/0'></content-ref><content-ref src='/page/240/PageHeader/1'></content-ref><content-ref src='/page/240/Text/2'></content-ref><content-ref src='/page/240/ListGroup/3'></content-ref><content-ref src='/page/240/Text/4'></content-ref><content-ref src='/page/240/SectionHeader/5'></content-ref><content-ref src='/page/240/Text/6'></content-ref><content-ref src='/page/240/Text/7'></content-ref><content-ref src='/page/240/SectionHeader/8'></content-ref><content-ref src='/page/240/Text/9'></content-ref><content-ref src='/page/240/Text/10'></content-ref><content-ref src='/page/240/Text/11'></content-ref><content-ref src='/page/240/Text/12'></content-ref><content-ref src='/page/240/Text/13'></content-ref><content-ref src='/page/240/Text/14'></content-ref><content-ref src='/page/240/Text/15'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          432.0,
+          0.0
+        ],
+        [
+          432.0,
+          648.0
+        ],
+        [
+          0.0,
+          648.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        432.0,
+        648.0
+      ],
+      "children": [
+        {
+          "id": "/page/240/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              41.04,
+              42.120000000000005
+            ],
+            [
+              58.75200000000001,
+              42.120000000000005
+            ],
+            [
+              58.75200000000001,
+              53.135999999999996
+            ],
+            [
+              41.04,
+              53.135999999999996
+            ]
+          ],
+          "bbox": [
+            41.04,
+            42.120000000000005,
+            58.75200000000001,
+            53.135999999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              42.939002990722656,
+              42.120000000000005
+            ],
+            [
+              378.0,
+              42.120000000000005
+            ],
+            [
+              378.0,
+              54.045166015625
+            ],
+            [
+              42.939002990722656,
+              54.045166015625
+            ]
+          ],
+          "bbox": [
+            42.939002990722656,
+            42.120000000000005,
+            378.0,
+            54.045166015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where:</p>",
+          "polygon": [
+            [
+              41.04,
+              66.744
+            ],
+            [
+              70.03229522705078,
+              66.744
+            ],
+            [
+              70.03229522705078,
+              77.9488525390625
+            ],
+            [
+              41.04,
+              77.9488525390625
+            ]
+          ],
+          "bbox": [
+            41.04,
+            66.744,
+            70.03229522705078,
+            77.9488525390625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/ListGroup/3",
+          "block_type": "ListGroup",
+          "html": "<p block-type='ListGroup'><ul><content-ref src='/page/240/ListItem/373'></content-ref><content-ref src='/page/240/ListItem/374'></content-ref><content-ref src='/page/240/ListItem/375'></content-ref></ul></p>",
+          "polygon": [
+            [
+              51.408,
+              89.424
+            ],
+            [
+              216.19849395751953,
+              89.424
+            ],
+            [
+              216.19849395751953,
+              134.15533447265625
+            ],
+            [
+              51.408,
+              134.15533447265625
+            ]
+          ],
+          "bbox": [
+            51.408,
+            89.424,
+            216.19849395751953,
+            134.15533447265625
+          ],
+          "children": [
+            {
+              "id": "/page/240/ListItem/373",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"117 94 884 937\" data-label=\"Equation-Block\"><ul>• <math>a = (n + \\theta^2)(\\pi_+ - \\pi_-)^2</math></ul></div></li>",
+              "polygon": [
+                [
+                  55.25623321533203,
+                  91.22833251953125
+                ],
+                [
+                  159.19300079345703,
+                  91.22833251953125
+                ],
+                [
+                  159.19300079345703,
+                  104.05023193359375
+                ],
+                [
+                  55.25623321533203,
+                  104.05023193359375
+                ]
+              ],
+              "bbox": [
+                55.25623321533203,
+                91.22833251953125,
+                159.19300079345703,
+                104.05023193359375
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/106/SectionHeader/6",
+                "2": "/page/198/SectionHeader/3"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/240/ListItem/374",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><ul>• <math>a = (n + \\theta^2)(\\pi_+ - \\pi_-)^2</math>• <math>b = [2n\\pi_- - \\theta^2(\\pi_+ - \\pi_-)] (\\pi_+ - \\pi_-)</math></ul></div></li>",
+              "polygon": [
+                [
+                  55.25623321533203,
+                  96.3367919921875
+                ],
+                [
+                  216.19849395751953,
+                  96.3367919921875
+                ],
+                [
+                  216.19849395751953,
+                  117.99127197265625
+                ],
+                [
+                  55.25623321533203,
+                  117.99127197265625
+                ]
+              ],
+              "bbox": [
+                55.25623321533203,
+                96.3367919921875,
+                216.19849395751953,
+                117.99127197265625
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/106/SectionHeader/6",
+                "2": "/page/198/SectionHeader/3"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/240/ListItem/375",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\"><div data-bbox=\"125 0 877 41\" data-label=\"Equation-Block\"><ul>• <math>c = n\\pi \\underline{}^2</math></ul></div></li>",
+              "polygon": [
+                [
+                  55.25623321533203,
+                  120.34332275390625
+                ],
+                [
+                  97.98967742919922,
+                  120.34332275390625
+                ],
+                [
+                  97.98967742919922,
+                  134.15533447265625
+                ],
+                [
+                  55.25623321533203,
+                  134.15533447265625
+                ]
+              ],
+              "bbox": [
+                55.25623321533203,
+                120.34332275390625,
+                97.98967742919922,
+                134.15533447265625
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "1": "/page/106/SectionHeader/6",
+                "2": "/page/198/SectionHeader/3"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/240/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"114 14 937 250\" data-label=\"Text\"><p>As a side note, Snippet 15.2 verifies these symbolic operations using SymPy Live.<br/><a href=\"http://live.sympy.org/\">http://live.sympy.org/.</a></p></div>",
+          "polygon": [
+            [
+              41.04,
+              143.208
+            ],
+            [
+              378.0,
+              143.208
+            ],
+            [
+              378.0,
+              167.27398681640625
+            ],
+            [
+              41.04,
+              167.27398681640625
+            ]
+          ],
+          "bbox": [
+            41.04,
+            143.208,
+            378.0,
+            167.27398681640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/198/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/SectionHeader/5",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>SNIPPET 15.2 USING THE SymPy LIBRARY FOR SYMBOLIC</b> <b>OPERATIONS</b></h2>",
+          "polygon": [
+            [
+              41.04,
+              198.288
+            ],
+            [
+              330.68372344970703,
+              198.288
+            ],
+            [
+              330.68372344970703,
+              222.32730102539062
+            ],
+            [
+              41.04,
+              222.32730102539062
+            ]
+          ],
+          "bbox": [
+            41.04,
+            198.288,
+            330.68372344970703,
+            222.32730102539062
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/240/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 7 1000 990\" data-label=\"Text\"><pre>&gt;&gt; from sympy import *\n&gt;&gt; init_printing(use_unicode=False,wrap_line=False,no_global=True)\n&gt;&gt; p,u,d=symbols('p u d')\n&gt;&gt; m2=p*u**2+(1-p)*d**2\n&gt;&gt; m1=p*u+(1-p)*d\n&gt;&gt; v=m2-m1**2\n&gt;&gt; factor(v)</pre></div>",
+          "polygon": [
+            [
+              41.04,
+              231.33599999999998
+            ],
+            [
+              371.23267364501953,
+              231.33599999999998
+            ],
+            [
+              371.23267364501953,
+              306.51556396484375
+            ],
+            [
+              41.04,
+              306.51556396484375
+            ]
+          ],
+          "bbox": [
+            41.04,
+            231.33599999999998,
+            371.23267364501953,
+            306.51556396484375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/240/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 4 1000 600\" data-label=\"Text\"><p>The above equation answers the following question: Given a trading rule characterized by parameters <math>\\{\\pi_-, \\pi_+, n\\}</math>, what is the precision rate <math>p</math> required to achieve a Sharpe ratio of <math>\\theta^*</math>? For example, for <math>n = 260</math>, <math>\\pi_- = -.01</math>, <math>\\pi_+ = .005</math>, in order to get <math>\\theta = 2</math> we require a <math>p = .72</math>. Thanks to the large number of bets, a very small change in <math>p</math> (from <math>p = .7</math> to <math>p = .72</math>) has propelled the Sharpe ratio from <math>\\theta = 1.173</math> to <math>\\theta = 2</math>. On the other hand, this also tells us that the strategy is vulnerable to small changes in <math>p</math>. Snippet 15.3 implements the derivation of the implied precision. Figure 15.2 displays the implied precision as a function of <math>n</math> and <math>\\pi_-</math>, where <math>\\pi_+ = 0.1</math> and <math>\\theta^* = 1.5</math>. As <math>\\pi_-</math> becomes more negative for a given <math>n</math>, a higher <math>p</math> is required to achieve <math>\\theta^*</math> for a given <math>\\pi_+</math>. As <math>n</math> becomes smaller for a given <math>\\pi_-</math>, a higher <math>p</math> is required to achieve <math>\\theta^*</math> for a given <math>\\pi_+</math>.</p></div>",
+          "polygon": [
+            [
+              41.04,
+              333.072
+            ],
+            [
+              378.432,
+              333.072
+            ],
+            [
+              378.432,
+              465.75120544433594
+            ],
+            [
+              41.04,
+              465.75120544433594
+            ]
+          ],
+          "bbox": [
+            41.04,
+            333.072,
+            378.432,
+            465.75120544433594
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/106/SectionHeader/6",
+            "2": "/page/240/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/SectionHeader/8",
+          "block_type": "SectionHeader",
+          "html": "<h1><b>SNIPPET 15.3 COMPUTING THE IMPLIED PRECISION</b></h1>",
+          "polygon": [
+            [
+              41.04,
+              493.77600000000007
+            ],
+            [
+              305.5540542602539,
+              493.77600000000007
+            ],
+            [
+              305.5540542602539,
+              506.8800811767578
+            ],
+            [
+              41.04,
+              506.8800811767578
+            ]
+          ],
+          "bbox": [
+            41.04,
+            493.77600000000007,
+            305.5540542602539,
+            506.8800811767578
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"114 0 884 1000\" data-label=\"Text\"><pre>def binHR(sl,pt,freq,tSR) :</pre></div>",
+          "polygon": [
+            [
+              34.56,
+              514.5120000000001
+            ],
+            [
+              162.84146881103516,
+              514.5120000000001
+            ],
+            [
+              162.84146881103516,
+              525.528
+            ],
+            [
+              34.56,
+              525.528
+            ]
+          ],
+          "bbox": [
+            34.56,
+            514.5120000000001,
+            162.84146881103516,
+            525.528
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>'''</i></p>",
+          "polygon": [
+            [
+              54.0,
+              525.528
+            ],
+            [
+              73.87200000000001,
+              525.528
+            ],
+            [
+              73.87200000000001,
+              536.2765197753906
+            ],
+            [
+              54.0,
+              536.2765197753906
+            ]
+          ],
+          "bbox": [
+            54.0,
+            525.528,
+            73.87200000000001,
+            536.2765197753906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/11",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"81 10 914 151\" data-label=\"Text\"><p><i>Given a trading rule characterized by the parameters {sl,pt,freq}, what's the min precision <math>p</math> required to achieve a Sharpe ratio tSR?</i></p></div>",
+          "polygon": [
+            [
+              54.0,
+              535.896
+            ],
+            [
+              376.27200000000005,
+              535.896
+            ],
+            [
+              376.27200000000005,
+              558.1915130615234
+            ],
+            [
+              54.0,
+              558.1915130615234
+            ]
+          ],
+          "bbox": [
+            54.0,
+            535.896,
+            376.27200000000005,
+            558.1915130615234
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/12",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>1) Inputs</i></p>",
+          "polygon": [
+            [
+              54.0,
+              557.928
+            ],
+            [
+              101.08800000000002,
+              557.928
+            ],
+            [
+              101.08800000000002,
+              569.1533966064453
+            ],
+            [
+              54.0,
+              569.1533966064453
+            ]
+          ],
+          "bbox": [
+            54.0,
+            557.928,
+            101.08800000000002,
+            569.1533966064453
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/13",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>sl: stop loss threshold</i></p>",
+          "polygon": [
+            [
+              54.0,
+              568.2959999999999
+            ],
+            [
+              168.048,
+              568.2959999999999
+            ],
+            [
+              168.048,
+              580.608
+            ],
+            [
+              54.0,
+              580.608
+            ]
+          ],
+          "bbox": [
+            54.0,
+            568.2959999999999,
+            168.048,
+            580.608
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/14",
+          "block_type": "Text",
+          "html": "",
+          "polygon": [
+            [
+              54.0,
+              579.96
+            ],
+            [
+              187.2521743774414,
+              579.96
+            ],
+            [
+              187.2521743774414,
+              592.272
+            ],
+            [
+              54.0,
+              592.272
+            ]
+          ],
+          "bbox": [
+            54.0,
+            579.96,
+            187.2521743774414,
+            592.272
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/240/Text/15",
+          "block_type": "Text",
+          "html": "",
+          "polygon": [
+            [
+              54.0,
+              591.624
+            ],
+            [
+              197.0407485961914,
+              591.624
+            ],
+            [
+              197.0407485961914,
+              602.6400000000001
+            ],
+            [
+              54.0,
+              602.6400000000001
+            ]
+          ],
+          "bbox": [
+            54.0,
+            591.624,
+            197.0407485961914,
+            602.6400000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/240/SectionHeader/8"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/240/SectionHeader/8"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}

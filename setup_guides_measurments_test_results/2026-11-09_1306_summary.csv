@@ -1,0 +1,5 @@
+setup,converted,skipped,failed,total_pages,total_seconds,avg_sec_per_page,model_load_seconds,marker_config
+config1_balanced,6,0,0,39,64.27,1.65,1.98,{'mode': 'balanced'}
+config2_force_ocr,6,0,0,39,93.52,2.4,0.0,"{'mode': 'balanced', 'force_ocr': True}"
+config3_fast_force_ocr,6,0,0,39,103.65,2.66,0.0,"{'mode': 'fast', 'force_ocr': True}"
+config4_force_ocr_strip,6,0,0,39,90.23,2.31,0.0,"{'mode': 'balanced', 'force_ocr': True, 'strip_existing_ocr': True}"

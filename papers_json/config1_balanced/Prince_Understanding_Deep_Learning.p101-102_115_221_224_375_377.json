@@ -1,0 +1,3148 @@
+{
+  "children": [
+    {
+      "id": "/page/101/Page/306",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/101/PageHeader/0'></content-ref><content-ref src='/page/101/PageHeader/1'></content-ref><content-ref src='/page/101/Equation/2'></content-ref><content-ref src='/page/101/Text/3'></content-ref><content-ref src='/page/101/SectionHeader/4'></content-ref><content-ref src='/page/101/Text/5'></content-ref><content-ref src='/page/101/Text/6'></content-ref><content-ref src='/page/101/Equation/7'></content-ref><content-ref src='/page/101/Text/8'></content-ref><content-ref src='/page/101/Equation/9'></content-ref><content-ref src='/page/101/Text/10'></content-ref><content-ref src='/page/101/Text/11'></content-ref><content-ref src='/page/101/PageFooter/12'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/101/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              127.29599999999999,
+              105.33600000000001
+            ],
+            [
+              140.76,
+              105.33600000000001
+            ],
+            [
+              140.76,
+              116.424
+            ],
+            [
+              127.29599999999999,
+              116.424
+            ]
+          ],
+          "bbox": [
+            127.29599999999999,
+            105.33600000000001,
+            140.76,
+            116.424
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/101/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              130.9340057373047,
+              105.33600000000001
+            ],
+            [
+              515.3395385742188,
+              105.33600000000001
+            ],
+            [
+              515.3395385742188,
+              117.61541748046875
+            ],
+            [
+              130.9340057373047,
+              117.61541748046875
+            ]
+          ],
+          "bbox": [
+            130.9340057373047,
+            105.33600000000001,
+            515.3395385742188,
+            117.61541748046875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/101/Equation/2",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned}\\mathbf{m}_{t+1} &amp; \\leftarrow \\beta \\cdot \\mathbf{m}_t + (1 - \\beta) \\sum_{i \\in \\mathcal{B}_t} \\frac{\\partial \\ell_i[\\phi_t - \\alpha\\beta \\cdot \\mathbf{m}_t]}{\\partial \\phi} \\\\ \\phi_{t+1} &amp; \\leftarrow \\phi_t - \\alpha \\cdot \\mathbf{m}_{t+1},\\end{aligned}\\tag{6.12}</math></div></p>",
+          "polygon": [
+            [
+              209.304,
+              156.024
+            ],
+            [
+              515.3384399414062,
+              156.024
+            ],
+            [
+              515.3384399414062,
+              203.47296142578125
+            ],
+            [
+              209.304,
+              203.47296142578125
+            ]
+          ],
+          "bbox": [
+            209.304,
+            156.024,
+            515.3384399414062,
+            203.47296142578125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/101/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where now the gradients are evaluated at <i>ϕ</i><i><sup>t</sup></i> <i>−</i> <i>αβ</i> <i>·</i> <b>m</b><i>t</i>. One way to think about this is that the gradient term now corrects the path provided by momentum alone.</p>",
+          "polygon": [
+            [
+              129.744,
+              213.84
+            ],
+            [
+              515.3389282226562,
+              213.84
+            ],
+            [
+              515.3389282226562,
+              238.65545654296875
+            ],
+            [
+              129.744,
+              238.65545654296875
+            ]
+          ],
+          "bbox": [
+            129.744,
+            213.84,
+            515.3389282226562,
+            238.65545654296875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/101/SectionHeader/4",
+          "block_type": "SectionHeader",
+          "html": "<h3><b>6.4 Adam</b></h3>",
+          "polygon": [
+            [
+              101.59200000000001,
+              276.408
+            ],
+            [
+              165.52015686035156,
+              276.408
+            ],
+            [
+              165.52015686035156,
+              290.26129150390625
+            ],
+            [
+              101.59200000000001,
+              290.26129150390625
+            ]
+          ],
+          "bbox": [
+            101.59200000000001,
+            276.408,
+            165.52015686035156,
+            290.26129150390625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Gradient descent with a fixed step size has the following undesirable property: it makes large adjustments to parameters associated with large gradients (where perhaps we should be more cautious) and small adjustments to parameters associated with small gradients (where perhaps we should explore further). When the gradient of the loss surface is much steeper in one direction than another, it is difficult to choose a learning rate that (i) makes good progress in both directions and (ii) is stable (figures 6.9a–b).</p></div>",
+          "polygon": [
+            [
+              129.744,
+              301.752
+            ],
+            [
+              515.3610229492188,
+              301.752
+            ],
+            [
+              515.3610229492188,
+              374.1097412109375
+            ],
+            [
+              129.744,
+              374.1097412109375
+            ]
+          ],
+          "bbox": [
+            129.744,
+            301.752,
+            515.3610229492188,
+            374.1097412109375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 114 990 986\" data-label=\"Text\"><p>A straightforward approach is to normalize the gradients so that we move a fixed distance (governed by the learning rate) in each direction. To do this, we first measure the gradient <math>\\mathbf{m}_{t+1}</math> and the pointwise squared gradient <math>\\mathbf{v}_{t+1}</math>:</p></div>",
+          "polygon": [
+            [
+              129.744,
+              373.82399999999996
+            ],
+            [
+              515.3510131835938,
+              373.82399999999996
+            ],
+            [
+              515.3510131835938,
+              411.84000000000003
+            ],
+            [
+              129.744,
+              411.84000000000003
+            ]
+          ],
+          "bbox": [
+            129.744,
+            373.82399999999996,
+            515.3510131835938,
+            411.84000000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 997 986\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned}\\mathbf{m}_{t+1} &amp;\\leftarrow \\frac{\\partial L[\\phi_t]}{\\partial \\phi} \\\\ \\mathbf{v}_{t+1} &amp;\\leftarrow \\left( \\frac{\\partial L[\\phi_t]}{\\partial \\phi} \\right)^2.\\end{aligned}\\tag{6.13}</math></div></p>",
+          "polygon": [
+            [
+              264.384,
+              430.84800000000007
+            ],
+            [
+              515.33837890625,
+              430.84800000000007
+            ],
+            [
+              515.33837890625,
+              493.3694763183594
+            ],
+            [
+              264.384,
+              493.3694763183594
+            ]
+          ],
+          "bbox": [
+            264.384,
+            430.84800000000007,
+            515.33837890625,
+            493.3694763183594
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 900 1000\" data-label=\"Text\"><p>Then we apply the update rule:</p></div>",
+          "polygon": [
+            [
+              129.744,
+              498.168
+            ],
+            [
+              271.90362548828125,
+              498.168
+            ],
+            [
+              271.90362548828125,
+              510.84000000000003
+            ],
+            [
+              129.744,
+              510.84000000000003
+            ]
+          ],
+          "bbox": [
+            129.744,
+            498.168,
+            271.90362548828125,
+            510.84000000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 94 997 986\" data-label=\"Equation-Block\"><math display=\"block\">\\phi_{t+1} \\leftarrow \\phi_t - \\alpha \\cdot \\frac{\\mathbf{m}_{t+1}}{\\sqrt{\\mathbf{v}_{t+1}} + \\epsilon}, \\quad (6.14)</math></div></p>",
+          "polygon": [
+            [
+              250.92000000000002,
+              528.2640000000001
+            ],
+            [
+              515.33837890625,
+              528.2640000000001
+            ],
+            [
+              515.33837890625,
+              555.5525207519531
+            ],
+            [
+              250.92000000000002,
+              555.5525207519531
+            ]
+          ],
+          "bbox": [
+            250.92000000000002,
+            528.2640000000001,
+            515.33837890625,
+            555.5525207519531
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Text/10",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>where the square root and division are both pointwise, <math>\\alpha</math> is the learning rate, and <math>\\epsilon</math> is a small constant that prevents division by zero when the gradient magnitude is zero. The term <math>\\mathbf{v}_{t+1}</math> is the squared gradient, and the positive root of this is used to normalize the gradient itself, so all that remains is the sign in each coordinate direction. The result is that the algorithm moves a fixed distance <math>\\alpha</math> along each coordinate, where the direction is determined by whichever way is downhill (figure 6.9c). This simple algorithm makes good progress in both directions but will not converge unless it happens to land exactly at the minimum. Instead, it will bounce back and forth around the minimum.</p></div>",
+          "polygon": [
+            [
+              129.744,
+              567.072
+            ],
+            [
+              515.3555908203125,
+              567.072
+            ],
+            [
+              515.3555908203125,
+              662.1089019775391
+            ],
+            [
+              129.744,
+              662.1089019775391
+            ]
+          ],
+          "bbox": [
+            129.744,
+            567.072,
+            515.3555908203125,
+            662.1089019775391
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/Text/11",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 0 1000 1000\" data-label=\"Text\"><p><i>Adaptive moment estimation, or Adam,</i> takes this idea and adds momentum to both the estimate of the gradient and the squared gradient:</p></div>",
+          "polygon": [
+            [
+              129.744,
+              662.904
+            ],
+            [
+              515.34375,
+              662.904
+            ],
+            [
+              515.34375,
+              687.1475143432617
+            ],
+            [
+              129.744,
+              687.1475143432617
+            ]
+          ],
+          "bbox": [
+            129.744,
+            662.904,
+            515.34375,
+            687.1475143432617
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/101/PageFooter/12",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              146.88,
+              710.424
+            ],
+            [
+              495.69525146484375,
+              710.424
+            ],
+            [
+              495.69525146484375,
+              723.9466552734375
+            ],
+            [
+              146.88,
+              723.9466552734375
+            ]
+          ],
+          "bbox": [
+            146.88,
+            710.424,
+            495.69525146484375,
+            723.9466552734375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "3": "/page/101/SectionHeader/4"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/102/Page/56",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/102/PageHeader/0'></content-ref><content-ref src='/page/102/PageHeader/1'></content-ref><content-ref src='/page/102/FigureGroup/55'></content-ref><content-ref src='/page/102/PageFooter/4'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/102/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              90.576,
+              103.75200000000001
+            ],
+            [
+              479.31829833984375,
+              103.75200000000001
+            ],
+            [
+              479.31829833984375,
+              117.50579833984375
+            ],
+            [
+              90.576,
+              117.50579833984375
+            ]
+          ],
+          "bbox": [
+            90.576,
+            103.75200000000001,
+            479.31829833984375,
+            117.50579833984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/102/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              463.284,
+              103.75200000000001
+            ],
+            [
+              479.196,
+              103.75200000000001
+            ],
+            [
+              479.196,
+              116.424
+            ],
+            [
+              463.284,
+              116.424
+            ]
+          ],
+          "bbox": [
+            463.284,
+            103.75200000000001,
+            479.196,
+            116.424
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/102/FigureGroup/55",
+          "block_type": "FigureGroup",
+          "html": "<content-ref src='/page/102/Figure/2'></content-ref><content-ref src='/page/102/Caption/3'></content-ref>",
+          "polygon": [
+            [
+              76.32,
+              116.424
+            ],
+            [
+              488.5559999999999,
+              116.424
+            ],
+            [
+              488.5559999999999,
+              674.0495223999023
+            ],
+            [
+              76.32,
+              674.0495223999023
+            ]
+          ],
+          "bbox": [
+            76.32,
+            116.424,
+            488.5559999999999,
+            674.0495223999023
+          ],
+          "children": [
+            {
+              "id": "/page/102/Figure/2",
+              "block_type": "Figure",
+              "html": "",
+              "polygon": [
+                [
+                  76.32,
+                  116.424
+                ],
+                [
+                  488.5559999999999,
+                  116.424
+                ],
+                [
+                  488.5559999999999,
+                  536.184
+                ],
+                [
+                  76.32,
+                  536.184
+                ]
+              ],
+              "bbox": [
+                76.32,
+                116.424,
+                488.5559999999999,
+                536.184
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "3": "/page/101/SectionHeader/4"
+              },
+              "images": {}
+            },
+            {
+              "id": "/page/102/Caption/3",
+              "block_type": "Caption",
+              "html": "<p><span id=\"page-102-0\"></span><b>Figure</b> <b>6.9</b> Adaptive moment estimation (Adam). a) This loss function changes quickly in the vertical direction but slowly in the horizontal direction. If we run full-batch gradient descent with a learning rate that makes good progress in the vertical direction, then the algorithm takes a long time to reach the final horizontal position. b) If the learning rate is chosen so that the algorithm makes good progress in the horizontal direction, it overshoots in the vertical direction and becomes unstable. c) A straightforward approach is to move a fixed distance along each axis at each step so that we move downhill in both directions. This is accomplished by normalizing the gradient magnitude and retaining only the sign. However, this does not usually converge to the exact minimum but instead oscillates back and forth around it (here between the last two points). d) The Adam algorithm uses momentum in both the estimated gradient and the normalization term, which creates a smoother path.</p>",
+              "polygon": [
+                [
+                  118.72800000000001,
+                  540.936
+                ],
+                [
+                  447.86431884765625,
+                  540.936
+                ],
+                [
+                  447.86431884765625,
+                  674.0495223999023
+                ],
+                [
+                  118.72800000000001,
+                  674.0495223999023
+                ]
+              ],
+              "bbox": [
+                118.72800000000001,
+                540.936,
+                447.86431884765625,
+                674.0495223999023
+              ],
+              "children": null,
+              "section_hierarchy": {
+                "3": "/page/101/SectionHeader/4"
+              },
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": null
+        },
+        {
+          "id": "/page/102/PageFooter/4",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              175.64399999999998,
+              710.424
+            ],
+            [
+              394.92626953125,
+              710.424
+            ],
+            [
+              394.92626953125,
+              723.888
+            ],
+            [
+              175.64399999999998,
+              723.888
+            ]
+          ],
+          "bbox": [
+            175.64399999999998,
+            710.424,
+            394.92626953125,
+            723.888
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "3": "/page/101/SectionHeader/4"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/115/Page/547",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/115/PageHeader/0'></content-ref><content-ref src='/page/115/PageHeader/1'></content-ref><content-ref src='/page/115/Diagram/2'></content-ref><content-ref src='/page/115/Caption/3'></content-ref><content-ref src='/page/115/Text/4'></content-ref><content-ref src='/page/115/Text/5'></content-ref><content-ref src='/page/115/Equation/6'></content-ref><content-ref src='/page/115/Text/7'></content-ref><content-ref src='/page/115/Text/8'></content-ref><content-ref src='/page/115/Text/9'></content-ref><content-ref src='/page/115/Equation/10'></content-ref><content-ref src='/page/115/Text/11'></content-ref><content-ref src='/page/115/Equation/12'></content-ref><content-ref src='/page/115/PageFooter/13'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/115/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              127.29599999999999,
+              105.33600000000001
+            ],
+            [
+              146.88,
+              105.33600000000001
+            ],
+            [
+              146.88,
+              116.424
+            ],
+            [
+              127.29599999999999,
+              116.424
+            ]
+          ],
+          "bbox": [
+            127.29599999999999,
+            105.33600000000001,
+            146.88,
+            116.424
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              130.9340057373047,
+              105.33600000000001
+            ],
+            [
+              515.3321533203125,
+              105.33600000000001
+            ],
+            [
+              515.3321533203125,
+              117.50579833984375
+            ],
+            [
+              130.9340057373047,
+              117.50579833984375
+            ]
+          ],
+          "bbox": [
+            130.9340057373047,
+            105.33600000000001,
+            515.3321533203125,
+            117.50579833984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Diagram/2",
+          "block_type": "Diagram",
+          "html": "",
+          "polygon": [
+            [
+              119.05199999999996,
+              133.056
+            ],
+            [
+              523.548,
+              133.056
+            ],
+            [
+              523.548,
+              167.904
+            ],
+            [
+              119.05199999999996,
+              167.904
+            ]
+          ],
+          "bbox": [
+            119.05199999999996,
+            133.056,
+            523.548,
+            167.904
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Caption/3",
+          "block_type": "Caption",
+          "html": "<p><span id=\"page-115-0\"></span><b>Figure</b> <b>7.4</b> Backpropagation backward pass #1. We work backward from the end of the function computing the derivatives <i>∂ℓ</i><i>i</i><i>/∂f</i><i><sup>k</sup></i> and <i>∂ℓ</i><i>i</i><i>/∂h</i><i><sup>k</sup></i> of the loss with respect to the intermediate quantities. Each derivative is computed from the previous one by multiplying by terms of the form <i>∂f</i><i>k</i><i>/∂h</i><i><sup>k</sup></i> or <i>∂h</i><i>k</i><i>/∂f</i><i>k</i><i>−</i>1.</p>",
+          "polygon": [
+            [
+              157.28400000000002,
+              185.328
+            ],
+            [
+              487.15200000000004,
+              185.328
+            ],
+            [
+              487.15200000000004,
+              232.09912109375
+            ],
+            [
+              157.28400000000002,
+              232.09912109375
+            ]
+          ],
+          "bbox": [
+            157.28400000000002,
+            185.328,
+            487.15200000000004,
+            232.09912109375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Text/4",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">represent the effects of this chain. Notice that we already computed the second of these derivatives, and the other is the derivative of <i>β</i><sup>3</sup> +<i>ω</i><sup>3</sup> <i>·</i> <i>h</i><sup>3</sup> with respect to <i>h</i>3, which is <i>ω</i>3.</p>",
+          "polygon": [
+            [
+              129.744,
+              264.528
+            ],
+            [
+              515.3509521484375,
+              264.528
+            ],
+            [
+              515.3509521484375,
+              290.30596923828125
+            ],
+            [
+              129.744,
+              290.30596923828125
+            ]
+          ],
+          "bbox": [
+            129.744,
+            264.528,
+            515.3509521484375,
+            290.30596923828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We continue in this way, computing the derivatives of the output with respect to these intermediate quantities (figure<a href=\"#page-115-0\"> 7.4</a>):</p>",
+          "polygon": [
+            [
+              129.744,
+              287.496
+            ],
+            [
+              515.3504638671875,
+              287.496
+            ],
+            [
+              515.3504638671875,
+              313.8497619628906
+            ],
+            [
+              129.744,
+              313.8497619628906
+            ]
+          ],
+          "bbox": [
+            129.744,
+            287.496,
+            515.3504638671875,
+            313.8497619628906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><span id=\"page-115-1\"></span><i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>2</sup> = <i>∂h</i><sup>3</sup> <i>∂f</i><sup>2</sup> <i>∂f</i><sup>3</sup> <i>∂h</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂h</i><sup>2</sup> = <i>∂f</i><sup>2</sup> <i>∂h</i><sup>2</sup> <i>∂h</i><sup>3</sup> <i>∂f</i><sup>2</sup> <i>∂f</i><sup>3</sup> <i>∂h</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>1</sup> = <i>∂h</i><sup>2</sup> <i>∂f</i><sup>1</sup> <i>∂f</i><sup>2</sup> <i>∂h</i><sup>2</sup> <i>∂h</i><sup>3</sup> <i>∂f</i><sup>2</sup> <i>∂f</i><sup>3</sup> <i>∂h</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂h</i><sup>1</sup> = <i>∂f</i><sup>1</sup> <i>∂h</i><sup>1</sup> <i>∂h</i><sup>2</sup> <i>∂f</i><sup>1</sup> <i>∂f</i><sup>2</sup> <i>∂h</i><sup>2</sup> <i>∂h</i><sup>3</sup> <i>∂f</i><sup>2</sup> <i>∂f</i><sup>3</sup> <i>∂h</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>0</sup> = <i>∂h</i><sup>1</sup> <i>∂f</i><sup>0</sup> <i>∂f</i><sup>1</sup> <i>∂h</i><sup>1</sup> <i>∂h</i><sup>2</sup> <i>∂f</i><sup>1</sup> <i>∂f</i><sup>2</sup> <i>∂h</i><sup>2</sup> <i>∂h</i><sup>3</sup> <i>∂f</i><sup>2</sup> <i>∂f</i><sup>3</sup> <i>∂h</i><sup>3</sup> <i>∂ℓ</i><i><sup>i</sup></i> <i>∂f</i><sup>3</sup> <i>.</i> (7.13)</p>",
+          "polygon": [
+            [
+              222.15599999999998,
+              327.888
+            ],
+            [
+              515.33837890625,
+              327.888
+            ],
+            [
+              515.33837890625,
+              472.2314758300781
+            ],
+            [
+              222.15599999999998,
+              472.2314758300781
+            ]
+          ],
+          "bbox": [
+            222.15599999999998,
+            327.888,
+            515.33837890625,
+            472.2314758300781
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Text/7",
+          "block_type": "Text",
+          "html": "<p>Problem 7.2</p>",
+          "polygon": [
+            [
+              50.184000000000005,
+              476.784
+            ],
+            [
+              97.92,
+              476.784
+            ],
+            [
+              97.92,
+              487.87199999999996
+            ],
+            [
+              50.184000000000005,
+              487.87199999999996
+            ]
+          ],
+          "bbox": [
+            50.184000000000005,
+            476.784,
+            97.92,
+            487.87199999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>Problem 7.2</b> In each case, we have already computed the quantities in the brackets in the previous step, and the last term has a simple expression. These equations embody Observation 2 from the previous section (figure 7.2); we can reuse the previously computed derivatives if we calculate them in reverse order.</p></div>",
+          "polygon": [
+            [
+              53.314971923828125,
+              471.23999999999995
+            ],
+            [
+              515.360107421875,
+              471.23999999999995
+            ],
+            [
+              515.360107421875,
+              518.4008178710938
+            ],
+            [
+              53.314971923828125,
+              518.4008178710938
+            ]
+          ],
+          "bbox": [
+            53.314971923828125,
+            471.23999999999995,
+            515.360107421875,
+            518.4008178710938
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>Backward pass #2:</b> Finally, we consider how the loss <math>\\ell_i</math> changes when we change the parameters <math>\\{\\beta_k\\}</math> and <math>\\{\\omega_k\\}</math>. Once more, we apply the chain rule (figure 7.5):</p></div>",
+          "polygon": [
+            [
+              129.744,
+              529.8480000000001
+            ],
+            [
+              515.3389892578125,
+              529.8480000000001
+            ],
+            [
+              515.3389892578125,
+              556.5739288330078
+            ],
+            [
+              129.744,
+              556.5739288330078
+            ]
+          ],
+          "bbox": [
+            129.744,
+            529.8480000000001,
+            515.3389892578125,
+            556.5739288330078
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 979 986\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned}\\frac{\\partial \\ell_i}{\\partial \\beta_k} &amp;= \\frac{\\partial f_k}{\\partial \\beta_k} \\frac{\\partial \\ell_i}{\\partial f_k} \\\\ \\frac{\\partial \\ell_i}{\\partial \\omega_k} &amp;= \\frac{\\partial f_k}{\\partial \\omega_k} \\frac{\\partial \\ell_i}{\\partial f_k}.\\end{aligned}\\tag{7.14}</math></div></p>",
+          "polygon": [
+            [
+              275.4,
+              570.24
+            ],
+            [
+              515.33837890625,
+              570.24
+            ],
+            [
+              515.33837890625,
+              622.8709564208984
+            ],
+            [
+              275.4,
+              622.8709564208984
+            ]
+          ],
+          "bbox": [
+            275.4,
+            570.24,
+            515.33837890625,
+            622.8709564208984
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Text/11",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 1000 100\" data-label=\"Text\"><p>In each case, the second term on the right-hand side was computed in equation 7.13. When <math>k &gt; 0</math>, we have <math>f_k = \\beta_k + \\omega_k \\cdot h_k</math>, so:</p></div>",
+          "polygon": [
+            [
+              129.744,
+              625.6800000000001
+            ],
+            [
+              515.3524780273438,
+              625.6800000000001
+            ],
+            [
+              515.3524780273438,
+              651.1129608154297
+            ],
+            [
+              129.744,
+              651.1129608154297
+            ]
+          ],
+          "bbox": [
+            129.744,
+            625.6800000000001,
+            515.3524780273438,
+            651.1129608154297
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\frac{\\partial f_k}{\\partial \\beta_k} = 1 \\quad \\text{and} \\quad \\frac{\\partial f_k}{\\partial \\omega_k} = h_k. \\quad (7.15)</math></div></p>",
+          "polygon": [
+            [
+              242.964,
+              664.4879999999999
+            ],
+            [
+              515.33837890625,
+              664.4879999999999
+            ],
+            [
+              515.33837890625,
+              690.996940612793
+            ],
+            [
+              242.964,
+              690.996940612793
+            ]
+          ],
+          "bbox": [
+            242.964,
+            664.4879999999999,
+            515.33837890625,
+            690.996940612793
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/115/PageFooter/13",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              146.88,
+              711.216
+            ],
+            [
+              495.6952209472656,
+              711.216
+            ],
+            [
+              495.6952209472656,
+              723.9465942382812
+            ],
+            [
+              146.88,
+              723.9465942382812
+            ]
+          ],
+          "bbox": [
+            146.88,
+            711.216,
+            495.6952209472656,
+            723.9465942382812
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "3": "/page/101/SectionHeader/4"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/221/Page/398",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/221/PageHeader/0'></content-ref><content-ref src='/page/221/PageHeader/1'></content-ref><content-ref src='/page/221/Text/2'></content-ref><content-ref src='/page/221/Text/3'></content-ref><content-ref src='/page/221/SectionHeader/4'></content-ref><content-ref src='/page/221/Text/5'></content-ref><content-ref src='/page/221/Text/6'></content-ref><content-ref src='/page/221/Equation/7'></content-ref><content-ref src='/page/221/Text/8'></content-ref><content-ref src='/page/221/Text/9'></content-ref><content-ref src='/page/221/Equation/10'></content-ref><content-ref src='/page/221/Text/11'></content-ref><content-ref src='/page/221/Text/12'></content-ref><content-ref src='/page/221/Equation/13'></content-ref><content-ref src='/page/221/Text/14'></content-ref><content-ref src='/page/221/Text/15'></content-ref><content-ref src='/page/221/PageFooter/16'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/221/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              127.29599999999999,
+              104.544
+            ],
+            [
+              146.268,
+              104.544
+            ],
+            [
+              146.268,
+              116.424
+            ],
+            [
+              127.29599999999999,
+              116.424
+            ]
+          ],
+          "bbox": [
+            127.29599999999999,
+            104.544,
+            146.268,
+            116.424
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              130.9340057373047,
+              104.544
+            ],
+            [
+              515.3489990234375,
+              104.544
+            ],
+            [
+              515.3489990234375,
+              117.50579833984375
+            ],
+            [
+              130.9340057373047,
+              117.50579833984375
+            ]
+          ],
+          "bbox": [
+            130.9340057373047,
+            104.544,
+            515.3489990234375,
+            117.50579833984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Second, one of the defining characteristics of NLP problems is that each input (one or more sentences) is of a different length; hence, it's not even obvious how to apply a fully connected network. These observations suggest that the network should share parameters across words at different input positions, similarly to how convolutional networks share parameters across different image positions.</p>",
+          "polygon": [
+            [
+              130.356,
+              135.43200000000002
+            ],
+            [
+              515.35107421875,
+              135.43200000000002
+            ],
+            [
+              515.35107421875,
+              196.98541259765625
+            ],
+            [
+              130.356,
+              196.98541259765625
+            ]
+          ],
+          "bbox": [
+            130.356,
+            135.43200000000002,
+            515.35107421875,
+            196.98541259765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Third, language is ambiguous; it is unclear from the syntax alone that the pronoun it refers to the restaurant and not to the ham sandwich. To understand the text, the word it should somehow be connected to the word restaurant. In the parlance of transformers, the former word should pay <i>attention</i> to the latter. This implies that there must be connections between the words and that the strength of these connections will depend on the words themselves. Moreover, these connections need to extend across large text spans. For example, the word their in the last sentence also refers to the restaurant.</p>",
+          "polygon": [
+            [
+              130.356,
+              197.20800000000003
+            ],
+            [
+              515.3609619140625,
+              197.20800000000003
+            ],
+            [
+              515.3609619140625,
+              281.2948303222656
+            ],
+            [
+              130.356,
+              281.2948303222656
+            ]
+          ],
+          "bbox": [
+            130.356,
+            197.20800000000003,
+            515.3609619140625,
+            281.2948303222656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "3": "/page/101/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/SectionHeader/4",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>12.2 Dot-product self-attention</b></h2>",
+          "polygon": [
+            [
+              94.86,
+              319.17600000000004
+            ],
+            [
+              277.8018493652344,
+              319.17600000000004
+            ],
+            [
+              277.8018493652344,
+              333.43199999999996
+            ],
+            [
+              94.86,
+              333.43199999999996
+            ]
+          ],
+          "bbox": [
+            94.86,
+            319.17600000000004,
+            277.8018493652344,
+            333.43199999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>The previous section argued that a model for processing text will (i) use parametere sharing to cope with long input passages of differing lengths and (ii) contain connections between word representations that depend on the words themselves. The transformer acquires both properties by using <i>dot-product self-attention</i>.</p></div>",
+          "polygon": [
+            [
+              130.356,
+              343.72799999999995
+            ],
+            [
+              515.3511352539062,
+              343.72799999999995
+            ],
+            [
+              515.3511352539062,
+              392.2234191894531
+            ],
+            [
+              130.356,
+              392.2234191894531
+            ]
+          ],
+          "bbox": [
+            130.356,
+            343.72799999999995,
+            515.3511352539062,
+            392.2234191894531
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>A standard neural network layer <math>\\mathbf{f}[\\mathbf{x}]</math>, takes a <math>D \\times 1</math> input <math>\\mathbf{x}</math> and applies a linear transformation followed by an activation function like a ReLU, so:</p></div>",
+          "polygon": [
+            [
+              130.356,
+              392.04
+            ],
+            [
+              515.3373413085938,
+              392.04
+            ],
+            [
+              515.3373413085938,
+              416.8564453125
+            ],
+            [
+              130.356,
+              416.8564453125
+            ]
+          ],
+          "bbox": [
+            130.356,
+            392.04,
+            515.3373413085938,
+            416.8564453125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\mathbf{f}[\\mathbf{x}] = \\mathbf{ReLU}[\\boldsymbol{\\beta} + \\boldsymbol{\\Omega} \\mathbf{x}], \\quad (12.1)</math></div></p>",
+          "polygon": [
+            [
+              269.892,
+              430.05600000000004
+            ],
+            [
+              515.33837890625,
+              430.05600000000004
+            ],
+            [
+              515.33837890625,
+              444.1437683105469
+            ],
+            [
+              269.892,
+              444.1437683105469
+            ]
+          ],
+          "bbox": [
+            269.892,
+            430.05600000000004,
+            515.33837890625,
+            444.1437683105469
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where <i>β</i> contains the biases, and <b>Ω</b> contains the weights.</p>",
+          "polygon": [
+            [
+              130.356,
+              451.43999999999994
+            ],
+            [
+              382.8104553222656,
+              451.43999999999994
+            ],
+            [
+              382.8104553222656,
+              464.56640625
+            ],
+            [
+              130.356,
+              464.56640625
+            ]
+          ],
+          "bbox": [
+            130.356,
+            451.43999999999994,
+            382.8104553222656,
+            464.56640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 10 990 1000\" data-label=\"Text\"><p>A self-attention block <b>sa[•]</b> takes <math>N</math> inputs <math>\\mathbf{x}_1, \\dots, \\mathbf{x}_N</math>, each of dimension <math>D \\times 1</math>, and returns <math>N</math> outputs, each of which is also of size <math>D \\times 1</math>. In the context of NLP, each input represents a word or word fragment. First, a set of <i>values</i> are computed for each input:</p></div>",
+          "polygon": [
+            [
+              130.356,
+              464.904
+            ],
+            [
+              515.337890625,
+              464.904
+            ],
+            [
+              515.337890625,
+              501.336
+            ],
+            [
+              130.356,
+              501.336
+            ]
+          ],
+          "bbox": [
+            130.356,
+            464.904,
+            515.337890625,
+            501.336
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\mathbf{v}_m = \\boldsymbol{\\beta}_v + \\boldsymbol{\\Omega}_v \\mathbf{x}_m, \\quad (12.2)</math></div></p>",
+          "polygon": [
+            [
+              279.684,
+              514.8
+            ],
+            [
+              515.3383178710938,
+              514.8
+            ],
+            [
+              515.3383178710938,
+              529.7499084472656
+            ],
+            [
+              279.684,
+              529.7499084472656
+            ]
+          ],
+          "bbox": [
+            279.684,
+            514.8,
+            515.3383178710938,
+            529.7499084472656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/11",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>where <math>\\boldsymbol{\\beta}_v \\in \\mathbb{R}^{D \\times 1}</math> and <math>\\boldsymbol{\\Omega}_v \\in \\mathbb{R}^{D \\times D}</math> represent biases and weights, respectively.</p></div>",
+          "polygon": [
+            [
+              130.356,
+              534.6
+            ],
+            [
+              472.0283508300781,
+              534.6
+            ],
+            [
+              472.0283508300781,
+              551.0074005126953
+            ],
+            [
+              130.356,
+              551.0074005126953
+            ]
+          ],
+          "bbox": [
+            130.356,
+            534.6,
+            472.0283508300781,
+            551.0074005126953
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/12",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Then the <math>n^{th}</math> output <math>\\mathbf{sa}_n[\\mathbf{x}_1, \\dots, \\mathbf{x}_N]</math> is a weighted sum of all the values <math>\\mathbf{v}_1, \\dots, \\mathbf{v}_N</math>:</p></div>",
+          "polygon": [
+            [
+              144.432,
+              548.856
+            ],
+            [
+              514.567626953125,
+              548.856
+            ],
+            [
+              514.567626953125,
+              563.112
+            ],
+            [
+              144.432,
+              563.112
+            ]
+          ],
+          "bbox": [
+            144.432,
+            548.856,
+            514.567626953125,
+            563.112
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Equation/13",
+          "block_type": "Equation",
+          "html": "<span id=\"page-221-0\"></span><p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\mathbf{sa}_n[\\mathbf{x}_1, \\dots, \\mathbf{x}_N] = \\sum_{m=1}^N a[\\mathbf{x}_m, \\mathbf{x}_n] \\mathbf{v}_m. \\quad (12.3)</math></div></p>",
+          "polygon": [
+            [
+              241.12800000000001,
+              573.408
+            ],
+            [
+              515.3383178710938,
+              573.408
+            ],
+            [
+              515.3383178710938,
+              613.6314086914062
+            ],
+            [
+              241.12800000000001,
+              613.6314086914062
+            ]
+          ],
+          "bbox": [
+            241.12800000000001,
+            573.408,
+            515.3383178710938,
+            613.6314086914062
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/14",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>The scalar weight <math>a[\\mathbf{x}_m, \\mathbf{x}_n]</math> is the <i>attention</i> that the <math>n^{th}</math> output pays to input <math>\\mathbf{x}_m</math>. The <math>N</math> weights <math>a[\\bullet, \\mathbf{x}_n]</math> are non-negative and sum to one. Hence, self-attention can be thought of as <i>routing</i> the values in different proportions to create each output (figure 12.1).</p></div>",
+          "polygon": [
+            [
+              130.356,
+              611.424
+            ],
+            [
+              515.3567504882812,
+              611.424
+            ],
+            [
+              515.3567504882812,
+              651.0239999999999
+            ],
+            [
+              130.356,
+              651.0239999999999
+            ]
+          ],
+          "bbox": [
+            130.356,
+            611.424,
+            515.3567504882812,
+            651.0239999999999
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/Text/15",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>The following sections examine dot-product self-attention in more detail. First, we consider the computation of the values and their subsequent weighting (equation 12.3). Then we describe how to compute the attention weights <math>a[\\mathbf{x}_m, \\mathbf{x}_n]</math> themselves.</p></div>",
+          "polygon": [
+            [
+              130.356,
+              651.0239999999999
+            ],
+            [
+              515.3603515625,
+              651.0239999999999
+            ],
+            [
+              515.3603515625,
+              687.952018737793
+            ],
+            [
+              130.356,
+              687.952018737793
+            ]
+          ],
+          "bbox": [
+            130.356,
+            651.0239999999999,
+            515.3603515625,
+            687.952018737793
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/221/PageFooter/16",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              146.88,
+              711.216
+            ],
+            [
+              495.6950988769531,
+              711.216
+            ],
+            [
+              495.6950988769531,
+              723.9465942382812
+            ],
+            [
+              146.88,
+              723.9465942382812
+            ]
+          ],
+          "bbox": [
+            146.88,
+            711.216,
+            495.6950988769531,
+            723.9465942382812
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/221/SectionHeader/4"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/224/Page/172",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/224/PageHeader/0'></content-ref><content-ref src='/page/224/PageHeader/1'></content-ref><content-ref src='/page/224/Diagram/2'></content-ref><content-ref src='/page/224/Caption/3'></content-ref><content-ref src='/page/224/Text/4'></content-ref><content-ref src='/page/224/SectionHeader/5'></content-ref><content-ref src='/page/224/Text/6'></content-ref><content-ref src='/page/224/Text/7'></content-ref><content-ref src='/page/224/PageFooter/8'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/224/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              90.576,
+              103.75200000000001
+            ],
+            [
+              479.31793212890625,
+              103.75200000000001
+            ],
+            [
+              479.31793212890625,
+              117.50579833984375
+            ],
+            [
+              90.576,
+              117.50579833984375
+            ]
+          ],
+          "bbox": [
+            90.576,
+            103.75200000000001,
+            479.31793212890625,
+            117.50579833984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              457.164,
+              103.75200000000001
+            ],
+            [
+              479.196,
+              103.75200000000001
+            ],
+            [
+              479.196,
+              117.21599999999998
+            ],
+            [
+              457.164,
+              117.21599999999998
+            ]
+          ],
+          "bbox": [
+            457.164,
+            103.75200000000001,
+            479.196,
+            117.21599999999998
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Diagram/2",
+          "block_type": "Diagram",
+          "html": "",
+          "polygon": [
+            [
+              77.90400000000002,
+              119.59200000000004
+            ],
+            [
+              486.36,
+              119.59200000000004
+            ],
+            [
+              486.36,
+              436.392
+            ],
+            [
+              77.90400000000002,
+              436.392
+            ]
+          ],
+          "bbox": [
+            77.90400000000002,
+            119.59200000000004,
+            486.36,
+            436.392
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Caption/3",
+          "block_type": "Caption",
+          "html": "<p></p><div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p><b>Figure 12.3</b> Computing attention weights. a) Query vectors <math>\\mathbf{q}_n = \\boldsymbol{\\beta}_q + \\boldsymbol{\\Omega}_q \\mathbf{x}_n</math> and key vectors <math>\\mathbf{k}_n = \\boldsymbol{\\beta}_k + \\boldsymbol{\\Omega}_k \\mathbf{x}_n</math> are computed for each input <math>\\mathbf{x}_n</math>. b) The dot products between each query and the three keys are passed through a softmax function to form non-negative attentions that sum to one. c) These route the value vectors (figure 12.1) via the sparse matrix from figure 12.2c.</p></div>",
+          "polygon": [
+            [
+              118.72800000000001,
+              436.392
+            ],
+            [
+              447.8630676269531,
+              436.392
+            ],
+            [
+              447.8630676269531,
+              491.04
+            ],
+            [
+              118.72800000000001,
+              491.04
+            ]
+          ],
+          "bbox": [
+            118.72800000000001,
+            436.392,
+            447.8630676269531,
+            491.04
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 145 999 500\" data-label=\"Text\"><p>the values, which is usually the same size as the input, so the representation doesn't change size.</p></div>\n<div data-bbox=\"820 145 999 200\" data-label=\"Text\"><p>Problems 12.1–12.2</p></div>",
+          "polygon": [
+            [
+              90.576,
+              533.0160000000001
+            ],
+            [
+              570.361328125,
+              533.0160000000001
+            ],
+            [
+              570.361328125,
+              558.9074096679688
+            ],
+            [
+              90.576,
+              558.9074096679688
+            ]
+          ],
+          "bbox": [
+            90.576,
+            533.0160000000001,
+            570.361328125,
+            558.9074096679688
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/221/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/SectionHeader/5",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>12.2.3 Self-attention summary</b></h2>",
+          "polygon": [
+            [
+              50.79600000000001,
+              575.784
+            ],
+            [
+              211.71682739257812,
+              575.784
+            ],
+            [
+              211.71682739257812,
+              590.04
+            ],
+            [
+              50.79600000000001,
+              590.04
+            ]
+          ],
+          "bbox": [
+            50.79600000000001,
+            575.784,
+            211.71682739257812,
+            590.04
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>The <math>n^{th}</math> output is a weighted sum of the same linear transformation <math>\\mathbf{v}_\\bullet = \\beta_v + \\mathbf{\\Omega}_v \\mathbf{x}_\\bullet</math> applied to all of the inputs, where these attention weights are positive and sum to one. The weights depend on a measure of similarity between input <math>\\mathbf{x}_n</math> and the other inputs. There is no activation function, but the mechanism is nonlinear due to the dot-product and a softmax operation used to compute the attention weights.</p></div>",
+          "polygon": [
+            [
+              90.576,
+              597.96
+            ],
+            [
+              476.748,
+              597.96
+            ],
+            [
+              476.748,
+              661.4154663085938
+            ],
+            [
+              90.576,
+              661.4154663085938
+            ]
+          ],
+          "bbox": [
+            90.576,
+            597.96,
+            476.748,
+            661.4154663085938
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"71 10 983 990\" data-label=\"Text\"><p>Note that this mechanism fulfills the initial requirements. First, there is a single shared set of parameters <math>\\phi = \\{\\beta_v, \\Omega_v, \\beta_q, \\Omega_q, \\beta_k, \\Omega_k\\}</math>. This is independent of the</p></div>",
+          "polygon": [
+            [
+              90.576,
+              662.904
+            ],
+            [
+              477.36,
+              662.904
+            ],
+            [
+              477.36,
+              688.8929977416992
+            ],
+            [
+              90.576,
+              688.8929977416992
+            ]
+          ],
+          "bbox": [
+            90.576,
+            662.904,
+            477.36,
+            688.8929977416992
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/PageFooter/8",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              175.64399999999998,
+              710.424
+            ],
+            [
+              394.92620849609375,
+              710.424
+            ],
+            [
+              394.92620849609375,
+              723.888
+            ],
+            [
+              175.64399999999998,
+              723.888
+            ]
+          ],
+          "bbox": [
+            175.64399999999998,
+            710.424,
+            394.92620849609375,
+            723.888
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/224/SectionHeader/5"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/375/Page/1119",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/375/PageHeader/0'></content-ref><content-ref src='/page/375/PageHeader/1'></content-ref><content-ref src='/page/375/Equation/2'></content-ref><content-ref src='/page/375/Text/3'></content-ref><content-ref src='/page/375/Text/4'></content-ref><content-ref src='/page/375/Equation/5'></content-ref><content-ref src='/page/375/Text/6'></content-ref><content-ref src='/page/375/Text/7'></content-ref><content-ref src='/page/375/Text/8'></content-ref><content-ref src='/page/375/Equation/9'></content-ref><content-ref src='/page/375/SectionHeader/10'></content-ref><content-ref src='/page/375/Text/11'></content-ref><content-ref src='/page/375/Equation/12'></content-ref><content-ref src='/page/375/PageFooter/13'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/375/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              127.29599999999999,
+              104.544
+            ],
+            [
+              145.656,
+              104.544
+            ],
+            [
+              145.656,
+              116.424
+            ],
+            [
+              127.29599999999999,
+              116.424
+            ]
+          ],
+          "bbox": [
+            127.29599999999999,
+            104.544,
+            145.656,
+            116.424
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              130.9340057373047,
+              104.544
+            ],
+            [
+              515.3395385742188,
+              104.544
+            ],
+            [
+              515.3395385742188,
+              117.50579833984375
+            ],
+            [
+              130.9340057373047,
+              117.50579833984375
+            ]
+          ],
+          "bbox": [
+            130.9340057373047,
+            104.544,
+            515.3395385742188,
+            117.50579833984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Equation/2",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"10 14 990 876\" data-label=\"Equation-Block\"><math display=\"block\">\n\\begin{aligned}\n&amp; \\frac{(1 - \\alpha_{t-1})}{1 - \\alpha_t} \\sqrt{1 - \\beta_t} \\mathbf{z}_t + \\frac{\\sqrt{\\alpha_{t-1}} \\beta_t}{1 - \\alpha_t} \\mathbf{x} \\\\\n&amp;= \\frac{(1 - \\alpha_{t-1})}{1 - \\alpha_t} \\sqrt{1 - \\beta_t} \\mathbf{z}_t + \\frac{\\sqrt{\\alpha_{t-1}} \\beta_t}{1 - \\alpha_t} \\left( \\frac{1}{\\sqrt{\\alpha_t}} \\mathbf{z}_t - \\frac{\\sqrt{1 - \\alpha_t}}{\\sqrt{\\alpha_t}} \\boldsymbol{\\epsilon} \\right) \\\\\n&amp;= \\frac{(1 - \\alpha_{t-1})}{1 - \\alpha_t} \\sqrt{1 - \\beta_t} \\mathbf{z}_t + \\frac{\\beta_t}{1 - \\alpha_t} \\left( \\frac{1}{\\sqrt{1 - \\beta_t}} \\mathbf{z}_t - \\frac{\\sqrt{1 - \\alpha_t}}{\\sqrt{1 - \\beta_t}} \\boldsymbol{\\epsilon} \\right),\n\\end{aligned} \\tag{18.32}\n</math></div>\n<div data-bbox=\"0 946 990 992\" data-label=\"Text\">we have used the fact that <math>\\sqrt{1 - \\beta_t} / \\sqrt{1 - \\alpha_t} = \\sqrt{1 - \\beta_t} / \\sqrt{1 - \\alpha_t} = 1</math> between the second and third</div></p>",
+          "polygon": [
+            [
+              145.04399999999998,
+              148.78173828125
+            ],
+            [
+              515.3389282226562,
+              148.78173828125
+            ],
+            [
+              515.3389282226562,
+              246.76751708984375
+            ],
+            [
+              145.04399999999998,
+              246.76751708984375
+            ]
+          ],
+          "bbox": [
+            145.04399999999998,
+            148.78173828125,
+            515.3389282226562,
+            246.76751708984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Text/3",
+          "block_type": "Text",
+          "html": "<p>Problem 18.9</p>",
+          "polygon": [
+            [
+              47.736000000000004,
+              248.688
+            ],
+            [
+              99.144,
+              248.688
+            ],
+            [
+              99.144,
+              260.56800000000004
+            ],
+            [
+              47.736000000000004,
+              260.56800000000004
+            ]
+          ],
+          "bbox": [
+            47.736000000000004,
+            248.688,
+            99.144,
+            260.56800000000004
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Text/4",
+          "block_type": "Text",
+          "html": "<p><b>Problem 18.9</b> where we have used the fact that <math>\\sqrt{\\alpha_t}/\\sqrt{\\alpha_{t-1}} = \\sqrt{1 - \\beta_t}</math> between the second and third lines. Simplifying further, we get:</p>",
+          "polygon": [
+            [
+              51.197998046875,
+              237.2977294921875
+            ],
+            [
+              515.337890625,
+              237.2977294921875
+            ],
+            [
+              515.337890625,
+              266.904
+            ],
+            [
+              51.197998046875,
+              266.904
+            ]
+          ],
+          "bbox": [
+            51.197998046875,
+            237.2977294921875,
+            515.337890625,
+            266.904
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">(1 <i><sup>−</sup></i> <i><sup>α</sup></i><i>t</i><i>−</i>1) 1 <i>−</i> <i>α</i><i><sup>t</sup></i> p 1 <i>−</i> <i>β</i><i>t</i><b>z</b><i><sup>t</sup></i> + <i>√</i><i><sup>α</sup></i><i>t</i><i>−</i>1<i>β</i><i><sup>t</sup></i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> <b>x</b> (18.33) =  (1 <i><sup>−</sup></i> <i><sup>α</sup></i><i>t</i><i>−</i>1) <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> + <i>β</i><i>t</i> (1 <i>−</i> <i>α</i><i>t</i>) <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <b>z</b><i><sup>t</sup></i> <i>−</i> <i><sup>β</sup></i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <i>ϵ</i> =  (1 <i><sup>−</sup></i> <i><sup>α</sup></i><i>t</i><i>−</i>1)(1 <i><sup>−</sup></i> <i><sup>β</sup></i><i>t</i>) (1 <i>−</i> <i>α</i><i>t</i>) <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> + <i>β</i><i>t</i> (1 <i>−</i> <i>α</i><i>t</i>) <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <b>z</b><i><sup>t</sup></i> <i>−</i> <i><sup>β</sup></i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <i>ϵ</i> = (1 <i><sup>−</sup></i> <i><sup>α</sup></i><i>t</i><i>−</i>1)(1 <i><sup>−</sup></i> <i><sup>β</sup></i><i>t</i>) <sup>+</sup> <i><sup>β</sup></i><i><sup>t</sup></i> (1 <i>−</i> <i>α</i><i>t</i>) <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <b>z</b><i><sup>t</sup></i> <i>−</i> <i><sup>β</sup></i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <i>ϵ</i> = 1 <i>−</i> <i>α</i><i><sup>t</sup></i> (1 <i>−</i> <i>α</i><i>t</i>) <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <b>z</b><i><sup>t</sup></i> <i>−</i> <i><sup>β</sup></i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <i>ϵ</i> = 1 <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <b>z</b><i><sup>t</sup></i> <i>−</i> <i><sup>β</sup></i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>α</i><i><sup>t</sup></i> <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> <i>ϵ</i><i>,</i></p>",
+          "polygon": [
+            [
+              132.804,
+              278.10968017578125
+            ],
+            [
+              515.3389282226562,
+              278.10968017578125
+            ],
+            [
+              515.3389282226562,
+              447.490966796875
+            ],
+            [
+              132.804,
+              447.490966796875
+            ]
+          ],
+          "bbox": [
+            132.804,
+            278.10968017578125,
+            515.3389282226562,
+            447.490966796875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where we have multiplied the numerator and denominator of the first term by <i>√</i> 1 <i>−</i> <i>β</i><i><sup>t</sup></i> between lines two and three, multiplied out the terms, and simplified the numerator in</p>",
+          "polygon": [
+            [
+              129.744,
+              448.2646789550781
+            ],
+            [
+              515.3506469726562,
+              448.2646789550781
+            ],
+            [
+              515.3506469726562,
+              489.45599999999996
+            ],
+            [
+              129.744,
+              489.45599999999996
+            ]
+          ],
+          "bbox": [
+            129.744,
+            448.2646789550781,
+            515.3506469726562,
+            489.45599999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Text/7",
+          "block_type": "Text",
+          "html": "<p>Problem 18.10</p>",
+          "polygon": [
+            [
+              45.9,
+              483.91200000000003
+            ],
+            [
+              102.20400000000001,
+              483.91200000000003
+            ],
+            [
+              102.20400000000001,
+              495.0
+            ],
+            [
+              45.9,
+              495.0
+            ]
+          ],
+          "bbox": [
+            45.9,
+            483.91200000000003,
+            102.20400000000001,
+            495.0
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Text/8",
+          "block_type": "Text",
+          "html": "<p><b>Problem 18.10</b> the first term between lines three and four.<br/>Substituting this back into the loss function (equation 18.29), we have:</p>",
+          "polygon": [
+            [
+              49.082000732421875,
+              479.3888244628906
+            ],
+            [
+              458.08477783203125,
+              479.3888244628906
+            ],
+            [
+              458.08477783203125,
+              502.12800000000004
+            ],
+            [
+              49.082000732421875,
+              502.12800000000004
+            ]
+          ],
+          "bbox": [
+            49.082000732421875,
+            479.3888244628906,
+            458.08477783203125,
+            502.12800000000004
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"10 41 994 750\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned} L[\\phi_{1\\dots T}] &amp;= \\sum_{i=1}^I \\left( -\\log \\left[ \\text{Norm}_{\\mathbf{x}_i} \\left[ \\mathbf{f}_1[\\mathbf{z}_{i1}, \\phi_1], \\sigma_1^2 \\mathbf{I} \\right] \\right] \\right. \\\\ &amp;\\quad \\left. + \\sum_{t=2}^T \\frac{1}{2\\sigma_t^2} \\left\\| \\left( \\frac{1}{\\sqrt{1-\\beta_t}} \\mathbf{z}_{it} - \\frac{\\beta_t}{\\sqrt{1-\\alpha_t} \\sqrt{1-\\beta_t}} \\epsilon_{it} \\right) - \\mathbf{f}_t[\\mathbf{z}_{it}, \\phi_t] \\right\\|^2 \\right). \\end{aligned} \\quad (18.34)</math></div></p>",
+          "polygon": [
+            [
+              146.88,
+              516.384
+            ],
+            [
+              515.3388671875,
+              516.384
+            ],
+            [
+              515.3388671875,
+              605.9474792480469
+            ],
+            [
+              146.88,
+              605.9474792480469
+            ]
+          ],
+          "bbox": [
+            146.88,
+            516.384,
+            515.3388671875,
+            605.9474792480469
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/224/SectionHeader/5"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/SectionHeader/10",
+          "block_type": "SectionHeader",
+          "html": "<h1><b>18.5.2</b> <b>Reparameterization of network</b></h1>",
+          "polygon": [
+            [
+              88.74,
+              605.088
+            ],
+            [
+              287.1495056152344,
+              605.088
+            ],
+            [
+              287.1495056152344,
+              620.4343414306641
+            ],
+            [
+              88.74,
+              620.4343414306641
+            ]
+          ],
+          "bbox": [
+            88.74,
+            605.088,
+            287.1495056152344,
+            620.4343414306641
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Now we replace the model <b><sup>z</sup></b>ˆ<i>t</i><i>−</i><sup>1</sup> <sup>=</sup> <b><sup>f</sup></b><i>t</i>[<b>z</b><i>t</i><i>,</i> <i><sup>ϕ</sup></i><i><sup>t</sup></i> ] with a new model ˆ<i>ϵ</i> = <b>g</b><i><sup>t</sup></i> [<b>z</b><i>t</i><i>,</i> <i>ϕ</i><i><sup>t</sup></i> ], which predicts the noise <i>ϵ</i> that was mixed with <b>x</b> to create <b>z</b><i>t</i>:</p>",
+          "polygon": [
+            [
+              129.744,
+              630.432
+            ],
+            [
+              515.33251953125,
+              630.432
+            ],
+            [
+              515.33251953125,
+              657.0309906005859
+            ],
+            [
+              129.744,
+              657.0309906005859
+            ]
+          ],
+          "bbox": [
+            129.744,
+            630.432,
+            515.33251953125,
+            657.0309906005859
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\mathbf{f}_t[\\mathbf{z}_t, \\phi_t] = \\frac{1}{\\sqrt{1 - \\beta_t}} \\mathbf{z}_t - \\frac{\\beta_t}{\\sqrt{1 - \\alpha_t} \\sqrt{1 - \\beta_t}} \\mathbf{g}_t[\\mathbf{z}_t, \\phi_t]. \\quad (18.35)</math></div></p>",
+          "polygon": [
+            [
+              208.07999999999998,
+              664.4879999999999
+            ],
+            [
+              515.3389282226562,
+              664.4879999999999
+            ],
+            [
+              515.3389282226562,
+              690.8639602661133
+            ],
+            [
+              208.07999999999998,
+              690.8639602661133
+            ]
+          ],
+          "bbox": [
+            208.07999999999998,
+            664.4879999999999,
+            515.3389282226562,
+            690.8639602661133
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/375/PageFooter/13",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              146.88,
+              711.216
+            ],
+            [
+              495.69598388671875,
+              711.216
+            ],
+            [
+              495.69598388671875,
+              723.9465942382812
+            ],
+            [
+              146.88,
+              723.9465942382812
+            ]
+          ],
+          "bbox": [
+            146.88,
+            711.216,
+            495.69598388671875,
+            723.9465942382812
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/375/SectionHeader/10"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/377/Page/531",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/377/PageHeader/0'></content-ref><content-ref src='/page/377/PageHeader/1'></content-ref><content-ref src='/page/377/SectionHeader/2'></content-ref><content-ref src='/page/377/Text/3'></content-ref><content-ref src='/page/377/SectionHeader/4'></content-ref><content-ref src='/page/377/Text/5'></content-ref><content-ref src='/page/377/SectionHeader/6'></content-ref><content-ref src='/page/377/Text/7'></content-ref><content-ref src='/page/377/Text/8'></content-ref><content-ref src='/page/377/SectionHeader/9'></content-ref><content-ref src='/page/377/Text/10'></content-ref><content-ref src='/page/377/PageFooter/11'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/377/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              126.68399999999998,
+              104.544
+            ],
+            [
+              146.268,
+              104.544
+            ],
+            [
+              146.268,
+              116.424
+            ],
+            [
+              126.68399999999998,
+              116.424
+            ]
+          ],
+          "bbox": [
+            126.68399999999998,
+            104.544,
+            146.268,
+            116.424
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              130.9340057373047,
+              104.544
+            ],
+            [
+              515.3395385742188,
+              104.544
+            ],
+            [
+              515.3395385742188,
+              117.50579833984375
+            ],
+            [
+              130.9340057373047,
+              117.50579833984375
+            ]
+          ],
+          "bbox": [
+            130.9340057373047,
+            104.544,
+            515.3395385742188,
+            117.50579833984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/SectionHeader/2",
+          "block_type": "SectionHeader",
+          "html": "<h4><b>Algorithm</b> <b>18.1:</b> Diffusion model training</h4>",
+          "polygon": [
+            [
+              136.476,
+              138.6
+            ],
+            [
+              329.7074279785156,
+              138.6
+            ],
+            [
+              329.7074279785156,
+              152.06400000000002
+            ],
+            [
+              136.476,
+              152.06400000000002
+            ]
+          ],
+          "bbox": [
+            136.476,
+            138.6,
+            329.7074279785156,
+            152.06400000000002
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "4": "/page/377/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"15 10 995 985\" data-label=\"Text\"><pre><b>Input:</b> Training data <math>\\mathbf{x}</math>\n<b>Output:</b> Model parameters <math>\\phi_t</math>\nrepeat\n  <b>for</b> <math>i \\in \\mathcal{B}</math> <b>do</b>            // For every training example index in batch\n    | <math>t \\sim \\text{Uniform}[1, \\dots T]</math>      // Sample random timestep\n    | <math>\\epsilon \\sim \\text{Norm}[0, \\mathbf{I}]</math>          // Sample noise\n    | <math>\\ell_i = \\left\\| \\mathbf{g}_t \\left[ \\sqrt{\\alpha_t} \\mathbf{x}_i + \\sqrt{1 - \\alpha_t} \\epsilon, \\phi_t \\right] - \\epsilon \\right\\|^2</math>    // Compute individual loss\nAccumulate losses for batch and take gradient step\nuntil converged</pre></div>",
+          "polygon": [
+            [
+              142.596,
+              152.856
+            ],
+            [
+              500.3927001953125,
+              152.856
+            ],
+            [
+              500.3927001953125,
+              273.58538818359375
+            ],
+            [
+              142.596,
+              273.58538818359375
+            ]
+          ],
+          "bbox": [
+            142.596,
+            152.856,
+            500.3927001953125,
+            273.58538818359375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "4": "/page/377/SectionHeader/2"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/SectionHeader/4",
+          "block_type": "SectionHeader",
+          "html": "<h4><b>Algorithm</b> <b>18.2:</b> Sampling</h4>",
+          "polygon": [
+            [
+              136.476,
+              297.0
+            ],
+            [
+              263.89190673828125,
+              297.0
+            ],
+            [
+              263.89190673828125,
+              310.464
+            ],
+            [
+              136.476,
+              310.464
+            ]
+          ],
+          "bbox": [
+            136.476,
+            297.0,
+            263.89190673828125,
+            310.464
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "4": "/page/377/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"15 0 995 945\" data-label=\"Table\"><table><tr><td><b>Input:</b></td><td>Model, <math>\\mathbf{g}_t[\\bullet, \\phi_t]</math></td></tr><tr><td><b>Output:</b></td><td>Sample, <math>\\mathbf{x}</math></td></tr><tr><td><math>\\mathbf{z}_T \\sim \\text{Norm}_{\\mathbf{z}}[\\mathbf{0}, \\mathbf{I}]</math></td><td>// Sample last latent variable</td></tr><tr><td><b>for</b></td><td><math>t = T \\dots 2</math> <b>do</b></td></tr><tr><td></td><td><math>\\hat{\\mathbf{z}}_{t-1} = \\frac{1}{\\sqrt{1-\\beta_t}} \\mathbf{z}_t - \\frac{\\beta_t}{\\sqrt{1-\\alpha_t} \\sqrt{1-\\beta_t}} \\mathbf{g}_t[\\mathbf{z}_t, \\phi_t]</math></td><td>// Predict previous latent variable</td></tr><tr><td></td><td><math>\\epsilon \\sim \\text{Norm}_{\\epsilon}[\\mathbf{0}, \\mathbf{I}]</math></td><td>// Draw new noise vector</td></tr><tr><td></td><td><math>\\mathbf{z}_{t-1} = \\hat{\\mathbf{z}}_{t-1} + \\sigma_t \\epsilon</math></td><td>// Add noise to previous latent variable</td></tr><tr><td><math>\\mathbf{x} = \\frac{1}{\\sqrt{1-\\beta_1}} \\mathbf{z}_1 - \\frac{\\beta_1}{\\sqrt{1-\\alpha_1} \\sqrt{1-\\beta_1}} \\mathbf{g}_1[\\mathbf{z}_1, \\phi_1]</math></td><td>// Generate sample from <math>\\mathbf{z}_1</math> without noise</td></tr></table></div>",
+          "polygon": [
+            [
+              142.596,
+              311.25600000000003
+            ],
+            [
+              500.39288330078125,
+              311.25600000000003
+            ],
+            [
+              500.39288330078125,
+              422.7982482910156
+            ],
+            [
+              142.596,
+              422.7982482910156
+            ]
+          ],
+          "bbox": [
+            142.596,
+            311.25600000000003,
+            500.39288330078125,
+            422.7982482910156
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "4": "/page/377/SectionHeader/4"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/SectionHeader/6",
+          "block_type": "SectionHeader",
+          "html": "<h2><b>18.6.1</b> <b>Application to images</b></h2>",
+          "polygon": [
+            [
+              88.12799999999999,
+              442.72800000000007
+            ],
+            [
+              242.54257202148438,
+              442.72800000000007
+            ],
+            [
+              242.54257202148438,
+              457.0153503417969
+            ],
+            [
+              88.12799999999999,
+              457.0153503417969
+            ]
+          ],
+          "bbox": [
+            88.12799999999999,
+            442.72800000000007,
+            242.54257202148438,
+            457.0153503417969
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "2": "/page/377/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 61 990 990\" data-label=\"Text\"><p>Diffusion models have been very successful in modeling image data. Here, we need to construct models that can take a noisy image and predict the noise that was added at each step. The obvious architectural choice for this image-to-image mapping is the U-Net (figure 11.10). However, there may be a very large number of diffusion steps, and training and storing multiple U-Nets is inefficient. The solution is to train a single U-Net that also takes a predetermined vector representing the time step as input (figure 18.9). In practice, this is resized to match the number of channels at each stage of the U-Net and used to offset and/or scale the representation at each spatial position.</p></div>",
+          "polygon": [
+            [
+              129.132,
+              468.072
+            ],
+            [
+              515.3529052734375,
+              468.072
+            ],
+            [
+              515.3529052734375,
+              564.8567047119141
+            ],
+            [
+              129.132,
+              564.8567047119141
+            ]
+          ],
+          "bbox": [
+            129.132,
+            468.072,
+            515.3529052734375,
+            564.8567047119141
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "2": "/page/377/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">A large number of time steps are needed as the conditional probabilities <i><sup>q</sup></i>(<b>z</b><i>t</i><i>−</i>1<i>|</i><b>z</b><i>t</i>) become closer to normal when the hyperparameters <i>β</i><i><sup>t</sup></i> are close to zero, matching the form of the decoder distributions <i>P r</i>(<b>z</b><i>t</i><i>−</i>1<i>|</i><b>z</b><i>t</i><i>,</i> <i><sup>ϕ</sup></i><i><sup>t</sup></i> ). However, this makes sampling slow. We might have to run the U-Net model through <i>T</i> = 1000 steps to generate good images.</p>",
+          "polygon": [
+            [
+              129.132,
+              564.696
+            ],
+            [
+              515.3411254882812,
+              564.696
+            ],
+            [
+              515.3411254882812,
+              613.0303955078125
+            ],
+            [
+              129.132,
+              613.0303955078125
+            ]
+          ],
+          "bbox": [
+            129.132,
+            564.696,
+            515.3411254882812,
+            613.0303955078125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "2": "/page/377/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/SectionHeader/9",
+          "block_type": "SectionHeader",
+          "html": "<h4><b>18.6.2 Improving generation speed</b></h4>",
+          "polygon": [
+            [
+              88.12799999999999,
+              638.3520000000001
+            ],
+            [
+              271.75604248046875,
+              638.3520000000001
+            ],
+            [
+              271.75604248046875,
+              651.816
+            ],
+            [
+              88.12799999999999,
+              651.816
+            ]
+          ],
+          "bbox": [
+            88.12799999999999,
+            638.3520000000001,
+            271.75604248046875,
+            651.816
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "2": "/page/377/SectionHeader/6",
+            "4": "/page/377/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/Text/10",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"100 0 1000 1000\" data-label=\"Text\"><p>The loss function (equation 18.40) requires the diffusion kernel to have the form <math>q(\\mathbf{z}_t | \\mathbf{x}) = \\text{Norm}[\\sqrt{\\alpha_t} \\mathbf{x}, \\sqrt{1 - \\alpha_t} \\cdot \\mathbf{I}]</math>. The same loss function will be valid for <i>any</i> forward process</p></div>",
+          "polygon": [
+            [
+              129.132,
+              662.904
+            ],
+            [
+              515.3397216796875,
+              662.904
+            ],
+            [
+              515.3397216796875,
+              688.2304840087891
+            ],
+            [
+              129.132,
+              688.2304840087891
+            ]
+          ],
+          "bbox": [
+            129.132,
+            662.904,
+            515.3397216796875,
+            688.2304840087891
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "2": "/page/377/SectionHeader/6",
+            "4": "/page/377/SectionHeader/9"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/377/PageFooter/11",
+          "block_type": "PageFooter",
+          "html": "",
+          "polygon": [
+            [
+              145.656,
+              710.424
+            ],
+            [
+              495.6952209472656,
+              710.424
+            ],
+            [
+              495.6952209472656,
+              723.946533203125
+            ],
+            [
+              145.656,
+              723.946533203125
+            ]
+          ],
+          "bbox": [
+            145.656,
+            710.424,
+            495.6952209472656,
+            723.946533203125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "1": "/page/375/SectionHeader/10",
+            "2": "/page/377/SectionHeader/6",
+            "4": "/page/377/SectionHeader/9"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "1": "/page/375/SectionHeader/10",
+        "2": "/page/377/SectionHeader/6",
+        "4": "/page/377/SectionHeader/9"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}

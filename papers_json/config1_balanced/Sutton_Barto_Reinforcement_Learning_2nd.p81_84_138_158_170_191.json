@@ -1,0 +1,1871 @@
+{
+  "children": [
+    {
+      "id": "/page/81/Page/247",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/81/PageHeader/0'></content-ref><content-ref src='/page/81/PageHeader/1'></content-ref><content-ref src='/page/81/Text/2'></content-ref><content-ref src='/page/81/Text/3'></content-ref><content-ref src='/page/81/Equation/4'></content-ref><content-ref src='/page/81/Equation/5'></content-ref><content-ref src='/page/81/Text/6'></content-ref><content-ref src='/page/81/Text/7'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/81/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.652,
+              72.864
+            ],
+            [
+              119.34,
+              72.864
+            ],
+            [
+              119.34,
+              84.744
+            ],
+            [
+              104.652,
+              84.744
+            ]
+          ],
+          "bbox": [
+            104.652,
+            72.864,
+            119.34,
+            84.744
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              108.0,
+              72.864
+            ],
+            [
+              504.2878112792969,
+              72.864
+            ],
+            [
+              504.2878112792969,
+              86.95574951171875
+            ],
+            [
+              108.0,
+              86.95574951171875
+            ]
+          ],
+          "bbox": [
+            108.0,
+            72.864,
+            504.2878112792969,
+            86.95574951171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/Text/2",
+          "block_type": "Text",
+          "html": "<p>providing some more details. (Our aim is to produce a simple example, not a particularly realistic one.) Recall that the agent makes a decision at times determined by external events (or by other parts of the robot's control system). At each such time the robot decides whether it should (1) actively search for a can, (2) remain stationary and wait for someone to bring it a can, or (3) go back to home base to recharge its battery. Suppose the environment works as follows. The best way to find cans is to actively search for them, but this runs down the robot's battery, whereas waiting does not. Whenever the robot is searching, the possibility exists that its battery will become depleted. In this case the robot must shut down and wait to be rescued (producing a low reward).</p>",
+          "polygon": [
+            [
+              104.652,
+              102.96000000000001
+            ],
+            [
+              503.7887878417969,
+              102.96000000000001
+            ],
+            [
+              503.7887878417969,
+              263.16864013671875
+            ],
+            [
+              104.652,
+              263.16864013671875
+            ]
+          ],
+          "bbox": [
+            104.652,
+            102.96000000000001,
+            503.7887878417969,
+            263.16864013671875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 41 997 960\" data-label=\"Text\"><p>The agent makes its decisions solely as a function of the energy level of the battery. It can distinguish two levels, <b>high</b> and <b>low</b>, so that the state set is <math>\\mathcal{S} = \\{\\text{high, low}\\}</math>. Let us call the possible decisions—the agent’s actions—<b>wait</b>, <b>search</b>, and <b>recharge</b>. When the energy level is <b>high</b>, recharging would always be foolish, so we do not include it in the action set for this state. The agent’s action sets are</p></div>",
+          "polygon": [
+            [
+              104.652,
+              268.48800000000006
+            ],
+            [
+              504.2996520996094,
+              268.48800000000006
+            ],
+            [
+              504.2996520996094,
+              355.8217468261719
+            ],
+            [
+              104.652,
+              355.8217468261719
+            ]
+          ],
+          "bbox": [
+            104.652,
+            268.48800000000006,
+            504.2996520996094,
+            355.8217468261719
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"145 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\mathcal{A}(\\text{high}) = \\{\\text{search, wait}\\}</math>1(low) {search, wait,</div></p>",
+          "polygon": [
+            [
+              133.416,
+              369.072
+            ],
+            [
+              288.9346008300781,
+              369.072
+            ],
+            [
+              288.9346008300781,
+              393.833984375
+            ],
+            [
+              133.416,
+              393.833984375
+            ]
+          ],
+          "bbox": [
+            133.416,
+            369.072,
+            288.9346008300781,
+            393.833984375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"145 0 855 41\" data-label=\"Equation-Block\"><math display=\"block\">\\mathcal{A}(\\text{low}) = \\{\\text{search, wait, recharge}\\}.</math></div></p>",
+          "polygon": [
+            [
+              138.924,
+              387.288
+            ],
+            [
+              347.64178466796875,
+              387.288
+            ],
+            [
+              347.64178466796875,
+              411.26898193359375
+            ],
+            [
+              138.924,
+              411.26898193359375
+            ]
+          ],
+          "bbox": [
+            138.924,
+            387.288,
+            347.64178466796875,
+            411.26898193359375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 15 997 990\" data-label=\"Text\"><p>If the energy level is <b>high</b>, then a period of active search can always be completed without risk of depleting the battery. A period of searching that begins with a <b>high</b> energy level leaves the energy level <b>high</b> with probability <math>\\alpha</math> and reduces it to <b>low</b> with probability <math>1 - \\alpha</math>. On the other hand, a period of searching undertaken when the energy level is <b>low</b> leaves it <b>low</b> with probability <math>\\beta</math> and depletes the battery with probability <math>1 - \\beta</math>. In the latter case, the robot must be rescued, and the battery is then recharged back to <b>high</b>. Each can collected by the robot counts as a unit reward, whereas a reward of <math>-3</math> results whenever the robot has to be rescued. Let <math>r_{\\text{search}}</math> and <math>r_{\\text{wait}}</math>, with <math>r_{\\text{search}} &gt; r_{\\text{wait}}</math>, respectively denote the expected number of cans the robot will collect (and hence the expected reward) while searching and while waiting. Finally, to keep things simple, suppose that no cans can be collected during a run home for recharging, and that no cans can be collected on a step in which the battery is depleted. This system is then a finite MDP, and we can write down the transition probabilities and the expected rewards, as in Table 3.1.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              422.928
+            ],
+            [
+              504.42431640625,
+              422.928
+            ],
+            [
+              504.42431640625,
+              640.548828125
+            ],
+            [
+              104.652,
+              640.548828125
+            ]
+          ],
+          "bbox": [
+            104.652,
+            422.928,
+            504.42431640625,
+            640.548828125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/81/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>A <i>transition graph</i> is a useful way to summarize the dynamics of a finite MDP. Figure 3.3 shows the transition graph for the recycling robot example. There are two kinds of nodes: <i>state nodes</i> and <i>action nodes</i>. There is a state node for each possible state (a large open circle labeled by the name of the state), and an action node for each state–action pair (a small solid circle labeled</p></div>",
+          "polygon": [
+            [
+              104.652,
+              645.48
+            ],
+            [
+              503.946533203125,
+              645.48
+            ],
+            [
+              503.946533203125,
+              718.7558364868164
+            ],
+            [
+              104.652,
+              718.7558364868164
+            ]
+          ],
+          "bbox": [
+            104.652,
+            645.48,
+            503.946533203125,
+            718.7558364868164
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {},
+      "images": null
+    },
+    {
+      "id": "/page/84/Page/519",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/84/PageHeader/0'></content-ref><content-ref src='/page/84/PageHeader/1'></content-ref><content-ref src='/page/84/Text/2'></content-ref><content-ref src='/page/84/Text/3'></content-ref><content-ref src='/page/84/Equation/4'></content-ref><content-ref src='/page/84/Text/5'></content-ref><content-ref src='/page/84/Text/6'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/84/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.652,
+              73.656
+            ],
+            [
+              503.9862060546875,
+              73.656
+            ],
+            [
+              503.9862060546875,
+              86.95574951171875
+            ],
+            [
+              104.652,
+              86.95574951171875
+            ]
+          ],
+          "bbox": [
+            104.652,
+            73.656,
+            503.9862060546875,
+            86.95574951171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/84/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              488.376,
+              73.656
+            ],
+            [
+              503.06399999999996,
+              73.656
+            ],
+            [
+              503.06399999999996,
+              86.328
+            ],
+            [
+              488.376,
+              86.328
+            ]
+          ],
+          "bbox": [
+            488.376,
+            73.656,
+            503.06399999999996,
+            86.328
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/84/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">state individually. Instead, the agent would have to maintain v<sup>π</sup> and q<sup>π</sup> as parameterized functions and adjust the parameters to better match the observed returns. This can also produce accurate estimates, although much depends on the nature of the parameterized function approximator (Chapter 9).</p>",
+          "polygon": [
+            [
+              104.652,
+              103.75200000000001
+            ],
+            [
+              503.9778137207031,
+              103.75200000000001
+            ],
+            [
+              503.9778137207031,
+              162.35999999999999
+            ],
+            [
+              104.652,
+              162.35999999999999
+            ]
+          ],
+          "bbox": [
+            104.652,
+            103.75200000000001,
+            503.9778137207031,
+            162.35999999999999
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/84/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>A fundamental property of value functions used throughout reinforcement learning and dynamic programming is that they satisfy particular recursive relationships. For any policy <math>\\pi</math> and any state <math>s</math>, the following consistency condition holds between the value of <math>s</math> and the value of its possible successor states:</p></div>",
+          "polygon": [
+            [
+              104.652,
+              168.696
+            ],
+            [
+              503.9252624511719,
+              168.696
+            ],
+            [
+              503.9252624511719,
+              240.25469970703125
+            ],
+            [
+              104.652,
+              240.25469970703125
+            ]
+          ],
+          "bbox": [
+            104.652,
+            168.696,
+            503.9252624511719,
+            240.25469970703125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/84/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"8 20 992 946\" data-label=\"Equation-Block\"><math display=\"block\">\n\\begin{aligned}\nv_{\\pi}(s) &amp;= \\mathbb{E}_{\\pi}[G_t \\mid S_t = s] \\\\\n&amp;= \\mathbb{E}_{\\pi} \\left[ \\sum_{k=0}^{\\infty} \\gamma^k R_{t+k+1} \\mid S_t = s \\right] \\\\\n&amp;= \\mathbb{E}_{\\pi} \\left[ R_{t+1} + \\gamma \\sum_{k=0}^{\\infty} \\gamma^k R_{t+k+2} \\mid S_t = s \\right] \\\\\n&amp;= \\sum_a \\pi(a|s) \\sum_{s'} \\sum_r p(s', r|s, a) \\left[ r + \\gamma \\mathbb{E}_{\\pi} \\left[ \\sum_{k=0}^{\\infty} \\gamma^k R_{t+k+2} \\mid S_{t+1} = s' \\right] \\right] \\\\\n&amp;= \\sum_a \\pi(a|s) \\sum_{s', r} p(s', r|s, a) \\left[ r + \\gamma v_{\\pi}(s') \\right], \\tag{3.12}\n\\end{aligned}\n</math></div></p>",
+          "polygon": [
+            [
+              108.32399999999998,
+              253.44
+            ],
+            [
+              503.9613342285156,
+              253.44
+            ],
+            [
+              503.9613342285156,
+              432.0194091796875
+            ],
+            [
+              108.32399999999998,
+              432.0194091796875
+            ]
+          ],
+          "bbox": [
+            108.32399999999998,
+            253.44,
+            503.9613342285156,
+            432.0194091796875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/84/Text/5",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 997 990\" data-label=\"Text\"><p>where it is implicit that the actions, <math>a</math>, are taken from the set <math>\\mathcal{A}(s)</math>, the next states, <math>s'</math>, are taken from the set <math>\\mathcal{S}</math> (or from <math>\\mathcal{S}^+</math> in the case of an episodic problem), and the rewards, <math>r</math>, are taken from the set <math>\\mathcal{R}</math>. Note also how in the last equation we have merged the two sums, one over all the values of <math>s'</math> and the other over all values of <math>r</math>, into one sum over all possible values of both. We will use this kind of merged sum often to simplify formulas. Note how the final expression can be read very easily as an expected value. It is really a sum over all values of the three variables, <math>a</math>, <math>s'</math>, and <math>r</math>. For each triple, we compute its probability, <math>\\pi(a|s)p(s', r|s, a)</math>, weight the quantity in brackets by that probability, then sum over all possibilities to get an expected value.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              437.97600000000006
+            ],
+            [
+              503.9946594238281,
+              437.97600000000006
+            ],
+            [
+              503.9946594238281,
+              582.7658386230469
+            ],
+            [
+              104.652,
+              582.7658386230469
+            ]
+          ],
+          "bbox": [
+            104.652,
+            437.97600000000006,
+            503.9946594238281,
+            582.7658386230469
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/84/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 41 997 990\" data-label=\"Text\"><p>Equation (3.12) is the <i>Bellman equation for <math>v_\\pi</math></i>. It expresses a relationship between the value of a state and the values of its successor states. Think of looking ahead from one state to its possible successor states, as suggested by Figure 3.4a. Each open circle represents a state and each solid circle represents a state–action pair. Starting from state <math>s</math>, the root node at the top, the agent could take any of some set of actions—three are shown in Figure 3.4a. From each of these, the environment could respond with one of several next states, <math>s'</math>, along with a reward, <math>r</math>. The Bellman equation (3.12) averages over all the possibilities, weighting each by its probability of occurring. It states that the</p></div>",
+          "polygon": [
+            [
+              104.652,
+              587.664
+            ],
+            [
+              504.26739501953125,
+              587.664
+            ],
+            [
+              504.26739501953125,
+              718.7558364868164
+            ],
+            [
+              104.652,
+              718.7558364868164
+            ]
+          ],
+          "bbox": [
+            104.652,
+            587.664,
+            504.26739501953125,
+            718.7558364868164
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {},
+      "images": null
+    },
+    {
+      "id": "/page/138/Page/499",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/138/PageHeader/0'></content-ref><content-ref src='/page/138/Text/1'></content-ref><content-ref src='/page/138/Text/2'></content-ref><content-ref src='/page/138/Text/3'></content-ref><content-ref src='/page/138/Equation/4'></content-ref><content-ref src='/page/138/Text/5'></content-ref><content-ref src='/page/138/Equation/6'></content-ref><content-ref src='/page/138/Text/7'></content-ref><content-ref src='/page/138/Text/8'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/138/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.652,
+              73.656
+            ],
+            [
+              503.97930908203125,
+              73.656
+            ],
+            [
+              503.97930908203125,
+              86.95574951171875
+            ],
+            [
+              104.652,
+              86.95574951171875
+            ]
+          ],
+          "bbox": [
+            104.652,
+            73.656,
+            503.97930908203125,
+            86.95574951171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Text/1",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 960\" data-label=\"Text\"><p>they instead select an action at random. That is, all nongreedy actions are given the minimal probability of selection, <math>\\frac{\\epsilon}{|\\mathcal{A}(s)|}</math>, and the remaining bulk of the probability, <math>1 - \\epsilon + \\frac{\\epsilon}{|\\mathcal{A}(s)|}</math>, is given to the greedy action. The <math>\\epsilon</math>-greedy policies are examples of <math>\\epsilon</math>-soft policies, defined as policies for which <math>\\pi(a|s) \\geq \\frac{\\epsilon}{|\\mathcal{A}(s)|}</math> for all states and actions, for some <math>\\epsilon &gt; 0</math>. Among <math>\\epsilon</math>-soft policies, <math>\\epsilon</math>-greedy policies are in some sense those that are closest to greedy.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              103.75200000000001
+            ],
+            [
+              503.9816589355469,
+              103.75200000000001
+            ],
+            [
+              503.9816589355469,
+              192.57171630859375
+            ],
+            [
+              104.652,
+              192.57171630859375
+            ]
+          ],
+          "bbox": [
+            104.652,
+            103.75200000000001,
+            503.9816589355469,
+            192.57171630859375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 997 986\" data-label=\"Text\"><p>The overall idea of on-policy Monte Carlo control is still that of GPI. As in Monte Carlo ES, we use first-visit MC methods to estimate the action-value function for the current policy. Without the assumption of exploring starts, however, we cannot simply improve the policy by making it greedy with respect to the current value function, because that would prevent further exploration of nongreedy actions. Fortunately, GPI does not require that the policy be taken all the way to a greedy policy, only that it be moved <i>toward</i> a greedy policy. In our on-policy method we will move it only to an <math>\\epsilon</math>-greedy policy. For any <math>\\epsilon</math>-soft policy, <math>\\pi</math>, any <math>\\epsilon</math>-greedy policy with respect to <math>q_\\pi</math> is guaranteed to be better than or equal to <math>\\pi</math>.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              198.79199999999997
+            ],
+            [
+              503.9581298828125,
+              198.79199999999997
+            ],
+            [
+              503.9581298828125,
+              343.0077209472656
+            ],
+            [
+              104.652,
+              343.0077209472656
+            ]
+          ],
+          "bbox": [
+            104.652,
+            198.79199999999997,
+            503.9581298828125,
+            343.0077209472656
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Text/3",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 41 990 847\" data-label=\"Text\"><p>That any <math>\\varepsilon</math>-greedy policy with respect to <math>q_\\pi</math> is an improvement over any <math>\\varepsilon</math>-soft policy <math>\\pi</math> is assured by the policy improvement theorem. Let <math>\\pi'</math> be the <math>\\varepsilon</math>-greedy policy. The conditions of the policy improvement theorem apply because for any <math>s \\in \\mathcal{S}</math>:</p></div>",
+          "polygon": [
+            [
+              104.652,
+              349.27200000000005
+            ],
+            [
+              503.9895324707031,
+              349.27200000000005
+            ],
+            [
+              503.9895324707031,
+              415.2449951171875
+            ],
+            [
+              104.652,
+              415.2449951171875
+            ]
+          ],
+          "bbox": [
+            104.652,
+            349.27200000000005,
+            503.9895324707031,
+            415.2449951171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"8 75 997 914\" data-label=\"Equation-Block\"><math display=\"block\">\n\\begin{aligned}\nq_{\\pi}(s, \\pi'(s)) &amp;= \\sum_a \\pi'(a|s) q_{\\pi}(s, a) \\\\\n&amp;= \\frac{\\epsilon}{|\\mathcal{A}(s)|} \\sum_a q_{\\pi}(s, a) + (1 - \\epsilon) \\max_a q_{\\pi}(s, a) \\\\\n&amp;\\geq \\frac{\\epsilon}{|\\mathcal{A}(s)|} \\sum_a q_{\\pi}(s, a) + (1 - \\epsilon) \\sum_a \\frac{\\pi(a|s) - \\frac{\\epsilon}{|\\mathcal{A}(s)|}}{1 - \\epsilon} q_{\\pi}(s, a)\n\\end{aligned} \\tag{5.2}\n</math></div></p>",
+          "polygon": [
+            [
+              102.81600000000002,
+              411.4266052246094
+            ],
+            [
+              508.1757507324219,
+              411.4266052246094
+            ],
+            [
+              508.1757507324219,
+              526.88037109375
+            ],
+            [
+              102.81600000000002,
+              526.88037109375
+            ]
+          ],
+          "bbox": [
+            102.81600000000002,
+            411.4266052246094,
+            508.1757507324219,
+            526.88037109375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">(the sum is a weighted average with nonnegative weights summing to 1, and as such it must be less than or equal to the largest number averaged)</p>",
+          "polygon": [
+            [
+              104.652,
+              523.5120000000001
+            ],
+            [
+              503.7770080566406,
+              523.5120000000001
+            ],
+            [
+              503.7770080566406,
+              554.4
+            ],
+            [
+              104.652,
+              554.4
+            ]
+          ],
+          "bbox": [
+            104.652,
+            523.5120000000001,
+            503.7770080566406,
+            554.4
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\">=  |A(s)| X a <sup>q</sup>π(s, a) −  |A(s)| X a <sup>q</sup>π(s, a) + X a <sup>π</sup>(a|s)qπ(s, a) = vπ(s).</p>",
+          "polygon": [
+            [
+              168.3,
+              547.8025817871094
+            ],
+            [
+              508.2110595703125,
+              547.8025817871094
+            ],
+            [
+              508.2110595703125,
+              600.0705413818359
+            ],
+            [
+              168.3,
+              600.0705413818359
+            ]
+          ],
+          "bbox": [
+            168.3,
+            547.8025817871094,
+            508.2110595703125,
+            600.0705413818359
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>Thus, by the policy improvement theorem, <math>\\pi' \\geq \\pi</math> (i.e., <math>v_{\\pi'}(s) \\geq v_{\\pi}(s)</math>, for all <math>s \\in \\mathcal{S}</math>). We now prove that equality can hold only when both <math>\\pi'</math> and <math>\\pi</math> are optimal among the <math>\\varepsilon</math>-soft policies, that is, when they are better than or equal to all other <math>\\varepsilon</math>-soft policies.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              609.84
+            ],
+            [
+              503.98162841796875,
+              609.84
+            ],
+            [
+              503.98162841796875,
+              669.4407730102539
+            ],
+            [
+              104.652,
+              669.4407730102539
+            ]
+          ],
+          "bbox": [
+            104.652,
+            609.84,
+            503.98162841796875,
+            669.4407730102539
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/138/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 61 989 1000\" data-label=\"Text\"><p>Consider a new environment that is just like the original environment, except with the requirement that policies be <math>\\varepsilon</math>-soft “moved inside” the environment. The new environment has the same action and state set as the original</p></div>",
+          "polygon": [
+            [
+              104.652,
+              674.784
+            ],
+            [
+              503.888916015625,
+              674.784
+            ],
+            [
+              503.888916015625,
+              718.7557754516602
+            ],
+            [
+              104.652,
+              718.7557754516602
+            ]
+          ],
+          "bbox": [
+            104.652,
+            674.784,
+            503.888916015625,
+            718.7557754516602
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {},
+      "images": null
+    },
+    {
+      "id": "/page/158/Page/232",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/158/PageHeader/0'></content-ref><content-ref src='/page/158/PageHeader/1'></content-ref><content-ref src='/page/158/Text/2'></content-ref><content-ref src='/page/158/Caption/3'></content-ref><content-ref src='/page/158/Diagram/4'></content-ref><content-ref src='/page/158/Caption/5'></content-ref><content-ref src='/page/158/Text/6'></content-ref><content-ref src='/page/158/Text/7'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/158/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.652,
+              72.864
+            ],
+            [
+              503.97930908203125,
+              72.864
+            ],
+            [
+              503.97930908203125,
+              86.95574951171875
+            ],
+            [
+              104.652,
+              86.95574951171875
+            ]
+          ],
+          "bbox": [
+            104.652,
+            72.864,
+            503.97930908203125,
+            86.95574951171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              482.86800000000005,
+              72.864
+            ],
+            [
+              503.06399999999996,
+              72.864
+            ],
+            [
+              503.06399999999996,
+              85.536
+            ],
+            [
+              482.86800000000005,
+              85.536
+            ]
+          ],
+          "bbox": [
+            482.86800000000005,
+            72.864,
+            503.06399999999996,
+            85.536
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"12 15 998 975\" data-label=\"Text\"><p>Input: the policy <math>\\pi</math> to be evaluated<br/>Initialize <math>V(s)</math> arbitrarily (e.g., <math>V(s) = 0, \\forall s \\in S^+</math>)<br/>Repeat (for each episode):<br/>  Initialize <math>S</math><br/>  Repeat (for each step of episode):<br/>    <math>A \\leftarrow</math> action given by <math>\\pi</math> for <math>S</math><br/>    Take action <math>A</math>; observe reward, <math>R</math>, and next state, <math>S'</math><br/>    <math>V(S) \\leftarrow V(S) + \\alpha[R + \\gamma V(S') - V(S)]</math><br/>    <math>S \\leftarrow S'</math><br/>until <math>S</math> is terminal</p></div>",
+          "polygon": [
+            [
+              161.568,
+              103.75200000000001
+            ],
+            [
+              444.7593994140625,
+              103.75200000000001
+            ],
+            [
+              444.7593994140625,
+              240.30035400390625
+            ],
+            [
+              161.568,
+              240.30035400390625
+            ]
+          ],
+          "bbox": [
+            161.568,
+            103.75200000000001,
+            444.7593994140625,
+            240.30035400390625
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/Caption/3",
+          "block_type": "Caption",
+          "html": "<p></p><div data-bbox=\"0 0 1000 10\" data-label=\"Page-Header\"><p>Figure 6.1: Tabular TD(0) for estimating <math>v_\\pi</math>.</p></div>",
+          "polygon": [
+            [
+              187.88400000000001,
+              255.81600000000003
+            ],
+            [
+              421.101806640625,
+              255.81600000000003
+            ],
+            [
+              421.101806640625,
+              271.2265625
+            ],
+            [
+              187.88400000000001,
+              271.2265625
+            ]
+          ],
+          "bbox": [
+            187.88400000000001,
+            255.81600000000003,
+            421.101806640625,
+            271.2265625
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/Diagram/4",
+          "block_type": "Diagram",
+          "html": "",
+          "polygon": [
+            [
+              295.4124,
+              280.1304
+            ],
+            [
+              312.9156,
+              280.1304
+            ],
+            [
+              312.9156,
+              355.0536
+            ],
+            [
+              295.4124,
+              355.0536
+            ]
+          ],
+          "bbox": [
+            295.4124,
+            280.1304,
+            312.9156,
+            355.0536
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/Caption/5",
+          "block_type": "Caption",
+          "html": "<p>Figure 6.2: The backup diagram for TD(0).</p>",
+          "polygon": [
+            [
+              190.332,
+              364.32000000000005
+            ],
+            [
+              417.707275390625,
+              364.32000000000005
+            ],
+            [
+              417.707275390625,
+              380.2377624511719
+            ],
+            [
+              190.332,
+              380.2377624511719
+            ]
+          ],
+          "bbox": [
+            190.332,
+            364.32000000000005,
+            417.707275390625,
+            380.2377624511719
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 997 990\" data-label=\"Text\"><p>the backup diagram is updated on the basis of the one sample transition from it to the immediately following state. We refer to TD and Monte Carlo updates as <i>sample backups</i> because they involve looking ahead to a sample successor state (or state–action pair), using the value of the successor and the reward along the way to compute a backed-up value, and then changing the value of the original state (or state–action pair) accordingly. <i>Sample</i> backups differ from the <i>full</i> backups of DP methods in that they are based on a single sample successor rather than on a complete distribution of all possible successors.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              405.504
+            ],
+            [
+              503.9670104980469,
+              405.504
+            ],
+            [
+              503.9670104980469,
+              520.0718688964844
+            ],
+            [
+              104.652,
+              520.0718688964844
+            ]
+          ],
+          "bbox": [
+            104.652,
+            405.504,
+            503.9670104980469,
+            520.0718688964844
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/158/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 10 997 1000\" data-label=\"Text\"><p><b>Example 6.1: Driving Home</b> Each day as you drive home from work, you try to predict how long it will take to get home. When you leave your office you note the time, the day of week, and anything else that might be relevant. Say on this Friday you are leaving at exactly 6 o'clock, and you estimate that it will take 30 minutes to get home. As you reach your car it is 6:05, and you notice it is starting to rain. Traffic is often slower in the rain, so you reestimate that it will take 35 minutes from then, or a total of 40 minutes. Fifteen minutes later you have completed the highway portion of your journey in good time. As you exit onto a secondary road you cut your estimate of total travel time to 35 minutes. Unfortunately, at this point you get stuck behind a slow truck, and the road is too narrow to pass. You end up having to follow the truck until you turn onto the side street where you live at 6:40. Three minutes later you are home. The sequence of states, times, and predictions is</p></div>",
+          "polygon": [
+            [
+              104.652,
+              529.056
+            ],
+            [
+              503.8504943847656,
+              529.056
+            ],
+            [
+              503.8504943847656,
+              718.7558517456055
+            ],
+            [
+              104.652,
+              718.7558517456055
+            ]
+          ],
+          "bbox": [
+            104.652,
+            529.056,
+            503.8504943847656,
+            718.7558517456055
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {},
+      "images": null
+    },
+    {
+      "id": "/page/170/Page/252",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/170/PageHeader/0'></content-ref><content-ref src='/page/170/PageHeader/1'></content-ref><content-ref src='/page/170/Text/2'></content-ref><content-ref src='/page/170/SectionHeader/3'></content-ref><content-ref src='/page/170/Text/4'></content-ref><content-ref src='/page/170/Equation/5'></content-ref><content-ref src='/page/170/Text/6'></content-ref><content-ref src='/page/170/Text/7'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/170/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.652,
+              73.656
+            ],
+            [
+              503.97930908203125,
+              73.656
+            ],
+            [
+              503.97930908203125,
+              87.12
+            ],
+            [
+              104.652,
+              87.12
+            ]
+          ],
+          "bbox": [
+            104.652,
+            73.656,
+            503.97930908203125,
+            87.12
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/170/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              482.25600000000003,
+              73.656
+            ],
+            [
+              503.676,
+              73.656
+            ],
+            [
+              503.676,
+              86.328
+            ],
+            [
+              482.25600000000003,
+              86.328
+            ]
+          ],
+          "bbox": [
+            482.25600000000003,
+            73.656,
+            503.676,
+            86.328
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/170/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 997 983\" data-label=\"Text\"><p>upward. For example, if you are one cell to the right of the goal, then the action <b>left</b> takes you to the cell just above the goal. Let us treat this as an undiscounted episodic task, with constant rewards of <math>-1</math> until the goal state is reached. Figure 6.11 shows the result of applying <math>\\epsilon</math>-greedy Sarsa to this task, with <math>\\epsilon = 0.1</math>, <math>\\alpha = 0.5</math>, and the initial values <math>Q(s, a) = 0</math> for all <math>s, a</math>. The increasing slope of the graph shows that the goal is reached more and more quickly over time. By 8000 time steps, the greedy policy (shown inset) was long since optimal; continued <math>\\epsilon</math>-greedy exploration kept the average episode length at about 17 steps, two more than the minimum of 15. Note that Monte Carlo methods cannot easily be used on this task because termination is not guaranteed for all policies. If a policy was ever found that caused the agent to stay in the same state, then the next episode would never end. Step-by-step learning methods such as Sarsa do not have this problem because they quickly learn <i>during the episode</i> that such policies are poor, and switch to something else. ■</p></div>",
+          "polygon": [
+            [
+              104.652,
+              104.544
+            ],
+            [
+              503.99072265625,
+              104.544
+            ],
+            [
+              503.99072265625,
+              320.9516906738281
+            ],
+            [
+              104.652,
+              320.9516906738281
+            ]
+          ],
+          "bbox": [
+            104.652,
+            104.544,
+            503.99072265625,
+            320.9516906738281
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/170/SectionHeader/3",
+          "block_type": "SectionHeader",
+          "html": "<h2>6.5 Q-Learning: Off-Policy TD Control</h2>",
+          "polygon": [
+            [
+              104.652,
+              347.688
+            ],
+            [
+              451.1200866699219,
+              347.688
+            ],
+            [
+              451.1200866699219,
+              367.7930603027344
+            ],
+            [
+              104.652,
+              367.7930603027344
+            ]
+          ],
+          "bbox": [
+            104.652,
+            347.688,
+            451.1200866699219,
+            367.7930603027344
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/170/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 997 1000\" data-label=\"Text\"><p>One of the most important breakthroughs in reinforcement learning was the development of an off-policy TD control algorithm known as <i>Q-learning</i> (Watkins, 1989). Its simplest form, <i>one-step Q-learning</i>, is defined by</p></div>",
+          "polygon": [
+            [
+              104.652,
+              384.12
+            ],
+            [
+              505.96551513671875,
+              384.12
+            ],
+            [
+              505.96551513671875,
+              427.68
+            ],
+            [
+              104.652,
+              427.68
+            ]
+          ],
+          "bbox": [
+            104.652,
+            384.12,
+            505.96551513671875,
+            427.68
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/170/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 154\" data-label=\"Equation-Block\"><math display=\"block\">Q(S_t, A_t) \\leftarrow Q(S_t, A_t) + \\alpha \\left[ R_{t+1} + \\gamma \\max_a Q(S_{t+1}, a) - Q(S_t, A_t) \\right]. \\quad (6.6)</math></div>\n<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\">In this case, the learned action value function <math>Q</math> directly approximates <math>a</math></div></p>",
+          "polygon": [
+            [
+              132.804,
+              429.1686096191406
+            ],
+            [
+              503.96795654296875,
+              429.1686096191406
+            ],
+            [
+              503.96795654296875,
+              473.785400390625
+            ],
+            [
+              132.804,
+              473.785400390625
+            ]
+          ],
+          "bbox": [
+            132.804,
+            429.1686096191406,
+            503.96795654296875,
+            473.785400390625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/170/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 16 997 986\" data-label=\"Text\"><p>In this case, the learned action-value function, <math>Q</math>, directly approximates <math>q_*</math>, the optimal action-value function, independent of the policy being followed. This dramatically simplifies the analysis of the algorithm and enabled early convergence proofs. The policy still has an effect in that it determines which state-action pairs are visited and updated. However, all that is required for correct convergence is that all pairs continue to be updated. As we observed in Chapter 5, this is a minimal requirement in the sense that any method guaranteed to find optimal behavior in the general case must require it. Under this assumption and a variant of the usual stochastic approximation conditions on the sequence of step-size parameters, <math>Q</math> has been shown to converge with probability 1 to <math>q_*</math>. The Q-learning algorithm is shown in procedural form in Figure 6.12.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              466.48799999999994
+            ],
+            [
+              503.9998474121094,
+              466.48799999999994
+            ],
+            [
+              503.9998474121094,
+              640.5487976074219
+            ],
+            [
+              104.652,
+              640.5487976074219
+            ]
+          ],
+          "bbox": [
+            104.652,
+            466.48799999999994,
+            503.9998474121094,
+            640.5487976074219
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/170/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 14 990 990\" data-label=\"Text\"><p>What is the backup diagram for Q-learning? The rule (6.6) updates a state–action pair, so the top node, the root of the backup, must be a small, filled action node. The backup is also <i>from</i> action nodes, maximizing over all those actions possible in the next state. Thus the bottom nodes of the backup diagram should be all these action nodes. Finally, remember that we indicate</p></div>",
+          "polygon": [
+            [
+              104.652,
+              645.48
+            ],
+            [
+              503.89398193359375,
+              645.48
+            ],
+            [
+              503.89398193359375,
+              718.7558059692383
+            ],
+            [
+              104.652,
+              718.7558059692383
+            ]
+          ],
+          "bbox": [
+            104.652,
+            645.48,
+            503.89398193359375,
+            718.7558059692383
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/170/SectionHeader/3"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/191/Page/356",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/191/PageHeader/0'></content-ref><content-ref src='/page/191/PageHeader/1'></content-ref><content-ref src='/page/191/Text/2'></content-ref><content-ref src='/page/191/Equation/3'></content-ref><content-ref src='/page/191/Text/4'></content-ref><content-ref src='/page/191/Equation/5'></content-ref><content-ref src='/page/191/Text/6'></content-ref><content-ref src='/page/191/Text/7'></content-ref><content-ref src='/page/191/Text/8'></content-ref><content-ref src='/page/191/Text/9'></content-ref><content-ref src='/page/191/Caption/10'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/191/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.652,
+              73.656
+            ],
+            [
+              125.46000000000001,
+              73.656
+            ],
+            [
+              125.46000000000001,
+              85.536
+            ],
+            [
+              104.652,
+              85.536
+            ]
+          ],
+          "bbox": [
+            104.652,
+            73.656,
+            125.46000000000001,
+            85.536
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              108.0,
+              72.864
+            ],
+            [
+              504.313720703125,
+              72.864
+            ],
+            [
+              504.313720703125,
+              86.95574951171875
+            ],
+            [
+              108.0,
+              86.95574951171875
+            ]
+          ],
+          "bbox": [
+            108.0,
+            72.864,
+            504.313720703125,
+            86.95574951171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Text/2",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>are the moment-by-moment one-step TD errors. For example, the TD error for state-value prediction is</p></div>",
+          "polygon": [
+            [
+              104.652,
+              103.75200000000001
+            ],
+            [
+              503.7290344238281,
+              103.75200000000001
+            ],
+            [
+              503.7290344238281,
+              133.15673828125
+            ],
+            [
+              104.652,
+              133.15673828125
+            ]
+          ],
+          "bbox": [
+            104.652,
+            103.75200000000001,
+            503.7290344238281,
+            133.15673828125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Equation/3",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 100\" data-label=\"Equation-Block\"><math display=\"block\">\\delta_t = R_{t+1} + \\gamma V_t(S_{t+1}) - V_t(S_t). \\quad (7.10)</math></div></p>",
+          "polygon": [
+            [
+              133.416,
+              143.352
+            ],
+            [
+              503.9610595703125,
+              143.352
+            ],
+            [
+              503.9610595703125,
+              166.9210205078125
+            ],
+            [
+              133.416,
+              166.9210205078125
+            ]
+          ],
+          "bbox": [
+            133.416,
+            143.352,
+            503.9610595703125,
+            166.9210205078125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Text/4",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>In the backward view of <math>\\text{TD}(\\lambda)</math>, the global TD error signal triggers proportional updates to all recently visited states, as signaled by their nonzero traces:</p></div>",
+          "polygon": [
+            [
+              104.652,
+              169.488
+            ],
+            [
+              503.80950927734375,
+              169.488
+            ],
+            [
+              503.80950927734375,
+              198.17877197265625
+            ],
+            [
+              104.652,
+              198.17877197265625
+            ]
+          ],
+          "bbox": [
+            104.652,
+            169.488,
+            503.80950927734375,
+            198.17877197265625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 937 97\" data-label=\"Equation-Block\"><math display=\"block\">\\Delta V_t(s) = \\alpha \\delta_t E_t(s), \\quad \\text{for all } s \\in \\mathcal{S}. \\quad (7.11)</math></div></p>",
+          "polygon": [
+            [
+              133.416,
+              207.50400000000002
+            ],
+            [
+              503.9610900878906,
+              207.50400000000002
+            ],
+            [
+              503.9610900878906,
+              231.94403076171875
+            ],
+            [
+              133.416,
+              231.94403076171875
+            ]
+          ],
+          "bbox": [
+            133.416,
+            207.50400000000002,
+            503.9610900878906,
+            231.94403076171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Text/6",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 997 990\" data-label=\"Text\"><p>As always, these increments could be done on each step to form an on-line algorithm, or saved until the end of the episode to produce an off-line algorithm. In either case, equations (7.8–7.11) provide the mechanistic definition of the TD(<math>\\lambda</math>) algorithm. A complete algorithm for on-line TD(<math>\\lambda</math>) is given in Figure 7.7.</p></div>",
+          "polygon": [
+            [
+              104.652,
+              235.224
+            ],
+            [
+              503.9642028808594,
+              235.224
+            ],
+            [
+              503.9642028808594,
+              306.538818359375
+            ],
+            [
+              104.652,
+              306.538818359375
+            ]
+          ],
+          "bbox": [
+            104.652,
+            235.224,
+            503.9642028808594,
+            306.538818359375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Text/7",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 10 990 990\" data-label=\"Text\"><p>The backward view of <math>TD(\\lambda)</math> is oriented backward in time. At each moment we look at the current TD error and assign it backward to each prior state according to the state’s eligibility trace at that time. We might imagine ourselves riding along the stream of states, computing TD errors, and shouting them back to the previously visited states, as suggested by Figure 7.8. Where the TD error and traces come together, we get the update given by (7.11).</p></div>",
+          "polygon": [
+            [
+              104.652,
+              312.84000000000003
+            ],
+            [
+              503.87176513671875,
+              312.84000000000003
+            ],
+            [
+              503.87176513671875,
+              399.19189453125
+            ],
+            [
+              104.652,
+              399.19189453125
+            ]
+          ],
+          "bbox": [
+            104.652,
+            312.84000000000003,
+            503.87176513671875,
+            399.19189453125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Text/8",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"0 0 1000 1000\" data-label=\"Text\"><p>To better understand the backward view, consider what happens at various values of <math>\\lambda</math>. If <math>\\lambda = 0</math>, then by (7.9) all traces are zero at <math>t</math> except for the trace corresponding to <math>S_t</math>. Thus the <math>\\text{TD}(\\lambda)</math> update (7.11) reduces to the simple TD</p></div>",
+          "polygon": [
+            [
+              104.652,
+              405.504
+            ],
+            [
+              503.9178466796875,
+              405.504
+            ],
+            [
+              503.9178466796875,
+              449.29168701171875
+            ],
+            [
+              104.652,
+              449.29168701171875
+            ]
+          ],
+          "bbox": [
+            104.652,
+            405.504,
+            503.9178466796875,
+            449.29168701171875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Text/9",
+          "block_type": "Text",
+          "html": "<div data-bbox=\"10 10 900 65\" data-label=\"Text\"><p>Initialize <math>V(s)</math> arbitrarily (but set to 0 if <math>s</math> is terminal)</p></div>\n<div data-bbox=\"10 65 440 130\" data-label=\"Text\"><p>Repeat (for each episode):</p></div>\n<div data-bbox=\"55 135 575 190\" data-label=\"Text\"><p>Initialize <math>E(s) = 0</math>, for all <math>s \\in \\mathcal{S}</math></p></div>\n<div data-bbox=\"55 200 245 255\" data-label=\"Text\"><p>Initialize <math>S</math></p></div>\n<div data-bbox=\"55 260 610 315\" data-label=\"Text\"><p>Repeat (for each step of episode):</p></div>\n<div data-bbox=\"105 320 575 375\" data-label=\"Text\"><p><math>A \\leftarrow</math> action given by <math>\\pi</math> for <math>S</math></p></div>\n<div data-bbox=\"105 380 970 440\" data-label=\"Text\"><p>Take action <math>A</math>, observe reward, <math>R</math>, and next state, <math>S'</math></p></div>\n<div data-bbox=\"105 445 505 500\" data-label=\"Equation-Block\"><math display=\"block\">\\delta \\leftarrow R + \\gamma V(S') - V(S)</math></div>\n<div data-bbox=\"105 505 990 565\" data-label=\"Equation-Block\"><p><math>E(S) \\leftarrow E(S) + 1</math> (accumulating traces)</p></div>\n<div data-bbox=\"105 570 870 630\" data-label=\"Equation-Block\"><p>or <math>E(S) \\leftarrow (1 - \\alpha)E(S) + 1</math> (dutch traces)</p></div>\n<div data-bbox=\"105 635 920 690\" data-label=\"Equation-Block\"><p>or <math>E(S) \\leftarrow 1</math> (replacing traces)</p></div>\n<div data-bbox=\"105 695 325 745\" data-label=\"Text\"><p>For all <math>s \\in \\mathcal{S}</math>:</p></div>\n<div data-bbox=\"155 750 540 810\" data-label=\"Equation-Block\"><p><math>V(s) \\leftarrow V(s) + \\alpha \\delta E(s)</math></p></div>\n<div data-bbox=\"155 815 420 875\" data-label=\"Equation-Block\"><p><math>E(s) \\leftarrow \\gamma \\lambda E(s)</math></p></div>\n<div data-bbox=\"105 880 250 935\" data-label=\"Equation-Block\"><p><math>S \\leftarrow S'</math></p></div>\n<div data-bbox=\"55 940 360 990\" data-label=\"Text\"><p>until <math>S</math> is terminal</p></div>",
+          "polygon": [
+            [
+              157.28400000000002,
+              468.8639999999999
+            ],
+            [
+              448.71343994140625,
+              468.8639999999999
+            ],
+            [
+              448.71343994140625,
+              685.6252670288086
+            ],
+            [
+              157.28400000000002,
+              685.6252670288086
+            ]
+          ],
+          "bbox": [
+            157.28400000000002,
+            468.8639999999999,
+            448.71343994140625,
+            685.6252670288086
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/191/Caption/10",
+          "block_type": "Caption",
+          "html": "",
+          "polygon": [
+            [
+              212.36399999999998,
+              700.128
+            ],
+            [
+              395.7347717285156,
+              700.128
+            ],
+            [
+              395.7347717285156,
+              715.7667541503906
+            ],
+            [
+              212.36399999999998,
+              715.7667541503906
+            ]
+          ],
+          "bbox": [
+            212.36399999999998,
+            700.128,
+            395.7347717285156,
+            715.7667541503906
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/170/SectionHeader/3"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/170/SectionHeader/3"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}

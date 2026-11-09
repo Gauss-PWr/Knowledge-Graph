@@ -1,0 +1,2969 @@
+{
+  "children": [
+    {
+      "id": "/page/51/Page/853",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/51/PageHeader/0'></content-ref><content-ref src='/page/51/PageHeader/1'></content-ref><content-ref src='/page/51/ListGroup/2'></content-ref><content-ref src='/page/51/Equation/3'></content-ref><content-ref src='/page/51/Text/4'></content-ref><content-ref src='/page/51/Text/5'></content-ref><content-ref src='/page/51/Equation/6'></content-ref><content-ref src='/page/51/Text/7'></content-ref><content-ref src='/page/51/Text/8'></content-ref><content-ref src='/page/51/Equation/9'></content-ref><content-ref src='/page/51/Text/10'></content-ref><content-ref src='/page/51/Equation/11'></content-ref><content-ref src='/page/51/Text/12'></content-ref><content-ref src='/page/51/Equation/13'></content-ref><content-ref src='/page/51/Text/14'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          440.0,
+          0.0
+        ],
+        [
+          440.0,
+          667.0
+        ],
+        [
+          0.0,
+          667.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        440.0,
+        667.0
+      ],
+      "children": [
+        {
+          "id": "/page/51/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              54.559999999999995,
+              40.687000000000005
+            ],
+            [
+              67.75999999999999,
+              40.687000000000005
+            ],
+            [
+              67.75999999999999,
+              51.35900000000001
+            ],
+            [
+              54.559999999999995,
+              51.35900000000001
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            40.687000000000005,
+            67.75999999999999,
+            51.35900000000001
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              57.45069885253906,
+              40.238525390625
+            ],
+            [
+              382.35999999999996,
+              40.238525390625
+            ],
+            [
+              382.35999999999996,
+              51.35900000000001
+            ],
+            [
+              57.45069885253906,
+              51.35900000000001
+            ]
+          ],
+          "bbox": [
+            57.45069885253906,
+            40.238525390625,
+            382.35999999999996,
+            51.35900000000001
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/ListGroup/2",
+          "block_type": "ListGroup",
+          "html": "<p block-type='ListGroup'><ul><content-ref src='/page/51/ListItem/850'></content-ref><content-ref src='/page/51/ListItem/851'></content-ref><content-ref src='/page/51/ListItem/852'></content-ref><content-ref src='/page/51/ListItem/853'></content-ref></ul></p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              68.15838623046875
+            ],
+            [
+              234.96,
+              68.15838623046875
+            ],
+            [
+              234.96,
+              118.059
+            ],
+            [
+              54.559999999999995,
+              118.059
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            68.15838623046875,
+            234.96,
+            118.059
+          ],
+          "children": [
+            {
+              "id": "/page/51/ListItem/850",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\">(i) &lt;aX + PY,Z) <sup>=</sup> a&lt;X,Z) + P&lt;Y,Z),</li>",
+              "polygon": [
+                [
+                  62.25669860839844,
+                  68.15838623046875
+                ],
+                [
+                  234.65338134765625,
+                  68.15838623046875
+                ],
+                [
+                  234.65338134765625,
+                  82.7239990234375
+                ],
+                [
+                  62.25669860839844,
+                  82.7239990234375
+                ]
+              ],
+              "bbox": [
+                62.25669860839844,
+                68.15838623046875,
+                234.65338134765625,
+                82.7239990234375
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            },
+            {
+              "id": "/page/51/ListItem/851",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\">(ii) &lt;X, Y) = &lt;Y, X),</li>",
+              "polygon": [
+                [
+                  59.37670135498047,
+                  76.19439697265625
+                ],
+                [
+                  150.85301208496094,
+                  76.19439697265625
+                ],
+                [
+                  150.85301208496094,
+                  95.38397216796875
+                ],
+                [
+                  59.37670135498047,
+                  95.38397216796875
+                ]
+              ],
+              "bbox": [
+                59.37670135498047,
+                76.19439697265625,
+                150.85301208496094,
+                95.38397216796875
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            },
+            {
+              "id": "/page/51/ListItem/852",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\">(iii) I&lt;X, Y) 1 <sup>2</sup> &lt;X)&lt;Y).</li>",
+              "polygon": [
+                [
+                  56.726898193359375,
+                  89.3653564453125
+                ],
+                [
+                  169.83140563964844,
+                  89.3653564453125
+                ],
+                [
+                  169.83140563964844,
+                  107.39898681640625
+                ],
+                [
+                  56.726898193359375,
+                  107.39898681640625
+                ]
+              ],
+              "bbox": [
+                56.726898193359375,
+                89.3653564453125,
+                169.83140563964844,
+                107.39898681640625
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            },
+            {
+              "id": "/page/51/ListItem/853",
+              "block_type": "ListItem",
+              "html": "<li block-type=\"ListItem\">(iv) For P-a.e. WEn,</li>",
+              "polygon": [
+                [
+                  56.96689987182617,
+                  106.77862548828125
+                ],
+                [
+                  145.45208740234375,
+                  106.77862548828125
+                ],
+                [
+                  145.45208740234375,
+                  117.5018310546875
+                ],
+                [
+                  56.96689987182617,
+                  117.5018310546875
+                ]
+              ],
+              "bbox": [
+                56.96689987182617,
+                106.77862548828125,
+                145.45208740234375,
+                117.5018310546875
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {},
+          "images": null
+        },
+        {
+          "id": "/page/51/Equation/3",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned} \\check{\\xi}_t(\\omega) - \\check{\\xi}_s(\\omega) &amp;\\leq \\frac{1}{2}[\\langle X \\rangle_t(\\omega) - \\langle X \\rangle_s(\\omega) + \\langle Y \\rangle_t(\\omega) - \\langle Y \\rangle_s(\\omega)], \\\\ 0 &amp;\\leq s &lt; t &lt; \\infty, \\end{aligned}</math></div></p>",
+          "polygon": [
+            [
+              92.83999999999999,
+              122.638427734375
+            ],
+            [
+              359.91999999999996,
+              122.638427734375
+            ],
+            [
+              359.91999999999996,
+              154.4398193359375
+            ],
+            [
+              92.83999999999999,
+              154.4398193359375
+            ]
+          ],
+          "bbox": [
+            92.83999999999999,
+            122.638427734375,
+            359.91999999999996,
+            154.4398193359375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/4",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where ~, denotes the total variation of &lt;X, Y) on [0, t].</p>",
+          "polygon": [
+            [
+              73.92,
+              159.413
+            ],
+            [
+              327.35999999999996,
+              159.413
+            ],
+            [
+              327.35999999999996,
+              172.30899047851562
+            ],
+            [
+              73.92,
+              172.30899047851562
+            ]
+          ],
+          "bbox": [
+            73.92,
+            159.413,
+            327.35999999999996,
+            172.30899047851562
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The use of the term <i>quadratic</i> <i>variation</i> in Definition 5.3 may appear to be unfounded. Indeed, a more conventional use of this term is the following. Let <i>X</i> = <i>{X,;</i> 0:::;; t &lt; oo} be a process, fix t &gt; 0, and let 0 = <i>{to,t1,</i> <i>...</i> <i>,tm</i> <i>},</i> with o= to :::;; <sup>t</sup> <sup>1</sup> :::;; <sup>t</sup> <sup>2</sup> :::;; ••• :::;; <i>tm</i> = t, be <sup>a</sup> partition of[0, t]. Define the <i>p-th</i> <i>variation</i> <i>(p</i> &gt; 0) <i>of</i> <i>X</i> <i>over</i> <i>the</i> <i>partition</i> 0 to be</p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              186.76000000000002
+            ],
+            [
+              382.35999999999996,
+              186.76000000000002
+            ],
+            [
+              382.35999999999996,
+              246.59979248046875
+            ],
+            [
+              54.559999999999995,
+              246.59979248046875
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            186.76000000000002,
+            382.35999999999996,
+            246.59979248046875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"57 0 943 120\" data-label=\"Equation-Block\"><math display=\"block\">V_t^{(p)}(\\Pi) = \\sum_{k=1}^m |X_{t_k} - X_{t_{k-1}}|^p.</math></div></p>",
+          "polygon": [
+            [
+              154.88,
+              250.12500000000003
+            ],
+            [
+              275.88,
+              250.12500000000003
+            ],
+            [
+              275.88,
+              277.472
+            ],
+            [
+              154.88,
+              277.472
+            ]
+          ],
+          "bbox": [
+            154.88,
+            250.12500000000003,
+            275.88,
+            277.472
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/7",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Now define the mesh of the partition 0 as 11011 = max 1<i>SkSm</i> It<i><sup>k</sup></i> - tk-11. If Jt;(2)(0) converges in some sense as 11011 0, the limit is entitled to be called the quadratic variation of X on [0, t]. Our justification of Definition 5.3 for <i>continuous</i> martingales (on which we shall concentrate from now on) is the following result:</p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              282.11627197265625
+            ],
+            [
+              382.35999999999996,
+              282.11627197265625
+            ],
+            [
+              382.35999999999996,
+              343.50500000000005
+            ],
+            [
+              54.559999999999995,
+              343.50500000000005
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            282.11627197265625,
+            382.35999999999996,
+            343.50500000000005
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">5.8 Theorem. <i>Let</i> <i>X</i> <i>be</i> in At~. <i>For</i> <i>partitions</i> 0 <i>of</i> [0, <i>t],</i> <i>we</i> <i>have</i> limllllll_o Jt;(2)(ll) = &lt;X), (in <i>probability);</i> <i>i.e.,</i> <i>for</i> <i>every</i> <i>e</i> &gt; 0, '1 &gt; 0 <i>there</i> <i>exists</i> J &gt; 0 <i>such</i> <i>that</i> II 0 II &lt; J <i>implies</i></p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              356.845
+            ],
+            [
+              382.35999999999996,
+              356.845
+            ],
+            [
+              382.35999999999996,
+              393.8690185546875
+            ],
+            [
+              54.559999999999995,
+              393.8690185546875
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            356.845,
+            382.35999999999996,
+            393.8690185546875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 877 46\" data-label=\"Equation-Block\"><math display=\"block\">P[|V_t^{(2)}(\\Pi) - \\langle X \\rangle_t| &gt; \\varepsilon] &lt; \\eta.</math></div></p>",
+          "polygon": [
+            [
+              150.92000000000002,
+              398.866
+            ],
+            [
+              280.1382751464844,
+              398.866
+            ],
+            [
+              280.1382751464844,
+              412.2060000000001
+            ],
+            [
+              150.92000000000002,
+              412.2060000000001
+            ]
+          ],
+          "bbox": [
+            150.92000000000002,
+            398.866,
+            280.1382751464844,
+            412.2060000000001
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The proof of Theorem 5.8 proceeds through two lemmas. The key fact employed here is that, <i>when</i> <i>squaring</i> <i>sums</i> <i>of</i> <i>martingale</i> <i>increments</i> <i>and</i> <i>taking</i> <i>the</i> <i>expectation,</i> <i>one</i> <i>can</i> <i>neglect</i> <i>the</i> <i>cross-product</i> <i>terms.</i> More precisely, if X E At2 and 0 :::;; s &lt; t :::;; <i>u</i> &lt; <i>v,</i> then</p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              424.879
+            ],
+            [
+              382.35999999999996,
+              424.879
+            ],
+            [
+              382.35999999999996,
+              474.23699999999997
+            ],
+            [
+              54.559999999999995,
+              474.23699999999997
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            424.879,
+            382.35999999999996,
+            474.23699999999997
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Equation/11",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 100\" data-label=\"Equation-Block\"><math display=\"block\">E[(X_v - X_u)(X_t - X_s)] = E\\{E[X_v - X_u|{\\mathcal{F}}_u](X_t - X_s)\\} = 0.</math></div></p>",
+          "polygon": [
+            [
+              86.68,
+              477.55908203125
+            ],
+            [
+              347.16,
+              477.55908203125
+            ],
+            [
+              347.16,
+              493.7314910888672
+            ],
+            [
+              86.68,
+              493.7314910888672
+            ]
+          ],
+          "bbox": [
+            86.68,
+            477.55908203125,
+            347.16,
+            493.7314910888672
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/12",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We shall apply this fact to both martingales X EAt2 and X <i><sup>2</sup></i> - &lt;X). In the latter case, we note that because</p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              496.248
+            ],
+            [
+              382.35999999999996,
+              496.248
+            ],
+            [
+              382.35999999999996,
+              521.1818084716797
+            ],
+            [
+              54.559999999999995,
+              521.1818084716797
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            496.248,
+            382.35999999999996,
+            521.1818084716797
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Equation/13",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\begin{aligned} E[(X_v - X_u)^2 | \\mathcal{F}_t] &amp;= E[X_v^2 - 2X_u E[X_v | \\mathcal{F}_u] + X_u^2 | \\mathcal{F}_t] \\\\ &amp;= E[X_v^2 - X_u^2 | \\mathcal{F}_t] = E[\\langle X \\rangle_v - \\langle X \\rangle_u | \\mathcal{F}_t], \\end{aligned}</math></div></p>",
+          "polygon": [
+            [
+              84.91999999999999,
+              526.0783996582031
+            ],
+            [
+              350.24,
+              526.0783996582031
+            ],
+            [
+              350.24,
+              558.8049163818359
+            ],
+            [
+              84.91999999999999,
+              558.8049163818359
+            ]
+          ],
+          "bbox": [
+            84.91999999999999,
+            526.0783996582031,
+            350.24,
+            558.8049163818359
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/51/Text/14",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">the terms X'; - &lt;X)v - (X'; - &lt;X)u&gt; and (Xv - XY - «X)v - &lt;X)u&gt; have the same conditional expectation given~, namely zero, and thus the expectation of products of such terms over nonoverlapping intervals is still zero.</p>",
+          "polygon": [
+            [
+              54.559999999999995,
+              562.9480000000001
+            ],
+            [
+              382.35999999999996,
+              562.9480000000001
+            ],
+            [
+              382.35999999999996,
+              600.3000000000001
+            ],
+            [
+              54.559999999999995,
+              600.3000000000001
+            ]
+          ],
+          "bbox": [
+            54.559999999999995,
+            562.9480000000001,
+            382.35999999999996,
+            600.3000000000001
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {},
+      "images": null
+    },
+    {
+      "id": "/page/168/Page/747",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/168/PageHeader/0'></content-ref><content-ref src='/page/168/PageHeader/1'></content-ref><content-ref src='/page/168/Text/2'></content-ref><content-ref src='/page/168/Text/3'></content-ref><content-ref src='/page/168/Equation/4'></content-ref><content-ref src='/page/168/Text/5'></content-ref><content-ref src='/page/168/Equation/6'></content-ref><content-ref src='/page/168/Equation/16'></content-ref><content-ref src='/page/168/Text/7'></content-ref><content-ref src='/page/168/Text/8'></content-ref><content-ref src='/page/168/Text/9'></content-ref><content-ref src='/page/168/Equation/10'></content-ref><content-ref src='/page/168/Text/11'></content-ref><content-ref src='/page/168/Equation/12'></content-ref><content-ref src='/page/168/SectionHeader/13'></content-ref><content-ref src='/page/168/Text/14'></content-ref><content-ref src='/page/168/Text/15'></content-ref><content-ref src='/page/168/Text/17'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          440.0,
+          0.0
+        ],
+        [
+          440.0,
+          667.0
+        ],
+        [
+          0.0,
+          667.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        440.0,
+        667.0
+      ],
+      "children": [
+        {
+          "id": "/page/168/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              57.2,
+              38.68600000000001
+            ],
+            [
+              383.6036376953125,
+              38.68600000000001
+            ],
+            [
+              383.6036376953125,
+              51.44720458984375
+            ],
+            [
+              57.2,
+              51.44720458984375
+            ]
+          ],
+          "bbox": [
+            57.2,
+            38.68600000000001,
+            383.6036376953125,
+            51.44720458984375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              366.0799999999999,
+              38.68600000000001
+            ],
+            [
+              384.11999999999995,
+              38.68600000000001
+            ],
+            [
+              384.11999999999995,
+              50.025
+            ],
+            [
+              366.0799999999999,
+              50.025
+            ]
+          ],
+          "bbox": [
+            366.0799999999999,
+            38.68600000000001,
+            384.11999999999995,
+            50.025
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Let us consider again a basic probability space (n,:F, P) with an associated filtration {g;} which we always assume to satisfy the usual conditions.</p>",
+          "polygon": [
+            [
+              57.2,
+              68.701
+            ],
+            [
+              384.11999999999995,
+              68.701
+            ],
+            [
+              384.11999999999995,
+              94.154052734375
+            ],
+            [
+              57.2,
+              94.154052734375
+            ]
+          ],
+          "bbox": [
+            57.2,
+            68.701,
+            384.11999999999995,
+            94.154052734375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.1 Definition. <i>A</i> <i>continuous</i> <i>semimartingale</i> <i>X</i> = <i>{XI&gt;</i> g;; 0 ::s; <i>t</i> &lt; oo} is an adapted process which has the decomposition, P a.s.,</p>",
+          "polygon": [
+            [
+              57.2,
+              100.05
+            ],
+            [
+              384.11999999999995,
+              100.05
+            ],
+            [
+              384.11999999999995,
+              127.2872314453125
+            ],
+            [
+              57.2,
+              127.2872314453125
+            ]
+          ],
+          "bbox": [
+            57.2,
+            100.05,
+            384.11999999999995,
+            127.2872314453125
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 1000 111\" data-label=\"Equation-Block\"><math display=\"block\">(3.1) \\quad X_t = X_0 + M_t + B_t; \\quad 0 \\leq t &lt; \\infty,</math></div></p>",
+          "polygon": [
+            [
+              57.2,
+              132.06600000000003
+            ],
+            [
+              292.16,
+              132.06600000000003
+            ],
+            [
+              292.16,
+              146.073
+            ],
+            [
+              57.2,
+              146.073
+            ]
+          ],
+          "bbox": [
+            57.2,
+            132.06600000000003,
+            292.16,
+            146.073
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where M = <i>{MI,</i>g;; 0 ::s; <i><sup>t</sup></i> &lt; oo} <sup>E</sup> .;((\"Ioc (Definition 1.5.15) and <i><sup>B</sup></i> = <i>{BI&gt;</i> g;; o::s; <i><sup>t</sup></i> &lt; oo} is the difference of continuous, nondecreasing, adapted processes {AI±,g;; O::s; <i>t</i> &lt; oo}:</p>",
+          "polygon": [
+            [
+              57.2,
+              149.9814453125
+            ],
+            [
+              384.11999999999995,
+              149.9814453125
+            ],
+            [
+              384.11999999999995,
+              187.9940185546875
+            ],
+            [
+              57.2,
+              187.9940185546875
+            ]
+          ],
+          "bbox": [
+            57.2,
+            149.9814453125,
+            384.11999999999995,
+            187.9940185546875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Equation/6",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"100 0 1000 120\" data-label=\"Equation-Block\"><math display=\"block\">(3.2) \\quad B_t = A_t^+ - A_t^-; \\quad 0 \\leq t &lt; \\infty,</math></div></p>",
+          "polygon": [
+            [
+              57.2,
+              191.4130859375
+            ],
+            [
+              281.81256103515625,
+              191.4130859375
+            ],
+            [
+              281.81256103515625,
+              207.16278076171875
+            ],
+            [
+              57.2,
+              207.16278076171875
+            ]
+          ],
+          "bbox": [
+            57.2,
+            191.4130859375,
+            281.81256103515625,
+            207.16278076171875
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Equation/16",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"100 0 950 150\" data-label=\"Equation-Block\"><math display=\"block\">(3.3) \\quad f(X_t) = f(X_0) + \\int_0^t f'(X_s) dM_s + \\int_0^t f'(X_s) dB_s + \\frac{1}{2} \\int_0^t f''(X_s) d\\langle M \\rangle_s, \\quad 0 \\leq t &lt; \\infty.</math></div></p>",
+          "polygon": [
+            [
+              57.2,
+              518.926
+            ],
+            [
+              319.0910949707031,
+              518.926
+            ],
+            [
+              319.0910949707031,
+              579.0979919433594
+            ],
+            [
+              57.2,
+              579.0979919433594
+            ]
+          ],
+          "bbox": [
+            57.2,
+            518.926,
+            319.0910949707031,
+            579.0979919433594
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/7",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">with At = 0, P a.s. We shall always assume that (3.2) is the minimal decomposition of B; in other words, <i>A7</i> is the positive variation of Bon [0, <i>t]</i> and A; is the negative variation. The total variation of B on [0, <i>t]</i> is then BI £ <i>A7</i> + Ar -·</p>",
+          "polygon": [
+            [
+              57.2,
+              209.43800000000002
+            ],
+            [
+              384.11999999999995,
+              209.43800000000002
+            ],
+            [
+              384.11999999999995,
+              262.10150146484375
+            ],
+            [
+              57.2,
+              262.10150146484375
+            ]
+          ],
+          "bbox": [
+            57.2,
+            209.43800000000002,
+            384.11999999999995,
+            262.10150146484375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">The following problem discusses the question of uniqueness for the decomposition (3.1) of a continuous semimartingale.</p>",
+          "polygon": [
+            [
+              57.2,
+              268.13400000000007
+            ],
+            [
+              384.11999999999995,
+              268.13400000000007
+            ],
+            [
+              384.11999999999995,
+              293.127197265625
+            ],
+            [
+              57.2,
+              293.127197265625
+            ]
+          ],
+          "bbox": [
+            57.2,
+            268.13400000000007,
+            384.11999999999995,
+            293.127197265625
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.2 Problem. Let <i>X</i> = <i>{X\"</i> g;; 0 ::s; <i>t</i> &lt; oo} be a continuous semimartingale with decomposition (3.1). Suppose that X has another decomposition</p>",
+          "polygon": [
+            [
+              57.2,
+              301.48400000000004
+            ],
+            [
+              384.11999999999995,
+              301.48400000000004
+            ],
+            [
+              384.11999999999995,
+              326.9671936035156
+            ],
+            [
+              57.2,
+              326.9671936035156
+            ]
+          ],
+          "bbox": [
+            57.2,
+            301.48400000000004,
+            384.11999999999995,
+            326.9671936035156
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"125 0 877 46\" data-label=\"Equation-Block\"><math display=\"block\">X_t = X_0 + \\tilde{M}_t + \\tilde{B}_t; \\quad 0 \\leq t &lt; \\infty,</math></div></p>",
+          "polygon": [
+            [
+              148.28,
+              332.35699462890625
+            ],
+            [
+              292.37255859375,
+              332.35699462890625
+            ],
+            [
+              292.37255859375,
+              347.31390380859375
+            ],
+            [
+              148.28,
+              347.31390380859375
+            ]
+          ],
+          "bbox": [
+            148.28,
+            332.35699462890625,
+            292.37255859375,
+            347.31390380859375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where ME.;((\"Ioc and <i>ii</i> is a continuous, adapted process which has finite total variation on each bounded interval [0, <i>t].</i> Prove that P-a.s.,</p>",
+          "polygon": [
+            [
+              57.2,
+              348.841
+            ],
+            [
+              384.11999999999995,
+              348.841
+            ],
+            [
+              384.11999999999995,
+              374.96722412109375
+            ],
+            [
+              57.2,
+              374.96722412109375
+            ]
+          ],
+          "bbox": [
+            57.2,
+            348.841,
+            384.11999999999995,
+            374.96722412109375
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 0 881 61\" data-label=\"Equation-Block\"><math display=\"block\">M_t = \\tilde{M}_t, \\quad B_t = \\tilde{B}_t, \\quad 0 \\leq t &lt; \\infty.</math></div></p>",
+          "polygon": [
+            [
+              149.6,
+              378.18899999999996
+            ],
+            [
+              292.16,
+              378.18899999999996
+            ],
+            [
+              292.16,
+              402.3890075683594
+            ],
+            [
+              149.6,
+              402.3890075683594
+            ]
+          ],
+          "bbox": [
+            149.6,
+            378.18899999999996,
+            292.16,
+            402.3890075683594
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/168/SectionHeader/13",
+          "block_type": "SectionHeader",
+          "html": "<h2>A. The Ito Rule</h2>",
+          "polygon": [
+            [
+              57.2,
+              410.86700439453125
+            ],
+            [
+              143.0,
+              410.86700439453125
+            ],
+            [
+              143.0,
+              430.9729919433594
+            ],
+            [
+              57.2,
+              430.9729919433594
+            ]
+          ],
+          "bbox": [
+            57.2,
+            410.86700439453125,
+            143.0,
+            430.9729919433594
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/14",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Ito's formula states that a \"smooth function\" of a continuous semimartingale is a continuous semimartingale, and provides its decomposition.</p>",
+          "polygon": [
+            [
+              57.2,
+              438.886
+            ],
+            [
+              384.11999999999995,
+              438.886
+            ],
+            [
+              384.11999999999995,
+              465.44720458984375
+            ],
+            [
+              57.2,
+              465.44720458984375
+            ]
+          ],
+          "bbox": [
+            57.2,
+            438.886,
+            384.11999999999995,
+            465.44720458984375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/15",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.3 Theorem. (Ito (1944), Kunita &amp; Watanabe (1967)). <i>Let</i> <i>f:</i> -+ <i>be</i> <i>a</i> <i>function</i> <i>of</i> <i>class</i> C2 <i>and</i> <i>let</i> <i>X</i> = <i>{XI&gt;</i> g;; 0 ::s; <i>t</i> &lt; oo} <i>be</i> <i>a</i> <i>continuous</i> <i>semi</i><i>martingale</i> <i>with</i> <i>decomposition</i> (3.1). <i>Then,</i> <i>P-a.s.,</i></p>",
+          "polygon": [
+            [
+              57.2,
+              476.238
+            ],
+            [
+              384.11999999999995,
+              476.238
+            ],
+            [
+              384.11999999999995,
+              513.4471893310547
+            ],
+            [
+              57.2,
+              513.4471893310547
+            ]
+          ],
+          "bbox": [
+            57.2,
+            476.238,
+            384.11999999999995,
+            513.4471893310547
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/168/Text/17",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\" class=\"has-continuation\">3.4 Remark. For fixed wand <i>t</i> &gt; 0, the function <i>Xs(w)</i> is bounded for 0 ::s; s ::s; <i>t,</i> so <i>f'(Xs(w))</i> is bounded on this interval. It follows that J~f'(Xs)<i>dMs</i>is defined</p>",
+          "polygon": [
+            [
+              57.2,
+              585.6260000000001
+            ],
+            [
+              384.225341796875,
+              585.6260000000001
+            ],
+            [
+              384.225341796875,
+              613.8019981384277
+            ],
+            [
+              57.2,
+              613.8019981384277
+            ]
+          ],
+          "bbox": [
+            57.2,
+            585.6260000000001,
+            384.225341796875,
+            613.8019981384277
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/168/SectionHeader/13"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/185/Page/779",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/185/PageHeader/0'></content-ref><content-ref src='/page/185/PageHeader/1'></content-ref><content-ref src='/page/185/Text/2'></content-ref><content-ref src='/page/185/Text/3'></content-ref><content-ref src='/page/185/Text/4'></content-ref><content-ref src='/page/185/Equation/5'></content-ref><content-ref src='/page/185/Text/6'></content-ref><content-ref src='/page/185/Text/7'></content-ref><content-ref src='/page/185/Text/8'></content-ref><content-ref src='/page/185/Text/9'></content-ref><content-ref src='/page/185/Equation/10'></content-ref><content-ref src='/page/185/Text/11'></content-ref><content-ref src='/page/185/Equation/12'></content-ref><content-ref src='/page/185/Text/13'></content-ref><content-ref src='/page/185/Text/14'></content-ref><content-ref src='/page/185/Equation/15'></content-ref><content-ref src='/page/185/Text/16'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          440.0,
+          0.0
+        ],
+        [
+          440.0,
+          667.0
+        ],
+        [
+          0.0,
+          667.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        440.0,
+        667.0
+      ],
+      "children": [
+        {
+          "id": "/page/185/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              53.23999999999999,
+              40.02
+            ],
+            [
+              70.84,
+              40.02
+            ],
+            [
+              70.84,
+              50.692
+            ],
+            [
+              53.23999999999999,
+              50.692
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            40.02,
+            70.84,
+            50.692
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              56.9734001159668,
+              39.69903564453125
+            ],
+            [
+              381.47999999999996,
+              39.69903564453125
+            ],
+            [
+              381.47999999999996,
+              51.15289306640625
+            ],
+            [
+              56.9734001159668,
+              51.15289306640625
+            ]
+          ],
+          "bbox": [
+            56.9734001159668,
+            39.69903564453125,
+            381.47999999999996,
+            51.15289306640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.27 <b>Remark.</b> A straightforward localization argument shows that (3.27), (3.29) are valid for any ME Jlc,loc. The same is true for (3.28), provided that the additional condition <i>E(&lt;M)j!)</i> &lt; <sup>00</sup> holds.</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              68.701
+            ],
+            [
+              382.35999999999996,
+              68.701
+            ],
+            [
+              382.35999999999996,
+              106.1998291015625
+            ],
+            [
+              53.23999999999999,
+              106.1998291015625
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            68.701,
+            382.35999999999996,
+            106.1998291015625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We can state now the principal result of this subsection.</p>",
+          "polygon": [
+            [
+              63.36,
+              104.71900000000001
+            ],
+            [
+              303.15999999999997,
+              104.71900000000001
+            ],
+            [
+              303.15999999999997,
+              118.0689697265625
+            ],
+            [
+              63.36,
+              118.0689697265625
+            ]
+          ],
+          "bbox": [
+            63.36,
+            104.71900000000001,
+            303.15999999999997,
+            118.0689697265625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/4",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.28 <b>Theorem</b> (The Burkholder-Davis-Gundy Inequalities). <i>Let</i> ME Jlc,loc <i>and</i> <i>recall</i> <i>the</i> <i>convention</i> (3.26). <i>For every</i> <i>m</i> &gt; 0 <i>there</i> <i>exist</i> <i>universal</i> <i>positive</i> <i>constants</i> <i>km</i> <i>,</i> <i>K</i> <i><sup>m</sup></i> <i>(depending</i> <i>only</i> <i>on</i> <i>m),</i> <i>such</i> <i>that</i></p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              132.06600000000003
+            ],
+            [
+              382.35999999999996,
+              132.06600000000003
+            ],
+            [
+              382.35999999999996,
+              170.36117553710938
+            ],
+            [
+              53.23999999999999,
+              170.36117553710938
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            132.06600000000003,
+            382.35999999999996,
+            170.36117553710938
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Equation/5",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"94 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">(3.37) \\quad k_m E(\\langle M \\rangle_T^m) \\leq E[(M_T^*)^{2m}] \\leq K_m E(\\langle M \\rangle_T^m)</math></div></p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              176.08800000000002
+            ],
+            [
+              306.67999999999995,
+              176.08800000000002
+            ],
+            [
+              306.67999999999995,
+              190.095
+            ],
+            [
+              53.23999999999999,
+              190.095
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            176.08800000000002,
+            306.67999999999995,
+            190.095
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>holds</i> <i>for</i> <i>every</i> <i>stopping</i> <i>time</i> <i>T</i> <i>In</i> <i>particular,</i> if <i>we</i> <i>have</i> <i>EJ&lt;M)a</i> &lt; <sup>00</sup> <i>for</i> <i>every</i> 0 &lt; <i>a</i> &lt; 00, <i>then</i> M <i>is</i> <i>a</i> <i>martingale.</i></p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              196.76500000000001
+            ],
+            [
+              382.35999999999996,
+              196.76500000000001
+            ],
+            [
+              382.35999999999996,
+              223.07986450195312
+            ],
+            [
+              53.23999999999999,
+              223.07986450195312
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            196.76500000000001,
+            382.35999999999996,
+            223.07986450195312
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/7",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">PROOF. From Proposition 3.26 and Remark 3.27, we have the validity of(3.37) for <i>m</i> &gt; 1/2. It remains to deal with the case 0 &lt; <i>m</i> ::; 1/2; we assume without loss of generality that M, <i>&lt;M)</i> are bounded.</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              241.454
+            ],
+            [
+              382.35999999999996,
+              241.454
+            ],
+            [
+              382.35999999999996,
+              280.807
+            ],
+            [
+              53.23999999999999,
+              280.807
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            241.454,
+            382.35999999999996,
+            280.807
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Let us recall now Problem 1.4.15 and its consequence (1.4.17). The righthand side of (3.29) permits the choice <i>X</i> = <i>(M*)2,</i> <i>A</i> = C<sup>l</sup> <i>&lt;M)</i> in the former, and we obtain from the latter <i>E[(Mj-)2m]</i> ::; ((2 - m)/(I - <i>m))CfE«M)'T)</i> for every 0 &lt; <i>m</i> &lt; 1. Similarly, the left-hand side of (3.29) allows us to take <i>X</i> = <i>B</i>1<i>&lt;M),</i> <i>A</i> = <i>(M*)2</i> in Problem 1.4.15, and then (1.4.17) gives for <i>0&lt;</i> <i>m</i> &lt; 1: ((1- <i>m)/(2</i> - <i>m))BfE«M)'T))::;</i> <i>E[(Mj-)2m].</i> The last claim follows from Problem 1.5.19(i), since then (3.37) implies E(SUPOS:Is:a IMII) &lt; 00, <i>VO&lt;a&lt;oo.</i> D</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              279.473
+            ],
+            [
+              382.35999999999996,
+              279.473
+            ],
+            [
+              382.35999999999996,
+              377.1214904785156
+            ],
+            [
+              53.23999999999999,
+              377.1214904785156
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            279.473,
+            382.35999999999996,
+            377.1214904785156
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.29 <b>Problem.</b> Let M = (M(l), .. \" <i>M(d»)</i> be a vector of continuous, local martingales, i.e., <i>M(i)</i> <sup>E</sup> Jlc.loc, and denote</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              389.52799999999996
+            ],
+            [
+              382.35999999999996,
+              389.52799999999996
+            ],
+            [
+              382.35999999999996,
+              415.541
+            ],
+            [
+              53.23999999999999,
+              415.541
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            389.52799999999996,
+            382.35999999999996,
+            415.541
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Equation/10",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">\\|M\\|_t^* \\triangleq \\max_{0 \\leq s \\leq t} \\|M_s\\|, \\quad A_t \\triangleq \\sum_{i=1}^d \\langle M^{(i)} \\rangle_t; \\quad 0 \\leq t &lt; \\infty.</math></div></p>",
+          "polygon": [
+            [
+              101.19999999999999,
+              424.879
+            ],
+            [
+              330.44,
+              424.879
+            ],
+            [
+              330.44,
+              450.0926971435547
+            ],
+            [
+              101.19999999999999,
+              450.0926971435547
+            ]
+          ],
+          "bbox": [
+            101.19999999999999,
+            424.879,
+            330.44,
+            450.0926971435547
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">Show that for any <i>m</i> &gt; 0, there exist (universal) positive constants A.<i><sup>m</sup></i> <i>,</i> Am such that</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              456.22800000000007
+            ],
+            [
+              380.59999999999997,
+              456.22800000000007
+            ],
+            [
+              380.59999999999997,
+              481.6689910888672
+            ],
+            [
+              53.23999999999999,
+              481.6689910888672
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            456.22800000000007,
+            380.59999999999997,
+            481.6689910888672
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"94 0 1000 100\" data-label=\"Equation-Block\"><math display=\"block\">(3.38) \\quad \\lambda_m E(A_T^m) \\leq E(\\|M \\|_T^*)^{2m} \\leq \\Lambda_m E(A_T^m) \\quad \\text{where } \\Lambda_m = \\lambda_m^2. \\quad (3.39)</math></div></p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              488.24399999999997
+            ],
+            [
+              292.16,
+              488.24399999999997
+            ],
+            [
+              292.16,
+              501.82899475097656
+            ],
+            [
+              53.23999999999999,
+              501.82899475097656
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            488.24399999999997,
+            292.16,
+            501.82899475097656
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/13",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">holds for every stopping time T</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              509.5880000000001
+            ],
+            [
+              189.2,
+              509.5880000000001
+            ],
+            [
+              189.2,
+              522.9489898681641
+            ],
+            [
+              53.23999999999999,
+              522.9489898681641
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            509.5880000000001,
+            189.2,
+            522.9489898681641
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/14",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">3.30 <b>Remark.</b> In particular, if the <i>M(i)</i> in Problem 3.29 are given by</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              537.602
+            ],
+            [
+              341.0,
+              537.602
+            ],
+            [
+              341.0,
+              550.275
+            ],
+            [
+              53.23999999999999,
+              550.275
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            537.602,
+            341.0,
+            550.275
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Equation/15",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 39\" data-label=\"Text\">lar, if the <math display=\"block\">M^{(i)}</math> in Problem 1</div>\n<div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">M_t^{(i)} = \\sum_{j=1}^r \\int_0^t X_s^{(i,j)} dW_s^{(j)},</math></div></p>",
+          "polygon": [
+            [
+              161.04,
+              538.3543090820312
+            ],
+            [
+              269.71999999999997,
+              538.3543090820312
+            ],
+            [
+              269.71999999999997,
+              583.2770004272461
+            ],
+            [
+              161.04,
+              583.2770004272461
+            ]
+          ],
+          "bbox": [
+            161.04,
+            538.3543090820312,
+            269.71999999999997,
+            583.2770004272461
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/185/Text/16",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where {Jt; = (Jt;(l), ... , Jt;(r»),~; 0 ::; <i>t</i> &lt; oo} is standard, r-dimensional Brownian motion, {XI = (Xfi,j»); 1 ::; i ::; <i>d,</i> 1 ::; j ::; <i>r,O</i> ::; <i>t</i> &lt; oo} is a matrix</p>",
+          "polygon": [
+            [
+              53.23999999999999,
+              586.96
+            ],
+            [
+              380.59999999999997,
+              586.96
+            ],
+            [
+              380.59999999999997,
+              613.64
+            ],
+            [
+              53.23999999999999,
+              613.64
+            ]
+          ],
+          "bbox": [
+            53.23999999999999,
+            586.96,
+            380.59999999999997,
+            613.64
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/168/SectionHeader/13"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/224/Page/740",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/224/PageHeader/0'></content-ref><content-ref src='/page/224/PageHeader/1'></content-ref><content-ref src='/page/224/Equation/2'></content-ref><content-ref src='/page/224/Text/3'></content-ref><content-ref src='/page/224/Equation/4'></content-ref><content-ref src='/page/224/Text/5'></content-ref><content-ref src='/page/224/Text/6'></content-ref><content-ref src='/page/224/Equation/7'></content-ref><content-ref src='/page/224/Equation/8'></content-ref><content-ref src='/page/224/Text/9'></content-ref><content-ref src='/page/224/Text/10'></content-ref><content-ref src='/page/224/Equation/11'></content-ref><content-ref src='/page/224/Text/12'></content-ref><content-ref src='/page/224/Equation/13'></content-ref><content-ref src='/page/224/Text/14'></content-ref><content-ref src='/page/224/Equation/15'></content-ref><content-ref src='/page/224/Text/16'></content-ref><content-ref src='/page/224/Equation/17'></content-ref><content-ref src='/page/224/Text/18'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          440.0,
+          0.0
+        ],
+        [
+          440.0,
+          667.0
+        ],
+        [
+          0.0,
+          667.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        440.0,
+        667.0
+      ],
+      "children": [
+        {
+          "id": "/page/224/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              57.64,
+              36.52325439453125
+            ],
+            [
+              382.8830871582031,
+              36.52325439453125
+            ],
+            [
+              382.8830871582031,
+              52.3846435546875
+            ],
+            [
+              57.64,
+              52.3846435546875
+            ]
+          ],
+          "bbox": [
+            57.64,
+            36.52325439453125,
+            382.8830871582031,
+            52.3846435546875
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              364.31999999999994,
+              40.02
+            ],
+            [
+              385.44,
+              40.02
+            ],
+            [
+              385.44,
+              51.35900000000001
+            ],
+            [
+              364.31999999999994,
+              51.35900000000001
+            ]
+          ],
+          "bbox": [
+            364.31999999999994,
+            40.02,
+            385.44,
+            51.35900000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/2",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 837 29\" data-label=\"Text\">(6.10) <math display=\"block\">(W_t - a)^+ - (z - a)^+ = \\int_0^t 1_{(a, \\infty)}(W_s) dW_s + \\frac{1}{2} \\int_0^t \\delta(W_s - a) ds</math>,</div></p>",
+          "polygon": [
+            [
+              55.879999999999995,
+              50.08880615234375
+            ],
+            [
+              348.48,
+              50.08880615234375
+            ],
+            [
+              348.48,
+              104.26397705078125
+            ],
+            [
+              55.879999999999995,
+              104.26397705078125
+            ]
+          ],
+          "bbox": [
+            55.879999999999995,
+            50.08880615234375,
+            348.48,
+            104.26397705078125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">and in conjunction with (6.9), we have</p>",
+          "polygon": [
+            [
+              57.64,
+              100.71700000000001
+            ],
+            [
+              220.44,
+              100.71700000000001
+            ],
+            [
+              220.44,
+              114.05700000000002
+            ],
+            [
+              57.64,
+              114.05700000000002
+            ]
+          ],
+          "bbox": [
+            57.64,
+            100.71700000000001,
+            220.44,
+            114.05700000000002
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/4",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 348 41\" data-label=\"Text\">and in conjunction with (6.9), we have</div>\n<div data-bbox=\"0 145 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">(6.11) \\quad L_t(a) = (W_t - a)^+ - (z - a)^+ - \\int_0^t 1_{(a, \\infty)}(W_s) dW_s; \\quad 0 \\leq t &lt; \\infty</math></div></p>",
+          "polygon": [
+            [
+              55.879999999999995,
+              106.0087890625
+            ],
+            [
+              351.12,
+              106.0087890625
+            ],
+            [
+              351.12,
+              146.073
+            ],
+            [
+              55.879999999999995,
+              146.073
+            ]
+          ],
+          "bbox": [
+            55.879999999999995,
+            106.0087890625,
+            351.12,
+            146.073
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>PZ-a.s.</i> for every zEIR. Despite the heuristic nature of both (6.9) and (6.10), the representation (6.11) for local time is valid and will be established rigorously.</p>",
+          "polygon": [
+            [
+              57.64,
+              152.07600000000002
+            ],
+            [
+              385.44,
+              152.07600000000002
+            ],
+            [
+              385.44,
+              176.64004516601562
+            ],
+            [
+              57.64,
+              176.64004516601562
+            ]
+          ],
+          "bbox": [
+            57.64,
+            152.07600000000002,
+            385.44,
+            176.64004516601562
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>6.8</b> <b>Proposition.</b> <i>Let</i> <i>us</i> <i>assume</i> <i>that</i> <i>Brownian</i> <i>local</i> <i>time</i> <i>exists,</i> <i>and</i> <i>fix</i> <i>a</i> <i>number</i> <i>a</i> EIR. <i>Then</i> <i>the</i> <i>process</i> <i>L(a)</i> = <i>{LI(a),</i> ~; 0 :s; <i>t</i> &lt; oo} <i>is</i> <i>a</i> <i>nonnegative,</i> <i>continu</i><i>ous</i> <i>additive</i> <i>functional</i> <i>which</i> <i>satisfies</i> (6.11) <i>and</i> <i>the</i> <i>companion</i> <i>representations</i></p>",
+          "polygon": [
+            [
+              57.64,
+              187.42700000000002
+            ],
+            [
+              385.44,
+              187.42700000000002
+            ],
+            [
+              385.44,
+              224.97900390625
+            ],
+            [
+              57.64,
+              224.97900390625
+            ]
+          ],
+          "bbox": [
+            57.64,
+            187.42700000000002,
+            385.44,
+            224.97900390625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"100 0 1000 41\" data-label=\"Text\">ous additive functional which satisfies (6.11) and the companion represent</div>\n<div data-bbox=\"100 41 1000 177\" data-label=\"Equation-Block\"><math display=\"block\">(6.12) \\quad L_t(a) = (W_t - a)^- - (z - a)^- + \\int_0^t 1_{(-\\infty, a]}(W_s) dW_s; \\quad 0 \\leq t &lt; \\infty,</math></div></p>",
+          "polygon": [
+            [
+              55.879999999999995,
+              216.6488037109375
+            ],
+            [
+              359.47999999999996,
+              216.6488037109375
+            ],
+            [
+              359.47999999999996,
+              258.129
+            ],
+            [
+              55.879999999999995,
+              258.129
+            ]
+          ],
+          "bbox": [
+            55.879999999999995,
+            216.6488037109375,
+            359.47999999999996,
+            258.129
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/8",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"100 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">(6.12) \\quad \\underline{L}_t(s) = (n_t - a) - (t - a) + \\int_0^t 1_{\\{s \\in [a, n_t - s) \\}} w_s s, \\quad t \\geq t - 1 = \\infty</math><math display=\"block\">(6.13) \\quad 2L_t(a) = |W_t - a| - |z - a| - \\int_0^t \\text{sgn}(W_s - a) dW_s; \\quad 0 \\leq t &lt; \\infty</math></div></p>",
+          "polygon": [
+            [
+              55.879999999999995,
+              248.56881713867188
+            ],
+            [
+              357.7199999999999,
+              248.56881713867188
+            ],
+            [
+              357.7199999999999,
+              289.478
+            ],
+            [
+              55.879999999999995,
+              289.478
+            ]
+          ],
+          "bbox": [
+            55.879999999999995,
+            248.56881713867188,
+            357.7199999999999,
+            289.478
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><i>a.s.</i> <i>pz,</i> <i>for</i> <i>every</i> <sup>z</sup> <sup>E</sup> IR.</p>",
+          "polygon": [
+            [
+              57.64,
+              287.69537353515625
+            ],
+            [
+              152.67999999999998,
+              287.69537353515625
+            ],
+            [
+              152.67999999999998,
+              308.8153991699219
+            ],
+            [
+              57.64,
+              308.8153991699219
+            ]
+          ],
+          "bbox": [
+            57.64,
+            287.69537353515625,
+            152.67999999999998,
+            308.8153991699219
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>6.9</b> <b>Remark.</b> Any of the formulas (6.11), (6.12), or (6.13) is referred to as the <i>Tanaka</i> <i>formula</i> <i>for</i> <i>Brownian</i> <i>local</i> <i>time.</i> We need establish only (6.11); then (6.12) follows by symmetry and (6.13) by addition, since</p>",
+          "polygon": [
+            [
+              57.64,
+              320.16
+            ],
+            [
+              385.44,
+              320.16
+            ],
+            [
+              385.44,
+              358.17900000000003
+            ],
+            [
+              57.64,
+              358.17900000000003
+            ]
+          ],
+          "bbox": [
+            57.64,
+            320.16,
+            385.44,
+            358.17900000000003
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/11",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">P^z \\left[ \\int_0^t 1_{\\{a\\}}(W_s) dW_s = 0; \\quad \\forall 0 \\leq t &lt; \\infty \\right] = 1; \\quad \\forall z \\in \\mathbb{R}.</math></div></p>",
+          "polygon": [
+            [
+              104.71999999999998,
+              363.16876220703125
+            ],
+            [
+              334.84,
+              363.16876220703125
+            ],
+            [
+              334.84,
+              388.19399999999996
+            ],
+            [
+              104.71999999999998,
+              388.19399999999996
+            ]
+          ],
+          "bbox": [
+            104.71999999999998,
+            363.16876220703125,
+            334.84,
+            388.19399999999996
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/12",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>In</b> particular, it does not matter how we define sgn(O) in (6.13); we shall define sgn so as to make it left-continuous, i.e.,</p>",
+          "polygon": [
+            [
+              57.64,
+              395.53100000000006
+            ],
+            [
+              385.44,
+              395.53100000000006
+            ],
+            [
+              385.44,
+              420.21000000000004
+            ],
+            [
+              57.64,
+              420.21000000000004
+            ]
+          ],
+          "bbox": [
+            57.64,
+            395.53100000000006,
+            385.44,
+            420.21000000000004
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/13",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"100 61 1000 147\" data-label=\"Equation-Block\"><math display=\"block\">(6.14) \\quad \\operatorname{sgn}(x) = \\begin{cases} 1; &amp; x &gt; 0 \\\\ -1; &amp; x \\leq 0. \\end{cases}</math></div></p>",
+          "polygon": [
+            [
+              55.879999999999995,
+              424.879
+            ],
+            [
+              271.48,
+              424.879
+            ],
+            [
+              271.48,
+              453.5776062011719
+            ],
+            [
+              55.879999999999995,
+              453.5776062011719
+            ]
+          ],
+          "bbox": [
+            55.879999999999995,
+            424.879,
+            271.48,
+            453.5776062011719
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/14",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>6.10</b> <b>Remark.</b> The process {(l¥, - <i>at,</i> ~; 0 :s; <i>t</i> &lt; oo} is a continuous, nonnegative submartingale (Proposition 1.3.6); it admits, therefore, a unique Doob-Meyer decomposition (under <i>pz,</i> for any ZE IR):</p>",
+          "polygon": [
+            [
+              57.64,
+              464.23199999999997
+            ],
+            [
+              385.44,
+              464.23199999999997
+            ],
+            [
+              385.44,
+              503.21539306640625
+            ],
+            [
+              57.64,
+              503.21539306640625
+            ]
+          ],
+          "bbox": [
+            57.64,
+            464.23199999999997,
+            385.44,
+            503.21539306640625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/15",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"0 0 1000 1000\" data-label=\"Equation-Block\"><math display=\"block\">(6.15) \\quad (W_t - a)^+ = (z - a)^+ + M_t(a) + A_t(a); \\quad 0 \\leq t &lt; \\infty,</math></div></p>",
+          "polygon": [
+            [
+              57.64,
+              504.919
+            ],
+            [
+              329.11999999999995,
+              504.919
+            ],
+            [
+              329.11999999999995,
+              520.4539947509766
+            ],
+            [
+              57.64,
+              520.4539947509766
+            ]
+          ],
+          "bbox": [
+            57.64,
+            504.919,
+            329.11999999999995,
+            520.4539947509766
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/16",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where <i>A(a)</i> is a continuous, increasing process and <i>M(a)</i> is a martingale (see Section 1.4). The Tanaka formula (6.11) identifies both parts of this decomposition, as <i>AI(a)</i> = <i>LI(a)</i> and</p>",
+          "polygon": [
+            [
+              57.64,
+              524.9290000000001
+            ],
+            [
+              385.44,
+              524.9290000000001
+            ],
+            [
+              385.44,
+              562.53759765625
+            ],
+            [
+              57.64,
+              562.53759765625
+            ]
+          ],
+          "bbox": [
+            57.64,
+            524.9290000000001,
+            385.44,
+            562.53759765625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Equation/17",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><i>(6.16)</i> <i>MI(a)</i> <sup>=</sup> I l(a.oo)(~)d~; O:s; <i><sup>t</sup></i> <sup>&amp;</sup>lt; 00.</p>",
+          "polygon": [
+            [
+              57.64,
+              553.8488006591797
+            ],
+            [
+              304.03999999999996,
+              553.8488006591797
+            ],
+            [
+              304.03999999999996,
+              594.297
+            ],
+            [
+              57.64,
+              594.297
+            ]
+          ],
+          "bbox": [
+            57.64,
+            553.8488006591797,
+            304.03999999999996,
+            594.297
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/224/Text/18",
+          "block_type": "Text",
+          "html": "",
+          "polygon": [
+            [
+              67.75999999999999,
+              598.966
+            ],
+            [
+              330.88,
+              598.966
+            ],
+            [
+              330.88,
+              613.64
+            ],
+            [
+              67.75999999999999,
+              613.64
+            ]
+          ],
+          "bbox": [
+            67.75999999999999,
+            598.966,
+            330.88,
+            613.64
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/168/SectionHeader/13"
+      },
+      "images": null
+    },
+    {
+      "id": "/page/346/Page/934",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/346/PageHeader/0'></content-ref><content-ref src='/page/346/PageHeader/1'></content-ref><content-ref src='/page/346/Text/2'></content-ref><content-ref src='/page/346/Text/3'></content-ref><content-ref src='/page/346/Text/4'></content-ref><content-ref src='/page/346/Text/5'></content-ref><content-ref src='/page/346/Text/6'></content-ref><content-ref src='/page/346/Equation/7'></content-ref><content-ref src='/page/346/Text/8'></content-ref><content-ref src='/page/346/Text/9'></content-ref><content-ref src='/page/346/Text/10'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          440.0,
+          0.0
+        ],
+        [
+          440.0,
+          667.0
+        ],
+        [
+          0.0,
+          667.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        440.0,
+        667.0
+      ],
+      "children": [
+        {
+          "id": "/page/346/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              56.31999999999999,
+              40.02
+            ],
+            [
+              382.2743835449219,
+              40.02
+            ],
+            [
+              382.2743835449219,
+              51.35900000000001
+            ],
+            [
+              56.31999999999999,
+              51.35900000000001
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            40.02,
+            382.2743835449219,
+            51.35900000000001
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              364.31999999999994,
+              40.02
+            ],
+            [
+              382.35999999999996,
+              40.02
+            ],
+            [
+              382.35999999999996,
+              50.025
+            ],
+            [
+              364.31999999999994,
+              50.025
+            ]
+          ],
+          "bbox": [
+            364.31999999999994,
+            40.02,
+            382.35999999999996,
+            50.025
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/2",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">where we have used not only the equality of <i>Py{WEQ;</i> <i>wet.</i> - <i>t._1)EB}</i> and <i>Py{WEQ;</i> <i>wet.</i> - <i>t._1)EB},</i> but also their ~(tl, ... ,t._l)-measurability. It is now clear that <i>p</i> <i><sup>x</sup></i> and p<i><sup>x</sup></i> agree on ~(t 1\"'\" <i>t.).</i> 0</p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              68.701
+            ],
+            [
+              382.35999999999996,
+              68.701
+            ],
+            [
+              382.35999999999996,
+              106.48394775390625
+            ],
+            [
+              56.31999999999999,
+              106.48394775390625
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            68.701,
+            382.35999999999996,
+            106.48394775390625
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/3",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We can now put the various results together.</p>",
+          "polygon": [
+            [
+              66.88,
+              121.394
+            ],
+            [
+              259.15999999999997,
+              121.394
+            ],
+            [
+              259.15999999999997,
+              133.46185302734375
+            ],
+            [
+              66.88,
+              133.46185302734375
+            ]
+          ],
+          "bbox": [
+            66.88,
+            121.394,
+            259.15999999999997,
+            133.46185302734375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/4",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>4.28</b> <b>Theorem</b> (Stroock &amp; Varadhan (1969». <i>Suppose</i> <i>that</i> <i>the</i> <i>coefficients</i> <i>b(x)</i> <i>and</i> <i>&lt;rex)</i> <i>in</i> <i>Definition</i> 4.15 <i>are</i> <i>such</i> <i>that,</i> <i>for</i> <i>every</i> <i>f</i> E CO'(jRd), <i>the</i> <i>Cauchy</i> <i>problem</i> (4.31), (4.32) <i>has</i> <i>a</i> <i>solution</i> <i>UfE</i> <i>C([O,</i> 00) <sup>X</sup> jRd) <i>n</i> C1,2«O, 00) x jRd) <i>which</i> <i>is</i> <i>bounded</i> <i>on</i> <i>each</i> <i>strip</i> <i>of</i> <i>the</i> <i>form</i> [0, <i>T]</i> x jRd. <i>Then,</i> <i>for</i> <i>every</i> <i>x</i> E jRd, <i>there</i> <i>exists at</i> <i>most</i> <i>one</i> <i>solution</i> <i>to</i> <i>the</i> <i>time-homogeneous</i> <i>martingale</i> <i>problem.</i></p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              149.40800000000002
+            ],
+            [
+              382.4781799316406,
+              149.40800000000002
+            ],
+            [
+              382.4781799316406,
+              209.43800000000002
+            ],
+            [
+              56.31999999999999,
+              209.43800000000002
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            149.40800000000002,
+            382.4781799316406,
+            209.43800000000002
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/5",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>4.29</b> <b>Corollary.</b> <i>Let</i> <i>the</i> <i>coefficients</i> <i>b(x),</i> <i>a(x)</i> <i>be</i> <i>bounded</i> <i>and</i> <i>continuous</i> <i>and</i> <i>satisfy</i> <i>the</i> <i>assumptions</i> <i>of</i> <i>Theorem</i> 4.28. <i>Then</i> <i>the</i> <i>time-homogeneous</i> <i>martingale</i> <i>problem</i> <i>is</i> <i>well</i> <i>posed.</i></p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              224.11200000000002
+            ],
+            [
+              382.78985595703125,
+              224.11200000000002
+            ],
+            [
+              382.78985595703125,
+              261.464
+            ],
+            [
+              56.31999999999999,
+              261.464
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            224.11200000000002,
+            382.78985595703125,
+            261.464
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/6",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>4.30</b> <b>Remark.</b> A sufficient condition for the solvability ofthe Cauchy problem (4.31), (4.32) in the way required by Theorem 4.28 is that the coefficients b;(x), <i>aik(x);</i> 1 :5: j, <i>k</i> :5: <i>d</i> be bounded and Holder-continuous on jRd, and the matrix <i>a(x)</i> be <i>uniformly</i> <i>positive</i> <i>definite;</i> i.e.,</p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              276.13800000000003
+            ],
+            [
+              382.41021728515625,
+              276.13800000000003
+            ],
+            [
+              382.41021728515625,
+              324.9818115234375
+            ],
+            [
+              56.31999999999999,
+              324.9818115234375
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            276.13800000000003,
+            382.41021728515625,
+            324.9818115234375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Equation/7",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div data-bbox=\"117 94 947 125\" data-label=\"Equation-Block\"><math display=\"block\">(4.34) \\quad \\sum_{i=1}^d \\sum_{k=1}^d a_{ik}(x) \\xi_i \\xi_k \\geq \\lambda \\|\\xi\\|^2; \\quad \\forall x, \\xi \\in \\mathbb{R}^d \\quad \\text{and some } \\lambda &gt; 0.</math></div></p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              330.83200000000005
+            ],
+            [
+              340.56,
+              330.83200000000005
+            ],
+            [
+              340.56,
+              356.845
+            ],
+            [
+              56.31999999999999,
+              356.845
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            330.83200000000005,
+            340.56,
+            356.845
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\">We refer to Friedman (1964), Chapter 1, and Friedman (1975), §6.4, §6.5, or Stroock &amp; Varadhan (1979), Theorem 3.2.1, for such results; see also Remark 7.8 later in this chapter.</p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              360.84700000000004
+            ],
+            [
+              382.89154052734375,
+              360.84700000000004
+            ],
+            [
+              382.89154052734375,
+              397.2218017578125
+            ],
+            [
+              56.31999999999999,
+              397.2218017578125
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            360.84700000000004,
+            382.89154052734375,
+            397.2218017578125
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/9",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>4.31</b> <b>Remark.</b> <b>If</b> <i>aik</i> E C <sup>2</sup> (jRd) for 1 :5: <i>i,</i> k :5: <i>d,</i> then <i>a(x)</i> has a locally Lipschitzcontinuous square root, i.e., a <i>(d</i> x d)-matrix-valued function <i>O'(x)</i> <i>=</i> <i>{O'ij(x)L</i> ~i,j:\"d such that <i>aik(x)</i> = L1~1 <i>O'ij(x)O'kix);</i> XE jRd (Friedman (1975), Theorem 6.1.2). We do not necessarily have <i>a(x)</i> = <i>O'(x)</i> (indeed, one interesting case is the one-dimensional problem with <i>a(x)</i> = sgn(x) and <i>O'(x)</i> = 1; <i>x</i> <sup>E</sup> /R). If, in addition, b<i><sup>i</sup></i> E C 1(jRd); 1 :5: i :5: d, then according to Theorem 2.5, Remark 3.3, Proposition 3.20, Corollary 4.9, and Proposition 4.11, for every x E jRd there exists <i>at</i> <i>most</i> one solution to the time-homogeneous martingale problem. This result imposes no condition analogous to (4.34) and is thus especially helpful in the study of degenerate diffusions.</p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              413.53999999999996
+            ],
+            [
+              383.0715637207031,
+              413.53999999999996
+            ],
+            [
+              383.0715637207031,
+              534.9818115234375
+            ],
+            [
+              56.31999999999999,
+              534.9818115234375
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            413.53999999999996,
+            383.0715637207031,
+            534.9818115234375
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/346/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"><b>4.32</b> <b>Refinements.</b> <b>It</b> can be shown that ifthe coefficients <i>b(x),</i> <i>a(x)</i> are bounded and Borel-measurable, and the matrix <i>a(x)</i> is uniformly positive definite on compact subsets of /R<sup>d</sup> , then the time-homogeneous martingale problem admits a solution. <b>In</b> the cases d = 1 and d = 2, this solution is unique. See Stroock &amp; Varadhan (1979), Exercises 7.3.2-7.3.4, and Krylov (1969), (1974).</p>",
+          "polygon": [
+            [
+              56.31999999999999,
+              550.942
+            ],
+            [
+              383.1807556152344,
+              550.942
+            ],
+            [
+              383.1807556152344,
+              613.64
+            ],
+            [
+              56.31999999999999,
+              613.64
+            ]
+          ],
+          "bbox": [
+            56.31999999999999,
+            550.942,
+            383.1807556152344,
+            613.64
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/168/SectionHeader/13"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/168/SectionHeader/13"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}
