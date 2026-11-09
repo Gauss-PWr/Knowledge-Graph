@@ -30,13 +30,12 @@ RUN = datetime.now().strftime("%Y-%m-%d_%H%M")
 
 # File (in papers/) -> pages, 0-based. Replace with your file names and pages.
 TEST_PAGES = {
-    "Boyd_Vandenberghe_Convex_Optimization.pdf": "166",
-    # "Boyd_Vandenberghe_Convex_Optimization.pdf": "154,166,169,239,256,272,670",
-    # "Prince_Understanding_Deep_Learning.pdf": "101-102,115,221,224,375,377",
-    # "Sutton_Barto_Reinforcement_Learning_2nd.pdf": "81,84,138,158,170,191",
-    # "L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf": "103-104,106,197-198,240",
-    # "Strogatz_Nonlinear_Dynamics_and_Chaos.pdf": "60-61,71,147,163,194,281,332",
-    # "Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf": "51,168,185,224,346",
+    "Boyd_Vandenberghe_Convex_Optimization.pdf": "154,166,169,239,256,272,670",
+    "Prince_Understanding_Deep_Learning.pdf": "101-102,115,221,224,375,377",
+    "Sutton_Barto_Reinforcement_Learning_2nd.pdf": "81,84,138,158,170,191",
+    "L_pez_de_Prado_Advances_in_Financial_Machine_Learning.pdf": "103-104,106,197-198,240",
+    "Strogatz_Nonlinear_Dynamics_and_Chaos.pdf": "60-61,71,147,163,194,281,332",
+    "Karatzas_Shreve__Brownian_Motion_and_Stochastic_Calculus.pdf": "51,168,185,224,346",
 }
 
 # Settings shared by every setup.
@@ -56,9 +55,9 @@ LLM = {
 }
 
 SETUPS = [
-    # {"name": "config1_balanced",        "add_config": {"mode": "balanced"}},
-    # {"name": "config2_force_ocr",       "add_config": {"mode": "balanced", "force_ocr": True}},
-    # {"name": "config3_fast_force_ocr",  "add_config": {"mode": "fast", "force_ocr": True}},
+    {"name": "config1_balanced",        "add_config": {"mode": "balanced"}},
+    {"name": "config2_force_ocr",       "add_config": {"mode": "balanced", "force_ocr": True}},
+    {"name": "config3_fast_force_ocr",  "add_config": {"mode": "fast", "force_ocr": True}},
     {"name": "config4_force_ocr_strip", "add_config": {"mode": "balanced", "force_ocr": True,
                                                        "strip_existing_ocr": True}},
     # Needs the LLM server running - remove the # to include it:
