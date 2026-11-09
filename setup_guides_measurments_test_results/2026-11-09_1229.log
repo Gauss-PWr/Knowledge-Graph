@@ -1,0 +1,152 @@
+2026-11-09 12:29:13,481 INFO === config4_force_ocr_strip
+2026-11-09 12:29:16,312 INFO Marker models loaded in 2.8 s
+2026-11-09 12:29:16,967 INFO Spawning ocr_error server on port 38745
+2026-11-09 12:29:16,967 INFO Spawning ocr_error server: /home/jovyan/envs/marker/bin/python -m surya.ocr_error.server --host 127.0.0.1 --port 38745 --checkpoint s3://ocr_error_detection/2025_02_18
+2026-11-09 12:29:16,968 INFO keep-alive: ocr_error server on port 38745 will stay up after exit (cleanup_id='190816')
+2026-11-09 12:34:27,491 WARNING Force-killed ocr_error (pid 190816)
+2026-11-09 12:34:27,491 ERROR [1/1] Boyd_Vandenberghe_Convex_Optimization.pdf: failed
+Traceback (most recent call last):
+  File "/home/jovyan/Knowledge-Graph/scripts/pdf_to_md_processing.py", line 520, in convert
+    res = self.convert_file(pdf, pages, formats=todo)
+  File "/home/jovyan/Knowledge-Graph/scripts/pdf_to_md_processing.py", line 455, in convert_file
+    document = converter.build_document(str(pdf))
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/marker/converters/pdf.py", line 200, in build_document
+    document = DocumentBuilder(self.config)(
+        provider, layout_builder, line_builder, ocr_builder
+    )
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/marker/builders/document.py", line 57, in __call__
+    line_builder(document, provider)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/marker/builders/line.py", line 148, in __call__
+    provider_lines = self.get_all_lines(document, provider)
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/marker/builders/line.py", line 206, in get_all_lines
+    ocr_error_detection_results = self.ocr_error_detection(
+        document.pages, provider.page_lines
+    )
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/marker/builders/line.py", line 261, in ocr_error_detection
+    ocr_error_detection_results = self.ocr_error_model(
+        page_texts, batch_size=int(self.get_ocr_error_batch_size())
+    )
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/__init__.py", line 59, in __call__
+    return self._client(texts)
+           ~~~~~~~~~~~~^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/client.py", line 23, in __call__
+    results = self._client.infer(texts)
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/common/batch_service/client.py", line 131, in infer
+    self._ensure_started()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/common/batch_service/client.py", line 81, in _ensure_started
+    spawned = attach_or_spawn(
+        backend=self.config.backend,
+    ...<12 lines>...
+        keep_alive=True,
+    )
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/inference/backends/spawn.py", line 347, in attach_or_spawn
+    raise SpawnError(
+    ...<3 lines>...
+    )
+surya.inference.backends.spawn.SpawnError: ocr_error server failed to become healthy at http://127.0.0.1:38745 within 300.0s.
+--- last ocr_error server logs ---
+
+Downloading model.safetensors:   5%|▌         | 13.0M/258M [00:00<00:03, 65.6MB/s][A
+
+Downloading model.safetensors:   9%|▉         | 23.0M/258M [00:00<00:03, 81.9MB/s][A
+
+Downloading model.safetensors:  14%|█▍        | 36.0M/258M [00:00<00:02, 99.6MB/s][A
+
+Downloading model.safetensors:  17%|█▋        | 45.0M/258M [00:00<00:02, 95.4MB/s][A
+
+Downloading model.safetensors:  22%|██▏       | 56.0M/258M [00:00<00:02, 101MB/s] [A
+
+Downloading model.safetensors:  26%|██▋       | 68.0M/258M [00:00<00:01, 107MB/s][A
+
+Downloading model.safetensors:  31%|███▏      | 81.0M/258M [00:00<00:01, 115MB/s][A
+
+Downloading model.safetensors:  36%|███▌      | 92.0M/258M [00:00<00:01, 113MB/s][A
+
+Downloading model.safetensors:  40%|████      | 104M/258M [00:01<00:01, 116MB/s] [A
+
+Downloading model.safetensors:  45%|████▍     | 116M/258M [00:01<00:01, 118MB/s][A
+
+Downloading model.safetensors:  49%|████▉     | 126M/258M [00:01<00:01, 114MB/s][A
+
+Downloading model.safetensors:  53%|█████▎    | 138M/258M [00:01<00:01, 116MB/s][A
+
+Downloading model.safetensors:  58%|█████▊    | 150M/258M [00:01<00:00, 117MB/s][A
+
+Downloading model.safetensors:  63%|██████▎   | 162M/258M [00:01<00:00, 119MB/s][A
+
+Downloading model.safetensors:  67%|██████▋   | 174M/258M [00:01<00:00, 120MB/s][A
+
+Downloading model.safetensors:  71%|███████▏  | 184M/258M [00:01<00:00, 112MB/s][A
+
+Downloading model.safetensors:  76%|███████▌  | 196M/258M [00:01<00:00, 115MB/s][A
+
+Downloading model.safetensors:  81%|████████  | 208M/258M [00:01<00:00, 117MB/s][A
+
+Downloading model.safetensors:  85%|████████▌ | 220M/258M [00:02<00:00, 117MB/s][A
+
+Downloading model.safetensors:  90%|█████████ | 233M/258M [00:02<00:00, 120MB/s][A
+
+Downloading model.safetensors:  95%|█████████▍| 245M/258M [00:02<00:00, 119MB/s][A
+
+Downloading model.safetensors: 100%|█████████▉| 257M/258M [00:02<00:00, 119MB/s][A
+Downloading model.safetensors: 100%|██████████| 258M/258M [00:02<00:00, 111MB/s]
+
+Downloading ocr_error_detection model to /home/jovyan/.cache/datalab/models/ocr_error_detection/2025_02_18:  12%|█▎        | 1/8 [00:02<00:18,  2.59s/it]
+Downloading ocr_error_detection model to /home/jovyan/.cache/datalab/models/ocr_error_detection/2025_02_18: 100%|██████████| 8/8 [00:02<00:00,  3.09it/s]
+
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 104/104 [00:00<00:00, 17727.69it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/server.py", line 48, in <module>
+    main()
+    ~~~~^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/server.py", line 43, in main
+    engine = OCRErrorEngine(checkpoint=args.checkpoint)
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/server.py", line 23, in __init__
+    self.predictor = OCRErrorPredictor.local(checkpoint)
+                     ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/__init__.py", line 48, in local
+    BasePredictor.__init__(self, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/common/predictor.py", line 34, in __init__
+    self.model = loader.model(device, dtype, attention_implementation)
+                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/surya/ocr_error/loader.py", line 74, in model
+    .to(device)
+     ~~^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/transformers/modeling_utils.py", line 3710, in to
+    return super().to(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1392, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/torch/nn/modules/module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/torch/nn/modules/module.py", line 966, in _apply
+    param_applied = fn(param)
+  File "/home/jovyan/envs/marker/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1374, in convert
+    return t.to(
+           ~~~~^
+        device,
+        ^^^^^^^
+        dtype if t.is_floating_point() or t.is_complex() else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        non_blocking,
+        ^^^^^^^^^^^^^
+    )
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 176.00 MiB. GPU 0 has a total capacity of 15.57 GiB of which 103.44 MiB is free. Process 190462 has 9.47 GiB memory in use. Including non-PyTorch memory, this process has 128.00 MiB memory in use. Of the allocated memory 0 bytes is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+2026-11-09 12:34:27,493 INFO Done: 0 converted, 0 skipped, 1 failed, 0 pages, 0.0 min
+2026-11-09 12:34:27,493 INFO === config4_force_ocr_strip: 0 converted, 1 failed, None s/page
+2026-11-09 12:34:27,493 INFO Results: /home/jovyan/Knowledge-Graph/setup_guides_measurments_test_results
