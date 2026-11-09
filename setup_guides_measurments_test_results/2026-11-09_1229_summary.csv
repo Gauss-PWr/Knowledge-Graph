@@ -1,2 +1,0 @@
-setup,converted,skipped,failed,total_pages,total_seconds,avg_sec_per_page,model_load_seconds,marker_config
-config4_force_ocr_strip,0,0,1,0,0,,2.82,"{'mode': 'balanced', 'force_ocr': True, 'strip_existing_ocr': True}"
