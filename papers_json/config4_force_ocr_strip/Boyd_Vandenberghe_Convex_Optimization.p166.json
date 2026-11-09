@@ -1,0 +1,503 @@
+{
+  "children": [
+    {
+      "id": "/page/166/Page/13",
+      "block_type": "Page",
+      "html": "<content-ref src='/page/166/PageHeader/0'></content-ref><content-ref src='/page/166/PageHeader/1'></content-ref><content-ref src='/page/166/PictureGroup/13'></content-ref><content-ref src='/page/166/Text/4'></content-ref><content-ref src='/page/166/Text/5'></content-ref><content-ref src='/page/166/SectionHeader/6'></content-ref><content-ref src='/page/166/SectionHeader/7'></content-ref><content-ref src='/page/166/Text/8'></content-ref><content-ref src='/page/166/Equation/9'></content-ref><content-ref src='/page/166/Text/10'></content-ref><content-ref src='/page/166/Text/11'></content-ref><content-ref src='/page/166/Equation/12'></content-ref>",
+      "polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          612.0,
+          0.0
+        ],
+        [
+          612.0,
+          792.0
+        ],
+        [
+          0.0,
+          792.0
+        ]
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "children": [
+        {
+          "id": "/page/166/PageHeader/0",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.03999999999999,
+              92.664
+            ],
+            [
+              280.296,
+              92.664
+            ],
+            [
+              280.296,
+              105.33600000000001
+            ],
+            [
+              104.03999999999999,
+              105.33600000000001
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            92.664,
+            280.296,
+            105.33600000000001
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/166/PageHeader/1",
+          "block_type": "PageHeader",
+          "html": "",
+          "polygon": [
+            [
+              485.928,
+              92.664
+            ],
+            [
+              508.572,
+              92.664
+            ],
+            [
+              508.572,
+              104.544
+            ],
+            [
+              485.928,
+              104.544
+            ]
+          ],
+          "bbox": [
+            485.928,
+            92.664,
+            508.572,
+            104.544
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/166/PictureGroup/13",
+          "block_type": "PictureGroup",
+          "html": "<content-ref src='/page/166/Picture/2'></content-ref><content-ref src='/page/166/Caption/3'></content-ref>",
+          "polygon": [
+            [
+              130.356,
+              122.76
+            ],
+            [
+              436.968,
+              122.76
+            ],
+            [
+              436.968,
+              328.67999999999995
+            ],
+            [
+              130.356,
+              328.67999999999995
+            ]
+          ],
+          "bbox": [
+            130.356,
+            122.76,
+            436.968,
+            328.67999999999995
+          ],
+          "children": [
+            {
+              "id": "/page/166/Picture/2",
+              "block_type": "Picture",
+              "html": "",
+              "polygon": [
+                [
+                  192.78000000000003,
+                  122.76
+                ],
+                [
+                  376.38,
+                  122.76
+                ],
+                [
+                  376.38,
+                  285.91200000000003
+                ],
+                [
+                  192.78000000000003,
+                  285.91200000000003
+                ]
+              ],
+              "bbox": [
+                192.78000000000003,
+                122.76,
+                376.38,
+                285.91200000000003
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            },
+            {
+              "id": "/page/166/Caption/3",
+              "block_type": "Caption",
+              "html": "<p></p><div><p><b>Figure 4.5</b> Geometric illustration of QP. The feasible set <math>\\mathcal{P}</math>, which is a polyhedron, is shown shaded. The contour lines of the objective function, which is convex quadratic, are shown as dashed curves. The point <math>x^*</math> is optimal.</p></div>",
+              "polygon": [
+                [
+                  130.356,
+                  296.208
+                ],
+                [
+                  436.968,
+                  296.208
+                ],
+                [
+                  436.968,
+                  328.67999999999995
+                ],
+                [
+                  130.356,
+                  328.67999999999995
+                ]
+              ],
+              "bbox": [
+                130.356,
+                296.208,
+                436.968,
+                328.67999999999995
+              ],
+              "children": null,
+              "section_hierarchy": {},
+              "images": {}
+            }
+          ],
+          "section_hierarchy": {},
+          "images": null
+        },
+        {
+          "id": "/page/166/Text/4",
+          "block_type": "Text",
+          "html": "<div><p>where <math>P_i \\in \\mathbf{S}_+^n</math>, <math>i = 0, 1, \\dots, m</math>, the problem is called a <i>quadratically constrained quadratic program</i> (QCQP). In a CQP, we minimize a convex quadratic function over a feasible region that is the intersection of ellipsoids (when <math>P_i \\succ 0</math>).</p></div>",
+          "polygon": [
+            [
+              104.03999999999999,
+              366.696
+            ],
+            [
+              465.12,
+              366.696
+            ],
+            [
+              465.12,
+              404.712
+            ],
+            [
+              104.03999999999999,
+              404.712
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            366.696,
+            465.12,
+            404.712
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/5",
+          "block_type": "Text",
+          "html": "<div><p>Quadratic programs include linear programs as a special case, by taking <math>P = 0</math> in (4.34). Quadratically constrained quadratic programs include quadratic programs (and therefore also linear programs) as a special case, by taking <math>P_i = 0</math> in (4.35), for <math>i = 1, \\dots, m</math>.</p></div>",
+          "polygon": [
+            [
+              104.03999999999999,
+              404.712
+            ],
+            [
+              463.896,
+              404.712
+            ],
+            [
+              463.896,
+              451.43999999999994
+            ],
+            [
+              104.03999999999999,
+              451.43999999999994
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            404.712,
+            463.896,
+            451.43999999999994
+          ],
+          "children": null,
+          "section_hierarchy": {},
+          "images": {}
+        },
+        {
+          "id": "/page/166/SectionHeader/6",
+          "block_type": "SectionHeader",
+          "html": "<div><h2>4.4.1 Examples</h2></div>",
+          "polygon": [
+            [
+              63.647999999999996,
+              475.99199999999996
+            ],
+            [
+              157.89600000000002,
+              475.99199999999996
+            ],
+            [
+              157.89600000000002,
+              491.04
+            ],
+            [
+              63.647999999999996,
+              491.04
+            ]
+          ],
+          "bbox": [
+            63.647999999999996,
+            475.99199999999996,
+            157.89600000000002,
+            491.04
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/6"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/SectionHeader/7",
+          "block_type": "SectionHeader",
+          "html": "",
+          "polygon": [
+            [
+              104.03999999999999,
+              502.12800000000004
+            ],
+            [
+              236.84400000000002,
+              502.12800000000004
+            ],
+            [
+              236.84400000000002,
+              514.8
+            ],
+            [
+              104.03999999999999,
+              514.8
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            502.12800000000004,
+            236.84400000000002,
+            514.8
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/8",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"></p>",
+          "polygon": [
+            [
+              104.03999999999999,
+              518.76
+            ],
+            [
+              359.24399999999997,
+              518.76
+            ],
+            [
+              359.24399999999997,
+              531.432
+            ],
+            [
+              104.03999999999999,
+              531.432
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            518.76,
+            359.24399999999997,
+            531.432
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Equation/9",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div><math display=\"block\">\\|Ax - b\\|_2^2 = x^T A^T Ax - 2b^T Ax + b^T b</math></div></p>",
+          "polygon": [
+            [
+              198.89999999999998,
+              540.144
+            ],
+            [
+              367.812,
+              540.144
+            ],
+            [
+              367.812,
+              554.4
+            ],
+            [
+              198.89999999999998,
+              554.4
+            ]
+          ],
+          "bbox": [
+            198.89999999999998,
+            540.144,
+            367.812,
+            554.4
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/10",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"></p>",
+          "polygon": [
+            [
+              104.03999999999999,
+              564.696
+            ],
+            [
+              463.896,
+              564.696
+            ],
+            [
+              463.896,
+              612.216
+            ],
+            [
+              104.03999999999999,
+              612.216
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            564.696,
+            463.896,
+            612.216
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Text/11",
+          "block_type": "Text",
+          "html": "<p block-type=\"Text\"></p>",
+          "polygon": [
+            [
+              104.03999999999999,
+              611.424
+            ],
+            [
+              463.896,
+              611.424
+            ],
+            [
+              463.896,
+              660.528
+            ],
+            [
+              104.03999999999999,
+              660.528
+            ]
+          ],
+          "bbox": [
+            104.03999999999999,
+            611.424,
+            463.896,
+            660.528
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        },
+        {
+          "id": "/page/166/Equation/12",
+          "block_type": "Equation",
+          "html": "<p block-type=\"Equation\"><div><math display=\"block\">\\begin{aligned} \\text{minimize} &amp; \\quad \\|Ax - b\\|_2^2 \\\\ \\text{subject to} &amp; \\quad l_i \\leq x_i \\leq u_i, \\quad i = 1, \\dots, n, \\end{aligned}</math></div></p>",
+          "polygon": [
+            [
+              194.61599999999999,
+              668.448
+            ],
+            [
+              370.87199999999996,
+              668.448
+            ],
+            [
+              370.87199999999996,
+              693.792
+            ],
+            [
+              194.61599999999999,
+              693.792
+            ]
+          ],
+          "bbox": [
+            194.61599999999999,
+            668.448,
+            370.87199999999996,
+            693.792
+          ],
+          "children": null,
+          "section_hierarchy": {
+            "2": "/page/166/SectionHeader/7"
+          },
+          "images": {}
+        }
+      ],
+      "section_hierarchy": {
+        "2": "/page/166/SectionHeader/7"
+      },
+      "images": null
+    }
+  ],
+  "block_type": "Document"
+}

@@ -1,0 +1,51 @@
+{
+  "finished_at": "2026-11-09T12:47:24+00:00",
+  "settings": {
+    "input_dir": "/home/jovyan/Knowledge-Graph/papers",
+    "output_dir": "/home/jovyan/Knowledge-Graph/papers_md/config4_force_ocr_strip",
+    "json_output_dir": "/home/jovyan/Knowledge-Graph/papers_json/config4_force_ocr_strip",
+    "output_formats": [
+      "markdown",
+      "json"
+    ],
+    "backend": "vllm",
+    "parallel": null,
+    "keep_alive": false,
+    "page_range": "all",
+    "marker_config": {
+      "mode": "balanced",
+      "extract_images": false,
+      "force_ocr": true,
+      "strip_existing_ocr": true
+    },
+    "versions": {
+      "marker-pdf": "2.1.0",
+      "surya-ocr": "0.23.0"
+    }
+  },
+  "summary": {
+    "converted": 1,
+    "skipped": 0,
+    "failed": 0,
+    "total_pages": 1,
+    "total_seconds": 76.09,
+    "avg_sec_per_page": 76.09,
+    "model_load_seconds": 3.16
+  },
+  "files": [
+    {
+      "file": "/home/jovyan/Knowledge-Graph/papers/Boyd_Vandenberghe_Convex_Optimization.pdf",
+      "outputs": {
+        "markdown": "/home/jovyan/Knowledge-Graph/papers_md/config4_force_ocr_strip/Boyd_Vandenberghe_Convex_Optimization.p166.md",
+        "json": "/home/jovyan/Knowledge-Graph/papers_json/config4_force_ocr_strip/Boyd_Vandenberghe_Convex_Optimization.p166.json"
+      },
+      "status": "converted",
+      "pages": 1,
+      "page_range": "166",
+      "seconds": 76.09,
+      "sec_per_page": 76.09,
+      "started_at": "2026-11-09T12:46:08+00:00",
+      "error": null
+    }
+  ]
+}
