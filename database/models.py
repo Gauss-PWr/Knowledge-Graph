@@ -25,3 +25,4 @@ class Books(Base):
     book_id = Column(Integer, primary_key = True)
     title = Column(String, unique = True, nullable = False)
     pdf = deferred(Column(LargeBinary))
+    md = deferred(Column(LargeBinary))
