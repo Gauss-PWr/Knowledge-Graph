@@ -18,6 +18,8 @@ DB_PORT = str(_require('PGPORT'))
 DB_USER = _require('PGUSER')
 DB_PASSWORD = _require('PGPASSWORD')
 DB_SSL = _require('PGSSLMODE')
+# Bez nazwy bazy Postgres łączy się z bazą o nazwie użytkownika, a nie knowledge_graph_db
+DB_NAME = os.getenv('PGDATABASE', 'knowledge_graph_db')
 
 
 DATABASE_URL = URL.create(
@@ -26,4 +28,6 @@ DATABASE_URL = URL.create(
     password=DB_PASSWORD,
     host=DB_HOST,
     port=DB_PORT,
+    database=DB_NAME,
+    query={"sslmode": DB_SSL},
 )

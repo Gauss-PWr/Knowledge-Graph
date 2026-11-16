@@ -3,12 +3,16 @@
 .env
 *.sqlite-shm
 *.sqlite-wal
+**/__pycache__
 .venv
 .idea
-test_marker
-papers_json
-papers_samples
-papers_all
-papers
-papers_md
 .DS_Store
+test_marker
+
+# data and test results (not in git)
+/papers/
+/papers_md/
+/papers_json/
+/papers_samples/
+/papers_all/
+/setup_guides_measurments_test_results/

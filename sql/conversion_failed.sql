@@ -1,0 +1,1 @@
+UPDATE book_report SET status='failed', finished_at=now(), error=:error WHERE raport_id=:raport_id

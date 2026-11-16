@@ -1,0 +1,1 @@
+UPDATE book_report SET status='converted', finished_at=now(), pages=:pages, seconds=:seconds, seconds_per_page=:seconds_per_page WHERE raport_id=:raport_id

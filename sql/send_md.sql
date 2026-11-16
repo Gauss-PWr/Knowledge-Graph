@@ -1,0 +1,1 @@
+UPDATE books SET md = :md, marker_json = CAST(:marker_json AS jsonb) WHERE  book_id = :book_id;
