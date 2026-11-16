@@ -48,8 +48,9 @@ MARKER_GPUS="${MARKER_GPUS:-${VLLM_GPUS%%,*}}" # GPU for Marker's models; defaul
 VLLM_MAX_NUM_SEQS="${VLLM_MAX_NUM_SEQS:-32}"
 VLLM_MAX_BATCHED_TOKENS="${VLLM_MAX_BATCHED_TOKENS:-8192}"
 VLLM_MAX_MODEL_LEN="${VLLM_MAX_MODEL_LEN:-24576}"
-VLLM_MTP="${VLLM_MTP:-1}"                     # set 0 if vLLM refuses to start
-VLLM_EXTRA_ARGS="${VLLM_EXTRA_ARGS:-}"         # extra vllm serve flags, e.g. --enforce-eager
+VLLM_MTP="${VLLM_MTP:-0}"                        # set 0 if vLLM refuses to start
+VLLM_EXTRA_ARGS="${VLLM_EXTRA_ARGS:---enforce-eager}"
+export VLLM_USE_FLASHINFER_SAMPLER="${VLLM_USE_FLASHINFER_SAMPLER:-0}" # extra vllm serve flags, e.g. --enforce-eager
 VLLM_STARTUP_TIMEOUT="${VLLM_STARTUP_TIMEOUT:-900}"
 
 # =============================================================================
@@ -64,6 +65,7 @@ cleanup() {
         kill "$VLLM_PID" 2>/dev/null || true
         wait "$VLLM_PID" 2>/dev/null || true
     fi
+    pkill -f "surya\..*server" 2>/dev/null || true      # Surya's keep-alive helpers hold GPU memory
 }
 
 # Ctrl+C / kill: let the worker mark its current book as failed, then exit.
