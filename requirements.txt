@@ -1,0 +1,5 @@
+marker-pdf==2.1.0
+pyyaml
+sqlalchemy
+psycopg2-binary
+python-dotenv

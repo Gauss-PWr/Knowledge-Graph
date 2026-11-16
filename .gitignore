@@ -3,3 +3,8 @@
 .env
 *.sqlite-shm
 *.sqlite-wal
+**/__pycache__
+/papers/
+/papers_md/
+/papers_json/
+/setup_guides_measurments_test_results/
